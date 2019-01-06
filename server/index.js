@@ -1,10 +1,12 @@
 const express = require('express')
+const router = express.Router()
 const consola = require('consola')
 const { Nuxt, Builder } = require('nuxt')
 const app = express()
 const host = process.env.HOST || '127.0.0.1'
 const port = process.env.PORT || 3000
 const mongoose = require('mongoose')
+const lessonController = require('./controllers/vrittaratnakara');
 
 const db_url = "mongodb://samskriti:srvvp2017@ds149754.mlab.com:49754/sanskrit"
 mongoose.connect(db_url)
@@ -32,7 +34,21 @@ async function start() {
     await builder.build()
   }
 
+  // middleware to use for all requests
+router.use(function(req, res, next) {
+  // do logging
+  console.log('Something is happening.');
+  next(); // make sure we go to the next routes and don't stop here
+});
+
+  router.get('/', (req, res) => {
+    res.send('Greetings from the Test controller!');
+    });
+
+  router.get('/lessons', lessonController.getLessons);
+  router.get('lesson/:id', lessonController.getLesson);
   // Give nuxt middleware to express
+  app.use('/api',router)
   app.use(nuxt.render)
 
   // Listen the server
