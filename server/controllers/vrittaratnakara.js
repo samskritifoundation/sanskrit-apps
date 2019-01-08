@@ -1,4 +1,4 @@
-const Vrittaratnakara = require('../models/Vrittaratnakara');
+const Vrittaratnakara = require('../models/Vrittaratnakara')
 
 /**
  * API GET /lessons
@@ -6,13 +6,14 @@ const Vrittaratnakara = require('../models/Vrittaratnakara');
  */
 exports.getLessons = (req, res, next) => {
   Vrittaratnakara.find((err, docs) => {
-    if (err) return console.error(err);
-    console.log("inside vrittaratnakara database" + docs)
+    if (err) return console.error(err)
+    console.log('inside vrittaratnakara database' + docs)
     res.send({
-      title: "Lessons",
-      json: docs})
-  });
-};
+      title: 'Lessons',
+      json: docs
+    })
+  })
+}
 
 /**
  * GET /lesson/:sl
@@ -20,11 +21,11 @@ exports.getLessons = (req, res, next) => {
  */
 exports.getLesson = (req, res, next) => {
   //console.log(req.params.sl)
-  Vrittaratnakara.find({"id": req.params.sl}, (err, docs) => {
+  Vrittaratnakara.find({ id: req.params.id }, (err, docs) => {
     //console.log(docs)
-    res.json(docs);
-  });
-};
+    res.json(docs)
+  })
+}
 
 /**
   * GET /editsloka/:sl
@@ -54,7 +55,7 @@ exports.editSloka = (req,res,next) => {
 };
 */
 /**
- * POST /addlessons
+ * POST /dellessons
  * Delete sloka.
 
 exports.delSloka = (req, res, next) => {
@@ -65,3 +66,20 @@ exports.delSloka = (req, res, next) => {
   });
 };
 */
+
+/** POST /lessons
+ * Add Lesson */
+
+exports.addLesson = (req, res, next) => {
+  let lesson = req.body
+  res.send(JSON.stringify(lesson))
+  /*
+  Vrittaratnakara.create(lesson, (err, docs) => {
+    if (err) return console.error(err);
+    console.log("inside vrittaratnakara database" + docs)
+    res.send({
+      title: "Lesson added",
+      json: docs})
+  });
+*/
+}
