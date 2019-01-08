@@ -9,8 +9,8 @@ const VrittaratnakaraSchema = new mongoose.Schema({
   common: String,
   example_sans: String,
   treeData: mongoose.Mixed
-});
+}, { collection: 'vrittaratnakara' });
 
-const Vrittaratnakara = mongoose.model('vrittaratnakara', VrittaratnakaraSchema);
+const Vrittaratnakara = mongoose.model('Vrittaratnakara', VrittaratnakaraSchema);
 
 module.exports = Vrittaratnakara;
