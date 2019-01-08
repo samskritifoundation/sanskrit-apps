@@ -2,7 +2,7 @@ const pkg = require('./package')
 
 module.exports = {
   env: {
-    mongodb: process.env.MONGODB_URI,
+    mongodb: process.env.MONGODB_URI
   },
   mode: 'spa',
 
