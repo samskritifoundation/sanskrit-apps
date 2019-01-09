@@ -584,75 +584,78 @@ export const state = () => ({
     },
     {
       name_sans: 'पावनम्',
-      meaning: '',
+      meaning: 'pure',
       category: 100,
       verse: 'पवते पावयत्यर्थे पुनीते च पुनाति च ॥'
     },
     {
       name_sans: 'पोषणम्',
-      meaning: '',
+      meaning: 'nourishing',
       category: 101,
       verse: 'पुष्णाति पोषयत्यर्थे वर्धयत्येधयत्यपि । '
     },
     {
       name_sans: 'मार्जनम्',
-      meaning: '',
+      meaning: 'cleaning',
       category: 102,
       verse: 'मार्ष्टि मार्जयते शुद्धीकुरुते शोधयत्यपि । मार्जति क्षालयत्यर्थे निर्णेनेक्ति च धावति ॥'
     },
     {
       name_sans: 'विक्रयः',
-      meaning: '',
-      category: 103
+      meaning: 'sell',
+      category: 103,
+      verse: 'विक्रीणीते व्यवहरत्यपि ॥'
     },
     {
       name_sans: 'क्रयणम्',
-      meaning: '',
-      category: 104
+      meaning: 'buy',
+      category: 104,
+      verse: 'क्रीणाति पणते'
     },
     {
       name_sans: 'वरणम्',
-      meaning: '',
-      category: 105
+      meaning: 'choose',
+      category: 105,
+      verse: 'वृणोति वरयत्यर्थे वृणीते वृणुते वरम् । '
     },
     {
       name_sans: 'सज्जता',
-      meaning: '',
+      meaning: 'preparation',
       category: 106
     },
     {
       name_sans: 'मानम्',
-      meaning: '',
+      meaning: 'respectability',
       category: 107
     },
     {
       name_sans: 'अध्यापनम्',
-      meaning: '',
+      meaning: 'teach',
       category: 108
     },
     {
       name_sans: 'लग्नः',
-      meaning: '',
+      meaning: 'auspicious moment or time fixed upon as lucky for beginning to perform anything',
       category: 109
     },
     {
       name_sans: 'प्रापणम्',
-      meaning: '',
+      meaning: 'send',
       category: 110
     },
     {
       name_sans: 'क्षरणम्',
-      meaning: '',
+      meaning: 'trickling, distilling',
       category: 111
     },
     {
       name_sans: 'लेपनम्',
-      meaning: '',
+      meaning: 'coat, smearing',
       category: 112
     },
     {
       name_sans: 'मेलनम्',
-      meaning: '',
+      meaning: 'union',
       category: 113
     },
     {
@@ -672,7 +675,7 @@ export const state = () => ({
     },
     {
       name_sans: 'प्रतिषेधः',
-      meaning: '',
+      meaning: 'prevent',
       category: 117
     },
     {
@@ -707,37 +710,37 @@ export const state = () => ({
     },
     {
       name_sans: 'कृतिः',
-      meaning: '',
+      meaning: 'creation',
       category: 124
     },
     {
       name_sans: '(वि) शरणम्',
-      meaning: '',
+      meaning: 'asylum',
       category: 125
     },
     {
       name_sans: 'शापः',
-      meaning: '',
+      meaning: 'curse',
       category: 126
     },
     {
       name_sans: 'घ्राणम्',
-      meaning: '',
+      meaning: 'smell',
       category: 127
     },
     {
       name_sans: 'घूर्णनम्',
-      meaning: '',
+      meaning: 'shaking',
       category: 128
     },
     {
       name_sans: 'घोषः',
-      meaning: '',
+      meaning: 'proclaim',
       category: 129
     },
     {
       name_sans: 'चुम्बनम्',
-      meaning: '',
+      meaning: 'kiss',
       category: 130
     },
     {
@@ -747,12 +750,12 @@ export const state = () => ({
     },
     {
       name_sans: 'जृम्भणम्',
-      meaning: '',
+      meaning: 'yawn',
       category: 132
     },
     {
       name_sans: 'दशनम्',
-      meaning: '',
+      meaning: 'bite',
       category: 133
     },
     {
@@ -762,27 +765,27 @@ export const state = () => ({
     },
     {
       name_sans: 'फलनम्',
-      meaning: '',
+      meaning: 'bearing fruit or producing consequences',
       category: 135
     },
     {
       name_sans: 'लङ्घनम्',
-      meaning: '',
+      meaning: 'jump',
       category: 136
     },
     {
       name_sans: 'लम्बनम्',
-      meaning: '',
+      meaning: 'hanging down',
       category: 137
     },
     {
       name_sans: 'सन्दानम्',
-      meaning: '',
+      meaning: 'healing',
       category: 138
     },
     {
       name_sans: 'बन्धनम्',
-      meaning: '',
+      meaning: 'binding',
       category: 139
     },
     {
@@ -792,7 +795,7 @@ export const state = () => ({
     },
     {
       name_sans: 'क्रमणम्',
-      meaning: '',
+      meaning: 'stepping, walking',
       category: 141
     },
     {
@@ -802,7 +805,7 @@ export const state = () => ({
     },
     {
       name_sans: 'ज्वलनम्',
-      meaning: '',
+      meaning: 'flaming',
       category: 143
     },
     {
@@ -812,22 +815,22 @@ export const state = () => ({
     },
     {
       name_sans: 'प्रस्रवणम्',
-      meaning: '',
+      meaning: 'spout',
       category: 145
     },
     {
       name_sans: 'वयनम्',
-      meaning: '',
+      meaning: 'weave',
       category: 146
     },
     {
       name_sans: 'आस्फालनम्',
-      meaning: '',
+      meaning: 'collision',
       category: 147
     },
     {
       name_sans: 'दोहनम्',
-      meaning: '',
+      meaning: 'milking',
       category: 148
     }
   ],
