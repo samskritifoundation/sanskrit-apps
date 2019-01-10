@@ -877,31 +877,37 @@ export const state = () => ({
       gana: 'भ्वादिः'
     },
     {
-      root: '',
+      root: 'असँ',
       form: 'अस्ति',
       meaning: '',
       category: '1',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      padi: 'parasmaipadi',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%85%E0%A4%B8%E0%A5%8D2_%E0%A4%85%E0%A4%B8%E0%A4%81_%E0%A4%85%E0%A4%A6%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      gana: 'अदादिः'
     },
     {
-      root: '',
+      root: 'जनीँ',
       form: 'जायते',
       meaning: '',
       category: '1',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      padi: 'atmanepadi',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%9C%E0%A4%A8%E0%A5%8D2_%E0%A4%9C%E0%A4%A8%E0%A5%80%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      gana: 'दिवादिः'
     },
     {
-      root: '',
+      root: 'विदँ',
       form: 'विद्यते',
       meaning: '',
       category: '1',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      padi: 'atmanepadi',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D2_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      gana: 'दिवादिः'
     },
     {
       root: '',
@@ -909,7 +915,7 @@ export const state = () => ({
       meaning: '',
       category: '2',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -918,7 +924,7 @@ export const state = () => ({
       meaning: '',
       category: '2',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -927,7 +933,7 @@ export const state = () => ({
       meaning: '',
       category: '2',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -936,7 +942,7 @@ export const state = () => ({
       meaning: '',
       category: '2',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -945,7 +951,7 @@ export const state = () => ({
       meaning: '',
       category: '3',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -954,7 +960,7 @@ export const state = () => ({
       meaning: '',
       category: '3',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -963,7 +969,7 @@ export const state = () => ({
       meaning: '',
       category: '3',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -972,7 +978,7 @@ export const state = () => ({
       meaning: '',
       category: '3',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -981,7 +987,7 @@ export const state = () => ({
       meaning: '',
       category: '4',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -990,7 +996,7 @@ export const state = () => ({
       meaning: '',
       category: '4',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -999,7 +1005,7 @@ export const state = () => ({
       meaning: '',
       category: '4',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1008,7 +1014,7 @@ export const state = () => ({
       meaning: '',
       category: '4',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1017,7 +1023,7 @@ export const state = () => ({
       meaning: '',
       category: '5',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1026,7 +1032,7 @@ export const state = () => ({
       meaning: '',
       category: '5',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1035,7 +1041,7 @@ export const state = () => ({
       meaning: '',
       category: '5',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1044,7 +1050,7 @@ export const state = () => ({
       meaning: '',
       category: '5',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1053,7 +1059,7 @@ export const state = () => ({
       meaning: '',
       category: '5',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1062,7 +1068,7 @@ export const state = () => ({
       meaning: '',
       category: '6',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1071,7 +1077,7 @@ export const state = () => ({
       meaning: '',
       category: '6',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1080,7 +1086,7 @@ export const state = () => ({
       meaning: '',
       category: '6',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1089,7 +1095,7 @@ export const state = () => ({
       meaning: '',
       category: '6',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1098,7 +1104,7 @@ export const state = () => ({
       meaning: '',
       category: '6',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1107,7 +1113,7 @@ export const state = () => ({
       meaning: '',
       category: '6',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1116,7 +1122,7 @@ export const state = () => ({
       meaning: '',
       category: '6',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1125,7 +1131,7 @@ export const state = () => ({
       meaning: '',
       category: '6',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1134,7 +1140,7 @@ export const state = () => ({
       meaning: '',
       category: '6',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1143,7 +1149,7 @@ export const state = () => ({
       meaning: '',
       category: '6',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1152,7 +1158,7 @@ export const state = () => ({
       meaning: '',
       category: '6',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1161,7 +1167,7 @@ export const state = () => ({
       meaning: '',
       category: '7',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1170,7 +1176,7 @@ export const state = () => ({
       meaning: '',
       category: '7',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1179,7 +1185,7 @@ export const state = () => ({
       meaning: '',
       category: '7',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1188,7 +1194,7 @@ export const state = () => ({
       meaning: '',
       category: '7',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1197,7 +1203,7 @@ export const state = () => ({
       meaning: '',
       category: '7',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1206,7 +1212,7 @@ export const state = () => ({
       meaning: '',
       category: '7',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1215,7 +1221,7 @@ export const state = () => ({
       meaning: '',
       category: '7',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1224,7 +1230,7 @@ export const state = () => ({
       meaning: '',
       category: '7',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1233,7 +1239,7 @@ export const state = () => ({
       meaning: '',
       category: '8',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1242,7 +1248,7 @@ export const state = () => ({
       meaning: '',
       category: '8',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1251,7 +1257,7 @@ export const state = () => ({
       meaning: '',
       category: '8',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1260,7 +1266,7 @@ export const state = () => ({
       meaning: '',
       category: '8',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1269,7 +1275,7 @@ export const state = () => ({
       meaning: '',
       category: '9',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1278,7 +1284,7 @@ export const state = () => ({
       meaning: '',
       category: '9',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1287,7 +1293,7 @@ export const state = () => ({
       meaning: '',
       category: '9',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1296,7 +1302,7 @@ export const state = () => ({
       meaning: '',
       category: '9',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1305,7 +1311,7 @@ export const state = () => ({
       meaning: '',
       category: '9',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1314,7 +1320,7 @@ export const state = () => ({
       meaning: '',
       category: '9',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1323,7 +1329,7 @@ export const state = () => ({
       meaning: '',
       category: '9',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1332,7 +1338,7 @@ export const state = () => ({
       meaning: '',
       category: '9',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1341,7 +1347,7 @@ export const state = () => ({
       meaning: '',
       category: '9',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1350,7 +1356,7 @@ export const state = () => ({
       meaning: '',
       category: '9',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1359,7 +1365,7 @@ export const state = () => ({
       meaning: '',
       category: '9',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1368,7 +1374,7 @@ export const state = () => ({
       meaning: '',
       category: '9',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1377,7 +1383,7 @@ export const state = () => ({
       meaning: '',
       category: '9',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1386,7 +1392,7 @@ export const state = () => ({
       meaning: '',
       category: '9',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1395,7 +1401,7 @@ export const state = () => ({
       meaning: '',
       category: '9',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1404,7 +1410,7 @@ export const state = () => ({
       meaning: '',
       category: '9',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1413,7 +1419,7 @@ export const state = () => ({
       meaning: '',
       category: '9',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1422,7 +1428,7 @@ export const state = () => ({
       meaning: '',
       category: '10',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1431,7 +1437,7 @@ export const state = () => ({
       meaning: '',
       category: '10',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1440,7 +1446,7 @@ export const state = () => ({
       meaning: '',
       category: '10',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1449,7 +1455,7 @@ export const state = () => ({
       meaning: '',
       category: '10',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1458,7 +1464,7 @@ export const state = () => ({
       meaning: '',
       category: '11',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1467,7 +1473,7 @@ export const state = () => ({
       meaning: '',
       category: '11',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1476,7 +1482,7 @@ export const state = () => ({
       meaning: '',
       category: '11',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1485,7 +1491,7 @@ export const state = () => ({
       meaning: '',
       category: '11',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1494,7 +1500,7 @@ export const state = () => ({
       meaning: '',
       category: '11',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1503,7 +1509,7 @@ export const state = () => ({
       meaning: '',
       category: '11',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1512,7 +1518,7 @@ export const state = () => ({
       meaning: '',
       category: '13',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1521,7 +1527,7 @@ export const state = () => ({
       meaning: '',
       category: '13',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1530,7 +1536,7 @@ export const state = () => ({
       meaning: '',
       category: '13',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1539,7 +1545,7 @@ export const state = () => ({
       meaning: '',
       category: '13',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1548,7 +1554,7 @@ export const state = () => ({
       meaning: '',
       category: '13',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1557,7 +1563,7 @@ export const state = () => ({
       meaning: '',
       category: '13',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1566,7 +1572,7 @@ export const state = () => ({
       meaning: '',
       category: '13',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1575,7 +1581,7 @@ export const state = () => ({
       meaning: '',
       category: '13',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1584,7 +1590,7 @@ export const state = () => ({
       meaning: '',
       category: '13',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1593,7 +1599,7 @@ export const state = () => ({
       meaning: '',
       category: '13',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1602,7 +1608,7 @@ export const state = () => ({
       meaning: '',
       category: '14',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1611,7 +1617,7 @@ export const state = () => ({
       meaning: '',
       category: '14',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1620,7 +1626,7 @@ export const state = () => ({
       meaning: '',
       category: '14',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1629,7 +1635,7 @@ export const state = () => ({
       meaning: '',
       category: '14',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1638,7 +1644,7 @@ export const state = () => ({
       meaning: '',
       category: '16',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1647,7 +1653,7 @@ export const state = () => ({
       meaning: '',
       category: '16',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1656,7 +1662,7 @@ export const state = () => ({
       meaning: '',
       category: '16',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1665,7 +1671,7 @@ export const state = () => ({
       meaning: '',
       category: '16',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1674,7 +1680,7 @@ export const state = () => ({
       meaning: '',
       category: '16',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1683,7 +1689,7 @@ export const state = () => ({
       meaning: '',
       category: '16',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1692,7 +1698,7 @@ export const state = () => ({
       meaning: '',
       category: '16',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1701,7 +1707,7 @@ export const state = () => ({
       meaning: '',
       category: '16',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1710,7 +1716,7 @@ export const state = () => ({
       meaning: '',
       category: '16',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1719,7 +1725,7 @@ export const state = () => ({
       meaning: '',
       category: '17',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1728,7 +1734,7 @@ export const state = () => ({
       meaning: '',
       category: '17',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1737,7 +1743,7 @@ export const state = () => ({
       meaning: '',
       category: '17',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1746,7 +1752,7 @@ export const state = () => ({
       meaning: '',
       category: '17',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1755,7 +1761,7 @@ export const state = () => ({
       meaning: '',
       category: '17',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1764,7 +1770,7 @@ export const state = () => ({
       meaning: '',
       category: '17',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1773,7 +1779,7 @@ export const state = () => ({
       meaning: '',
       category: '17',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1782,7 +1788,7 @@ export const state = () => ({
       meaning: '',
       category: '17',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1791,7 +1797,7 @@ export const state = () => ({
       meaning: '',
       category: '17',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1800,7 +1806,7 @@ export const state = () => ({
       meaning: '',
       category: '17',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1809,7 +1815,7 @@ export const state = () => ({
       meaning: '',
       category: '19',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1818,7 +1824,7 @@ export const state = () => ({
       meaning: '',
       category: '19',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1827,7 +1833,7 @@ export const state = () => ({
       meaning: '',
       category: '19',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1836,7 +1842,7 @@ export const state = () => ({
       meaning: '',
       category: '19',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1845,7 +1851,7 @@ export const state = () => ({
       meaning: '',
       category: '19',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1854,7 +1860,7 @@ export const state = () => ({
       meaning: '',
       category: '19',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1863,7 +1869,7 @@ export const state = () => ({
       meaning: '',
       category: '19',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1872,7 +1878,7 @@ export const state = () => ({
       meaning: '',
       category: '19',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1881,7 +1887,7 @@ export const state = () => ({
       meaning: '',
       category: '19',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1890,7 +1896,7 @@ export const state = () => ({
       meaning: '',
       category: '19',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1899,7 +1905,7 @@ export const state = () => ({
       meaning: '',
       category: '18',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1908,7 +1914,7 @@ export const state = () => ({
       meaning: '',
       category: '18',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1917,7 +1923,7 @@ export const state = () => ({
       meaning: '',
       category: '18',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1926,7 +1932,7 @@ export const state = () => ({
       meaning: '',
       category: '18',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1935,7 +1941,7 @@ export const state = () => ({
       meaning: '',
       category: '18',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1944,7 +1950,7 @@ export const state = () => ({
       meaning: '',
       category: '18',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1953,7 +1959,7 @@ export const state = () => ({
       meaning: '',
       category: '18',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1962,7 +1968,7 @@ export const state = () => ({
       meaning: '',
       category: '18',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1971,7 +1977,7 @@ export const state = () => ({
       meaning: '',
       category: '18',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1980,7 +1986,7 @@ export const state = () => ({
       meaning: '',
       category: '18',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1989,7 +1995,7 @@ export const state = () => ({
       meaning: '',
       category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -1998,7 +2004,7 @@ export const state = () => ({
       meaning: '',
       category: '20',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2007,7 +2013,7 @@ export const state = () => ({
       meaning: '',
       category: '20',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2016,7 +2022,7 @@ export const state = () => ({
       meaning: '',
       category: '20',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2025,7 +2031,7 @@ export const state = () => ({
       meaning: '',
       category: '20',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2034,7 +2040,7 @@ export const state = () => ({
       meaning: '',
       category: '20',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2043,7 +2049,7 @@ export const state = () => ({
       meaning: '',
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2052,7 +2058,7 @@ export const state = () => ({
       meaning: '',
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2061,7 +2067,7 @@ export const state = () => ({
       meaning: '',
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2070,7 +2076,7 @@ export const state = () => ({
       meaning: '',
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2079,7 +2085,7 @@ export const state = () => ({
       meaning: '',
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2088,7 +2094,7 @@ export const state = () => ({
       meaning: '',
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2097,7 +2103,7 @@ export const state = () => ({
       meaning: '',
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2106,7 +2112,7 @@ export const state = () => ({
       meaning: '',
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2115,7 +2121,7 @@ export const state = () => ({
       meaning: '',
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2124,7 +2130,7 @@ export const state = () => ({
       meaning: '',
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2133,7 +2139,7 @@ export const state = () => ({
       meaning: '',
       category: '22',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2142,7 +2148,7 @@ export const state = () => ({
       meaning: '',
       category: '22',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2151,7 +2157,7 @@ export const state = () => ({
       meaning: '',
       category: '22',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2160,7 +2166,7 @@ export const state = () => ({
       meaning: '',
       category: '22',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2169,7 +2175,7 @@ export const state = () => ({
       meaning: '',
       category: '22',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2178,7 +2184,7 @@ export const state = () => ({
       meaning: '',
       category: '22',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2187,7 +2193,7 @@ export const state = () => ({
       meaning: '',
       category: '22',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2196,7 +2202,7 @@ export const state = () => ({
       meaning: '',
       category: '22',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2205,7 +2211,7 @@ export const state = () => ({
       meaning: '',
       category: '22',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2214,7 +2220,7 @@ export const state = () => ({
       meaning: '',
       category: '23',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2223,7 +2229,7 @@ export const state = () => ({
       meaning: '',
       category: '23',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2232,7 +2238,7 @@ export const state = () => ({
       meaning: '',
       category: '23',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2241,7 +2247,7 @@ export const state = () => ({
       meaning: '',
       category: '23',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2250,7 +2256,7 @@ export const state = () => ({
       meaning: '',
       category: '24',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2259,7 +2265,7 @@ export const state = () => ({
       meaning: '',
       category: '24',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2268,7 +2274,7 @@ export const state = () => ({
       meaning: '',
       category: '24',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2277,7 +2283,7 @@ export const state = () => ({
       meaning: '',
       category: '24',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2286,7 +2292,7 @@ export const state = () => ({
       meaning: '',
       category: '25',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2295,7 +2301,7 @@ export const state = () => ({
       meaning: '',
       category: '25',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2304,7 +2310,7 @@ export const state = () => ({
       meaning: '',
       category: '25',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2313,7 +2319,7 @@ export const state = () => ({
       meaning: '',
       category: '25',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2322,7 +2328,7 @@ export const state = () => ({
       meaning: '',
       category: '27',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2331,7 +2337,7 @@ export const state = () => ({
       meaning: '',
       category: '27',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2340,7 +2346,7 @@ export const state = () => ({
       meaning: '',
       category: '27',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2349,7 +2355,7 @@ export const state = () => ({
       meaning: '',
       category: '27',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2358,7 +2364,7 @@ export const state = () => ({
       meaning: '',
       category: '27',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2367,7 +2373,7 @@ export const state = () => ({
       meaning: '',
       category: '27',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2376,7 +2382,7 @@ export const state = () => ({
       meaning: '',
       category: '27',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2385,7 +2391,7 @@ export const state = () => ({
       meaning: '',
       category: '27',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2394,7 +2400,7 @@ export const state = () => ({
       meaning: '',
       category: '27',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2403,7 +2409,7 @@ export const state = () => ({
       meaning: '',
       category: '27',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2412,7 +2418,7 @@ export const state = () => ({
       meaning: '',
       category: '28',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2421,7 +2427,7 @@ export const state = () => ({
       meaning: '',
       category: '28',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2430,7 +2436,7 @@ export const state = () => ({
       meaning: '',
       category: '28',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2439,7 +2445,7 @@ export const state = () => ({
       meaning: '',
       category: '28',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2448,7 +2454,7 @@ export const state = () => ({
       meaning: '',
       category: '28',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2457,7 +2463,7 @@ export const state = () => ({
       meaning: '',
       category: '28',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2466,7 +2472,7 @@ export const state = () => ({
       meaning: '',
       category: '28',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2475,7 +2481,7 @@ export const state = () => ({
       meaning: '',
       category: '29',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2484,7 +2490,7 @@ export const state = () => ({
       meaning: '',
       category: '29',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2493,7 +2499,7 @@ export const state = () => ({
       meaning: '',
       category: '29',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2502,7 +2508,7 @@ export const state = () => ({
       meaning: '',
       category: '29',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2511,7 +2517,7 @@ export const state = () => ({
       meaning: '',
       category: '29',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2520,7 +2526,7 @@ export const state = () => ({
       meaning: '',
       category: '29',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2529,7 +2535,7 @@ export const state = () => ({
       meaning: '',
       category: '29',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2538,7 +2544,7 @@ export const state = () => ({
       meaning: '',
       category: '30',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2547,7 +2553,7 @@ export const state = () => ({
       meaning: '',
       category: '30',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2556,7 +2562,7 @@ export const state = () => ({
       meaning: '',
       category: '30',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2565,7 +2571,7 @@ export const state = () => ({
       meaning: '',
       category: '30',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2574,7 +2580,7 @@ export const state = () => ({
       meaning: '',
       category: '30',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2583,7 +2589,7 @@ export const state = () => ({
       meaning: '',
       category: '32',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2592,7 +2598,7 @@ export const state = () => ({
       meaning: '',
       category: '32',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2601,7 +2607,7 @@ export const state = () => ({
       meaning: '',
       category: '32',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2610,7 +2616,7 @@ export const state = () => ({
       meaning: '',
       category: '32',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2619,7 +2625,7 @@ export const state = () => ({
       meaning: '',
       category: '31',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2628,7 +2634,7 @@ export const state = () => ({
       meaning: '',
       category: '31',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2637,7 +2643,7 @@ export const state = () => ({
       meaning: '',
       category: '31',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2646,7 +2652,7 @@ export const state = () => ({
       meaning: '',
       category: '31',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2655,7 +2661,7 @@ export const state = () => ({
       meaning: '',
       category: '31',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2664,7 +2670,7 @@ export const state = () => ({
       meaning: '',
       category: '33',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2673,7 +2679,7 @@ export const state = () => ({
       meaning: '',
       category: '33',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2682,7 +2688,7 @@ export const state = () => ({
       meaning: '',
       category: '33',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2691,7 +2697,7 @@ export const state = () => ({
       meaning: '',
       category: '33',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2700,7 +2706,7 @@ export const state = () => ({
       meaning: '',
       category: '33',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2709,7 +2715,7 @@ export const state = () => ({
       meaning: '',
       category: '33',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2718,7 +2724,7 @@ export const state = () => ({
       meaning: '',
       category: '34',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2727,7 +2733,7 @@ export const state = () => ({
       meaning: '',
       category: '34',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2736,7 +2742,7 @@ export const state = () => ({
       meaning: '',
       category: '34',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2745,7 +2751,7 @@ export const state = () => ({
       meaning: '',
       category: '34',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2754,7 +2760,7 @@ export const state = () => ({
       meaning: '',
       category: '34',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2763,7 +2769,7 @@ export const state = () => ({
       meaning: '',
       category: '34',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2772,7 +2778,7 @@ export const state = () => ({
       meaning: '',
       category: '34',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2781,7 +2787,7 @@ export const state = () => ({
       meaning: '',
       category: '34',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2790,7 +2796,7 @@ export const state = () => ({
       meaning: '',
       category: '34',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2799,7 +2805,7 @@ export const state = () => ({
       meaning: '',
       category: '34',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2808,7 +2814,7 @@ export const state = () => ({
       meaning: '',
       category: '34',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2817,7 +2823,7 @@ export const state = () => ({
       meaning: '',
       category: '34',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2826,7 +2832,7 @@ export const state = () => ({
       meaning: '',
       category: '35',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2835,7 +2841,7 @@ export const state = () => ({
       meaning: '',
       category: '35',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2844,7 +2850,7 @@ export const state = () => ({
       meaning: '',
       category: '35',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2853,7 +2859,7 @@ export const state = () => ({
       meaning: '',
       category: '35',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2862,7 +2868,7 @@ export const state = () => ({
       meaning: '',
       category: '35',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2871,7 +2877,7 @@ export const state = () => ({
       meaning: '',
       category: '35',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2880,7 +2886,7 @@ export const state = () => ({
       meaning: '',
       category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2889,7 +2895,7 @@ export const state = () => ({
       meaning: '',
       category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2898,7 +2904,7 @@ export const state = () => ({
       meaning: '',
       category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2907,7 +2913,7 @@ export const state = () => ({
       meaning: '',
       category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2916,7 +2922,7 @@ export const state = () => ({
       meaning: '',
       category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2925,7 +2931,7 @@ export const state = () => ({
       meaning: '',
       category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2934,7 +2940,7 @@ export const state = () => ({
       meaning: '',
       category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2943,7 +2949,7 @@ export const state = () => ({
       meaning: '',
       category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2952,7 +2958,7 @@ export const state = () => ({
       meaning: '',
       category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2961,7 +2967,7 @@ export const state = () => ({
       meaning: '',
       category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2970,7 +2976,7 @@ export const state = () => ({
       meaning: '',
       category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2979,7 +2985,7 @@ export const state = () => ({
       meaning: '',
       category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2988,7 +2994,7 @@ export const state = () => ({
       meaning: '',
       category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -2997,7 +3003,7 @@ export const state = () => ({
       meaning: '',
       category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -3006,7 +3012,7 @@ export const state = () => ({
       meaning: '',
       category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -3015,7 +3021,7 @@ export const state = () => ({
       meaning: '',
       category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -3024,7 +3030,7 @@ export const state = () => ({
       meaning: '',
       category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -3033,7 +3039,7 @@ export const state = () => ({
       meaning: '',
       category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -3042,7 +3048,7 @@ export const state = () => ({
       meaning: '',
       category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -3051,7 +3057,7 @@ export const state = () => ({
       meaning: '',
       category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -3060,7 +3066,7 @@ export const state = () => ({
       meaning: '',
       category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -3069,7 +3075,7 @@ export const state = () => ({
       meaning: '',
       category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -3078,7 +3084,7 @@ export const state = () => ({
       meaning: '',
       category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
@@ -3087,7 +3093,7 @@ export const state = () => ({
       meaning: '',
       category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
+      padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     }
   ]
