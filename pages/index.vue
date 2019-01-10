@@ -7,59 +7,119 @@
       xs12
       sm8
       md6>
-      <div class="text-xs-center">
-        <logo/>
-        <vuetify-logo/>
-      </div>
       <v-card>
-        <v-card-title class="headline">Welcome to the Vuetify + Nuxt.js template</v-card-title>
-        <v-card-text>
-          <p>Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower developers to create amazing applications.</p>
-          <p>For more information on Vuetify, check out the <a
-            href="https://vuetifyjs.com"
-            target="_blank">documentation</a>.</p>
-          <p>If you have questions, please join the official <a
-            href="https://chat.vuetifyjs.com/"
-            target="_blank"
-            title="chat">discord</a>.</p>
-          <p>Find a bug? Report it on the github <a
-            href="https://github.com/vuetifyjs/vuetify/issues"
-            target="_blank"
-            title="contribute">issue board</a>.</p>
-          <p>Thank you for developing with Vuetify and I look forward to bringing more exciting features in the future.</p>
-          <div class="text-xs-right">
-            <em><small>&mdash; John Leider</small></em>
-          </div>
-          <hr class="my-3">
-          <a
-            href="https://nuxtjs.org/"
-            target="_blank">Nuxt Documentation</a>
-          <br>
-          <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank">Nuxt GitHub</a>
-        </v-card-text>
-        <v-card-actions>
+        <v-card-title>
+          <h3>Activities</h3>
           <v-spacer/>
-          <v-btn
-            color="primary"
-            flat
-            nuxt
-            to="/inspire">Continue</v-btn>
-        </v-card-actions>
+          <v-text-field
+            v-model="search"
+            append-icon="search"
+            label="Search"
+            single-line
+            hide-details
+          />
+        </v-card-title>
+        <v-data-table
+          :headers="headers"
+          :items="activity"
+          :search="search"
+          class="elevation-1 defaultTable">
+          <template
+            slot="items"
+            slot-scope="props">
+            <td @click="opendialog(props.item.category, props.item.name_sans, props.item.meaning)">{{ props.item.category }}</td>
+            <td @click="opendialog(props.item.category, props.item.name_sans, props.item.meaning)">{{ props.item.name_sans }}</td>
+            <td @click="opendialog(props.item.category, props.item.name_sans, props.item.meaning)">{{ props.item.meaning }}</td>
+            <td @click="opendialog(props.item.category, props.item.name_sans, props.item.meaning)">{{ props.item.verse }}</td>
+          </template>
+          <v-alert
+            slot="no-results"
+            :value="true"
+            color="error"
+            icon="warning">
+            Your search for "{{ search }}" found no results.
+          </v-alert>
+        </v-data-table>
+        <v-dialog
+          v-model="dialog"
+          max-width="600px">
+          <v-card>
+            <v-card-title>
+              <span class="headline">Verbs belonging to category: {{ activity_sans }} - {{ activity_eng }}</span>
+            </v-card-title>
+            <v-card-text>
+              <div
+                v-for="(verb,i) in verbs"
+                :key="i">
+
+                <p>{{ i+1 }}. {{ verb.root }}</p>
+                <p>{{ verb.gana }}</p>
+                <p><a
+                  :href="verb.forms_url"
+                  target="_blank">Verb Forms</a></p>
+                <p>{{ verb.meaning }}</p>
+                <p>{{ verb.obj }}</p>
+                <p>{{ verb.padi }}</p>
+              </div>
+            </v-card-text>
+            <v-card-actions>
+              <v-spacer/>
+              <v-btn
+                color="blue darken-1"
+                flat
+                @click="close">Close</v-btn>
+            </v-card-actions>
+          </v-card>
+        </v-dialog>
       </v-card>
     </v-flex>
   </v-layout>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-import VuetifyLogo from '~/components/VuetifyLogo.vue'
-
 export default {
-  components: {
-    Logo,
-    VuetifyLogo
+  data() {
+    return {
+      dialog: false,
+      verbs: '',
+      activity_sans: '',
+      activity_eng: '',
+      headers: [
+        {
+          text: 'Sl no.',
+          align: 'left',
+          sortable: true,
+          value: 'category'
+        },
+        { text: 'Activity Name', value: 'name_sans' },
+        { text: 'meaning', value: 'meaning' },
+        { text: 'Kriyanighantu Verse', value: 'verse' }
+      ],
+      search: ''
+    }
+  },
+  computed: {
+    activity() {
+      return this.$store.state.activities
+    }
+  },
+  watch: {
+    dialog(val) {
+      val || this.close()
+    }
+  },
+  methods: {
+    opendialog(val, sans, eng) {
+      this.dialog = true
+      this.activity_sans = sans
+      this.activity_eng = eng
+      this.verbs = this.$store.state.verbs.filter(verb => {
+        return verb.category == val
+      })
+    },
+    close() {
+      this.dialog = false
+    }
   }
 }
 </script>
