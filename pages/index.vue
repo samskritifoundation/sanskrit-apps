@@ -47,12 +47,13 @@
             <v-card-title>
               <span class="headline">Verbs belonging to category: {{ activity_sans }} - {{ activity_eng }}</span>
             </v-card-title>
-            <v-card-text>
+            <v-card-text class="ma-1">
               <div
                 v-for="(verb,i) in verbs"
                 :key="i">
 
-                <p>{{ i+1 }}. {{ verb.root }}</p>
+                <h3>{{ i+1 }}. {{ verb.root }}</h3>
+                <v-subheader>Example: {{ verb.form }}</v-subheader>
                 <p>{{ verb.gana }}</p>
                 <p><a
                   :href="verb.forms_url"
