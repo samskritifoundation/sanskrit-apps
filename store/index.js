@@ -35,13 +35,15 @@ export const state = () => ({
       name_sans: 'प्रकाशः',
       meaning: 'shine',
       category: 6,
-      verse: 'भासते शोभते भाति लसतींधे प्रकाशते ॥ राजते द्योतते राजत्यपि दिव्यति दीव्यते ।'
+      verse:
+        'भासते शोभते भाति लसतींधे प्रकाशते ॥ राजते द्योतते राजत्यपि दिव्यति दीव्यते ।'
     },
     {
       name_sans: 'व्याख्यानम्',
       meaning: 'narrate',
       category: 7,
-      verse: 'व्याख्याति विवृणोति व्याकुरुतेऽर्थापयत्यपि ॥८॥ विवृणीते विवृणुते व्याचष्टे व्याकरोति च । '
+      verse:
+        'व्याख्याति विवृणोति व्याकुरुतेऽर्थापयत्यपि ॥८॥ विवृणीते विवृणुते व्याचष्टे व्याकरोति च । '
     },
     {
       name_sans: 'प्रणयनम्',
@@ -53,7 +55,8 @@ export const state = () => ({
       name_sans: 'पूजनम्',
       meaning: 'worship',
       category: 9,
-      verse: 'पूजयत्यर्चयति सत्करोत्याद्रियतेऽञ्चति । संभावयत्यर्चति सत्कुरुते मानयत्यपि ॥ सभाजयत्युपचरत्यन्वास्ते महयत्यपि । आराधयत्युनुसरत्याराध्यत्यभिराध्यति ॥'
+      verse:
+        'पूजयत्यर्चयति सत्करोत्याद्रियतेऽञ्चति । संभावयत्यर्चति सत्कुरुते मानयत्यपि ॥ सभाजयत्युपचरत्यन्वास्ते महयत्यपि । आराधयत्युनुसरत्याराध्यत्यभिराध्यति ॥'
     },
     {
       name_sans: 'शुश्रूषा',
@@ -65,19 +68,20 @@ export const state = () => ({
       name_sans: 'पुरस्कारः',
       meaning: 'award',
       category: 11,
-      verse: 'पुरस्करोति च पुरस्कुरुते बहु मन्यते ॥ बहूकरोति च बहुमनुते चार्हयत्यपि'
+      verse:
+        'पुरस्करोति च पुरस्कुरुते बहु मन्यते ॥ बहूकरोति च बहुमनुते चार्हयत्यपि'
     },
     {
       name_sans: 'तनूकरणम्',
       meaning: 'dilute',
-      category: 12,
-
+      category: 12
     },
     {
       name_sans: 'नमस्कारः',
       meaning: 'offering of respect',
       category: 13,
-      verse: 'नमस्करोति कुरुते जुषते च नमस्यति ॥ भजते भजति श्रयति श्रयते प्रणिपतति सेवते नमति ।'
+      verse:
+        'नमस्करोति कुरुते जुषते च नमस्यति ॥ भजते भजति श्रयति श्रयते प्रणिपतति सेवते नमति ।'
     },
     {
       name_sans: 'अभिवादनम्',
@@ -94,25 +98,29 @@ export const state = () => ({
       name_sans: 'रक्षणम्',
       meaning: 'protect',
       category: 16,
-      verse: 'अवति त्रायते पाति पालयत्यपि रक्षति । शास्ति गोपायति भुनक्त्यभिगोपायतीति च ॥'
+      verse:
+        'अवति त्रायते पाति पालयत्यपि रक्षति । शास्ति गोपायति भुनक्त्यभिगोपायतीति च ॥'
     },
     {
       name_sans: 'नन्दनम्',
       meaning: 'rejoice',
       category: 17,
-      verse: 'प्रीयते मोदते हृष्यत्यानंदति च नंदति । निर्वृणोति च निर्वाति सुख्यत्यवति तुष्यति ॥१६॥'
+      verse:
+        'प्रीयते मोदते हृष्यत्यानंदति च नंदति । निर्वृणोति च निर्वाति सुख्यत्यवति तुष्यति ॥१६॥'
     },
     {
       name_sans: 'व्यथा',
       meaning: 'be disturbed',
       category: 18,
-      verse: 'दूयते व्यथते दुःख्यत्यपि शोचति सीदति । खिद्यते क्लिश्यति श्राम्यत्यंतस्तपति ताम्यति ॥'
+      verse:
+        'दूयते व्यथते दुःख्यत्यपि शोचति सीदति । खिद्यते क्लिश्यति श्राम्यत्यंतस्तपति ताम्यति ॥'
     },
     {
       name_sans: 'प्रीणनम्',
       meaning: 'pleasing',
       category: 19,
-      verse: 'सुखयत्याह्लादयति प्रीणीते प्रीणयति सुखाकुरुते । आनंदयति धिनोत्यामोदयति च हर्षयति च तोषयति ॥'
+      verse:
+        'सुखयत्याह्लादयति प्रीणीते प्रीणयति सुखाकुरुते । आनंदयति धिनोत्यामोदयति च हर्षयति च तोषयति ॥'
     },
     {
       name_sans: 'म्लानम्',
@@ -124,13 +132,15 @@ export const state = () => ({
       name_sans: 'विषादनम्',
       meaning: 'despair',
       category: 21,
-      verse: 'क्लिश्नाति क्लेशयति व्यथयति दुःखाकरोति शोचयति । विह्वलयति च दुनोति व्याकुलयति विमनयति विषादयति ॥'
+      verse:
+        'क्लिश्नाति क्लेशयति व्यथयति दुःखाकरोति शोचयति । विह्वलयति च दुनोति व्याकुलयति विमनयति विषादयति ॥'
     },
     {
       name_sans: 'आहननम्',
       meaning: 'beat',
       category: 22,
-      verse: 'घातयत्याहते हन्ति निबर्हयति सूदते । हिनस्त्युज्जासयति संहरते सूदयत्यपि ॥'
+      verse:
+        'घातयत्याहते हन्ति निबर्हयति सूदते । हिनस्त्युज्जासयति संहरते सूदयत्यपि ॥'
     },
     {
       name_sans: 'विलोडनम्',
@@ -166,7 +176,8 @@ export const state = () => ({
       name_sans: 'उपसर्पणम्',
       meaning: 'act of approaching softly',
       category: 28,
-      verse: 'उपसर्पत्युपसरत्युपयात्युपगच्छति  । उपधावत्युपनयत्युपैप्युपतिष्ठते ॥'
+      verse:
+        'उपसर्पत्युपसरत्युपयात्युपगच्छति  । उपधावत्युपनयत्युपैप्युपतिष्ठते ॥'
     },
     {
       name_sans: 'अपसरणम्',
@@ -200,7 +211,7 @@ export const state = () => ({
     },
     {
       name_sans: 'अनुवर्तनम्',
-      meaning: 'similar',
+      meaning: 'follow up',
       category: 34,
       verse: 'अनुसर्पत्यनुपतत्यनूदेत्यनुवर्तते॥'
     },
@@ -243,7 +254,8 @@ export const state = () => ({
       name_sans: 'जयः',
       meaning: 'win',
       category: 41,
-      verse: 'जयत्यतिक्रामत्यतिशेतेऽतिरिच्यते । अत्येत्यर्थे विजयते पराजयत इत्यपि ॥'
+      verse:
+        'जयत्यतिक्रामत्यतिशेतेऽतिरिच्यते । अत्येत्यर्थे विजयते पराजयत इत्यपि ॥'
     },
     {
       name_sans: 'दया',
@@ -300,7 +312,8 @@ export const state = () => ({
       name_sans: 'निर्णयः',
       meaning: 'decide',
       category: 51,
-      verse: 'निर्धारयति निगमयति निश्चिनुते निश्चिनोति निर्णयते । निर्णयति  निरूपयति च निर्लोडयते परिच्छिनत्यपि च ॥'
+      verse:
+        'निर्धारयति निगमयति निश्चिनुते निश्चिनोति निर्णयते । निर्णयति  निरूपयति च निर्लोडयते परिच्छिनत्यपि च ॥'
     },
     {
       name_sans: 'उन्मेषः',
@@ -330,19 +343,22 @@ export const state = () => ({
       name_sans: 'चिरोधः',
       meaning: 'quarell',
       category: 56,
-      verse: 'वैरायते विरुन्धे विरुणद्धि कलहायते । द्वेष्टि द्विष्टे विगृह्णाति विराध्यत्यपराध्यति ॥'
+      verse:
+        'वैरायते विरुन्धे विरुणद्धि कलहायते । द्वेष्टि द्विष्टे विगृह्णाति विराध्यत्यपराध्यति ॥'
     },
     {
       name_sans: 'आवरणम्',
       meaning: 'cover',
       category: 57,
-      verse: 'जिघांसति विगृह्णीते द्रुह्यत्यपकरोति च । अपिधत्ते चावृणुते स्थगयत्यपि चोर्णुते ॥'
+      verse:
+        'जिघांसति विगृह्णीते द्रुह्यत्यपकरोति च । अपिधत्ते चावृणुते स्थगयत्यपि चोर्णुते ॥'
     },
     {
       name_sans: 'अन्तर्धानम्',
       meaning: 'disappear / hidden',
       category: 58,
-      verse: 'ऊर्णोत्युर्णौति धुडयत्यंतर्धापयतीति च। अंतर्धत्ते तिरोधत्ते लीयतेंऽतर्दधाति च ॥'
+      verse:
+        'ऊर्णोत्युर्णौति धुडयत्यंतर्धापयतीति च। अंतर्धत्ते तिरोधत्ते लीयतेंऽतर्दधाति च ॥'
     },
     {
       name_sans: 'कथनम्',
@@ -353,7 +369,8 @@ export const state = () => ({
       name_sans: 'शब्दकर्म',
       meaning: 'make sound',
       category: 60,
-      verse: 'शब्दायते घोषयति रौति स्वनति कूजति । सङ्क्रीडति ध्वनति च शिङ्क्ते नदति गुंजति ॥'
+      verse:
+        'शब्दायते घोषयति रौति स्वनति कूजति । सङ्क्रीडति ध्वनति च शिङ्क्ते नदति गुंजति ॥'
     },
     {
       name_sans: 'चौर्यम्',
@@ -365,7 +382,8 @@ export const state = () => ({
       name_sans: 'रोदनम्',
       meaning: 'cry',
       category: 62,
-      verse: 'रणति क्वणति क्रुंचत्यपि स्तनति गर्जति । रसति क्रोशति रटत्यथाक्रन्दति रोदिति ॥ बाष्पायते विलपति परिदेवयतीति च । '
+      verse:
+        'रणति क्वणति क्रुंचत्यपि स्तनति गर्जति । रसति क्रोशति रटत्यथाक्रन्दति रोदिति ॥ बाष्पायते विलपति परिदेवयतीति च । '
     },
     {
       name_sans: 'कम्पः',
@@ -387,13 +405,15 @@ export const state = () => ({
       name_sans: 'आलिङ्गनम्',
       meaning: 'embrace',
       category: 66,
-      verse: 'श्लिष्यत्यालिङ्गति परिष्वजतेप्युपगूहति ॥ आलिङ्गते चापि परिरंभते वेष्टयत्यपि ॥'
+      verse:
+        'श्लिष्यत्यालिङ्गति परिष्वजतेप्युपगूहति ॥ आलिङ्गते चापि परिरंभते वेष्टयत्यपि ॥'
     },
     {
       name_sans: 'न्यासः',
       meaning: 'place',
       category: 67,
-      verse: 'निदधाति निधत्ते निक्षिपते निक्षिपत्यपि ।  निवेशयति विन्यस्यत्यपि न्यस्यति चाप्यथ ॥'
+      verse:
+        'निदधाति निधत्ते निक्षिपते निक्षिपत्यपि ।  निवेशयति विन्यस्यत्यपि न्यस्यति चाप्यथ ॥'
     },
     {
       name_sans: 'पाणिग्रहणम्',
@@ -405,7 +425,8 @@ export const state = () => ({
       name_sans: 'अधिष्ठानम्',
       meaning: 'sit',
       category: 69,
-      verse: ' तिष्ठत्यास्ते निविशते वसत्युपविशत्यपि । वितिष्ठते तदध्यास्तेऽधितिष्ठत्युपतिष्ठते ॥'
+      verse:
+        ' तिष्ठत्यास्ते निविशते वसत्युपविशत्यपि । वितिष्ठते तदध्यास्तेऽधितिष्ठत्युपतिष्ठते ॥'
     },
     {
       name_sans: 'तर्जनम्',
@@ -433,13 +454,15 @@ export const state = () => ({
       name_sans: 'क्रीडा',
       meaning: 'play',
       category: 74,
-      verse: 'खेलति क्रीडति परिक्रीडते विहरत्यपि । सङ्क्रीडते विभ्रमति विनोदयति दीव्यति ॥३७॥ '
+      verse:
+        'खेलति क्रीडति परिक्रीडते विहरत्यपि । सङ्क्रीडते विभ्रमति विनोदयति दीव्यति ॥३७॥ '
     },
     {
       name_sans: 'तिरस्कारः',
       meaning: 'insult',
       category: 75,
-      verse: ' तिरस्करोत्यभिभवत्यवजानाति निन्दति । धिक्करोति न्यक्कुरुते विगायत्यवगायति ॥'
+      verse:
+        ' तिरस्करोत्यभिभवत्यवजानाति निन्दति । धिक्करोति न्यक्कुरुते विगायत्यवगायति ॥'
     },
     {
       name_sans: 'धारणम्',
@@ -481,13 +504,15 @@ export const state = () => ({
       name_sans: 'खादनम्',
       meaning: 'eat',
       category: 82,
-      verse: 'भुङ्क्तेऽभ्यवहरत्यश्नात्याचामत्यत्ति खादति । रसयत्यास्वादयति भक्षयत्यपि चर्वति ॥'
+      verse:
+        'भुङ्क्तेऽभ्यवहरत्यश्नात्याचामत्यत्ति खादति । रसयत्यास्वादयति भक्षयत्यपि चर्वति ॥'
     },
     {
       name_sans: 'पानम्',
       meaning: 'drink',
       category: 83,
-      verse: 'ग्रसते ग्रसतीत्यर्थे जक्षति प्रत्यवस्यति । लेढि लीढेऽथ पिबति धयत्यास्वादतेऽपि च ॥'
+      verse:
+        'ग्रसते ग्रसतीत्यर्थे जक्षति प्रत्यवस्यति । लेढि लीढेऽथ पिबति धयत्यास्वादतेऽपि च ॥'
     },
     {
       name_sans: 'उद्गारः',
@@ -499,7 +524,8 @@ export const state = () => ({
       name_sans: 'भूषा',
       meaning: 'decorate',
       category: 85,
-      verse: 'भूषयति परिष्कुरुतेऽलंकुरुतेऽलंकरोति मण्डयति । अपि वा परिष्करोत्यप्याकल्पयति प्रसाधयति ॥'
+      verse:
+        'भूषयति परिष्कुरुतेऽलंकुरुतेऽलंकरोति मण्डयति । अपि वा परिष्करोत्यप्याकल्पयति प्रसाधयति ॥'
     },
     {
       name_sans: 'लज्जा',
@@ -558,7 +584,8 @@ export const state = () => ({
       name_sans: 'श्रवणम्',
       meaning: 'hear',
       category: 95,
-      verse: 'शृणोति संशृणुत इत्यर्थे निशमयत्यपि । आकर्णयत्यपि ततोऽवधत्ते धारयत्यपि ॥'
+      verse:
+        'शृणोति संशृणुत इत्यर्थे निशमयत्यपि । आकर्णयत्यपि ततोऽवधत्ते धारयत्यपि ॥'
     },
     {
       name_sans: 'अवधानम्',
@@ -574,7 +601,8 @@ export const state = () => ({
       name_sans: 'विस्मरणम्',
       meaning: 'forget',
       category: 98,
-      verse: 'अध्येति स्मरति ध्यायत्यपि चिन्तयतीति च । प्रमाद्यति प्रस्मरति विस्मरत्यपि मुह्यति ॥'
+      verse:
+        'अध्येति स्मरति ध्यायत्यपि चिन्तयतीति च । प्रमाद्यति प्रस्मरति विस्मरत्यपि मुह्यति ॥'
     },
     {
       name_sans: 'अध्ययनम्',
@@ -598,7 +626,8 @@ export const state = () => ({
       name_sans: 'मार्जनम्',
       meaning: 'cleaning',
       category: 102,
-      verse: 'मार्ष्टि मार्जयते शुद्धीकुरुते शोधयत्यपि । मार्जति क्षालयत्यर्थे निर्णेनेक्ति च धावति ॥'
+      verse:
+        'मार्ष्टि मार्जयते शुद्धीकुरुते शोधयत्यपि । मार्जति क्षालयत्यर्थे निर्णेनेक्ति च धावति ॥'
     },
     {
       name_sans: 'विक्रयः',
@@ -635,7 +664,8 @@ export const state = () => ({
     },
     {
       name_sans: 'लग्नः',
-      meaning: 'auspicious moment or time fixed upon as lucky for beginning to perform anything',
+      meaning:
+        'auspicious moment or time fixed upon as lucky for beginning to perform anything',
       category: 109
     },
     {
@@ -836,13 +866,15 @@ export const state = () => ({
   ],
   verbs: [
     {
-      root: '',
+      root: 'भू',
       form: 'भवति',
       meaning: '',
       category: '1',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      voice: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      padi: 'parasmaipadi',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%AD%E0%A5%821_%E0%A4%AD%E0%A5%82_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      gana: 'भ्वादिः'
     },
     {
       root: '',
@@ -1406,7 +1438,7 @@ export const state = () => ({
       root: '',
       form: 'उपास्ते',
       meaning: '',
-      category: '1',
+      category: '10',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       voice: 'atmanepadi/parasmaipadi',
       forms_url: ''
@@ -1947,6 +1979,1113 @@ export const state = () => ({
       form: 'ताम्यति',
       meaning: '',
       category: '18',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: '',
+      meaning: '',
+      category: '',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'ग्लायति ',
+      meaning: '',
+      category: '20',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'म्लायति ',
+      meaning: '',
+      category: '20',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'प्लुष्यत्यपि ',
+      meaning: '',
+      category: '20',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'स्विद्यति ',
+      meaning: '',
+      category: '20',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'शुष्यति ',
+      meaning: '',
+      category: '20',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'क्लिश्नाति',
+      meaning: '',
+      category: '21',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'क्लेशयति',
+      meaning: '',
+      category: '21',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'व्यथयति',
+      meaning: '',
+      category: '21',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'दुःखाकरोति ',
+      meaning: '',
+      category: '21',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'शोचयति ',
+      meaning: '',
+      category: '21',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'विह्वलयति ',
+      meaning: '',
+      category: '21',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'दुनोति ',
+      meaning: '',
+      category: '21',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'व्याकुलयति ',
+      meaning: '',
+      category: '21',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'विमनयति ',
+      meaning: '',
+      category: '21',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'विषादयति',
+      meaning: '',
+      category: '21',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'घातयति',
+      meaning: '',
+      category: '22',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'हन्ति',
+      meaning: '',
+      category: '22',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'निबर्हयति',
+      meaning: '',
+      category: '22',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'सूदते',
+      meaning: '',
+      category: '22',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'हिनस्ति',
+      meaning: '',
+      category: '22',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'संहरते',
+      meaning: '',
+      category: '22',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: ' सूदयति',
+      meaning: '',
+      category: '22',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'आहते',
+      meaning: '',
+      category: '22',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'उज्जासयति',
+      meaning: '',
+      category: '22',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'कदर्थयति',
+      meaning: '',
+      category: '23',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'मथ्नाति',
+      meaning: '',
+      category: '23',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'कर्शयति',
+      meaning: '',
+      category: '23',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'बाधते',
+      meaning: '',
+      category: '23',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'पिनष्टि',
+      meaning: '',
+      category: '24',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'उपद्रवति',
+      meaning: '',
+      category: '24',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'पीडयति',
+      meaning: '',
+      category: '24',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'शास्ति',
+      meaning: '',
+      category: '24',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'निगृह्णीते',
+      meaning: '',
+      category: '25',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'निगृह्णाति',
+      meaning: '',
+      category: '25',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'ताडयति',
+      meaning: '',
+      category: '25',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'विध्यति',
+      meaning: '',
+      category: '25',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'आप्नोति',
+      meaning: '',
+      category: '27',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'लभते',
+      meaning: '',
+      category: '27',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'याति',
+      meaning: '',
+      category: '27',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अयति',
+      meaning: '',
+      category: '27',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'ऋच्छति',
+      meaning: '',
+      category: '27',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'प्रपद्यते',
+      meaning: '',
+      category: '27',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'जिहीते',
+      meaning: '',
+      category: '27',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अञ्चति',
+      meaning: '',
+      category: '27',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'आसादयति',
+      meaning: '',
+      category: '27',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'विन्दते',
+      meaning: '',
+      category: '27',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'उपसर्पति',
+      meaning: '',
+      category: '28',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'उपसरति',
+      meaning: '',
+      category: '28',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'उपयाति',
+      meaning: '',
+      category: '28',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'उपगच्छति',
+      meaning: '',
+      category: '28',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'उपधावति',
+      meaning: '',
+      category: '28',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'उपनयति',
+      meaning: '',
+      category: '28',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'उपतिष्ठते',
+      meaning: '',
+      category: '28',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अपसरति',
+      meaning: '',
+      category: '29',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अपगच्छति',
+      meaning: '',
+      category: '29',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अपैति',
+      meaning: '',
+      category: '29',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'व्ययति',
+      meaning: '',
+      category: '29',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'व्येति',
+      meaning: '',
+      category: '29',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'विगच्छति',
+      meaning: '',
+      category: '29',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अपवर्तते',
+      meaning: '',
+      category: '29',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'आगच्छति',
+      meaning: '',
+      category: '30',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'आव्रजति',
+      meaning: '',
+      category: '30',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'आयाति',
+      meaning: '',
+      category: '30',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'आपतति',
+      meaning: '',
+      category: '30',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'आसरति',
+      meaning: '',
+      category: '30',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'निर्गच्छति',
+      meaning: '',
+      category: '32',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'निर्याति',
+      meaning: '',
+      category: '32',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'निस्सरति',
+      meaning: '',
+      category: '32',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'उत्पतति',
+      meaning: '',
+      category: '32',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'उद्गच्छति',
+      meaning: '',
+      category: '31',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'उद्व्रजति',
+      meaning: '',
+      category: '31',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'उद्याति',
+      meaning: '',
+      category: '31',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'उत्तिष्ठति',
+      meaning: '',
+      category: '31',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'उच्चलति',
+      meaning: '',
+      category: '31',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अभिगच्छति ॥',
+      meaning: '',
+      category: '33',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अभिपतति ॥',
+      meaning: '',
+      category: '33',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अभियाति ॥',
+      meaning: '',
+      category: '33',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अभिधावति ॥',
+      meaning: '',
+      category: '33',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अभिप्रार्दयते',
+      meaning: '',
+      category: '33',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अभिषेणयति',
+      meaning: '',
+      category: '33',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अनुसर्पति',
+      meaning: '',
+      category: '34',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अनुपतति',
+      meaning: '',
+      category: '34',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अनूदेति',
+      meaning: '',
+      category: '34',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अनुवर्तते',
+      meaning: '',
+      category: '34',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अनुगच्छति ।',
+      meaning: '',
+      category: '34',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अनुसरति',
+      meaning: '',
+      category: '34',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अनुयाति',
+      meaning: '',
+      category: '34',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अनुधावति',
+      meaning: '',
+      category: '34',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अन्वेति',
+      meaning: '',
+      category: '34',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अनुद्रवति',
+      meaning: '',
+      category: '34',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अन्वागच्छति',
+      meaning: '',
+      category: '34',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अन्वयति',
+      meaning: '',
+      category: '34',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'विडंबयति',
+      meaning: '',
+      category: '35',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अनुकरोति',
+      meaning: '',
+      category: '35',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'उपमाति',
+      meaning: '',
+      category: '35',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अनुकल्पते',
+      meaning: '',
+      category: '35',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अनुविदधाति',
+      meaning: '',
+      category: '35',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'तुलयति',
+      meaning: '',
+      category: '35',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: '',
+      meaning: '',
+      category: '',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: '',
+      meaning: '',
+      category: '',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: '',
+      meaning: '',
+      category: '',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: '',
+      meaning: '',
+      category: '',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: '',
+      meaning: '',
+      category: '',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: '',
+      meaning: '',
+      category: '',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: '',
+      meaning: '',
+      category: '',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: '',
+      meaning: '',
+      category: '',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: '',
+      meaning: '',
+      category: '',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: '',
+      meaning: '',
+      category: '',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: '',
+      meaning: '',
+      category: '',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: '',
+      meaning: '',
+      category: '',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: '',
+      meaning: '',
+      category: '',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: '',
+      meaning: '',
+      category: '',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: '',
+      meaning: '',
+      category: '',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: '',
+      meaning: '',
+      category: '',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: '',
+      meaning: '',
+      category: '',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: '',
+      meaning: '',
+      category: '',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: '',
+      meaning: '',
+      category: '',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: '',
+      meaning: '',
+      category: '',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: '',
+      meaning: '',
+      category: '',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: '',
+      meaning: '',
+      category: '',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: '',
+      meaning: '',
+      category: '',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      voice: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: '',
+      meaning: '',
+      category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       voice: 'atmanepadi/parasmaipadi',
       forms_url: ''
