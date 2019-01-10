@@ -8,29 +8,42 @@
       sm8
       md6>
       <v-card>
-        <v-card-title class="headline">Insert Activities to the database</v-card-title>
-        <v-card-text>
-          <form
-            method="POST">
-            <input
-              v-model="activity.activity_num"
-              type="text"
-              name="activity_num"
-              placeholder="Activity number">
-            <input
-              v-model="activity.name_sans"
-              type="text"
-              name="name_sans"
-              placeholder="Activity name">
-            <input
-              v-model="activity.meaning"
-              type="text"
-              name="meaning"
-              placeholder="meaning">
-            <input
-              type="submit">
-          </form>
-        </v-card-text>
+        <v-card-title>
+          <h3>Activities</h3>
+          <v-spacer/>
+          <v-text-field
+            v-model="search"
+            append-icon="search"
+            label="Search"
+            single-line
+            hide-details
+          />
+        </v-card-title>
+        <v-data-table
+          :headers="headers"
+          :items="activity"
+          :search="search"
+          class="elevation-1 defaultTable">
+          <template
+            slot="items"
+            slot-scope="props"
+            router 
+            to="/verbs/" 
+            + 
+            props.item.category>
+            <td>{{ props.item.category }}</td>
+            <td>{{ props.item.name_sans }}</td>
+            <td>{{ props.item.meaning }}</td>
+            <td>{{ props.item.verse }}</td>
+          </template>
+          <v-alert
+            slot="no-results"
+            :value="true"
+            color="error"
+            icon="warning">
+            Your search for "{{ search }}" found no results.
+          </v-alert>
+        </v-data-table>
       </v-card>
     </v-flex>
   </v-layout>
@@ -40,18 +53,23 @@
 export default {
   data() {
     return {
-      activity: {
-        activity_num: '',
-        name_sans: '',
-        meaning: ''
-      }
+      headers: [
+        {
+          text: 'Sl no.',
+          align: 'left',
+          sortable: true,
+          value: 'category'
+        },
+        { text: 'Activity Name', value: 'name_sans' },
+        { text: 'meaning', value: 'meaning' },
+        { text: 'Kriyanighantu Verse', value: 'verse' }
+      ],
+      search: ''
     }
   },
-  methods: {
-    submit() {
-      const res = axios.post('/activities', {
-        body: this.activity
-      })
+  computed: {
+    activity() {
+      return this.$store.state.activities
     }
   }
 }
