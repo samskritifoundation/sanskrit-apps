@@ -3,77 +3,167 @@
     column
     justify-center
     align-center>
-    <v-flex
-      xs12
-      sm8
-      md6>
-      <v-card>
-        <v-card-title>
-          <h3>Activities</h3>
-          <v-spacer/>
-          <v-text-field
-            v-model="search"
-            append-icon="search"
-            label="Search"
-            single-line
-            hide-details
-          />
-        </v-card-title>
-        <v-data-table
-          :headers="headers"
-          :items="activity"
-          :search="search"
-          class="elevation-1 defaultTable">
-          <template
-            slot="items"
-            slot-scope="props">
-            <td @click="opendialog(props.item.category, props.item.name_sans, props.item.meaning)">{{ props.item.category }}</td>
-            <td @click="opendialog(props.item.category, props.item.name_sans, props.item.meaning)">{{ props.item.name_sans }}</td>
-            <td @click="opendialog(props.item.category, props.item.name_sans, props.item.meaning)">{{ props.item.meaning }}</td>
-            <td @click="opendialog(props.item.category, props.item.name_sans, props.item.meaning)">{{ props.item.verse }}</td>
-          </template>
-          <v-alert
-            slot="no-results"
-            :value="true"
-            color="error"
-            icon="warning">
-            Your search for "{{ search }}" found no results.
-          </v-alert>
-        </v-data-table>
-        <v-dialog
-          v-model="dialog"
-          max-width="600px">
+    <v-tabs
+      fixed-tabs
+      color="secondary"
+      dark
+      slider-color="yellow"
+    >
+      <v-tab ripple>
+        Activities
+      </v-tab>
+      <v-tab ripple>
+        Verbs
+      </v-tab>
+      <v-tab-item>
+        <v-flex
+          xs12>
           <v-card>
             <v-card-title>
-              <span class="headline">Verbs belonging to category: {{ activity_sans }} - {{ activity_eng }}</span>
-            </v-card-title>
-            <v-card-text class="ma-1">
-              <div
-                v-for="(verb,i) in verbs"
-                :key="i">
-
-                <h3>{{ i+1 }}. {{ verb.root }}</h3>
-                <v-subheader>Example: {{ verb.form }}</v-subheader>
-                <p>{{ verb.gana }}</p>
-                <p><a
-                  :href="verb.forms_url"
-                  target="_blank">Verb Forms</a></p>
-                <p>{{ verb.meaning }}</p>
-                <p>{{ verb.obj }}</p>
-                <p>{{ verb.padi }}</p>
-              </div>
-            </v-card-text>
-            <v-card-actions>
+              <h3>Activities</h3>
               <v-spacer/>
-              <v-btn
-                color="blue darken-1"
-                flat
-                @click="close">Close</v-btn>
-            </v-card-actions>
+              <v-text-field
+                v-model="search_activity"
+                append-icon="search"
+                label="Search"
+                single-line
+                hide-details
+              />
+            </v-card-title>
+            <v-data-table
+              :headers="headers_activity"
+              :items="activity"
+              :search="search_activity"
+              class="elevation-1 defaultTable">
+              <template
+                slot="items"
+                slot-scope="props">
+                <td @click="opendialog(props.item.category, props.item.name_sans, props.item.meaning)">{{ props.item.category }}</td>
+                <td @click="opendialog(props.item.category, props.item.name_sans, props.item.meaning)">{{ props.item.name_sans }}</td>
+                <td @click="opendialog(props.item.category, props.item.name_sans, props.item.meaning)">{{ props.item.meaning }}</td>
+                <td @click="opendialog(props.item.category, props.item.name_sans, props.item.meaning)">{{ props.item.verse }}</td>
+              </template>
+              <v-alert
+                slot="no-results"
+                :value="true"
+                color="error"
+                icon="warning">
+                Your search for "{{ search_activity }}" found no results.
+              </v-alert>
+            </v-data-table>
+            <v-dialog
+              v-model="dialog"
+              max-width="600px">
+              <v-card>
+                <v-card-title>
+                  <span class="headline">Verbs belonging to category: {{ activity_sans }} - {{ activity_eng }}</span>
+                </v-card-title>
+                <v-card-text class="ma-1">
+                  <div
+                    v-for="(verb,i) in verbs"
+                    :key="i">
+
+                    <h3>{{ i+1 }}. {{ verb.root }}</h3>
+                    <v-subheader>Example: {{ verb.form }}</v-subheader>
+                    <p>{{ verb.gana }}</p>
+                    <p><a
+                      :href="verb.forms_url"
+                      target="_blank">Verb Forms</a></p>
+                    <p>{{ verb.meaning }}</p>
+                    <p>{{ verb.obj }}</p>
+                    <p>{{ verb.padi }}</p>
+                  </div>
+                </v-card-text>
+                <v-card-actions>
+                  <v-spacer/>
+                  <v-btn
+                    color="blue darken-1"
+                    flat
+                    @click="close">Close</v-btn>
+                </v-card-actions>
+              </v-card>
+            </v-dialog>
           </v-card>
-        </v-dialog>
-      </v-card>
-    </v-flex>
+        </v-flex>
+      </v-tab-item>
+      <v-tab-item>
+        <v-flex
+          xs12>
+          <v-card>
+            <v-card-title>
+              <h3>Verbs</h3>
+              <v-spacer/>
+              <v-text-field
+                v-model="search_verb"
+                append-icon="search"
+                label="Search"
+                single-line
+                hide-details
+              />
+            </v-card-title>
+            <v-data-table
+              :headers="headers_verbs"
+              :items="verblist"
+              :search="search_verb"
+              disable-initial-sort
+              class="elevation-1">
+              <template
+                slot="items"
+                slot-scope="props">
+                <td v-if="props.item.root">{{ props.index + 1 }}</td>
+                <td v-if="props.item.root"><v-btn
+                  color="accent"
+                  @click="opendialog(props.item.category, props.item.name_sans, props.item.meaning)">{{ props.item.root }}</v-btn></td>
+                <td v-if="props.item.root">{{ props.item.gana }}</td>
+                <td v-if="props.item.root">{{ props.item.meaning }}</td>
+                <td v-if="props.item.root"><a
+                  :href="props.item.forms_url"
+                  target="_blank">Forms</a></td>
+              </template>
+              <v-alert
+                slot="no-results"
+                :value="true"
+                color="error"
+                icon="warning">
+                Your search for "{{ search_verb }}" found no results.
+              </v-alert>
+            </v-data-table>
+            <v-dialog
+              v-model="dialog"
+              max-width="600px">
+              <v-card>
+                <v-card-title>
+                  <span class="headline">Verbs belonging to category: {{ activity_sans }} - {{ activity_eng }}</span>
+                </v-card-title>
+                <v-card-text class="ma-1">
+                  <div
+                    v-for="(verb,i) in verbs"
+                    :key="i">
+
+                    <h3>{{ i+1 }}. {{ verb.root }}</h3>
+                    <v-subheader>Example: {{ verb.form }}</v-subheader>
+                    <p>{{ verb.gana }}</p>
+                    <p><a
+                      :href="verb.forms_url"
+                      target="_blank">Verb Forms</a></p>
+                    <p>{{ verb.meaning }}</p>
+                    <p>{{ verb.obj }}</p>
+                    <p>{{ verb.padi }}</p>
+                  </div>
+                </v-card-text>
+                <v-card-actions>
+                  <v-spacer/>
+                  <v-btn
+                    color="blue darken-1"
+                    flat
+                    @click="close">Close</v-btn>
+                </v-card-actions>
+              </v-card>
+            </v-dialog>
+          </v-card>
+        </v-flex>
+      </v-tab-item>
+    </v-tabs>
   </v-layout>
 </template>
 
@@ -85,7 +175,7 @@ export default {
       verbs: '',
       activity_sans: '',
       activity_eng: '',
-      headers: [
+      headers_activity: [
         {
           text: 'Sl no.',
           align: 'left',
@@ -96,18 +186,32 @@ export default {
         { text: 'meaning', value: 'meaning' },
         { text: 'Kriyanighantu Verse', value: 'verse' }
       ],
-      search: ''
-    }
-  },
-  computed: {
-    activity() {
-      return this.$store.state.activities
+      headers_verbs: [
+        {
+          text: 'Sl no.',
+          align: 'left',
+          sortable: true,
+          value: 'category'
+        },
+        { text: 'Root', align: 'center', value: 'root' },
+        { text: 'Gana', value: 'gana' },
+        { text: 'Meaning', value: 'meaning' },
+        { text: 'Forms', value: 'forms' }
+      ],
+      search_activity: '',
+      search_verb: '',
+      activity: '',
+      verblist: ''
     }
   },
   watch: {
     dialog(val) {
       val || this.close()
     }
+  },
+  created() {
+    this.activity = this.$store.state.activities
+    this.verblist = this.$store.state.verbs
   },
   methods: {
     opendialog(val, sans, eng) {
