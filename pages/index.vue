@@ -194,7 +194,7 @@ export default {
       activity_eng: '',
       headers_activity: [
         {
-          text: 'Activity category no.',
+          text: 'Sl no.',
           align: 'left',
           sortable: true,
           value: 'category'
@@ -205,7 +205,7 @@ export default {
       ],
       headers_verbs: [
         {
-          text: 'Sl no.',
+          text: 'Activity category no.',
           align: 'left',
           sortable: true,
           value: 'category'
