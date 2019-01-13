@@ -921,15 +921,6 @@ export const state = () => ({
         'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%AA%E0%A4%A6%E0%A5%8D1_%E0%A4%AA%E0%A4%A6%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=%E0%A4%B8%E0%A4%AE%E0%A5%8D'
     },
     {
-      root: '',
-      form: 'निष्पतति',
-      meaning: '',
-      category: '2',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
-    },
-    {
       root: 'निस्_पद्',
       form: 'निष्पद्यते',
       gana: 'दिवादिः',
@@ -939,15 +930,6 @@ export const state = () => ({
       padi: 'atmanepadi',
       forms_url:
         'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%AA%E0%A4%A6%E0%A5%8D1_%E0%A4%AA%E0%A4%A6%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=%E0%A4%A8%E0%A4%BF%E0%A4%B8%E0%A5%8D'
-    },
-    {
-      root: '',
-      form: 'उदंचति',
-      meaning: '',
-      category: '2',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
     },
     {
       root: '',
@@ -1817,103 +1799,110 @@ export const state = () => ({
       gana: 'स्वादिः'
     },
     {
-      root: '',
+      root: 'निस्_वा ',
       form: 'निर्वाति ',
-      meaning: '',
+      meaning: 'exhilarated',
       category: '17',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      obj: 'akarmaka',
+      padi: 'parasmaipadi',
+      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B5%E0%A4%BE1_%E0%A4%B5%E0%A4%BE_%E0%A4%85%E0%A4%A6%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=%E0%A4%A8%E0%A4%BF%E0%A4%B8%E0%A5%8D',
+      gana: 'अदादिः'
     },
     {
       root: '',
       form: 'सुख्यति',
-      meaning: '',
+      meaning: 'gladden',
       category: '17',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      obj: 'akarmaka',
       padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
-      root: '',
+      root: 'अव् - अवँ',
       form: 'अवति',
-      meaning: '',
+      meaning: 'satisfy',
       category: '17',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      padi: 'parasmaipadi',
+      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%85%E0%A4%B5%E0%A5%8D1_%E0%A4%85%E0%A4%B5%E0%A4%81_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      gana: 'भ्वादिः'
     },
     {
-      root: '',
+      root: 'तुष् - तुषँ',
       form: 'तुष्यति',
-      meaning: '',
+      meaning: 'be pleased',
       category: '17',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      obj: 'akarmaka',
+      padi: 'parasmaipadi',
+      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%A4%E0%A5%81%E0%A4%B7%E0%A5%8D1_%E0%A4%A4%E0%A5%81%E0%A4%B7%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      gana: 'दिवादिः'
     },
     {
-      root: '',
+      root: 'सुख',
       form: 'सुखयति ',
-      meaning: '',
+      meaning: 'make happy',
       category: '19',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      obj: 'akarmaka',
       padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B8%E0%A5%81%E0%A4%961_%E0%A4%B8%E0%A5%81%E0%A4%96_%E0%A4%9A%E0%A5%81%E0%A4%B0%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      gana: 'चुरादिः'
     },
     {
       root: '',
       form: 'आह्लादयति ',
-      meaning: '',
+      meaning: 'delight',
       category: '19',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
-      root: '',
-      form: 'प्रीणीते  ',
-      meaning: '',
+      root: 'प्री - प्रीञ्',
+      form: 'प्रीणीते ',
+      meaning: 'delight',
       category: '19',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      obj: 'akarmaka',
+      padi: 'ubhayapadi',
+      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%802_%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%9E%E0%A5%8D_%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      gana: 'क्र्यादिः'
     },
     {
-      root: '',
+      root: 'प्री - प्रीञ्',
       form: 'प्रीणयति',
-      meaning: '',
+      meaning: 'gratify, please',
       category: '19',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      padi: 'parasmaipadi',
+      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%803_%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%9E%E0%A5%8D_%E0%A4%9A%E0%A5%81%E0%A4%B0%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      gana: 'चुरादिः'
     },
     {
       root: '',
       form: 'सुखाकुरुते ',
       meaning: '',
       category: '19',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
+      obj: 'akarmaka',
+      padi: 'atmanepadi',
       forms_url: ''
     },
     {
       root: '',
       form: 'आनंदयति  ',
-      meaning: '',
+      meaning: 'gladden',
       category: '19',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
+      obj: 'akarmaka',
+      padi: 'parasmaipadi',
       forms_url: ''
     },
     {
-      root: '',
+      root: 'धिव् - धिविँ',
       form: 'धिनोति ',
-      meaning: '',
+      meaning: 'delight',
       category: '19',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      obj: 'akarmaka',
+      padi: 'parasmaipadi',
+      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%A7%E0%A4%BF%E0%A4%B5%E0%A5%8D1_%E0%A4%A7%E0%A4%BF%E0%A4%B5%E0%A4%BF%E0%A4%81_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      gana: 'भ्वादिः'
     },
     {
       root: '',
@@ -1926,30 +1915,32 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'हर्षयति  ',
-      meaning: '',
+      form: 'हर्षयति',
+      meaning: 'rejoice',
       category: '19',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
-      root: '',
+      root: 'तुष् - तुषँ',
       form: 'तोषयति ',
-      meaning: '',
+      meaning: 'please',
       category: '19',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      padi: 'parasmaipadi',
+      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%A4%E0%A5%81%E0%A4%B7%E0%A5%8D1_%E0%A4%A4%E0%A5%81%E0%A4%B7%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      gana: 'दिवादिः'
     },
     {
-      root: '',
-      form: 'दूयते ',
-      meaning: '',
+      root: 'दू - दूङ्',
+      form: 'दूयते',
+      meaning: 'distress',
       category: '18',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%A6%E0%A5%821_%E0%A4%A6%E0%A5%82%E0%A4%99%E0%A5%8D_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      gana: 'दिवादिः'
     },
     {
       root: '',
