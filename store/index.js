@@ -1945,7 +1945,7 @@ export const state = () => ({
     {
       root: '',
       form: 'व्यथते ',
-      meaning: '',
+      meaning: 'tremble',
       category: '18',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -1954,7 +1954,7 @@ export const state = () => ({
     {
       root: '',
       form: 'दुःख्यति ',
-      meaning: '',
+      meaning: 'cause pain',
       category: '18',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -1963,7 +1963,7 @@ export const state = () => ({
     {
       root: '',
       form: 'शोचति ',
-      meaning: '',
+      meaning: 'be sorrowful or afflicted',
       category: '18',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -1972,7 +1972,7 @@ export const state = () => ({
     {
       root: '',
       form: 'सीदति ',
-      meaning: '',
+      meaning: 'despair',
       category: '18',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -1981,7 +1981,7 @@ export const state = () => ({
     {
       root: '',
       form: 'खिद्यते ',
-      meaning: '',
+      meaning: 'be distressed or wearied',
       category: '18',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -1999,7 +1999,7 @@ export const state = () => ({
     {
       root: '',
       form: 'श्राम्यति',
-      meaning: '',
+      meaning: ' 	be or become weary or tired',
       category: '18',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2017,17 +2017,8 @@ export const state = () => ({
     {
       root: '',
       form: 'ताम्यति',
-      meaning: '',
+      meaning: 'be distressed',
       category: '18',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
-    },
-    {
-      root: '',
-      form: '',
-      meaning: '',
-      category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
@@ -2044,7 +2035,7 @@ export const state = () => ({
     {
       root: '',
       form: 'म्लायति ',
-      meaning: '',
+      meaning: 'be languid or weary',
       category: '20',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2052,8 +2043,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'प्लुष्यत्यपि ',
-      meaning: '',
+      form: 'प्लुष्यति ',
+      meaning: 'singe',
       category: '20',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2062,7 +2053,7 @@ export const state = () => ({
     {
       root: '',
       form: 'स्विद्यति ',
-      meaning: '',
+      meaning: ' 	be disturbed',
       category: '20',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2071,7 +2062,7 @@ export const state = () => ({
     {
       root: '',
       form: 'शुष्यति ',
-      meaning: '',
+      meaning: ' 	become dry',
       category: '20',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2080,7 +2071,7 @@ export const state = () => ({
     {
       root: '',
       form: 'क्लिश्नाति',
-      meaning: '',
+      meaning: ' 	feel pain',
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2089,7 +2080,7 @@ export const state = () => ({
     {
       root: '',
       form: 'क्लेशयति',
-      meaning: '',
+      meaning: ' 	torment',
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2098,7 +2089,7 @@ export const state = () => ({
     {
       root: '',
       form: 'व्यथयति',
-      meaning: '',
+      meaning: 'hurt',
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2116,7 +2107,7 @@ export const state = () => ({
     {
       root: '',
       form: 'शोचयति ',
-      meaning: '',
+      meaning: 'cause to suffer pain',
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2134,7 +2125,7 @@ export const state = () => ({
     {
       root: '',
       form: 'दुनोति ',
-      meaning: '',
+      meaning: ' 	distress',
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2143,7 +2134,7 @@ export const state = () => ({
     {
       root: '',
       form: 'व्याकुलयति ',
-      meaning: '',
+      meaning: ' 	agitate',
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2151,8 +2142,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'विमनयति ',
-      meaning: '',
+      form: 'विमानयति  ',
+      meaning: ' 	dishonour',
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2161,7 +2152,7 @@ export const state = () => ({
     {
       root: '',
       form: 'विषादयति',
-      meaning: '',
+      meaning: 'cause to despond or despair',
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2170,7 +2161,7 @@ export const state = () => ({
     {
       root: '',
       form: 'घातयति',
-      meaning: '',
+      meaning: ' 	kill',
       category: '22',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2179,7 +2170,7 @@ export const state = () => ({
     {
       root: '',
       form: 'हन्ति',
-      meaning: '',
+      meaning: 'kill',
       category: '22',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2188,7 +2179,7 @@ export const state = () => ({
     {
       root: '',
       form: 'निबर्हयति',
-      meaning: '',
+      meaning: ' 	cause to destroy',
       category: '22',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2197,7 +2188,7 @@ export const state = () => ({
     {
       root: '',
       form: 'सूदते',
-      meaning: '',
+      meaning: 'kill',
       category: '22',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2206,7 +2197,7 @@ export const state = () => ({
     {
       root: '',
       form: 'हिनस्ति',
-      meaning: '',
+      meaning: 'kill',
       category: '22',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2215,7 +2206,7 @@ export const state = () => ({
     {
       root: '',
       form: 'संहरते',
-      meaning: '',
+      meaning: 'kill',
       category: '22',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2224,7 +2215,7 @@ export const state = () => ({
     {
       root: '',
       form: ' सूदयति',
-      meaning: '',
+      meaning: 'kill',
       category: '22',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2233,7 +2224,7 @@ export const state = () => ({
     {
       root: '',
       form: 'आहते',
-      meaning: '',
+      meaning: ' 	beat or cause to sound',
       category: '22',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2242,7 +2233,7 @@ export const state = () => ({
     {
       root: '',
       form: 'उज्जासयति',
-      meaning: '',
+      meaning: 'kill',
       category: '22',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2251,7 +2242,7 @@ export const state = () => ({
     {
       root: '',
       form: 'कदर्थयति',
-      meaning: '',
+      meaning: 'torment',
       category: '23',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2260,7 +2251,7 @@ export const state = () => ({
     {
       root: '',
       form: 'मथ्नाति',
-      meaning: '',
+      meaning: ' 	agitate',
       category: '23',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2269,7 +2260,7 @@ export const state = () => ({
     {
       root: '',
       form: 'कर्शयति',
-      meaning: '',
+      meaning: 'torment',
       category: '23',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2278,7 +2269,7 @@ export const state = () => ({
     {
       root: '',
       form: 'बाधते',
-      meaning: '',
+      meaning: 'trouble',
       category: '23',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
