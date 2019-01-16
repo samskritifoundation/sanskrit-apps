@@ -862,6 +862,11 @@ export const state = () => ({
       name_sans: 'दोहनम्',
       meaning: 'milking',
       category: 148
+    },
+    {
+      name_sans: 'स्नानम्',
+      meaning: 'bathe',
+      category: 149
     }
   ],
   verbs: [
@@ -2278,7 +2283,7 @@ export const state = () => ({
     {
       root: '',
       form: 'पिनष्टि',
-      meaning: '',
+      meaning: 'hurt',
       category: '24',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2287,7 +2292,7 @@ export const state = () => ({
     {
       root: '',
       form: 'उपद्रवति',
-      meaning: '',
+      meaning: 'assault',
       category: '24',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2296,7 +2301,7 @@ export const state = () => ({
     {
       root: '',
       form: 'पीडयति',
-      meaning: '',
+      meaning: 'hurt',
       category: '24',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2305,7 +2310,7 @@ export const state = () => ({
     {
       root: '',
       form: 'शास्ति',
-      meaning: '',
+      meaning: 'punish',
       category: '24',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2314,16 +2319,7 @@ export const state = () => ({
     {
       root: '',
       form: 'निगृह्णीते',
-      meaning: '',
-      category: '25',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
-    },
-    {
-      root: '',
-      form: 'निगृह्णाति',
-      meaning: '',
+      meaning: 'suppress',
       category: '25',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2332,7 +2328,7 @@ export const state = () => ({
     {
       root: '',
       form: 'ताडयति',
-      meaning: '',
+      meaning: 'hit',
       category: '25',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2341,7 +2337,7 @@ export const state = () => ({
     {
       root: '',
       form: 'विध्यति',
-      meaning: '',
+      meaning: 'bruise',
       category: '25',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2350,7 +2346,7 @@ export const state = () => ({
     {
       root: '',
       form: 'आप्नोति',
-      meaning: '',
+      meaning: 'obtain',
       category: '27',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2359,34 +2355,7 @@ export const state = () => ({
     {
       root: '',
       form: 'लभते',
-      meaning: '',
-      category: '27',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
-    },
-    {
-      root: '',
-      form: 'याति',
-      meaning: '',
-      category: '27',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
-    },
-    {
-      root: '',
-      form: 'अयति',
-      meaning: '',
-      category: '27',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
-    },
-    {
-      root: '',
-      form: 'ऋच्छति',
-      meaning: '',
+      meaning: 'obtain',
       category: '27',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2395,7 +2364,7 @@ export const state = () => ({
     {
       root: '',
       form: 'प्रपद्यते',
-      meaning: '',
+      meaning: 'obtain',
       category: '27',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2404,16 +2373,7 @@ export const state = () => ({
     {
       root: '',
       form: 'जिहीते',
-      meaning: '',
-      category: '27',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
-    },
-    {
-      root: '',
-      form: 'अञ्चति',
-      meaning: '',
+      meaning: 'give away',
       category: '27',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2422,7 +2382,7 @@ export const state = () => ({
     {
       root: '',
       form: 'आसादयति',
-      meaning: '',
+      meaning: ' 	cause to obtain',
       category: '27',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2431,7 +2391,7 @@ export const state = () => ({
     {
       root: '',
       form: 'विन्दते',
-      meaning: '',
+      meaning: 'obtain',
       category: '27',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2440,7 +2400,7 @@ export const state = () => ({
     {
       root: '',
       form: 'उपसर्पति',
-      meaning: '',
+      meaning: 'approach',
       category: '28',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2449,7 +2409,7 @@ export const state = () => ({
     {
       root: '',
       form: 'उपसरति',
-      meaning: '',
+      meaning: 'approach',
       category: '28',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2458,7 +2418,7 @@ export const state = () => ({
     {
       root: '',
       form: 'उपयाति',
-      meaning: '',
+      meaning: 'approach',
       category: '28',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2467,7 +2427,7 @@ export const state = () => ({
     {
       root: '',
       form: 'उपगच्छति',
-      meaning: '',
+      meaning: 'approach',
       category: '28',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2476,7 +2436,7 @@ export const state = () => ({
     {
       root: '',
       form: 'उपधावति',
-      meaning: '',
+      meaning: 'approach hastily',
       category: '28',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2485,7 +2445,7 @@ export const state = () => ({
     {
       root: '',
       form: 'उपनयति',
-      meaning: '',
+      meaning: 'approach hastily',
       category: '28',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2494,7 +2454,7 @@ export const state = () => ({
     {
       root: '',
       form: 'उपतिष्ठते',
-      meaning: '',
+      meaning: ' 	be or stand here and there',
       category: '28',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2503,7 +2463,7 @@ export const state = () => ({
     {
       root: '',
       form: 'अपसरति',
-      meaning: '',
+      meaning: 'disappear',
       category: '29',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2512,7 +2472,7 @@ export const state = () => ({
     {
       root: '',
       form: 'अपगच्छति',
-      meaning: '',
+      meaning: 'go away',
       category: '29',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2521,16 +2481,7 @@ export const state = () => ({
     {
       root: '',
       form: 'अपैति',
-      meaning: '',
-      category: '29',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
-    },
-    {
-      root: '',
-      form: 'व्ययति',
-      meaning: '',
+      meaning: 'go away',
       category: '29',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2539,7 +2490,7 @@ export const state = () => ({
     {
       root: '',
       form: 'व्येति',
-      meaning: '',
+      meaning: 'disappear',
       category: '29',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2548,7 +2499,7 @@ export const state = () => ({
     {
       root: '',
       form: 'विगच्छति',
-      meaning: '',
+      meaning: 'go away',
       category: '29',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2557,7 +2508,7 @@ export const state = () => ({
     {
       root: '',
       form: 'अपवर्तते',
-      meaning: '',
+      meaning: 'move away',
       category: '29',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2566,7 +2517,7 @@ export const state = () => ({
     {
       root: '',
       form: 'आगच्छति',
-      meaning: '',
+      meaning: 'come',
       category: '30',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2575,7 +2526,7 @@ export const state = () => ({
     {
       root: '',
       form: 'आव्रजति',
-      meaning: '',
+      meaning: 'come near',
       category: '30',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2584,7 +2535,7 @@ export const state = () => ({
     {
       root: '',
       form: 'आयाति',
-      meaning: '',
+      meaning: 'come',
       category: '30',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2593,7 +2544,7 @@ export const state = () => ({
     {
       root: '',
       form: 'आपतति',
-      meaning: '',
+      meaning: 'approach ',
       category: '30',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2602,7 +2553,7 @@ export const state = () => ({
     {
       root: '',
       form: 'आसरति',
-      meaning: '',
+      meaning: 'come running',
       category: '30',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2611,7 +2562,7 @@ export const state = () => ({
     {
       root: '',
       form: 'निर्गच्छति',
-      meaning: '',
+      meaning: 'run away',
       category: '32',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2620,7 +2571,7 @@ export const state = () => ({
     {
       root: '',
       form: 'निर्याति',
-      meaning: '',
+      meaning: 'set out for',
       category: '32',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2629,7 +2580,7 @@ export const state = () => ({
     {
       root: '',
       form: 'निस्सरति',
-      meaning: '',
+      meaning: 'run away',
       category: '32',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2638,7 +2589,7 @@ export const state = () => ({
     {
       root: '',
       form: 'उत्पतति',
-      meaning: '',
+      meaning: 'run away',
       category: '32',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2647,7 +2598,7 @@ export const state = () => ({
     {
       root: '',
       form: 'उद्गच्छति',
-      meaning: '',
+      meaning: 'run away',
       category: '31',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2656,7 +2607,7 @@ export const state = () => ({
     {
       root: '',
       form: 'उद्व्रजति',
-      meaning: '',
+      meaning: 'run away',
       category: '31',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2665,7 +2616,7 @@ export const state = () => ({
     {
       root: '',
       form: 'उद्याति',
-      meaning: '',
+      meaning: 'rise',
       category: '31',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2674,7 +2625,7 @@ export const state = () => ({
     {
       root: '',
       form: 'उत्तिष्ठति',
-      meaning: '',
+      meaning: 'stand',
       category: '31',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2683,7 +2634,7 @@ export const state = () => ({
     {
       root: '',
       form: 'उच्चलति',
-      meaning: '',
+      meaning: 'jump up',
       category: '31',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2691,8 +2642,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'अभिगच्छति ॥',
-      meaning: '',
+      form: 'अभिगच्छति',
+      meaning: 'attack',
       category: '33',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2700,8 +2651,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'अभिपतति ॥',
-      meaning: '',
+      form: 'अभिपतति',
+      meaning: 'fall down upon',
       category: '33',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2709,8 +2660,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'अभियाति ॥',
-      meaning: '',
+      form: 'अभियाति',
+      meaning: 'approach',
       category: '33',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2718,8 +2669,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'अभिधावति ॥',
-      meaning: '',
+      form: 'अभिधावति',
+      meaning: 'rush upon',
       category: '33',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2737,7 +2688,7 @@ export const state = () => ({
     {
       root: '',
       form: 'अभिषेणयति',
-      meaning: '',
+      meaning: 'assail with an army',
       category: '33',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2746,7 +2697,7 @@ export const state = () => ({
     {
       root: '',
       form: 'अनुसर्पति',
-      meaning: '',
+      meaning: 'glide after or towards',
       category: '34',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2755,7 +2706,7 @@ export const state = () => ({
     {
       root: '',
       form: 'अनुपतति',
-      meaning: '',
+      meaning: 'run after',
       category: '34',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2764,7 +2715,7 @@ export const state = () => ({
     {
       root: '',
       form: 'अनूदेति',
-      meaning: '',
+      meaning: 'rise or come up after',
       category: '34',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2773,7 +2724,7 @@ export const state = () => ({
     {
       root: '',
       form: 'अनुवर्तते',
-      meaning: '',
+      meaning: 'follow',
       category: '34',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2781,8 +2732,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'अनुगच्छति ।',
-      meaning: '',
+      form: 'अनुगच्छति',
+      meaning: 'come along with',
       category: '34',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2791,7 +2742,7 @@ export const state = () => ({
     {
       root: '',
       form: 'अनुसरति',
-      meaning: '',
+      meaning: 'go after',
       category: '34',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2800,7 +2751,7 @@ export const state = () => ({
     {
       root: '',
       form: 'अनुयाति',
-      meaning: '',
+      meaning: 'go towards or after',
       category: '34',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2809,7 +2760,7 @@ export const state = () => ({
     {
       root: '',
       form: 'अनुधावति',
-      meaning: '',
+      meaning: 'chase, run after',
       category: '34',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2818,7 +2769,7 @@ export const state = () => ({
     {
       root: '',
       form: 'अन्वेति',
-      meaning: '',
+      meaning: 'come after',
       category: '34',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2827,7 +2778,7 @@ export const state = () => ({
     {
       root: '',
       form: 'अनुद्रवति',
-      meaning: '',
+      meaning: 'follow, run after',
       category: '34',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2836,7 +2787,7 @@ export const state = () => ({
     {
       root: '',
       form: 'अन्वागच्छति',
-      meaning: '',
+      meaning: 'follow',
       category: '34',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2854,7 +2805,7 @@ export const state = () => ({
     {
       root: '',
       form: 'विडंबयति',
-      meaning: '',
+      meaning: 'imitate',
       category: '35',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2863,7 +2814,7 @@ export const state = () => ({
     {
       root: '',
       form: 'अनुकरोति',
-      meaning: '',
+      meaning: 'imitate',
       category: '35',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2872,7 +2823,7 @@ export const state = () => ({
     {
       root: '',
       form: 'उपमाति',
-      meaning: '',
+      meaning: 'imitate',
       category: '35',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2881,7 +2832,7 @@ export const state = () => ({
     {
       root: '',
       form: 'अनुकल्पते',
-      meaning: '',
+      meaning: 'follow in order',
       category: '35',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2890,7 +2841,7 @@ export const state = () => ({
     {
       root: '',
       form: 'अनुविदधाति',
-      meaning: '',
+      meaning: 'regulate',
       category: '35',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2899,7 +2850,7 @@ export const state = () => ({
     {
       root: '',
       form: 'तुलयति',
-      meaning: '',
+      meaning: 'match',
       category: '35',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2907,9 +2858,85 @@ export const state = () => ({
     },
     {
       root: '',
-      form: '',
+      form: 'ददाति ददते दत्ते दिशत्युपहरत्यपि ।
+      विश्राणयत्यर्पयति वितरत्यावहत्यपि ॥३३॥
+      प्रयच्छति स्पर्शयति प्रतिपादयतीति च ।
+      पात्रत्रा कुरुते तत्सात्करोत्यतिसृजत्यपि ॥ दास्या संयच्छते कामी ददात्युपकरोति च ।
+      ',
       meaning: '',
-      category: '',
+      category: '36',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'आदत्ते प्रतिगृह्णित प्रतिगृह्णीत इत्यपि ॥३५॥
+      जहाति विसृजत्युज्झत्यपि त्यजति मुञ्चति ।  मुञ्चते वर्जयति च तथा परिहरत्यपि ॥
+      ',
+      meaning: '',
+      category: '37',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'खेलति क्रीडति परिक्रीडते विहरत्यपि ।
+      सङ्क्रीडते विभ्रमति विनोदयति दीव्यति ॥
+      ',
+      meaning: '',
+      category: '74',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'रमतेऽनुक्रीडते प्रेङ्खति त्वङ्गति रिङ्गति ।
+      विभ्राम्यति ललत्येवमथो नटति नृत्यति ॥
+      ',
+      meaning: '',
+      category: '39',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'वीरायते धर्षयते प्रतिहन्ति प्रगल्भते ।
+      विक्रामति परिक्रामत्यथ दृप्यति माद्यति ॥
+      ',
+      meaning: '',
+      category: '40',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'युध्यते योधयति च बाहुभ्यांतु नियुध्यते। सङ्घर्षयत्याह्वयति स्पर्धते स्पर्धयत्यपि । ',
+      meaning: '',
+      category: '44',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'जयत्यतिक्रामत्यतिशेतेऽतिरिच्यते । अत्येत्यर्थे विजयते पराजयत इत्यपि ॥ अथो जयत्यतिक्रामत्यतिशेतेऽतिरिच्यते ।
+      अत्येत्यर्थे विजयते पराजयत इत्यपि ॥',
+      meaning: '',
+      category: '41',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'कुप्यति क्रुध्यति द्वेष्टि रुष्यतीर्ष्यत्यसूयति ॥',
+      meaning: '',
+      category: '45',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
@@ -2925,9 +2952,491 @@ export const state = () => ({
     },
     {
       root: '',
-      form: '',
-      meaning: '',
+      form: 'सहते क्षमते क्षाम्यत्यपि शाम्यति मृष्यति ॥',
+      meaning: '46',
       category: '',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'प्रसीदत्यनुगृह्णाति दयते चानुकम्पते । ',
+      meaning: '',
+      category: '48',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'पश्यति निर्वर्णयति प्रत्यक्षयतीक्षतेऽपरोक्षयति ॥
+      निध्यायति लोचयति च साक्षात्कुरुते निशामयति ॥
+      ',
+      meaning: '',
+      category: '49',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'ऊहते तर्कयत्यध्याहरत्यालोचयत्यपि ।
+      मीमांसते विविङ्क्ते च विचारयति चाप्यथ ॥
+      ',
+      meaning: '',
+      category: '50',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'निर्धारयति निगमयति निश्चिनुते निश्चिनोति निर्णयते ।
+      निर्णयति  निरूपयति च निर्लोडयते परिच्छिनत्यपि च ॥
+      ',
+      meaning: '',
+      category: '51',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'निमिषतिमुकुळीभवति
+      स्फुटति च सङ्कुचति कुड्मलीभवति ।
+      ',
+      meaning: '',
+      category: '53',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'उन्मीलत्युन्मिषति
+      ह्युच्छ्र्वसिति निमीलयति मिषति हसति ॥
+      ',
+      meaning: '',
+      category: '52',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'उद्भिद्यते विकसति स्फुटीभवति दीर्यते ।',
+      meaning: '',
+      category: '54',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'करोति कुरुते निर्मात्याचरत्यनुतिष्ठति ॥५१॥
+      निर्मिमीते विधत्ते विदधाति रचयत्यपि ।
+      कल्पयत्याकलयति तनोति तनुतेऽपि च ॥
+      ',
+      meaning: '',
+      category: '55',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'वैरायते विरुन्धे विरुणद्धि कलहायते ।
+      द्वेष्टि द्विष्टे विगृह्णाति विराध्यत्यपराध्यति ॥
+      ',
+      meaning: '',
+      category: '56',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'जिघांसति विगृह्णीते द्रुह्यत्यपकरोति च ।
+      अपिधत्ते चावृणुते स्थगयत्यपि चोर्णुते ॥
+      ',
+      meaning: '',
+      category: '57',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'ऊर्णोत्युर्णौति धुडयत्यंतर्धापयतीति च।
+      अंतर्धत्ते तिरोधत्ते लीयतेंऽतर्दधाति च ॥
+      ',
+      meaning: '',
+      category: '58',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'मुष्णाति चोरयति च हरत्यपहरत्यपि ।
+      बलाद्गृह्णात्याच्छिनत्ति लुण्टयत्यथ घुष्यति ॥
+      ',
+      meaning: '',
+      category: '61',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'शब्दायते घोषयति रौति स्वनति कूजति ।
+      सङ्क्रीडति ध्वनति च शिङ्क्ते नदति गुंजति ॥
+      ',
+      meaning: '',
+      category: '60',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'रणति क्वणति क्रुंचत्यपि स्तनति गर्जति ।
+      रसति क्रोशति रटत्यथाक्रन्दति रोदिति ॥ बाष्पायते विलपति परिदेवयतीति च ।
+      ',
+      meaning: '',
+      category: '62',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'वेपते कंपते चञ्चत्यपि लोलति  वल्गति ॥',
+      meaning: '',
+      category: '63',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'डोलायते च चलति वलते वलतीति च ।
+      धुनोति धुनुते धूनोत्यालोलयति धूनुते ॥६१॥
+      धुनाति कम्पयत्येवं धुवति व्यग्रयत्यपि ।
+      चलयत्याकुलयति श्रन्थादिश्चालयत्यपि ॥
+      ',
+      meaning: '',
+      category: '64',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'श्लिष्यत्यालिङ्गति परिष्वजतेप्युपगूहति ॥
+      आलिङ्गते चापि परिरंभते वेष्टयत्यपि ॥
+     ',
+      meaning: '',
+      category: '66',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'निदधाति निधत्ते निक्षिपते निक्षिपत्यपि ।
+      निवेशयति विन्यस्यत्यपि न्यस्यति चाप्यथ ॥
+     ',
+      meaning: '',
+      category: '67',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'पाणौ गृह्णाति गृह्णीते  विवहत्युपयच्छते ।
+      परिगृह्णाति च परिणयत्यथ निषीदति ॥६५
+     ',
+      meaning: '',
+      category: '68',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'तिष्ठत्यास्ते निविशते वसत्युपविशत्यपि ।
+      वितिष्ठते तदध्यास्तेऽधितिष्ठत्युपतिष्ठते ॥
+     ',
+      meaning: '',
+      category: '69',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: ' वर्तते ध्रियते प्राणित्यपि श्वसिति जीवति ।',
+      meaning: '',
+      category: '72',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'नुदति प्रेरयति विक्षिपति क्षिपतेऽस्यति ॥ प्रहिणोति व्यादिशति नियुङ्क्ते चोदयत्यपि ।
+      प्रेषयत्यपि युङ्क्ते विसृजति प्रेष्यतीति च ॥',
+      meaning: '',
+      category: '73',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: ' बिभर्ति बिभृते धत्ते वहते धारयत्यपि।
+      दधाति वहतीत्यर्थे धरत्युद्वहतीत्यपि ॥
+          ',
+      meaning: '',
+      category: '76',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'तिरस्करोत्यभिभवत्यवजानाति निन्दति ।
+      धिक्करोति न्यक्कुरुते विगायत्यवगायति ॥७०॥
+     जुगुप्सतेऽववमनुते गर्हयत्यपमन्यते ।
+      बहिष्करोति परिभवत्याक्षिपति चाजति ॥ अवधीरयत्येवमवमानयतीति च ।
+     ',
+      meaning: '',
+      category: '75',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: ' वांछतीच्छत्यभिलषत्यभिलष्यत्यपेक्षते ॥  कांक्षत्याद्रियते चाभिप्रेति स्पृहयतीहते ।
+      आशास्तेऽर्थयते वष्टि लिप्सतेऽभीप्सतीति च ॥७३॥
+      काङ्क्षते चाभिसंधत्तेऽनुरुंधे चानुरुध्यते ।
+       याचते याचतीत्यर्थे नाथत्यर्थयतेऽर्दति ॥
+      ',
+      meaning: '',
+      category: '77',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अपोऽवगाहते चोपस्पृशति स्नाति मज्जति ।  तिम्यत्यार्द्रीभवत्यर्थे स्तिम्यतीत्यप्यथोक्षति ॥ स्नपयत्याप्लावयति मज्जयत्यपि सिंचति ।',
+      meaning: '',
+      category: '149',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: ' शक्नोति पारयति पर्याप्नोति प्रभवत्यपि ॥',
+      meaning: '',
+      category: '78',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'ईष्टे प्रगल्भते चाथ पचते पचतीति च ।',
+      meaning: '',
+      category: '80',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'प्रवर्तते प्रक्रमते प्रस्तौत्यारभतेऽपि च ॥',
+      meaning: '',
+      category: '79',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'उपक्रमत उद्युङ्क्ते चार्हत्युत्सहतेपि च ।
+      ईहते चेष्टते चैव यतते च प्रयस्यति ॥
+     ',
+      meaning: '',
+      category: '81',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'भुङ्क्तेऽभ्यवहरत्यश्नात्याचामत्यत्ति खादति ।
+      रसयत्यास्वादयति भक्षयत्यपि चर्वति ॥
+      ',
+      meaning: '',
+      category: '82',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'लेढि लीढेऽथ पिबति धयत्यास्वादतेऽपि च ॥
+     ',
+      meaning: '',
+      category: '83',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'गिरत्युद्गिरति निगिरत्युद्वमत्यपि॥',
+      meaning: '',
+      category: '84',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: ' भूषयति परिष्कुरुतेऽलंकुरुतेऽलंकरोति मण्डयति ।
+      अपि वा परिष्करोत्यप्याकल्पयति प्रसाधयति ॥
+      ',
+      meaning: '',
+      category: '85',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'सौति सूते च जनयत्युत्पादयति सूयते । ',
+      meaning: '',
+      category: '87',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'त्रपते लज्जते जिह्रेत्यपि संकुचतीति च ॥',
+      meaning: '',
+      category: '86',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'सङ्गच्छते युज्यते संपद्यते चोपपद्यते । ',
+      meaning: '',
+      category: '88',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'सन्तिष्ठते समाप्नोति पर्याप्नोति च पूर्यते ॥',
+      meaning: '',
+      category: '89',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'छिनत्ति कृन्तति लुनात्यपि खंडयति द्यति । ',
+      meaning: '',
+      category: '90',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'व्यापद्यते प्रैति म्रियते च प्रमीयते ॥',
+      meaning: '',
+      category: '92',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'सम्मन्यतेऽनुजानीतेऽनुजानात्यनुमन्यते । ',
+      meaning: '',
+      category: '94',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'उररीकुरुते चाङ्गीकरोत्यभ्युपगच्छति ॥',
+      meaning: '',
+      category: '93',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'शृणोति संशृणुत इत्यर्थे निशमयत्यपि ।
+      आकर्णयत्यपि ततोऽवधत्ते धारयत्यपि ॥
+      ',
+      meaning: '',
+      category: '95',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'प्रमाद्यति प्रस्मरति विस्मरत्यपि मुह्यति ॥',
+      meaning: '',
+      category: '98',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'अधीते शीलयत्यभ्यस्यति शीलति शिक्षते ।
+      अमी  परिचिनोत्यर्थे घटतेऽपि च सिद्ध्यति ॥
+      ',
+      meaning: '',
+      category: '99',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'पुष्णाति पोषयत्यर्थे वर्धयत्येधयत्यपि । ',
+      meaning: '',
+      category: '101',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'पवते पावयत्यर्थे पुनीते च पुनाति च ॥',
+      meaning: '',
+      category: '100',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
@@ -2943,9 +3452,67 @@ export const state = () => ({
     },
     {
       root: '',
-      form: '',
+      form: 'मार्ष्टि मार्जयते शुद्धीकुरुते शोधयत्यपि ।
+      मार्जति क्षालयत्यर्थे निर्णेनेक्ति च धावति ॥
+      ',
       meaning: '',
-      category: '',
+      category: '102',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'वृणोति वरयत्यर्थे वृणीते वृणुते वरम् । ',
+      meaning: '',
+      category: '105',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'क्रीणाति पणते विक्रीणीते व्यवहरत्यपि ॥',
+      meaning: '',
+      category: '104',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'सज्जत्यासंजयत्यर्थे सन्नह्यति तु सज्जते ॥',
+      meaning: '',
+      category: '106',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'विचिनोत्यन्विष्यति चान्विच्छत्यनुसरत्यपि । विनयत्यनुशास्त्यध्यापयत्यभ्यासयत्यपि ॥९५॥
+      शास्ति शिक्षयतीत्यर्थे लगत्यर्थे तु लीयते ।
+      ',
+      meaning: '',
+      category: '108',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'नयति प्रापयति सङ्गमयत्यर्पयत्यपि ॥',
+      meaning: '',
+      category: '110',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'स्रवति द्रवति श्चोतत्यपि क्षरति वर्षति ॥',
+      meaning: '',
+      category: '111',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
@@ -2961,8 +3528,26 @@ export const state = () => ({
     },
     {
       root: '',
-      form: '',
+      form: 'न्यञ्चत्यधोयाति पतत्यधोगच्छति मज्जति । ',
       meaning: '',
+      category: '114',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'भस्मीकरोति दहति ',
+      meaning: '',
+      category: '116',
+      obj: 'sakarmaka/akarmaka/dvikarmaka',
+      padi: 'atmanepadi/parasmaipadi',
+      forms_url: ''
+    },
+    {
+      root: '',
+      form: 'प्लवते तु तरत्यपि ',
+      meaning: '115',
       category: '',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
@@ -2970,108 +3555,74 @@ export const state = () => ({
     },
     {
       root: '',
-      form: '',
+      form: 'निषेधति निरुन्धे निरुणद्धि प्रतिषेधति ॥',
       meaning: '',
-      category: '',
+      category: '117',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
       root: '',
-      form: '',
+      form: 'सम्भ्राम्यति क्षुभ्यति सम्भ्रमत्यपि च वेपते ।
+      बिभेति त्रसति त्रस्यत्यारोहत्यधिरोहति ॥
+      ',
       meaning: '',
-      category: '',
+      category: '118',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
       root: '',
-      form: '',
+      form: 'रज्यते रज्यति स्निह्यत्यनुयुङ्क्ते तु पृच्छति ॥',
       meaning: '',
-      category: '',
+      category: '120',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
       root: '',
-      form: '',
+      form: 'प्रतिवक्त्युत्तरयति वाति वीजयतीत्यपि । ',
       meaning: '',
-      category: '',
+      category: '122',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
       root: '',
-      form: '',
+      form: 'लिखत्यालिखतीत्यस्मिन्नर्थे कृषति कर्षति ॥',
       meaning: '',
-      category: '',
+      category: '119',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
       root: '',
-      form: '',
+      form: 'बध्नाति नह्यति च संददात्याकलयत्यपि । ',
       meaning: '',
-      category: '',
+      category: '139',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
       root: '',
-      form: '',
+      form: 'समाधत्तेऽनुनयति सान्त्वयत्युपयच्छति ॥',
       meaning: '',
-      category: '',
+      category: '138',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
     },
     {
       root: '',
-      form: '',
+      form: 'कर्षयत्यास्फालयति सङ्घट्टयति सीव्यति ।',
       meaning: '',
-      category: '',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
-    },
-    {
-      root: '',
-      form: '',
-      meaning: '',
-      category: '',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
-    },
-    {
-      root: '',
-      form: '',
-      meaning: '',
-      category: '',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
-    },
-    {
-      root: '',
-      form: '',
-      meaning: '',
-      category: '',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
-    },
-    {
-      root: '',
-      form: '',
-      meaning: '',
-      category: '',
+      category: '147',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
       forms_url: ''
