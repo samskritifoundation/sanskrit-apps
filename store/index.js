@@ -1948,13 +1948,14 @@ export const state = () => ({
       gana: 'दिवादिः'
     },
     {
-      root: '',
+      root: 'व्यथ् - व्यथँ',
       form: 'व्यथते ',
       meaning: 'tremble',
       category: '18',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      obj: 'akarmaka',
+      padi: 'atmanepadi',
+      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%A5%E0%A5%8D1_%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%A5%E0%A4%81_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      gana: 'भ्वादिः'
     },
     {
       root: '',
@@ -1966,31 +1967,34 @@ export const state = () => ({
       forms_url: ''
     },
     {
-      root: '',
+      root: '	शुच् - शुचँ',
       form: 'शोचति ',
       meaning: 'be sorrowful or afflicted',
       category: '18',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      obj: 'akarmaka',
+      padi: 'parasmaipadi',
+      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B6%E0%A5%81%E0%A4%9A%E0%A5%8D1_%E0%A4%B6%E0%A5%81%E0%A4%9A%E0%A4%81_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      gana: 'भ्वादिः'
     },
     {
-      root: '',
+      root: 'षद् - षदॢँ',
       form: 'सीदति ',
       meaning: 'despair',
       category: '18',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      obj: 'akarmaka',
+      padi: 'parasmaipadi',
+      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B7%E0%A4%A6%E0%A5%8D1_%E0%A4%B7%E0%A4%A6%E0%A5%A2%E0%A4%81_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      gana: 'भ्वादिः'
     },
     {
-      root: '',
+      root: 'खिद् - खिदँ',
       form: 'खिद्यते ',
       meaning: 'be distressed or wearied',
       category: '18',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%96%E0%A4%BF%E0%A4%A6%E0%A5%8D1_%E0%A4%96%E0%A4%BF%E0%A4%A6%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      gana: 'दिवादिः'
     },
     {
       root: '',
@@ -2002,13 +2006,14 @@ export const state = () => ({
       forms_url: ''
     },
     {
-      root: '',
+      root: 'श्रम् - श्रमुँ',
       form: 'श्राम्यति',
       meaning: ' 	be or become weary or tired',
       category: '18',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      obj: 'akarmaka',
+      padi: 'parasmaipadi',
+      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D1_%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%81%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      gana: 'दिवादिः'
     },
     {
       root: '',
@@ -2020,85 +2025,84 @@ export const state = () => ({
       forms_url: ''
     },
     {
-      root: '',
+      root: 'तम् - तमुँ',
       form: 'ताम्यति',
       meaning: 'be distressed',
       category: '18',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      obj: 'akarmaka',
+      padi: 'parasmaipadi',
+      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%A4%E0%A4%AE%E0%A5%8D1_%E0%A4%A4%E0%A4%AE%E0%A5%81%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      gana: 'दिवादिः'
     },
     {
-      root: '',
+      root: 'ग्लै',
       form: 'ग्लायति ',
-      meaning: '',
+      meaning: 'weary',
       category: '20',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      obj: 'akarmaka',
+      padi: 'parasmaipadi',
+      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%97%E0%A5%8D%E0%A4%B2%E0%A5%881_%E0%A4%97%E0%A5%8D%E0%A4%B2%E0%A5%88_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      gana: 'भ्वादिः'
     },
     {
-      root: '',
+      root: 'म्लै',
       form: 'म्लायति ',
       meaning: 'be languid or weary',
       category: '20',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      obj: 'akarmaka',
+      padi: 'parasmaipadi',
+      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%AE%E0%A5%8D%E0%A4%B2%E0%A5%881_%E0%A4%AE%E0%A5%8D%E0%A4%B2%E0%A5%88_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      gana: 'भ्वादिः'
     },
     {
-      root: '',
+      root: 'प्लुष् - प्लुषँ',
       form: 'प्लुष्यति ',
       meaning: 'singe',
       category: '20',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      padi: 'parasmaipadi',
+      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%AA%E0%A5%8D%E0%A4%B2%E0%A5%81%E0%A4%B7%E0%A5%8D2_%E0%A4%AA%E0%A5%8D%E0%A4%B2%E0%A5%81%E0%A4%B7%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      gana: 'दिवादिः'
     },
     {
-      root: '',
-      form: 'स्विद्यति ',
-      meaning: ' 	be disturbed',
+      root: 'ष्विद् - ञिष्विदाँ',
+      form: 'स्विद्यति',
+      meaning: 'be disturbed',
       category: '20',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      padi: 'parasmaipadi',
+      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B7%E0%A5%8D%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D2_%E0%A4%9E%E0%A4%BF%E0%A4%B7%E0%A5%8D%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      gana: 'दिवादिः'
     },
     {
-      root: '',
-      form: 'शुष्यति ',
-      meaning: ' 	become dry',
+      root: 'शुष् - शुषँ',
+      form: 'शुष्यति',
+      meaning: 'become dry',
       category: '20',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      padi: 'parasmaipadi',
+      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B6%E0%A5%81%E0%A4%B7%E0%A5%8D1_%E0%A4%B6%E0%A5%81%E0%A4%B7%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      gana: 'दिवादिः'
     },
     {
-      root: '',
+      root: 'क्लिश् - क्लिशूँ',
       form: 'क्लिश्नाति',
       meaning: ' 	feel pain',
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      padi: 'parasmaipadi',
+      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%95%E0%A5%8D%E0%A4%B2%E0%A4%BF%E0%A4%B6%E0%A5%8D2_%E0%A4%95%E0%A5%8D%E0%A4%B2%E0%A4%BF%E0%A4%B6%E0%A5%82%E0%A4%81_%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      gana: 'क्र्यादिः'
     },
     {
-      root: '',
-      form: 'क्लेशयति',
-      meaning: ' 	torment',
-      category: '21',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
-    },
-    {
-      root: '',
+      root: 'व्यथ् - व्यथँ',
       form: 'व्यथयति',
       meaning: 'hurt',
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      padi: 'parasmaipadi',
+      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%A5%E0%A5%8D1_%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%A5%E0%A4%81_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      gana: 'भ्वादिः'
     },
     {
       root: '',
@@ -2110,13 +2114,14 @@ export const state = () => ({
       forms_url: ''
     },
     {
-      root: '',
+      root: 'शुच् - शुचँ',
+      gana: 'भ्वादिः',
       form: 'शोचयति ',
       meaning: 'cause to suffer pain',
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      padi: 'parasmaipadi',
+      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B6%E0%A5%81%E0%A4%9A%E0%A5%8D1_%E0%A4%B6%E0%A5%81%E0%A4%9A%E0%A4%81_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-'
     },
     {
       root: '',
@@ -2128,17 +2133,18 @@ export const state = () => ({
       forms_url: ''
     },
     {
-      root: '',
+      root: 'दु - टुदु',
       form: 'दुनोति ',
       meaning: ' 	distress',
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%A6%E0%A5%812_%E0%A4%9F%E0%A5%81%E0%A4%A6%E0%A5%81_%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      gana: 'स्वादिः'
     },
     {
       root: '',
-      form: 'व्याकुलयति ',
+      form: 'व्याकुलयति',
       meaning: ' 	agitate',
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -2147,7 +2153,7 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'विमानयति  ',
+      form: 'विमानयति',
       meaning: ' 	dishonour',
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -2164,22 +2170,14 @@ export const state = () => ({
       forms_url: ''
     },
     {
-      root: '',
-      form: 'घातयति',
-      meaning: ' 	kill',
-      category: '22',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
-    },
-    {
-      root: '',
+      root: 'हन् - हनँ',
+      gana: 'अदादिः',
       form: 'हन्ति',
       meaning: 'kill',
       category: '22',
-      obj: 'sakarmaka/akarmaka/dvikarmaka',
-      padi: 'atmanepadi/parasmaipadi',
-      forms_url: ''
+      obj: 'sakarmaka',
+      padi: 'parasmaipadi',
+      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B9%E0%A4%A8%E0%A5%8D1_%E0%A4%B9%E0%A4%A8%E0%A4%81_%E0%A4%85%E0%A4%A6%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-'
     },
     {
       root: '',
