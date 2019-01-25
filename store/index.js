@@ -1810,7 +1810,8 @@ export const state = () => ({
       category: '17',
       obj: 'akarmaka',
       padi: 'parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B5%E0%A4%BE1_%E0%A4%B5%E0%A4%BE_%E0%A4%85%E0%A4%A6%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=%E0%A4%A8%E0%A4%BF%E0%A4%B8%E0%A5%8D',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B5%E0%A4%BE1_%E0%A4%B5%E0%A4%BE_%E0%A4%85%E0%A4%A6%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=%E0%A4%A8%E0%A4%BF%E0%A4%B8%E0%A5%8D',
       gana: 'अदादिः'
     },
     {
@@ -1829,7 +1830,8 @@ export const state = () => ({
       category: '17',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%85%E0%A4%B5%E0%A5%8D1_%E0%A4%85%E0%A4%B5%E0%A4%81_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%85%E0%A4%B5%E0%A5%8D1_%E0%A4%85%E0%A4%B5%E0%A4%81_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'भ्वादिः'
     },
     {
@@ -1839,7 +1841,8 @@ export const state = () => ({
       category: '17',
       obj: 'akarmaka',
       padi: 'parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%A4%E0%A5%81%E0%A4%B7%E0%A5%8D1_%E0%A4%A4%E0%A5%81%E0%A4%B7%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%A4%E0%A5%81%E0%A4%B7%E0%A5%8D1_%E0%A4%A4%E0%A5%81%E0%A4%B7%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'दिवादिः'
     },
     {
@@ -1849,7 +1852,8 @@ export const state = () => ({
       category: '19',
       obj: 'akarmaka',
       padi: 'atmanepadi/parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B8%E0%A5%81%E0%A4%961_%E0%A4%B8%E0%A5%81%E0%A4%96_%E0%A4%9A%E0%A5%81%E0%A4%B0%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B8%E0%A5%81%E0%A4%961_%E0%A4%B8%E0%A5%81%E0%A4%96_%E0%A4%9A%E0%A5%81%E0%A4%B0%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'चुरादिः'
     },
     {
@@ -1868,7 +1872,8 @@ export const state = () => ({
       category: '19',
       obj: 'akarmaka',
       padi: 'ubhayapadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%802_%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%9E%E0%A5%8D_%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%802_%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%9E%E0%A5%8D_%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'क्र्यादिः'
     },
     {
@@ -1878,7 +1883,8 @@ export const state = () => ({
       category: '19',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%803_%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%9E%E0%A5%8D_%E0%A4%9A%E0%A5%81%E0%A4%B0%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%803_%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%9E%E0%A5%8D_%E0%A4%9A%E0%A5%81%E0%A4%B0%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'चुरादिः'
     },
     {
@@ -1906,7 +1912,8 @@ export const state = () => ({
       category: '19',
       obj: 'akarmaka',
       padi: 'parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%A7%E0%A4%BF%E0%A4%B5%E0%A5%8D1_%E0%A4%A7%E0%A4%BF%E0%A4%B5%E0%A4%BF%E0%A4%81_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%A7%E0%A4%BF%E0%A4%B5%E0%A5%8D1_%E0%A4%A7%E0%A4%BF%E0%A4%B5%E0%A4%BF%E0%A4%81_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'भ्वादिः'
     },
     {
@@ -1934,7 +1941,8 @@ export const state = () => ({
       category: '19',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%A4%E0%A5%81%E0%A4%B7%E0%A5%8D1_%E0%A4%A4%E0%A5%81%E0%A4%B7%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%A4%E0%A5%81%E0%A4%B7%E0%A5%8D1_%E0%A4%A4%E0%A5%81%E0%A4%B7%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'दिवादिः'
     },
     {
@@ -1944,7 +1952,8 @@ export const state = () => ({
       category: '18',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%A6%E0%A5%821_%E0%A4%A6%E0%A5%82%E0%A4%99%E0%A5%8D_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%A6%E0%A5%821_%E0%A4%A6%E0%A5%82%E0%A4%99%E0%A5%8D_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'दिवादिः'
     },
     {
@@ -1954,7 +1963,8 @@ export const state = () => ({
       category: '18',
       obj: 'akarmaka',
       padi: 'atmanepadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%A5%E0%A5%8D1_%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%A5%E0%A4%81_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%A5%E0%A5%8D1_%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%A5%E0%A4%81_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'भ्वादिः'
     },
     {
@@ -1973,7 +1983,8 @@ export const state = () => ({
       category: '18',
       obj: 'akarmaka',
       padi: 'parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B6%E0%A5%81%E0%A4%9A%E0%A5%8D1_%E0%A4%B6%E0%A5%81%E0%A4%9A%E0%A4%81_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B6%E0%A5%81%E0%A4%9A%E0%A5%8D1_%E0%A4%B6%E0%A5%81%E0%A4%9A%E0%A4%81_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'भ्वादिः'
     },
     {
@@ -1983,7 +1994,8 @@ export const state = () => ({
       category: '18',
       obj: 'akarmaka',
       padi: 'parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B7%E0%A4%A6%E0%A5%8D1_%E0%A4%B7%E0%A4%A6%E0%A5%A2%E0%A4%81_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B7%E0%A4%A6%E0%A5%8D1_%E0%A4%B7%E0%A4%A6%E0%A5%A2%E0%A4%81_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'भ्वादिः'
     },
     {
@@ -1993,7 +2005,8 @@ export const state = () => ({
       category: '18',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%96%E0%A4%BF%E0%A4%A6%E0%A5%8D1_%E0%A4%96%E0%A4%BF%E0%A4%A6%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%96%E0%A4%BF%E0%A4%A6%E0%A5%8D1_%E0%A4%96%E0%A4%BF%E0%A4%A6%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'दिवादिः'
     },
     {
@@ -2012,7 +2025,8 @@ export const state = () => ({
       category: '18',
       obj: 'akarmaka',
       padi: 'parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D1_%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%81%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D1_%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%81%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'दिवादिः'
     },
     {
@@ -2031,7 +2045,8 @@ export const state = () => ({
       category: '18',
       obj: 'akarmaka',
       padi: 'parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%A4%E0%A4%AE%E0%A5%8D1_%E0%A4%A4%E0%A4%AE%E0%A5%81%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%A4%E0%A4%AE%E0%A5%8D1_%E0%A4%A4%E0%A4%AE%E0%A5%81%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'दिवादिः'
     },
     {
@@ -2041,7 +2056,8 @@ export const state = () => ({
       category: '20',
       obj: 'akarmaka',
       padi: 'parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%97%E0%A5%8D%E0%A4%B2%E0%A5%881_%E0%A4%97%E0%A5%8D%E0%A4%B2%E0%A5%88_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%97%E0%A5%8D%E0%A4%B2%E0%A5%881_%E0%A4%97%E0%A5%8D%E0%A4%B2%E0%A5%88_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'भ्वादिः'
     },
     {
@@ -2051,7 +2067,8 @@ export const state = () => ({
       category: '20',
       obj: 'akarmaka',
       padi: 'parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%AE%E0%A5%8D%E0%A4%B2%E0%A5%881_%E0%A4%AE%E0%A5%8D%E0%A4%B2%E0%A5%88_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%AE%E0%A5%8D%E0%A4%B2%E0%A5%881_%E0%A4%AE%E0%A5%8D%E0%A4%B2%E0%A5%88_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'भ्वादिः'
     },
     {
@@ -2061,7 +2078,8 @@ export const state = () => ({
       category: '20',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%AA%E0%A5%8D%E0%A4%B2%E0%A5%81%E0%A4%B7%E0%A5%8D2_%E0%A4%AA%E0%A5%8D%E0%A4%B2%E0%A5%81%E0%A4%B7%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%AA%E0%A5%8D%E0%A4%B2%E0%A5%81%E0%A4%B7%E0%A5%8D2_%E0%A4%AA%E0%A5%8D%E0%A4%B2%E0%A5%81%E0%A4%B7%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'दिवादिः'
     },
     {
@@ -2071,7 +2089,8 @@ export const state = () => ({
       category: '20',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B7%E0%A5%8D%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D2_%E0%A4%9E%E0%A4%BF%E0%A4%B7%E0%A5%8D%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B7%E0%A5%8D%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D2_%E0%A4%9E%E0%A4%BF%E0%A4%B7%E0%A5%8D%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'दिवादिः'
     },
     {
@@ -2081,7 +2100,8 @@ export const state = () => ({
       category: '20',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B6%E0%A5%81%E0%A4%B7%E0%A5%8D1_%E0%A4%B6%E0%A5%81%E0%A4%B7%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B6%E0%A5%81%E0%A4%B7%E0%A5%8D1_%E0%A4%B6%E0%A5%81%E0%A4%B7%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'दिवादिः'
     },
     {
@@ -2091,7 +2111,8 @@ export const state = () => ({
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%95%E0%A5%8D%E0%A4%B2%E0%A4%BF%E0%A4%B6%E0%A5%8D2_%E0%A4%95%E0%A5%8D%E0%A4%B2%E0%A4%BF%E0%A4%B6%E0%A5%82%E0%A4%81_%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%95%E0%A5%8D%E0%A4%B2%E0%A4%BF%E0%A4%B6%E0%A5%8D2_%E0%A4%95%E0%A5%8D%E0%A4%B2%E0%A4%BF%E0%A4%B6%E0%A5%82%E0%A4%81_%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'क्र्यादिः'
     },
     {
@@ -2101,7 +2122,8 @@ export const state = () => ({
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%A5%E0%A5%8D1_%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%A5%E0%A4%81_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%A5%E0%A5%8D1_%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%A5%E0%A4%81_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'भ्वादिः'
     },
     {
@@ -2121,7 +2143,8 @@ export const state = () => ({
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B6%E0%A5%81%E0%A4%9A%E0%A5%8D1_%E0%A4%B6%E0%A5%81%E0%A4%9A%E0%A4%81_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-'
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B6%E0%A5%81%E0%A4%9A%E0%A5%8D1_%E0%A4%B6%E0%A5%81%E0%A4%9A%E0%A4%81_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-'
     },
     {
       root: '',
@@ -2139,7 +2162,8 @@ export const state = () => ({
       category: '21',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%A6%E0%A5%812_%E0%A4%9F%E0%A5%81%E0%A4%A6%E0%A5%81_%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%A6%E0%A5%812_%E0%A4%9F%E0%A5%81%E0%A4%A6%E0%A5%81_%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'स्वादिः'
     },
     {
@@ -2177,7 +2201,8 @@ export const state = () => ({
       category: '22',
       obj: 'sakarmaka',
       padi: 'parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B9%E0%A4%A8%E0%A5%8D1_%E0%A4%B9%E0%A4%A8%E0%A4%81_%E0%A4%85%E0%A4%A6%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-'
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B9%E0%A4%A8%E0%A5%8D1_%E0%A4%B9%E0%A4%A8%E0%A4%81_%E0%A4%85%E0%A4%A6%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-'
     },
     {
       root: '',
@@ -2196,7 +2221,8 @@ export const state = () => ({
       category: '22',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B7%E0%A5%82%E0%A4%A6%E0%A5%8D1_%E0%A4%B7%E0%A5%82%E0%A4%A6%E0%A4%81_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-'
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B7%E0%A5%82%E0%A4%A6%E0%A5%8D1_%E0%A4%B7%E0%A5%82%E0%A4%A6%E0%A4%81_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-'
     },
     {
       root: 'हिस् - हिसिँ',
@@ -2206,7 +2232,8 @@ export const state = () => ({
       category: '22',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B9%E0%A4%BF%E0%A4%B8%E0%A5%8D1_%E0%A4%B9%E0%A4%BF%E0%A4%B8%E0%A4%BF%E0%A4%81_%E0%A4%B0%E0%A5%81%E0%A4%A7%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-'
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B9%E0%A4%BF%E0%A4%B8%E0%A5%8D1_%E0%A4%B9%E0%A4%BF%E0%A4%B8%E0%A4%BF%E0%A4%81_%E0%A4%B0%E0%A5%81%E0%A4%A7%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-'
     },
     {
       root: 'सम्_हृ - हृञ्',
@@ -2215,7 +2242,8 @@ export const state = () => ({
       category: '22',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'ubhayapadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B9%E0%A5%831_%E0%A4%B9%E0%A5%83%E0%A4%9E%E0%A5%8D_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=%E0%A4%B8%E0%A4%AE%E0%A5%8D',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B9%E0%A5%831_%E0%A4%B9%E0%A5%83%E0%A4%9E%E0%A5%8D_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=%E0%A4%B8%E0%A4%AE%E0%A5%8D',
       gana: 'भ्वादिः'
     },
     {
@@ -2243,7 +2271,8 @@ export const state = () => ({
       category: '23',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%A5%E0%A5%8D2_%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%A5%E0%A4%81_%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%A5%E0%A5%8D2_%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%A5%E0%A4%81_%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'क्र्यादिः'
     },
     {
@@ -2253,7 +2282,8 @@ export const state = () => ({
       category: '23',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%95%E0%A5%83%E0%A4%B6%E0%A5%8D1_%E0%A4%95%E0%A5%83%E0%A4%B6%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%95%E0%A5%83%E0%A4%B6%E0%A5%8D1_%E0%A4%95%E0%A5%83%E0%A4%B6%E0%A4%81_%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'दिवादिः'
     },
     {
@@ -2263,7 +2293,8 @@ export const state = () => ({
       category: '23',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%AC%E0%A4%BE%E0%A4%A7%E0%A5%8D1_%E0%A4%AC%E0%A4%BE%E0%A4%A7%E0%A5%83%E0%A4%81_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%AC%E0%A4%BE%E0%A4%A7%E0%A5%8D1_%E0%A4%AC%E0%A4%BE%E0%A4%A7%E0%A5%83%E0%A4%81_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'भ्वादिः'
     },
     {
@@ -2273,7 +2304,8 @@ export const state = () => ({
       category: '24',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%AA%E0%A4%BF%E0%A4%B7%E0%A5%8D1_%E0%A4%AA%E0%A4%BF%E0%A4%B7%E0%A5%A2%E0%A4%81_%E0%A4%B0%E0%A5%81%E0%A4%A7%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%AA%E0%A4%BF%E0%A4%B7%E0%A5%8D1_%E0%A4%AA%E0%A4%BF%E0%A4%B7%E0%A5%A2%E0%A4%81_%E0%A4%B0%E0%A5%81%E0%A4%A7%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'रुधादिः'
     },
     {
@@ -2283,7 +2315,8 @@ export const state = () => ({
       category: '24',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%A6%E0%A5%8D%E0%A4%B0%E0%A5%811_%E0%A4%A6%E0%A5%8D%E0%A4%B0%E0%A5%81_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=%E0%A4%89%E0%A4%AA',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%A6%E0%A5%8D%E0%A4%B0%E0%A5%811_%E0%A4%A6%E0%A5%8D%E0%A4%B0%E0%A5%81_%E0%A4%AD%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=%E0%A4%89%E0%A4%AA',
       gana: 'भ्वादिः'
     },
     {
@@ -2293,7 +2326,8 @@ export const state = () => ({
       category: '24',
       obj: 'sakarmaka',
       padi: 'parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A5%8D1_%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%81_%E0%A4%9A%E0%A5%81%E0%A4%B0%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A5%8D1_%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%81_%E0%A4%9A%E0%A5%81%E0%A4%B0%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'चुरादिः'
     },
     {
@@ -2312,7 +2346,8 @@ export const state = () => ({
       category: '25',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D1_%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%81%E0%A4%81_%E0%A4%85%E0%A4%A6%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D1_%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%81%E0%A4%81_%E0%A4%85%E0%A4%A6%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'अदादिः'
     },
     {
@@ -2322,7 +2357,8 @@ export const state = () => ({
       category: '25',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
       padi: 'atmanepadi/parasmaipadi',
-      forms_url: 'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%A4%E0%A4%A1%E0%A5%8D2_%E0%A4%A4%E0%A4%A1%E0%A4%81_%E0%A4%9A%E0%A5%81%E0%A4%B0%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
+      forms_url:
+        'http://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding=Unicode&vb=%E0%A4%A4%E0%A4%A1%E0%A5%8D2_%E0%A4%A4%E0%A4%A1%E0%A4%81_%E0%A4%9A%E0%A5%81%E0%A4%B0%E0%A4%BE%E0%A4%A6%E0%A4%BF%E0%A4%83&prayoga-paxI=%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF-uBayapaxI&upasarga=-',
       gana: 'चुरादिः'
     },
     {
@@ -2849,11 +2885,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'ददाति ददते दत्ते दिशत्युपहरत्यपि ।
-      विश्राणयत्यर्पयति वितरत्यावहत्यपि ॥३३॥
-      प्रयच्छति स्पर्शयति प्रतिपादयतीति च ।
-      पात्रत्रा कुरुते तत्सात्करोत्यतिसृजत्यपि ॥ दास्या संयच्छते कामी ददात्युपकरोति च ।
-      ',
+      form:
+        'ददाति ददते दत्ते दिशत्युपहरत्यपि ।       विश्राणयत्यर्पयति वितरत्यावहत्यपि ॥३३॥       प्रयच्छति स्पर्शयति प्रतिपादयतीति च ।       पात्रत्रा कुरुते तत्सात्करोत्यतिसृजत्यपि ॥ दास्या संयच्छते कामी ददात्युपकरोति च ।      ',
       meaning: '',
       category: '36',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -2862,9 +2895,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'आदत्ते प्रतिगृह्णित प्रतिगृह्णीत इत्यपि ॥३५॥
-      जहाति विसृजत्युज्झत्यपि त्यजति मुञ्चति ।  मुञ्चते वर्जयति च तथा परिहरत्यपि ॥
-      ',
+      form:
+        'आदत्ते प्रतिगृह्णित प्रतिगृह्णीत इत्यपि ॥३५॥       जहाति विसृजत्युज्झत्यपि त्यजति मुञ्चति ।  मुञ्चते वर्जयति च तथा परिहरत्यपि ॥      ',
       meaning: '',
       category: '37',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -2873,9 +2905,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'खेलति क्रीडति परिक्रीडते विहरत्यपि ।
-      सङ्क्रीडते विभ्रमति विनोदयति दीव्यति ॥
-      ',
+      form:
+        'खेलति क्रीडति परिक्रीडते विहरत्यपि ।       सङ्क्रीडते विभ्रमति विनोदयति दीव्यति ॥      ',
       meaning: '',
       category: '74',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -2884,9 +2915,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'रमतेऽनुक्रीडते प्रेङ्खति त्वङ्गति रिङ्गति ।
-      विभ्राम्यति ललत्येवमथो नटति नृत्यति ॥
-      ',
+      form:
+        'रमतेऽनुक्रीडते प्रेङ्खति त्वङ्गति रिङ्गति ।       विभ्राम्यति ललत्येवमथो नटति नृत्यति ॥      ',
       meaning: '',
       category: '39',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -2895,9 +2925,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'वीरायते धर्षयते प्रतिहन्ति प्रगल्भते ।
-      विक्रामति परिक्रामत्यथ दृप्यति माद्यति ॥
-      ',
+      form:
+        'वीरायते धर्षयते प्रतिहन्ति प्रगल्भते ।       विक्रामति परिक्रामत्यथ दृप्यति माद्यति ॥      ',
       meaning: '',
       category: '40',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -2906,7 +2935,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'युध्यते योधयति च बाहुभ्यांतु नियुध्यते। सङ्घर्षयत्याह्वयति स्पर्धते स्पर्धयत्यपि । ',
+      form:
+        'युध्यते योधयति च बाहुभ्यांतु नियुध्यते। सङ्घर्षयत्याह्वयति स्पर्धते स्पर्धयत्यपि । ',
       meaning: '',
       category: '44',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -2915,8 +2945,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'जयत्यतिक्रामत्यतिशेतेऽतिरिच्यते । अत्येत्यर्थे विजयते पराजयत इत्यपि ॥ अथो जयत्यतिक्रामत्यतिशेतेऽतिरिच्यते ।
-      अत्येत्यर्थे विजयते पराजयत इत्यपि ॥',
+      form:
+        'जयत्यतिक्रामत्यतिशेतेऽतिरिच्यते । अत्येत्यर्थे विजयते पराजयत इत्यपि ॥ अथो जयत्यतिक्रामत्यतिशेतेऽतिरिच्यते ।      अत्येत्यर्थे विजयते पराजयत इत्यपि ॥',
       meaning: '',
       category: '41',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -2961,9 +2991,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'पश्यति निर्वर्णयति प्रत्यक्षयतीक्षतेऽपरोक्षयति ॥
-      निध्यायति लोचयति च साक्षात्कुरुते निशामयति ॥
-      ',
+      form:
+        'पश्यति निर्वर्णयति प्रत्यक्षयतीक्षतेऽपरोक्षयति ॥       निध्यायति लोचयति च साक्षात्कुरुते निशामयति ॥      ',
       meaning: '',
       category: '49',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -2972,9 +3001,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'ऊहते तर्कयत्यध्याहरत्यालोचयत्यपि ।
-      मीमांसते विविङ्क्ते च विचारयति चाप्यथ ॥
-      ',
+      form:
+        'ऊहते तर्कयत्यध्याहरत्यालोचयत्यपि ।      मीमांसते विविङ्क्ते च विचारयति चाप्यथ ॥      ',
       meaning: '',
       category: '50',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -2983,9 +3011,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'निर्धारयति निगमयति निश्चिनुते निश्चिनोति निर्णयते ।
-      निर्णयति  निरूपयति च निर्लोडयते परिच्छिनत्यपि च ॥
-      ',
+      form:
+        'निर्धारयति निगमयति निश्चिनुते निश्चिनोति निर्णयते ।       निर्णयति  निरूपयति च निर्लोडयते परिच्छिनत्यपि च ॥      ',
       meaning: '',
       category: '51',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -2994,9 +3021,7 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'निमिषतिमुकुळीभवति
-      स्फुटति च सङ्कुचति कुड्मलीभवति ।
-      ',
+      form: 'निमिषतिमुकुळीभवति      स्फुटति च सङ्कुचति कुड्मलीभवति ।      ',
       meaning: '',
       category: '53',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -3005,9 +3030,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'उन्मीलत्युन्मिषति
-      ह्युच्छ्र्वसिति निमीलयति मिषति हसति ॥
-      ',
+      form:
+        'उन्मीलत्युन्मिषति      ह्युच्छ्र्वसिति निमीलयति मिषति हसति ॥      ',
       meaning: '',
       category: '52',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -3025,10 +3049,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'करोति कुरुते निर्मात्याचरत्यनुतिष्ठति ॥५१॥
-      निर्मिमीते विधत्ते विदधाति रचयत्यपि ।
-      कल्पयत्याकलयति तनोति तनुतेऽपि च ॥
-      ',
+      form:
+        'करोति कुरुते निर्मात्याचरत्यनुतिष्ठति ॥५१॥      निर्मिमीते विधत्ते विदधाति रचयत्यपि ।      कल्पयत्याकलयति तनोति तनुतेऽपि च ॥      ',
       meaning: '',
       category: '55',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -3037,9 +3059,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'वैरायते विरुन्धे विरुणद्धि कलहायते ।
-      द्वेष्टि द्विष्टे विगृह्णाति विराध्यत्यपराध्यति ॥
-      ',
+      form:
+        'वैरायते विरुन्धे विरुणद्धि कलहायते ।      द्वेष्टि द्विष्टे विगृह्णाति विराध्यत्यपराध्यति ॥      ',
       meaning: '',
       category: '56',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -3048,9 +3069,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'जिघांसति विगृह्णीते द्रुह्यत्यपकरोति च ।
-      अपिधत्ते चावृणुते स्थगयत्यपि चोर्णुते ॥
-      ',
+      form:
+        'जिघांसति विगृह्णीते द्रुह्यत्यपकरोति च ।      अपिधत्ते चावृणुते स्थगयत्यपि चोर्णुते ॥      ',
       meaning: '',
       category: '57',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -3059,9 +3079,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'ऊर्णोत्युर्णौति धुडयत्यंतर्धापयतीति च।
-      अंतर्धत्ते तिरोधत्ते लीयतेंऽतर्दधाति च ॥
-      ',
+      form:
+        'ऊर्णोत्युर्णौति धुडयत्यंतर्धापयतीति च।      अंतर्धत्ते तिरोधत्ते लीयतेंऽतर्दधाति च ॥      ',
       meaning: '',
       category: '58',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -3070,9 +3089,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'मुष्णाति चोरयति च हरत्यपहरत्यपि ।
-      बलाद्गृह्णात्याच्छिनत्ति लुण्टयत्यथ घुष्यति ॥
-      ',
+      form:
+        'मुष्णाति चोरयति च हरत्यपहरत्यपि ।       बलाद्गृह्णात्याच्छिनत्ति लुण्टयत्यथ घुष्यति ॥      ',
       meaning: '',
       category: '61',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -3081,9 +3099,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'शब्दायते घोषयति रौति स्वनति कूजति ।
-      सङ्क्रीडति ध्वनति च शिङ्क्ते नदति गुंजति ॥
-      ',
+      form:
+        'शब्दायते घोषयति रौति स्वनति कूजति ।       सङ्क्रीडति ध्वनति च शिङ्क्ते नदति गुंजति ॥      ',
       meaning: '',
       category: '60',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -3092,9 +3109,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'रणति क्वणति क्रुंचत्यपि स्तनति गर्जति ।
-      रसति क्रोशति रटत्यथाक्रन्दति रोदिति ॥ बाष्पायते विलपति परिदेवयतीति च ।
-      ',
+      form:
+        'रणति क्वणति क्रुंचत्यपि स्तनति गर्जति ।       रसति क्रोशति रटत्यथाक्रन्दति रोदिति ॥ बाष्पायते विलपति परिदेवयतीति च ।      ',
       meaning: '',
       category: '62',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -3112,11 +3128,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'डोलायते च चलति वलते वलतीति च ।
-      धुनोति धुनुते धूनोत्यालोलयति धूनुते ॥६१॥
-      धुनाति कम्पयत्येवं धुवति व्यग्रयत्यपि ।
-      चलयत्याकुलयति श्रन्थादिश्चालयत्यपि ॥
-      ',
+      form:
+        'डोलायते च चलति वलते वलतीति च ।       धुनोति धुनुते धूनोत्यालोलयति धूनुते ॥६१॥      धुनाति कम्पयत्येवं धुवति व्यग्रयत्यपि ।      चलयत्याकुलयति श्रन्थादिश्चालयत्यपि ॥      ',
       meaning: '',
       category: '64',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -3125,9 +3138,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'श्लिष्यत्यालिङ्गति परिष्वजतेप्युपगूहति ॥
-      आलिङ्गते चापि परिरंभते वेष्टयत्यपि ॥
-     ',
+      form:
+        'श्लिष्यत्यालिङ्गति परिष्वजतेप्युपगूहति ॥       आलिङ्गते चापि परिरंभते वेष्टयत्यपि ॥     ',
       meaning: '',
       category: '66',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -3136,9 +3148,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'निदधाति निधत्ते निक्षिपते निक्षिपत्यपि ।
-      निवेशयति विन्यस्यत्यपि न्यस्यति चाप्यथ ॥
-     ',
+      form:
+        'निदधाति निधत्ते निक्षिपते निक्षिपत्यपि ।       निवेशयति विन्यस्यत्यपि न्यस्यति चाप्यथ ॥     ',
       meaning: '',
       category: '67',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -3147,9 +3158,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'पाणौ गृह्णाति गृह्णीते  विवहत्युपयच्छते ।
-      परिगृह्णाति च परिणयत्यथ निषीदति ॥६५
-     ',
+      form:
+        'पाणौ गृह्णाति गृह्णीते  विवहत्युपयच्छते ।       परिगृह्णाति च परिणयत्यथ निषीदति ॥६५     ',
       meaning: '',
       category: '68',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -3158,9 +3168,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'तिष्ठत्यास्ते निविशते वसत्युपविशत्यपि ।
-      वितिष्ठते तदध्यास्तेऽधितिष्ठत्युपतिष्ठते ॥
-     ',
+      form:
+        'तिष्ठत्यास्ते निविशते वसत्युपविशत्यपि ।       वितिष्ठते तदध्यास्तेऽधितिष्ठत्युपतिष्ठते ॥     ',
       meaning: '',
       category: '69',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -3178,8 +3187,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'नुदति प्रेरयति विक्षिपति क्षिपतेऽस्यति ॥ प्रहिणोति व्यादिशति नियुङ्क्ते चोदयत्यपि ।
-      प्रेषयत्यपि युङ्क्ते विसृजति प्रेष्यतीति च ॥',
+      form:
+        'नुदति प्रेरयति विक्षिपति क्षिपतेऽस्यति ॥ प्रहिणोति व्यादिशति नियुङ्क्ते चोदयत्यपि ।       प्रेषयत्यपि युङ्क्ते विसृजति प्रेष्यतीति च ॥',
       meaning: '',
       category: '73',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -3188,9 +3197,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: ' बिभर्ति बिभृते धत्ते वहते धारयत्यपि।
-      दधाति वहतीत्यर्थे धरत्युद्वहतीत्यपि ॥
-          ',
+      form:
+        ' बिभर्ति बिभृते धत्ते वहते धारयत्यपि।       दधाति वहतीत्यर्थे धरत्युद्वहतीत्यपि ॥          ',
       meaning: '',
       category: '76',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -3199,11 +3207,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'तिरस्करोत्यभिभवत्यवजानाति निन्दति ।
-      धिक्करोति न्यक्कुरुते विगायत्यवगायति ॥७०॥
-     जुगुप्सतेऽववमनुते गर्हयत्यपमन्यते ।
-      बहिष्करोति परिभवत्याक्षिपति चाजति ॥ अवधीरयत्येवमवमानयतीति च ।
-     ',
+      form:
+        'तिरस्करोत्यभिभवत्यवजानाति निन्दति ।       धिक्करोति न्यक्कुरुते विगायत्यवगायति ॥७०॥      जुगुप्सतेऽववमनुते गर्हयत्यपमन्यते ।      बहिष्करोति परिभवत्याक्षिपति चाजति ॥ अवधीरयत्येवमवमानयतीति च ।     ',
       meaning: '',
       category: '75',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -3212,11 +3217,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: ' वांछतीच्छत्यभिलषत्यभिलष्यत्यपेक्षते ॥  कांक्षत्याद्रियते चाभिप्रेति स्पृहयतीहते ।
-      आशास्तेऽर्थयते वष्टि लिप्सतेऽभीप्सतीति च ॥७३॥
-      काङ्क्षते चाभिसंधत्तेऽनुरुंधे चानुरुध्यते ।
-       याचते याचतीत्यर्थे नाथत्यर्थयतेऽर्दति ॥
-      ',
+      form:
+        ' वांछतीच्छत्यभिलषत्यभिलष्यत्यपेक्षते ॥  कांक्षत्याद्रियते चाभिप्रेति स्पृहयतीहते ।      आशास्तेऽर्थयते वष्टि लिप्सतेऽभीप्सतीति च ॥७३॥      काङ्क्षते चाभिसंधत्तेऽनुरुंधे चानुरुध्यते ।       याचते याचतीत्यर्थे नाथत्यर्थयतेऽर्दति ॥      ',
       meaning: '',
       category: '77',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -3225,7 +3227,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'अपोऽवगाहते चोपस्पृशति स्नाति मज्जति ।  तिम्यत्यार्द्रीभवत्यर्थे स्तिम्यतीत्यप्यथोक्षति ॥ स्नपयत्याप्लावयति मज्जयत्यपि सिंचति ।',
+      form:
+        'अपोऽवगाहते चोपस्पृशति स्नाति मज्जति ।  तिम्यत्यार्द्रीभवत्यर्थे स्तिम्यतीत्यप्यथोक्षति ॥ स्नपयत्याप्लावयति मज्जयत्यपि सिंचति ।',
       meaning: '',
       category: '149',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -3261,9 +3264,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'उपक्रमत उद्युङ्क्ते चार्हत्युत्सहतेपि च ।
-      ईहते चेष्टते चैव यतते च प्रयस्यति ॥
-     ',
+      form:
+        'उपक्रमत उद्युङ्क्ते चार्हत्युत्सहतेपि च ।       ईहते चेष्टते चैव यतते च प्रयस्यति ॥     ',
       meaning: '',
       category: '81',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -3272,9 +3274,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'भुङ्क्तेऽभ्यवहरत्यश्नात्याचामत्यत्ति खादति ।
-      रसयत्यास्वादयति भक्षयत्यपि चर्वति ॥
-      ',
+      form:
+        'भुङ्क्तेऽभ्यवहरत्यश्नात्याचामत्यत्ति खादति ।      रसयत्यास्वादयति भक्षयत्यपि चर्वति ॥      ',
       meaning: '',
       category: '82',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -3283,8 +3284,7 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'लेढि लीढेऽथ पिबति धयत्यास्वादतेऽपि च ॥
-     ',
+      form: 'लेढि लीढेऽथ पिबति धयत्यास्वादतेऽपि च ॥     ',
       meaning: '',
       category: '83',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -3302,9 +3302,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: ' भूषयति परिष्कुरुतेऽलंकुरुतेऽलंकरोति मण्डयति ।
-      अपि वा परिष्करोत्यप्याकल्पयति प्रसाधयति ॥
-      ',
+      form:
+        ' भूषयति परिष्कुरुतेऽलंकुरुतेऽलंकरोति मण्डयति ।      अपि वा परिष्करोत्यप्याकल्पयति प्रसाधयति ॥      ',
       meaning: '',
       category: '85',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -3385,9 +3384,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'शृणोति संशृणुत इत्यर्थे निशमयत्यपि ।
-      आकर्णयत्यपि ततोऽवधत्ते धारयत्यपि ॥
-      ',
+      form:
+        'शृणोति संशृणुत इत्यर्थे निशमयत्यपि ।      आकर्णयत्यपि ततोऽवधत्ते धारयत्यपि ॥      ',
       meaning: '',
       category: '95',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -3405,9 +3403,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'अधीते शीलयत्यभ्यस्यति शीलति शिक्षते ।
-      अमी  परिचिनोत्यर्थे घटतेऽपि च सिद्ध्यति ॥
-      ',
+      form:
+        'अधीते शीलयत्यभ्यस्यति शीलति शिक्षते ।      अमी  परिचिनोत्यर्थे घटतेऽपि च सिद्ध्यति ॥      ',
       meaning: '',
       category: '99',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -3443,9 +3440,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'मार्ष्टि मार्जयते शुद्धीकुरुते शोधयत्यपि ।
-      मार्जति क्षालयत्यर्थे निर्णेनेक्ति च धावति ॥
-      ',
+      form:
+        'मार्ष्टि मार्जयते शुद्धीकुरुते शोधयत्यपि ।      मार्जति क्षालयत्यर्थे निर्णेनेक्ति च धावति ॥      ',
       meaning: '',
       category: '102',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -3481,9 +3477,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'विचिनोत्यन्विष्यति चान्विच्छत्यनुसरत्यपि । विनयत्यनुशास्त्यध्यापयत्यभ्यासयत्यपि ॥९५॥
-      शास्ति शिक्षयतीत्यर्थे लगत्यर्थे तु लीयते ।
-      ',
+      form:
+        'विचिनोत्यन्विष्यति चान्विच्छत्यनुसरत्यपि । विनयत्यनुशास्त्यध्यापयत्यभ्यासयत्यपि ॥९५॥      शास्ति शिक्षयतीत्यर्थे लगत्यर्थे तु लीयते ।      ',
       meaning: '',
       category: '108',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
@@ -3555,9 +3550,8 @@ export const state = () => ({
     },
     {
       root: '',
-      form: 'सम्भ्राम्यति क्षुभ्यति सम्भ्रमत्यपि च वेपते ।
-      बिभेति त्रसति त्रस्यत्यारोहत्यधिरोहति ॥
-      ',
+      form:
+        'सम्भ्राम्यति क्षुभ्यति सम्भ्रमत्यपि च वेपते ।      बिभेति त्रसति त्रस्यत्यारोहत्यधिरोहति ॥      ',
       meaning: '',
       category: '118',
       obj: 'sakarmaka/akarmaka/dvikarmaka',
