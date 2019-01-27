@@ -19,31 +19,40 @@
         <v-flex xs4>
           <a
             v-ripple
-            href="/" >
+            href="#" >
             <img
               class="image-btn"
               src="~assets/img/upayukta.png" >
           </a>
         </v-flex>
         <v-flex xs4>
-          <img
+          <a
             v-ripple
-            class="image-btn"
-            src="~assets/img/dk.png" >
+            href="#" >
+            <img
+              v-ripple
+              class="image-btn"
+              src="~assets/img/dk.png" ></a>
         </v-flex>
         <v-flex xs4>
-          <img
+          <a
             v-ripple
-            class="image-btn"
-            src="~assets/img/cl.png" >
+            href="/candraloka" >
+            <img
+              v-ripple
+              class="image-btn"
+              src="~assets/img/cl.png" ></a>
         </v-flex>
       </v-layout>
       <v-layout row>
         <v-flex xs4>
-          <img
+          <a
             v-ripple
-            class="image-btn"
-            src="~assets/img/ss.png" >
+            href="/samasashikhamani" >
+            <img
+              v-ripple
+              class="image-btn"
+              src="~assets/img/ss.png" ></a>
         </v-flex>
         <v-flex xs4>
           <a
@@ -56,50 +65,72 @@
           </a>
         </v-flex>
         <v-flex xs4>
-          <img
+          <a
             v-ripple
-            class="image-btn"
-            src="~assets/img/sp.png" >
+            href="/sastrapramana" >
+            <img
+              v-ripple
+              class="image-btn"
+              src="~assets/img/sp.png" ></a>
         </v-flex>
       </v-layout>
       <v-layout row>
         <v-flex xs4>
-          <img
+          <a
             v-ripple
-            class="image-btn"
-            src="~assets/img/sc.png" >
+            href="/samasacakra" >
+            <img
+              v-ripple
+              class="image-btn"
+              src="~assets/img/sc.png" >
+          </a>
         </v-flex>
         <v-flex xs4>
-          <img
+          <a
             v-ripple
-            class="image-btn"
-            src="~assets/img/vr.png" >
+            href="/vrittaratnakara" >
+            <img
+              v-ripple
+              class="image-btn"
+              src="~assets/img/vr.png" ></a>
         </v-flex>
         <v-flex xs4>
-          <img
+          <a
             v-ripple
-            class="image-btn"
-            src="~assets/img/sr.png" >
+            href="/sanksheparamayana" >
+            <img
+              v-ripple
+              class="image-btn"
+              src="~assets/img/sr.png" ></a>
         </v-flex>
       </v-layout>
       <v-layout row>
         <v-flex xs4>
-          <img
+          <a
             v-ripple
-            class="image-btn"
-            src="~assets/img/ls.png" >
+            href="/linganushasana" >
+            <img
+              v-ripple
+              class="image-btn"
+              src="~assets/img/ls.png" ></a>
         </v-flex>
         <v-flex xs4>
-          <img
+          <a
             v-ripple
-            class="image-btn"
-            src="~assets/img/sb.png" >
+            href="/srutabodha" >
+            <img
+              v-ripple
+              class="image-btn"
+              src="~assets/img/sb.png" ></a>
         </v-flex>
         <v-flex xs4>
-          <img
+          <a
             v-ripple
-            class="image-btn"
-            src="~assets/img/srs.png" >
+            href="/ramayanasangraha" >
+            <img
+              v-ripple
+              class="image-btn"
+              src="~assets/img/srs.png" ></a>
         </v-flex>
       </v-layout>
     </v-container>
