@@ -1,6 +1,7 @@
 <template>
   <v-app class = "bg-image">
     <Header />
+    <nuxt />
   </v-app>
 </template>
 
