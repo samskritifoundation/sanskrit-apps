@@ -3,7 +3,7 @@
     column
     justify-center
     align-center>
-    welcome
+    Samskrti
   </v-layout>
 </template>
 
