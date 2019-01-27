@@ -37,7 +37,7 @@
         <v-flex xs4>
           <a
             v-ripple
-            href="/candraloka" >
+            href="/chandraloka" >
             <img
               v-ripple
               class="image-btn"
