@@ -1,104 +1,23 @@
 <template>
-  <v-app class = "papyrus">
-    <v-navigation-drawer
-      :mini-variant.sync="miniVariant"
-      :clipped="clipped"
-      v-model="drawer"
-      class="info"
-      fixed
-      app
-    >
-      <v-list>
-        <v-list-tile
-          v-for="(item, i) in items"
-          :to="item.to"
-          :key="i"
-          router
-          exact
-        >
-          <v-list-tile-action>
-            <v-icon v-html="item.icon"/>
-          </v-list-tile-action>
-          <v-list-tile-content>
-            <v-list-tile-title v-text="item.title"/>
-          </v-list-tile-content>
-        </v-list-tile>
-      </v-list>
-    </v-navigation-drawer>
-    <v-toolbar
-      :clipped-left="clipped"
-      dark
-      fixed
-      app
-      color="primary">
-      <v-toolbar-side-icon
-        color="primary"
-        @click="drawer = !drawer"/>
-      <v-toolbar-title v-text="title"/>
-      <v-spacer/>
-      <v-btn
-        flat
-        icon
-        to="/">
-        <v-icon>home</v-icon>
-      </v-btn>
-      <span>Home</span>
-    </v-toolbar>
-    <v-content class = "oldmap">
-      <v-container>
-        <nuxt />
-      </v-container>
-    </v-content>
-    <v-navigation-drawer
-      :right="right"
-      v-model="rightDrawer"
-      temporary
-      fixed
-    >
-      <v-list>
-        <v-list-tile @click.native="right = !right">
-          <v-list-tile-action>
-            <v-icon light>compare_arrows</v-icon>
-          </v-list-tile-action>
-          <v-list-tile-title>Switch drawer (click me)</v-list-tile-title>
-        </v-list-tile>
-      </v-list>
-    </v-navigation-drawer>
-    <v-footer
-      :fixed="fixed"
-      color="primary"
-      dark
-      app>
-      <span>&copy; 2018</span>
-    </v-footer>
+  <v-app class = "bg-image">
+    <Header />
   </v-app>
 </template>
 
 <script>
+import Header from '~/components/header.vue'
 export default {
-  data() {
-    return {
-      clipped: false,
-      drawer: false,
-      fixed: false,
-      items: [
-        { icon: 'info', title: 'About us', to: '/aboutsf' },
-        { icon: 'people', title: 'Credits', to: '/credits' },
-        { icon: 'contact_support', title: 'Contact us', to: '/contact' }
-      ],
-      miniVariant: false,
-      right: true,
-      rightDrawer: false,
-      title: 'Kriyānighaṇṭu'
-    }
+  components: {
+    Header
   }
 }
 </script>
 
 <style scoped>
-.oldmap {
-  background: url('~/assets/img/oldmap.jpg') no-repeat;
+.bg-image {
+  background: url('~assets/img/bg.png') no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .text-light {
