@@ -101,24 +101,26 @@ export default {
   layout: 'lessons',
   mounted() {
     // console.log(this.id)
-    this.exercise = this.$store.state.exercises.find(
+    this.exercise = this.$store.state.chandraloka_exercises.find(
       ex => String(ex.id) === this.id
     )
   },
   created() {
     // console.log(this.$store.state.exercises.find(exercise => exercise.id === '4.1'))
-    this.index = this.$store.state.exercises.findIndex(
+    this.index = this.$store.state.chandraloka_exercises.findIndex(
       ex => String(ex.id) === this.id
     )
-    this.prev_ex = this.$store.state.exercises[this.index - 1]
-    this.next_ex = this.$store.state.exercises[this.index + 1]
-    this.length = this.$store.state.exercises.length
+    this.prev_ex = this.$store.state.chandraloka_exercises[this.index - 1]
+    this.next_ex = this.$store.state.chandraloka_exercises[this.index + 1]
+    this.length = this.$store.state.chandraloka_exercises.length
     this.previous =
-      this.index > 1 ? '/exercises/' + this.prev_ex.id : '/exercises/1'
+      this.index > 1
+        ? '/chandraloka/exercises/' + this.prev_ex.id
+        : '/chandraloka/exercises/1'
     this.next =
       this.index < this.length - 1
-        ? '/exercises/' + this.next_ex.id
-        : '/exercises/10'
+        ? '/chandraloka/exercises/' + this.next_ex.id
+        : '/chandraloka/exercises/10'
     // console.log(this.index)
     // console.log(this.prev_exercise)
     // console.log(this.next_exercise.id)
