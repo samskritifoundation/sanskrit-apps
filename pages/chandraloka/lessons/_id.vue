@@ -17,7 +17,7 @@
     </v-layout>
     <v-card
       xs12
-      color="accent lighten-4"
+      color="accent"
       class="mt-0 pt-0 bordered">
       <v-card-title primary-title>
         <v-layout
@@ -49,7 +49,7 @@
                 row>
                 <v-flex>
                   <v-card
-                    color="accent lighten-5"
+                    color="accent lighten-1"
                     class="title text-xs-center">
                     <v-card-text v-html="sloka.sloka" />
                   </v-card>
@@ -68,12 +68,12 @@
                 xs12
                 row>
                 <v-flex>
-                  <v-card color="accent lighten-3">
+                  <v-card color="accent lighten-1">
                     <v-card-text>
                       <v-tabs
                         centered
                         hide-slider="true"
-                        color="accent lighten-3">
+                        color="accent lighten-1">
                         <v-tab
                           v-for="n in ['Sanskrit','English']"
                           :key="n"
@@ -109,7 +109,7 @@
                   <v-tabs
                     v-model="active"
                     fixed-tabs
-                    color="accent"
+                    color="secondary"
                     dark
                     slider-color="yellow"
                   >
@@ -146,7 +146,7 @@
                                   v-for="n in ['Sanskrit','English']"
                                   :key="n"
                                 >
-                                  <v-btn color="accent darken-5">{{ n }}</v-btn>
+                                  <v-btn color="secondary">{{ n }}</v-btn>
                                 </v-tab>
                                 <v-tab-item
                                   v-for="lang in example.explanation"
@@ -182,7 +182,7 @@
             </div>
             <v-tabs
               v-model="active"
-              color="accent"
+              color="secondary lighten-2"
               dark
               centered
               slider-color="yellow"
