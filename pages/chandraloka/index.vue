@@ -10,8 +10,7 @@
       sm8
       md8>
       <v-card
-        class = "bordered text-xs-center"
-        color="primary"
+        class = "bordered text-xs-center cl_bg"
         dark>
         <v-card-title class="myheader2 devanagari text-xs-center">चन्द्रालोक-शिक्षकः - परस्परव्यवहारपूर्वकशिक्षणम्</v-card-title>
         <v-card-title class="myheader2 papyrus text-xs-center">Interactive tutorial for Candrāloka</v-card-title>
@@ -80,25 +79,9 @@ export default {
 </script>
 
 <style scoped>
-.bordered {
-  border: 10px solid transparent;
-  -webkit-border-image: url('~/assets/img/border.png') 30 round; /* Safari 3.1-5 */
-  -o-border-image: url('~/assets/img/border.png') 30 round; /* Opera 11-12.1 */
-  border-image: url('~/assets/img/border.png') 30 round;
-  border-radius: 15px;
-  margin: 0;
-  padding: 2%;
-}
-
-.bg1 {
-  background: linear-gradient(
-      0deg,
-      rgba(241, 241, 171, 0.5),
-      rgba(255, 255, 255, 0.2)
-    ),
-    url(~/assets/img/bg3.jpg) no-repeat;
+.cl_bg {
+  background-image: url('~assets/img/cl_bg.png');
   background-size: cover;
-  color: darkred;
 }
 
 img {
