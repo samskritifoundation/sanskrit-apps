@@ -4,6 +4,7 @@
     justify-center
     align-center
     class="papyrus">
+    <img src="~assets/img/cl.png" >
     <v-flex
       xs12
       sm8
@@ -52,7 +53,7 @@
             color="accent"
             class="font-weight-bold text-capitalize"
             nuxt
-            to="/lessons"
+            to="/chandraloka/lessons"
             large>अध्यायाः<br>Learn</v-btn>
           <v-spacer/>
           <v-btn
@@ -60,7 +61,7 @@
             color="accent"
             class="font-weight-bold text-capitalize"
             nuxt
-            to="/exercises"
+            to="/chandraloka/exercises"
             large>अभ्यासाः <br> Exercises</v-btn>
         </v-card-actions>
       </v-card>
@@ -98,5 +99,9 @@ export default {
     url(~/assets/img/bg3.jpg) no-repeat;
   background-size: cover;
   color: darkred;
+}
+
+img {
+  width: 60%;
 }
 </style>
