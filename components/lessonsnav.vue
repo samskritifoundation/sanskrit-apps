@@ -222,6 +222,8 @@ export default {
   mounted() {
     if (this.text_title == 'chandraloka') {
       this.titles = this.$store.state.chandraloka_titles
+    } else if (this.text_title == 'vrittaratnakara') {
+      this.titles = this.$store.state.vrittaratnakara_titles
     }
   }
 }

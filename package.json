@@ -19,6 +19,7 @@
     "express": "^4.16.3",
     "mongoose": "^5.4.2",
     "nuxt": "^2.0.0",
+    "vued3tree": "^3.6.4",
     "vuetify": "^1.2.4"
   },
   "devDependencies": {

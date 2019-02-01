@@ -39,7 +39,7 @@ module.exports = {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: ['@/plugins/vuetify'],
+  plugins: ['@/plugins/vuetify', { src: '@/plugins/vued3.js', ssr: false }],
 
   /*
   ** Nuxt.js modules
@@ -63,6 +63,8 @@ module.exports = {
     /*
     ** You can extend webpack config here
     */
+    vendor: ['~/plugins/vuetify.js', '~/plugins/vued3.js'],
+    extractCSS: true,
     extend(config, ctx) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
@@ -72,6 +74,13 @@ module.exports = {
           loader: 'eslint-loader',
           exclude: /(node_modules)/
         })
+      }
+      const vueLoader = config.module.rules.find(
+        loader => loader.loader === 'vue-loader'
+      )
+      vueLoader.options.transformToRequire = {
+        audio: 'src',
+        source: 'src'
       }
     }
   }
