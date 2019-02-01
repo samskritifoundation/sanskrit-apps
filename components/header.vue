@@ -1,8 +1,8 @@
 <template>
   <v-content>
-    <img
+    <a href="/"><img
       src="~assets/img/header1.png"
-      alt="logo" >
+      alt="logo" ></a>
   </v-content>
 </template>
 

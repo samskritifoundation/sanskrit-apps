@@ -4,13 +4,14 @@
     justify-center
     align-center
     class="papyrus">
+    <img src="~assets/img/vr.png" >
     <v-flex
       xs12
       sm8
       md8>
       <v-card
         class = "bordered text-xs-center"
-        color="primary"
+        color="primary lighten-1"
         dark>
         <v-card-title class="myheader2 devanagari text-xs-center"><h1>वृत्तरत्नाकर-शिक्षकः - परस्परव्यवहारपूर्वकशिक्षणम्</h1></v-card-title>
         <v-card-title class="myheader2 papyrus text-xs-center"><h2>Interactive tutorial for Vrittaratnakara</h2></v-card-title>
@@ -32,7 +33,7 @@
               color="info"
               class="papyrus bg1"
               light>
-              <v-card-title class="myheader papyrus">Vrittaratnakara</v-card-title>
+              <v-card-title class="myheader papyrus"><h1>Vrittaratnakara</h1></v-card-title>
               <v-divider/>
               <v-card-text class="subheading papyrus font-weight-bold">Vrittaratnakara of Kedara Bhatta (14th Century CE) is one of
               the most popular texts on Sanskrit prosody. Though there are many books on Sanskrit prosody by eminent authors like Kalidasa, Kshemendra, etc, Vritta Ratankara continues to be an essential text for Sanskrit students. A speciality of this work is that the definition and illustration of a meter is given in one and the same verse. The verse defining a particular metre is composed in that particular meter itself. This is very helpful for a student of Sanskrit prosody. Another specialty of this work is that it is very brief – there are merely 136 verses. The author has covered all the prominent metres of Sanskrit literature in these verses.</v-card-text>
@@ -87,24 +88,7 @@ export default {
 </script>
 
 <style scoped>
-.bordered {
-  border: 10px solid transparent;
-  -webkit-border-image: url('~/assets/img/border.png') 30 round; /* Safari 3.1-5 */
-  -o-border-image: url('~/assets/img/border.png') 30 round; /* Opera 11-12.1 */
-  border-image: url('~/assets/img/border.png') 30 round;
-  border-radius: 15px;
-  margin: 0;
-  padding: 2%;
-}
-
-.bg1 {
-  background: linear-gradient(
-      0deg,
-      rgba(241, 241, 171, 0.5),
-      rgba(255, 255, 255, 0.2)
-    ),
-    url(~/assets/img/bg3.jpg) no-repeat;
-  background-size: cover;
-  color: darkred;
+img {
+  width: 60%;
 }
 </style>

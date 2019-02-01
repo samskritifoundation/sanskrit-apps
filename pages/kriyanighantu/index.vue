@@ -3,9 +3,15 @@
     column
     justify-center
     align-center>
+    <img src="~assets/img/kn.png" >
+    <v-card color="lime lighten-2 mb-3">
+      <v-card-text>
+        The table shows a list of actions which can be viewed and searched based on Activities or verb roots.
+      </v-card-text>
+    </v-card>
     <v-tabs
       fixed-tabs
-      color="secondary"
+      color="lime darken-2"
       dark
       slider-color="yellow"
     >
@@ -272,6 +278,10 @@ td {
 }
 .mytable tr:nth-child(even) {
   background-color: #f2f2f2;
+}
+
+img {
+  width: 60%;
 }
 /*Mobile View*/
 @media only screen and (max-width: 760px) {

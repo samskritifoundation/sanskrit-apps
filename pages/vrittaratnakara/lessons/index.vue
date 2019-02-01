@@ -4,7 +4,7 @@
       color="accent lighten-4"
       class="bordered papyrus mt-0 pt-0">
       <v-card-title primary-title>
-        <h3 class="papyrus myheader">Learn Vrittaratnakara</h3>
+        <h3 class="papyrus myheader"><h1>Learn Vrittaratnakara</h1></h3>
       </v-card-title>
       <v-btn
         to="/vrittaratnakara/lessons/1"
