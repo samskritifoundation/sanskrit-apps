@@ -12,7 +12,7 @@
         class = "bordered text-xs-center"
         color="primary"
         dark>
-        <v-card-title class="myheader2 papyrus text-xs-center">Mathematics in Sanskrit Prosody</v-card-title>
+        <v-card-title class="myheader2 papyrus text-xs-center"><h1>Mathematics in Sanskrit Prosody</h1></v-card-title>
         <v-card-actions>
           <v-layout
             row
@@ -24,14 +24,14 @@
                 slot="activator"
                 :ripple="{ class: 'error--text' }"
                 round
-                color="accent"
+                color="accent darken-2"
                 class="text-capitalize font-weight-bold"
                 large> Mathematics in Sanskrit poetry</v-btn>
               <v-card
                 color="info"
                 class="papyrus bg1"
                 light>
-                <v-card-title class="myheader papyrus">Mathematics in Sanskrit poetry</v-card-title>
+                <v-card-title class="myheader papyrus"><h1>Mathematics in Sanskrit poetry</h1></v-card-title>
                 <v-divider/>
                 <v-card-text class="subheading papyrus font-weight-bold">
                   <p>
@@ -139,14 +139,14 @@
                 slot="activator"
                 :ripple="{ class: 'error--text' }"
                 round
-                color="accent"
+                color="accent darken-2"
                 class="text-capitalize font-weight-bold"
                 large> Binomial Triangle Computer Binary System By Pingala</v-btn>
               <v-card
                 color="info"
                 class="papyrus bg1"
                 light>
-                <v-card-title class="myheader papyrus">Binomial Triangle, Computer Binary System By Pingala</v-card-title>
+                <v-card-title class="myheader papyrus"><h1>Binomial Triangle, Computer Binary System By Pingala</h1></v-card-title>
                 <v-divider/>
                 <v-card-text class="subheading papyrus font-weight-bold">
                   <p>Ancient Indians used Mathematics extensively and relied on it so heavily that Indian Logic, Philosophy,Hindu Rituals and the Sanskrit Language have strong Mathematical base. Meters, called Chandas are used in Prayers, literary works have a strict Mathematical base. Pingala, younger brother of Panini, the Sanskrit grammarian, has devised Chanda Shastra that deals with these Meters.</p>

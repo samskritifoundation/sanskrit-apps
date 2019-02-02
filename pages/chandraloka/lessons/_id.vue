@@ -25,7 +25,7 @@
           xs12
           row>
           <v-flex>
-            <h3 class="myheader"><span class="devanagari">{{ lesson.title_sans }}</span> <br>{{ lesson.title_eng }}</h3>
+            <h1>{{ lesson.title_sans }}<br>{{ lesson.title_eng }}</h1>
           </v-flex>
         </v-layout>
       </v-card-title>
@@ -39,7 +39,7 @@
           <v-expansion-panel
             popout
             focusable>
-            <v-expansion-panel-content ripple="true" >
+            <v-expansion-panel-content ripple>
               <div
                 v-if="sloka"
                 slot="header"
@@ -72,7 +72,7 @@
                     <v-card-text>
                       <v-tabs
                         centered
-                        hide-slider="true"
+                        hide-slider
                         color="accent lighten-1">
                         <v-tab
                           v-for="n in ['Sanskrit','English']"
@@ -107,7 +107,6 @@
                 row>
                 <v-flex>
                   <v-tabs
-                    v-model="active"
                     fixed-tabs
                     color="secondary"
                     dark
@@ -122,8 +121,8 @@
 
                     </v-tab>
                     <v-tab-item
-                      v-for="example in sloka.examples"
-                      :key="example"
+                      v-for="(example,index) in sloka.examples"
+                      :key="index"
                     >
                       <v-card
                         xs12
@@ -140,7 +139,7 @@
                               <h3 class="text-xs-center">Explanation</h3>
                               <v-tabs
                                 centered
-                                hide-slider="true"
+                                hide-slider
                                 color="warning">
                                 <v-tab
                                   v-for="n in ['Sanskrit','English']"
@@ -149,8 +148,8 @@
                                   <v-btn color="secondary">{{ n }}</v-btn>
                                 </v-tab>
                                 <v-tab-item
-                                  v-for="lang in example.explanation"
-                                  :key="lang">
+                                  v-for="(lang,i) in example.explanation"
+                                  :key="i">
                                   <p
                                     class="subheading"
                                     v-html="lang"/>
@@ -181,7 +180,7 @@
               <v-btn @click="nexttab">next type</v-btn>
             </div>
             <v-tabs
-              v-model="active"
+              v-model="activetype"
               color="secondary lighten-2"
               dark
               centered
@@ -236,11 +235,11 @@
                       Examples:
                     </p>
                     <div
-                      v-for="ex in p.examples"
-                      :key="ex">
+                      v-for="(ex,index) in p.examples"
+                      :key="index">
                       <div
-                        v-for="prop in ex"
-                        :key="prop">
+                        v-for="(prop,j) in ex"
+                        :key="j">
                         <p v-html="prop"/>
                       </div>
                     </div>
@@ -270,7 +269,7 @@
 export default {
   data() {
     return {
-      active: null,
+      activetype: null,
       id: String(this.$route.params.id),
       lesson: '',
       index: '',
@@ -315,24 +314,14 @@ export default {
   },
   methods: {
     nexttab() {
-      const active = parseInt(this.active)
-      this.active = active < this.lesson.types - 1 ? active + 1 : 0
+      const active = parseInt(this.activetype)
+      this.activetype = active < this.lesson.types - 1 ? active + 1 : 0
     }
   }
 }
 </script>
 
 <style scoped>
-.bordered {
-  border: 10px solid transparent;
-  -webkit-border-image: url('~/assets/img/border.png') 30 round; /* Safari 3.1-5 */
-  -o-border-image: url('~/assets/img/border.png') 30 round; /* Opera 11-12.1 */
-  border-image: url('~/assets/img/border.png') 30 round;
-  border-radius: 15px;
-  margin: 0;
-  padding: 2%;
-}
-
 .neg_margin {
   margin-top: -10%;
 }

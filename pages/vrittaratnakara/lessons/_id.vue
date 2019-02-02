@@ -55,14 +55,15 @@
         v-if="lesson.types"
         class="myheader3">
         <div class="text-xs-center mt-3">
-          <v-btn 
-            color="primary" 
+          <v-btn
+            color="primary"
             @click="nexttab">next tab</v-btn>
         </div>
         <v-tabs
           v-model="active"
           color="secondary lighten-2"
           dark
+          show-arrows
           slider-color="yellow"
         >
           <v-tab
@@ -134,7 +135,7 @@ export default {
       less => String(less.id) === this.id
     )
     this.treeData = this.lesson.treeData
-    // console.log(this.treeData)
+    console.log(this.treeData)
   },
   created() {
     // console.log(this.$store.state.lessons.find(lesson => lesson.id === '4.1'))
