@@ -1,10 +1,10 @@
 <template>
   <v-container class="mt-0 pt-0">
     <v-card
-      color="accent lighten-4"
+      color="accent"
       class="bordered papyrus mt-0 pt-0">
       <v-card-title primary-title>
-        <h3 class="papyrus myheader"><h1>Learn Vrittaratnakara</h1></h3>
+        <h1>Learn Vrittaratnakara</h1>
       </v-card-title>
       <v-btn
         to="/vrittaratnakara/lessons/1"

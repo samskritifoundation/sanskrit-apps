@@ -14,10 +14,10 @@
         color="accent darken-2"><b>Next</b></v-btn>
     </v-layout>
     <v-card
-      color="accent lighten-1"
+      color="teal lighten-4"
       class="mt-0 pt-0 bordered">
       <v-card-title primary-title>
-        <h3 class="papyrus myheader">{{ exercise.id }}. <span class="devanagari">{{ exercise.title }}</span> <br>{{ exercise.title_eng }}</h3>
+        <h1>{{ exercise.id }}. <span class="devanagari">{{ exercise.title }}</span> <br>{{ exercise.title_eng }}</h1>
         <v-chip
           :color="color"
           text-color="white"
@@ -45,7 +45,7 @@
             column
             class="font-weight-bold">
             <v-radio
-              v-for="(option,id) in exercise.options"
+              v-for="(option, id) in exercise.options"
               :key="id"
               :label="option"
               :value="option"
@@ -74,6 +74,7 @@
           </v-alert>
         </v-flex>
       </v-layout>
+
     </v-card>
   </v-container>
 </template>
@@ -101,26 +102,26 @@ export default {
   layout: 'lessons',
   mounted() {
     // console.log(this.id)
-    this.exercise = this.$store.state.vrittaratnakara_exercises.find(
+    this.exercise = this.$store.state.srutabodha_exercises.find(
       ex => String(ex.id) === this.id
     )
   },
   created() {
     // console.log(this.$store.state.exercises.find(exercise => exercise.id === '4.1'))
-    this.index = this.$store.state.vrittaratnakara_exercises.findIndex(
+    this.index = this.$store.state.srutabodha_exercises.findIndex(
       ex => String(ex.id) === this.id
     )
-    this.prev_ex = this.$store.state.vrittaratnakara_exercises[this.index - 1]
-    this.next_ex = this.$store.state.vrittaratnakara_exercises[this.index + 1]
-    this.length = this.$store.state.vrittaratnakara_exercises.length
+    this.prev_ex = this.$store.state.srutabodha_exercises[this.index - 1]
+    this.next_ex = this.$store.state.srutabodha_exercises[this.index + 1]
+    this.length = this.$store.state.srutabodha_exercises.length
     this.previous =
       this.index > 1
-        ? '/vrittaratnakara/exercises/' + this.prev_ex.id
-        : '/vrittaratnakara/exercises/1'
+        ? '/srutabodha/exercises/' + this.prev_ex.id
+        : '/srutabodha/exercises/1'
     this.next =
       this.index < this.length - 1
-        ? '/vrittaratnakara/exercises/' + this.next_ex.id
-        : '/vrittaratnakara/exercises/10'
+        ? '/srutabodha/exercises/' + this.next_ex.id
+        : '/srutabodha/exercises/10'
     // console.log(this.index)
     // console.log(this.prev_exercise)
     // console.log(this.next_exercise.id)
@@ -134,6 +135,7 @@ export default {
     },
     check(ans) {
       let correct = this.exercise.ans
+      console.log(correct + ',' + this.chosen)
       if (this.chosen === correct) {
         let audio = new Audio(
           'https://s3.ap-south-1.amazonaws.com/quiz-sounds/correct.wav'

@@ -1,17 +1,17 @@
 <template>
   <v-container class="mt-0 pt-0">
     <v-card
-      color="accent lighten-1"
-      class="mt-0 pt-0">
+      color="teal lighten-3"
+      class="bordered papyrus mt-0 pt-0">
       <v-card-title primary-title>
-        <h1 class="text-xs-center">Vrittaratnakara Exercises</h1>
+        <h1>Learn Shruthabodha</h1>
       </v-card-title>
       <v-btn
-        to="/vrittaratnakara/exercises/1"
+        to="/srutabodha/lessons/1"
         large
         color="secondary"
         class="text-capitalize font-weight-bold"
-        round> Start exercises</v-btn>
+        round> Start with introduction to the field of Sanskrit Prosody</v-btn>
     </v-card>
   </v-container>
 </template>

@@ -10,7 +10,7 @@
       sm8
       md8>
       <v-card
-        class = "bordered text-xs-center"
+        class = "text-xs-center"
         color="primary lighten-1"
         dark>
         <v-card-title class="myheader2 devanagari text-xs-center"><h1>वृत्तरत्नाकर-शिक्षकः - परस्परव्यवहारपूर्वकशिक्षणम्</h1></v-card-title>
@@ -26,7 +26,7 @@
               slot="activator"
               :ripple="{ class: 'error--text' }"
               round
-              color="accent darken-2"
+              color="lime darken-3"
               class="text-capitalize font-weight-bold"
               large> About <br> Vrittaratnakara</v-btn>
             <v-card
@@ -50,7 +50,7 @@
           <v-spacer/>
           <v-btn
             round
-            color="accent darken-2"
+            color="lime darken-3"
             class="font-weight-bold text-capitalize"
             nuxt
             to="/vrittaratnakara/lessons"
@@ -58,7 +58,7 @@
           <v-spacer/>
           <v-btn
             round
-            color="accent darken-2"
+            color="lime darken-3"
             class="font-weight-bold text-capitalize"
             nuxt
             to="/vrittaratnakara/exercises"
@@ -66,7 +66,7 @@
           <v-spacer/>
           <v-btn
             round
-            color="accent darken-2"
+            color="lime darken-3"
             class="font-weight-bold text-capitalize"
             nuxt
             to="/vrittaratnakara/math"

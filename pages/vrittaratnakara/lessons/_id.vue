@@ -14,7 +14,7 @@
         color="accent darken-2"><b>Next</b></v-btn>
     </v-layout>
     <v-card
-      color="accent lighten-4"
+      color="accent lighten-1"
       class="mt-0 pt-0 bordered">
       <v-card-title primary-title>
         <h3 class="papyrus myheader">{{ lesson.id }}. <span class="devanagari">{{ lesson.title_sans }}</span> <br>{{ lesson.title_eng }}</h3>

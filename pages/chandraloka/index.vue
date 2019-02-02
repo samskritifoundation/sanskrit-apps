@@ -10,16 +10,13 @@
       md8
       align-center>
       <v-card
-        class = "text-xs-center"
+        class = "text-xs-center pa-2"
         color = "secondary"
         dark
         align-center>
-        <v-card-title><h1>चन्द्रालोक-शिक्षकः - परस्परव्यवहारपूर्वकशिक्षणम्</h1></v-card-title>
-        <v-card-title><h2>Interactive tutorial for Candrāloka</h2></v-card-title>
-        <v-card-text>
-          <h3>Interactive self learning software for learning rhetorics used in Sanskrit poetry.</h3>
-          <hr class="my-3">
-        </v-card-text>
+        <h1>चन्द्रालोक-शिक्षकः - परस्परव्यवहारपूर्वकशिक्षणम्</h1>
+        <h2>Interactive tutorial for Candrāloka</h2>
+        <h3>Interactive self learning software for learning rhetorics used in Sanskrit poetry.</h3>
         <v-card-actions>
           <v-dialog
             v-model="dialog"

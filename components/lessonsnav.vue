@@ -224,6 +224,8 @@ export default {
       this.titles = this.$store.state.chandraloka_titles
     } else if (this.text_title == 'vrittaratnakara') {
       this.titles = this.$store.state.vrittaratnakara_titles
+    } else if (this.text_title == 'srutabodha') {
+      this.titles = this.$store.state.srutabodha_titles
     }
   }
 }
