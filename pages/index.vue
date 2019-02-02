@@ -78,7 +78,7 @@
         <v-flex xs4>
           <a
             v-ripple
-            href="/samasacakra" >
+            href="/samasachakra" >
             <img
               v-ripple
               class="image-btn"
