@@ -135,7 +135,7 @@ export default {
       less => String(less.id) === this.id
     )
     this.treeData = this.lesson.treeData
-    console.log(this.treeData)
+    // console.log(this.treeData)
   },
   created() {
     // console.log(this.$store.state.lessons.find(lesson => lesson.id === '4.1'))
@@ -165,8 +165,18 @@ export default {
       this.active = active < this.lesson.types - 1 ? active + 1 : 0
     },
     onClick(evt) {
-      console.log(evt.data)
-      window.open('/vrittaratnakara/lessons/' + evt.data.url)
+      let lesson_name = evt.element.data.name
+      let lesson = this.$store.state.vrittaratnakara_lessons.find(
+        lesson => lesson.title_eng === lesson_name
+      )
+      // console.log(lesson.id)
+      if (lesson) window.open('/vrittaratnakara/lessons/' + lesson.id)
+      else {
+        let parent = this.$store.state.vrittaratnakara_lessons.find(
+          lesson => lesson.title_eng === evt.element.parent.data.name
+        )
+        window.open('/vrittaratnakara/lessons/' + parent.id)
+      }
     }
   }
 }

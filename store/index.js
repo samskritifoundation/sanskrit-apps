@@ -8103,7 +8103,7 @@ export const state = () => ({
             name: 'वर्णछन्दः Varṇa Chandas',
             children: [
               {
-                name: 'समम् Samam',
+                name: 'Samam',
                 children: [
                   {
                     name: 'Uktā',
@@ -8140,7 +8140,7 @@ export const state = () => ({
                     name: 'Supratiṣṭā',
                     children: [
                       {
-                        name: 'Paṅkti'
+                        name: 'Paṅkti (Supratiṣṭā)'
                       }
                     ]
                   },
@@ -8561,7 +8561,7 @@ export const state = () => ({
                 ]
               },
               {
-                name: 'अर्धसमम् Ardhasamam',
+                name: 'Ardhasamam',
                 children: [
                   {
                     name: 'Upacitram'
@@ -8599,7 +8599,7 @@ export const state = () => ({
                 ]
               },
               {
-                name: 'विषमम् Viṣamam',
+                name: 'Viṣamam',
                 children: [
                   {
                     name: 'padacaturūrdhvam'
@@ -8645,7 +8645,7 @@ export const state = () => ({
             name: 'मात्राछन्दः Mātrā Chandas',
             children: [
               {
-                name: 'आर्या āryā',
+                name: 'āryā',
                 children: [
                   {
                     name: 'Pathyā'
@@ -8681,7 +8681,7 @@ export const state = () => ({
                 ]
               },
               {
-                name: 'वैतालीयः Vaitālīya',
+                name: 'Vaitālīya',
                 children: [
                   {
                     name: 'Aupacchandasikam'
@@ -8710,7 +8710,7 @@ export const state = () => ({
                 ]
               },
               {
-                name: 'वक्त्रम् Vaktram',
+                name: 'Vaktram',
                 children: [
                   {
                     name: 'Pathyāvaktram'
@@ -8794,12 +8794,12 @@ export const state = () => ({
     },
     {
       title_sans: 'समवृत्तम्',
-      title_eng: 'Sama-vṛttas - Even metres',
+      title_eng: 'Samam',
       id: '4.1.i',
       definition_sans:
         '<p>यस्य पद्यस्य चत्वारः अङ्घ्रयः पादाः तुल्येन समानेन लक्षणेन लक्षिता युक्ताः सन्ति तद् वृत्तं समं ।</p><p>यथा – उपेन्द्रव्रज्रा – सर्वेऽपि पादाः एकादशवर्णात्मकाः समानलक्षणभाजश्च भवन्ति | </p><h3>समवृत्तभेदाः -</h3><p>एकाक्षरात् पादात् आरभ्य एकाक्षरवर्धितैः एकेन-एकेन अक्षरेण वर्धितैः पादैः यावत् षड्विंशति संख्याकं प्रति गतं गमनं भवति, तावत् पृथक् भिन्नं छन्दो भवेत् ।',
       definition_eng:
-        '<p>Verses in which the quarters contain an equal number of syllables are called Samavṛtta.</p><p>Anuṣṭup, indravajrā, etc are examples of this type.</p><p>This type is divided into 26 vṛttas according to the number of syllables in each of the four quarters. This number varies from one to twenty six. Each of these types has specific name. </p>'
+        '<h2>Even metres</h2><p>Verses in which the quarters contain an equal number of syllables are called Samavṛtta.</p><p>Anuṣṭup, indravajrā, etc are examples of this type.</p><p>This type is divided into 26 vṛttas according to the number of syllables in each of the four quarters. This number varies from one to twenty six. Each of these types has specific name. </p>'
     },
     {
       title_sans: 'उक्ता',
@@ -8845,23 +8845,23 @@ export const state = () => ({
     },
     {
       title_sans: 'प्रतिष्ठा',
-      title_eng: 'Pratiṣṭā - Metre with 4 syllables in each quarter',
+      title_eng: 'Pratiṣṭā',
       id: '4.1.i.IV',
       definition_sans:
         '<h3>कन्या</h3><p>कन्या - पादश्चतुर्गुरुः चेत् कन्या नाम वृत्तं भवति ।</p>',
       definition_eng:
-        '<h3>Kanyā</h3><p>When four long syllables arranged as one <em>ga</em> syllable and one <em>ma</em> group form each pāda, then the metre is called <em>Kanyā</em>.</p>',
+        '<h2>Metre with 4 syllables in each quarter</h2><h3>Kanyā</h3><p>When four long syllables arranged as one <em>ga</em> syllable and one <em>ma</em> group form each pāda, then the metre is called <em>Kanyā</em>.</p>',
       common:
         'उदाहरणम् Example: <table><tr><td>&nbsp; &nbsp; &nbsp; &nbsp;  म &nbsp; &nbsp; गु</td><td>&nbsp; &nbsp; &nbsp; &nbsp; म &nbsp; गु</td><td>&nbsp; &nbsp; &nbsp; &nbsp; म &nbsp; &nbsp; गु</td><td>&nbsp; &nbsp; &nbsp; &nbsp; म &nbsp; &nbsp; &nbsp; गु</td></tr><tr><td>&nbsp; ऽ&nbsp;  ऽ&nbsp;  ऽ&nbsp;  ऽ&nbsp; </td><td>&nbsp; ऽ ऽ &nbsp;  ऽ ऽ</td><td>ऽ&nbsp; ऽ&nbsp; &nbsp; &nbsp;  ऽ ऽ</td><td>&nbsp; ऽ&nbsp;  ऽ &nbsp; ऽ &nbsp; ऽ</td></tr><tr><td>भास्वत्कन्या </td><td> सैका धन्या | </td><td> यस्याः &nbsp; कूले &nbsp; </td><td> कृष्णो अखेलत् ॥</td></table>'
     },
     {
       title_sans: 'सुप्रतिष्ठा',
-      title_eng: 'Supratiṣṭā - Metre with 5 syllables in each quarter.',
+      title_eng: 'Supratiṣṭā',
       id: '4.1.i.V',
       definition_sans:
         '<h3>पङ्क्तिः</h3><p>म्गौ गिति पङ्क्तिः – यदि पादे भगण गुरू पुनर्गुरुश्चेत्तर्हि पङ्क्तिः नाम वृत्तं भवति |</p>',
       definition_eng:
-        '<h3>Paṅkti</h3><p>This metre has five syllables of one <em>bha</em> group and two <em>ga</em> groups in each quarter.</p><p>So, here, the 1st, 4th and 5th syllables of each quarter are long and 2nd and 3rd are short.</p>',
+        '<h2>Metre with 5 syllables in each quarter</h2><h3>Paṅkti</h3><p>This metre has five syllables of one <em>bha</em> group and two <em>ga</em> groups in each quarter.</p><p>So, here, the 1st, 4th and 5th syllables of each quarter are long and 2nd and 3rd are short.</p>',
       common:
         '<table><tr><td>ऽ &nbsp; ।  । &nbsp; ऽ ऽ &nbsp; ऽ &nbsp; ।  । &nbsp; ऽ ऽ</td><td> &nbsp; &nbsp; ऽ । ।  ऽ ऽ  &nbsp; ऽ ।  &nbsp; ।  ऽ ऽ </td></tr><tr><td>कृष्णसनाथा &nbsp; तर्णकपंक्तिः ।</td><td> &nbsp; यामुनकच्छे चारु चचार ॥</td></tr></table>'
     },
@@ -8895,12 +8895,12 @@ export const state = () => ({
     },
     {
       title_sans: 'उष्णिक्',
-      title_eng: 'Uṣṇik - Metre with 7 syllables in each quarter.',
+      title_eng: 'Uṣṇik',
       id: '4.1.i.VII',
       definition_sans:
         '<h3>मदलेखा</h3><p>मगण सगण गुरुभिः मदलेखा नाम वृत्तं भवति ।</p>',
       definition_eng:
-        '<h3>Madalekhā</h3><p>This metre has seven syllables of one <em>ma</em> group, one <em>sa</em> group and one <em>ga</em> group in each quarter.</p><p>So here the 4th and 5th syllables of each quarter are short and the others long.</p><p>There should be a pause after the 3rd and the last syllables of each quarter.</p>',
+        '<h2>Metre with 7 syllables in each quarter.</h2><h3>Madalekhā</h3><p>This metre has seven syllables of one <em>ma</em> group, one <em>sa</em> group and one <em>ga</em> group in each quarter.</p><p>So here the 4th and 5th syllables of each quarter are short and the others long.</p><p>There should be a pause after the 3rd and the last syllables of each quarter.</p>',
       common:
         '<table><tbody><tr><td>&nbsp; &nbsp; &nbsp; त&nbsp; &nbsp; &nbsp; &nbsp; स</td><td>&nbsp; &nbsp; &nbsp; &nbsp; त &nbsp; &nbsp; &nbsp; &nbsp; स</td></tr><tr><td>ऽ ऽ&nbsp; ऽ। । ऽ&nbsp; ऽ</td><td  style="width: 614.333px;">&nbsp; ऽ ऽ&nbsp; &nbsp; ऽ ।।&nbsp; ऽ&nbsp; ऽ</td></tr><tr><td>रङ्गे बाहुविरुग्णात्,&nbsp; </td><td>दन्तीन्द्रान्मदलेखा ॥</td></tr><tr><td>लग्नाभून्मुरशत्रौ</td><td> कस्तूरी रसचर्चा ॥</td></tr></tbody></table>'
     },
@@ -9503,12 +9503,12 @@ export const state = () => ({
     },
     {
       title_sans: 'अर्धसमम्',
-      title_eng: 'Ardhasamam - Half even metres',
+      title_eng: 'Ardhasamam',
       id: '4.1.ii',
       definition_sans:
         '<p>यस्य पद्यस्य तृतीयः चरणः प्रथमाङ्घ्रिसमः प्रथमपादतुल्यो भवति तथा द्वितीयः चरणः तुर्यवत् चतुर्थपादवत् भवति, तद्वृत्तं अर्धसममिति उच्यते । यथा पुष्पिताग्रा ।</p>',
       definition_eng:
-        '<p>Verses in which the alternate quarters have the same structure, i.e., when the first quarter is similar to the third quarter and the second to the fourth, they called Ardhasamavṛttas</p>'
+        '<h2>Half even metres</h2><p>Verses in which the alternate quarters have the same structure, i.e., when the first quarter is similar to the third quarter and the second to the fourth, they called Ardhasamavṛttas</p>'
     },
     {
       title_sans: 'उपचित्रम्',
@@ -9629,12 +9629,12 @@ export const state = () => ({
     },
     {
       title_sans: 'विषमवृत्तम्',
-      title_eng: 'Viṣamavṛtta - Uneven metres',
+      title_eng: 'Viṣamam',
       id: '4.1.iii',
       definition_sans:
         '<p>यस्य पादचतुष्के चतुर्ष्वपि पादेषु लक्षणं परस्परं मिथः भिन्नं दृश्यते, छन्दःशास्त्रविशारदाः तद् वृत्तं विषमं कथयन्ति । यथा कलिका छन्दः</p>',
       definition_eng:
-        '<p>Verses in which all the quarters are dissimilar from the point of view of number and placement of syllables, are called Viṣamavṛttas</p>'
+        '<h2>Uneven metres</h2><p>Verses in which all the quarters are dissimilar from the point of view of number and placement of syllables, are called Viṣamavṛttas</p>'
     },
     {
       title_sans: 'पदचतुरूर्ध्वाभिधम्',
@@ -9839,7 +9839,7 @@ export const state = () => ({
     },
     {
       title_sans: 'गीतिः',
-      title_eng: 'Gīti ',
+      title_eng: 'Gīti',
       id: '4.2.ii',
       definition_sans:
         '<p>पूर्वोत्तरार्धयोः आर्यापूर्वार्धगतं लक्षणं भवेत् सा गीतिः </p><p>उभयपादाः त्रिंशन्मात्राः पूर्वोत्तरपादौ सप्तगणाःअन्ते गुरुः</p><p>प्रथमे पादे द्वादश मात्राः</p><p>द्वितीये पादे अष्टादश मात्राः</p><p>विषमे (प्रथमतृतीयपञ्चमसप्तम) स्थाने जगणः न भवति ।</p> <p>षष्ठे गणे जगणो भवति अथवा चत्वारो लघवो भवन्ति ।</p>यतिनियमम् – <p>षष्ठस्थाने चतुर्लघौ गणे कृते सति द्वितीयलघोः पूर्वं प्रथम लघ्वनन्तरं यतियुक्तं पदं नियमेन समाप्यते । </p><p>सप्तमस्थाने  चतुर्लघो कृते सति प्रथम लघोः पूर्वमेव षष्ठगणानन्तरं सयति पद नियमो भवति ।</p>',
@@ -9850,7 +9850,7 @@ export const state = () => ({
     },
     {
       title_sans: 'उपगीतिः',
-      title_eng: 'Upagīti ',
+      title_eng: 'Upagīti',
       id: '4.2.ii.I',
       definition_sans:
         '<p>आर्यायाः उत्तरार्धे यत् लक्षणं  भवति तत् लक्षणं यदि उभयोरपि अर्धयोः स्यात् तां उपगीतिं कथयति ।</p><p>उत्तरार्धे – </p><ul><li>२७ मात्राः</li><li>सप्तगणाः भवन्ति अन्ते गुरुः</li><li>तृतीयपादे द्वादश अक्षराः </li><li>चतुर्थपादे पञ्चदश अक्षराः</li><li>षष्ठस्थाने गणे एको लघुः भवति ।</li><li>सप्तगणाः भवन्ति अन्ते गुरुः</li></ul>',
@@ -9861,7 +9861,7 @@ export const state = () => ({
     },
     {
       title_sans: 'उद्गीतिः',
-      title_eng: 'Udgīti ',
+      title_eng: 'Udgīti',
       id: '4.2.ii.II',
       definition_sans:
         '<p>आर्यायाः पूर्वार्धं यस्या उत्तरार्धं भवेत्, आर्याया उत्तरार्धं च यस्याः पूर्वार्धं भवेत् सा उद्गीतिः ।</p>',
@@ -9872,7 +9872,7 @@ export const state = () => ({
     },
     {
       title_sans: 'आर्यागीतिः',
-      title_eng: 'āryāgīti ',
+      title_eng: 'āryāgīti',
       id: '4.2.ii.III',
       definition_sans:
         '<p>यदि आर्यापूर्वार्धम् अवसाने एकेन अधिकेन गुरुणा युक्तं भवेत्, इतरत् द्वितीयं यदीयम् उत्तरार्धं पूर्वार्धवत् भवति सा आर्यागीतिः कथिता ।</p><p>आर्यागीत्यां तु पूर्वार्धे उत्तरार्धे उभयोरपि पूर्णा अष्टौ गणा भवन्ति । </p><p>उभयदलयोः ३२ मात्राः सन्ति ।</p>',
@@ -10077,7 +10077,7 @@ export const state = () => ({
     },
     {
       title_sans: 'मात्रासमवृत्तम्',
-      title_eng: 'mātrāsamavṛtta',
+      title_eng: 'mātrāsamavṛttam',
       id: '4.2.v',
       definition_sans: '',
       definition_eng: '',
