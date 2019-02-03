@@ -1,60 +1,60 @@
 <template>
   <v-container class="mt-0 pt-0">
-    <v-layout 
-      row 
+    <v-layout
+      row
       class="neg_margin">
-      <v-btn 
-        :ripple="{ class: 'error--text' }" 
-        :to="previous" 
+      <v-btn
+        :ripple="{ class: 'error--text' }"
+        :to="previous"
         color="accent darken-2"><b>Previous</b></v-btn>
       <v-spacer/>
-      <v-btn 
-        :ripple="{ class: 'error--text' }" 
-        :to="next" 
+      <v-btn
+        :ripple="{ class: 'error--text' }"
+        :to="next"
         color="accent darken-2"><b>Next</b></v-btn>
     </v-layout>
-    <v-card 
-      color="accent lighten-4" 
+    <v-card
+      color="accent lighten-1"
       class="mt-0 pt-0 bordered">
       <v-card-title primary-title>
         <h3 class="papyrus myheader">{{ exercise.id }}. <span class="devanagari">{{ exercise.title }}</span> <br>{{ exercise.title_eng }}</h3>
-        <v-chip 
-          :color="color" 
-          text-color="white" 
+        <v-chip
+          :color="color"
+          text-color="white"
           class ="title devanagari">
           <v-avatar class="green darken-4">{{ score }}</v-avatar>
           Score
         </v-chip>
       </v-card-title>
 
-      <v-layout 
-        row 
+      <v-layout
+        row
         class="myheader3">
         <v-flex>
-          <div 
-            class="devanagari px-1" 
+          <div
+            class="devanagari px-1"
             v-html="exercise.question"/>
         </v-flex>
       </v-layout>
-      <v-layout 
-        row 
+      <v-layout
+        row
         class="myheader3">
         <v-flex>
-          <v-radio-group 
-            v-model="chosen" 
-            column 
+          <v-radio-group
+            v-model="chosen"
+            column
             class="font-weight-bold">
-            <v-radio 
-              v-for="(option, id) in exercise.options" 
-              :key="id" 
-              :label="option" 
-              :value="option" 
+            <v-radio
+              v-for="(option, id) in exercise.options"
+              :key="id"
+              :label="option"
+              :value="option"
               success="true"/>
           </v-radio-group>
-          <v-btn 
-            :ripple="{ class: 'error--text' }" 
-            round 
-            color="error darken-2" 
+          <v-btn
+            :ripple="{ class: 'error--text' }"
+            round
+            color="error darken-2"
             @click="check()" ><b>Submit</b></v-btn>
           <v-alert
             v-model="success_alert"

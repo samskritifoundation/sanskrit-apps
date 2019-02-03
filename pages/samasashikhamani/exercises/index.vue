@@ -1,7 +1,7 @@
 <template>
   <v-container class="mt-0 pt-0">
     <v-card
-      color="accent lighten-4"
+      color="accent lighten-1"
       class="bordered papyrus mt-0 pt-0">
       <v-card-title primary-title>
         <h3 class="papyrus myheader">Samāsaśikhāmaṇi Exercises</h3>

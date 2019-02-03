@@ -1,66 +1,74 @@
 <template>
   <v-container class="mt-0 pt-0">
-    <v-layout 
-      row 
+    <v-layout
+      row
       class="neg_margin">
-      <v-btn 
-        :ripple="{ class: 'error--text' }" 
-        :to="previous" 
+      <v-btn
+        :ripple="{ class: 'error--text' }"
+        :to="previous"
         color="accent darken-2"><b>Previous</b></v-btn>
       <v-spacer/>
-      <v-btn 
-        :ripple="{ class: 'error--text' }" 
-        :to="next" 
+      <v-btn
+        :ripple="{ class: 'error--text' }"
+        :to="next"
         color="accent darken-2"><b>Next</b></v-btn>
     </v-layout>
-    <v-card 
-      color="accent lighten-4" 
+    <v-card
+      color="accent lighten-1"
       class="mt-0 pt-0 bordered">
       <v-card-title primary-title>
-        <h3 class="myheader">{{ lesson.id }}. <span 
-          v-if="lesson.title_sans" 
+        <h3 class="myheader">{{ lesson.id }}. <span
+          v-if="lesson.title_sans"
           class="devanagari">{{ lesson.title_sans }} <br></span>{{ lesson.title_eng }}</h3>
       </v-card-title>
 
-      <v-layout 
-        row 
+      <v-layout
+        row
         class="myheader3">
-        <v-flex 
-          v-show="lesson.definition_sans" 
+        <v-flex
+          v-show="lesson.definition_sans"
           xs6>
-          <div 
-            class="devanagari px-1" 
+          <div
+            class="devanagari px-1"
             v-html="lesson.definition_sans"/>
         </v-flex>
-        <v-flex 
-          v-show="lesson.definition_eng" 
+        <v-flex
+          v-show="lesson.definition_eng"
           xs6>
-          <div 
-            class="font-weight-bold px-1" 
+          <div
+            class="font-weight-bold px-1"
             v-html="lesson.definition_eng"/>
         </v-flex>
       </v-layout>
       <v-flex xs12>
-        <v-layout 
-          class="myheader3 devanagari px-1" 
+        <v-layout
+          class="myheader3 devanagari px-1"
           v-html="lesson.common"/>
       </v-flex>
-      <v-flex 
-        v-if="lesson.examples" 
+      <v-flex
+        v-if="lesson.examples"
         xs12>
         <v-layout class="myheader3 devanagari px-1" >
           <h3>Examples:</h3>
           <ul>
-            <li 
-              v-for="ex in lesson.examples" 
-              :key="ex" 
+            <li
+              v-for="ex in lesson.examples"
+              :key="ex"
               v-html="ex.text"/>
           </ul>
         </v-layout>
       </v-flex>
-      <div 
-        v-if="lesson.treeData" 
+      <div
+        v-if="lesson.treeData"
         class="myheader2">
+        <tree
+          :data="d3treeData"
+          :radius="4"
+          type="tree"
+          class="tree"
+          zoomable
+          node-text="name"
+          layout-type="euclidean" />
         <v-treeview
           :items="treeData"
           :open="open"
@@ -70,29 +78,29 @@
           multiple-active
           transition
         >
-          <template 
-            slot="append" 
-            slot-scope="{ item, open, leaf }" 
+          <template
+            slot="append"
+            slot-scope="{ item, open, leaf }"
             class="ma-5">
-            <v-btn 
-              v-if="item.link" 
-              :to="item.link" 
-              color="primary lighten-3" 
-              small 
-              class="ma-3" 
+            <v-btn
+              v-if="item.link"
+              :to="item.link"
+              color="primary lighten-3"
+              small
+              class="ma-3"
               nuxt><b>View</b></v-btn>
           </template>
         </v-treeview>
       </div>
 
-      <div 
-        v-if="lesson.types" 
+      <div
+        v-if="lesson.types"
         class="myheader3">
-        <v-expansion-panel 
-          focusable 
+        <v-expansion-panel
+          focusable
           inset>
           <v-expansion-panel-content
-            v-for="t in lesson.type" 
+            v-for="t in lesson.type"
             :key="t"
           >
             <div slot="header">{{ t.name }}</div>
@@ -102,9 +110,9 @@
                 <div v-if="t.ex">
                   <h3>Examples:</h3>
                   <ul>
-                    <li 
-                      v-for="example in t.ex" 
-                      :key="example" 
+                    <li
+                      v-for="example in t.ex"
+                      :key="example"
                       v-html="example.text"/>
                   </ul>
                 </div>
@@ -140,6 +148,7 @@ export default {
       previous: '/',
       next: '/',
       treeData: '',
+      d3treeData: '',
       currentNode: null
     }
   },
@@ -150,7 +159,7 @@ export default {
       less => String(less.id) === this.id
     )
     this.treeData = this.lesson.treeData
-    // console.log(this.treeData)
+    this.d3treeData = this.lesson.d3treeData
   },
   created() {
     // console.log(this.$store.state.lessons.find(lesson => lesson.id === '4.1'))
@@ -203,7 +212,7 @@ export default {
 }
 
 .tree {
-  height: 2200px;
-  width: 100%;
+  height: 350px;
+  width: 80%;
 }
 </style>

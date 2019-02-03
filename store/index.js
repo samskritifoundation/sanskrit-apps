@@ -11641,37 +11641,35 @@ export const state = () => ({
         'वक्ष्ये तत्पुरुषं कर्मधारयं बालबुद्धये ।<br>बहुव्रीहिं द्विगुं द्वंद्वमव्ययीभावमेव च ॥',
       definition_eng: ' ',
       common: 'Samāsas are also divided into 6 types:',
-      treeData: [
-        {
-          name: 'Samāsa',
-          children: [
-            {
-              name: '1. तत्पुरुषः (tatpuruṣaḥ)',
-              link: '/lessons/5'
-            },
-            {
-              name: '2. कर्मधारयः (karmadhārayaḥ)',
-              link: '/lessons/6'
-            },
-            {
-              name: '3. बहुव्रीहिः (bahuvrīhi)',
-              link: '/lessons/7'
-            },
-            {
-              name: '4. द्विगुः (dvigu)',
-              link: '/lessons/8'
-            },
-            {
-              name: '5. द्वन्द्वः (dvandva)',
-              link: '/lessons/9'
-            },
-            {
-              name: '6. अव्ययीभावः (avyayībhāva)',
-              link: '/lessons/10'
-            }
-          ]
-        }
-      ]
+      treeData: {
+        name: 'Samāsa',
+        children: [
+          {
+            name: '1. तत्पुरुषः (tatpuruṣaḥ)',
+            link: '/lessons/5'
+          },
+          {
+            name: '2. कर्मधारयः (karmadhārayaḥ)',
+            link: '/lessons/6'
+          },
+          {
+            name: '3. बहुव्रीहिः (bahuvrīhi)',
+            link: '/lessons/7'
+          },
+          {
+            name: '4. द्विगुः (dvigu)',
+            link: '/lessons/8'
+          },
+          {
+            name: '5. द्वन्द्वः (dvandva)',
+            link: '/lessons/9'
+          },
+          {
+            name: '6. अव्ययीभावः (avyayībhāva)',
+            link: '/lessons/10'
+          }
+        ]
+      }
     },
     {
       title_sans: '',
@@ -12363,6 +12361,29 @@ export const state = () => ({
         'वक्ष्ये तत्पुरुषं कर्मधारयं बालबुद्धये ।<br>बहुव्रीहिं द्विगुं द्वंद्वमव्ययीभावमेव च ॥',
       definition_eng: ' ',
       common: 'Samāsas are also divided into 6 types:',
+      d3treeData: {
+        name: 'Samāsa',
+        children: [
+          {
+            name: '1. तत्पुरुषः (tatpuruṣaḥ)'
+          },
+          {
+            name: '2. कर्मधारयः (karmadhārayaḥ)'
+          },
+          {
+            name: '3. बहुव्रीहिः (bahuvrīhi)'
+          },
+          {
+            name: '4. द्विगुः (dvigu)'
+          },
+          {
+            name: '5. द्वन्द्वः (dvandva)'
+          },
+          {
+            name: '6. अव्ययीभावः (avyayībhāva)'
+          }
+        ]
+      },
       treeData: [
         {
           name: 'Samāsa',
@@ -12404,6 +12425,117 @@ export const state = () => ({
       definition_eng:
         '<p>The six Samāsas are further divided into 28 types as follows:</p>',
       common: '',
+      d3treeData: {
+        name: 'Samāsa',
+        children: [
+          {
+            name: '1. तत्पुरुषः (tatpuruṣaḥ)',
+            children: [
+              {
+                name: '1. प्रथमातत्पुरुषः (prathamātatpuruṣaḥ)'
+              },
+              {
+                name: '2. द्वितीयातत्पुरुषः (dvitīyātatpuruṣaḥ)'
+              },
+              {
+                name: '3. तृतीयातत्पुरुषः (tṛtīyātatpuruṣaḥ)'
+              },
+              {
+                name: '4. चतुर्थीतत्पुरुषः (caturthītatpuruṣaḥ)'
+              },
+              {
+                name: '5. पञ्चमीतत्पुरुषः (pañcamītatpuruṣaḥ)'
+              },
+              {
+                name: '6. षष्ठीतत्पुरुषः (ṣaṣṭhītatpuruṣaḥ)'
+              },
+              {
+                name: '7. सप्तमीतत्पुरुषः (saptamītatpuruṣaḥ)'
+              },
+              {
+                name: '8. नञ् तत्पुरुषः (nañ tatpuruṣaḥ)'
+              }
+            ]
+          },
+          {
+            name: '2. कर्मधारयः (karmadhārayaḥ)',
+            children: [
+              {
+                name: '1. विशेषणपूर्वपदः (viśeṣaṇapūrvapadaḥ)'
+              },
+              {
+                name: '2. विशेष्यपूर्वपदः (viśeṣyapūrvapadaḥ) '
+              },
+              {
+                name: '3. विशेषणोभयपदः (viśeṣaṇobhayapadaḥ) '
+              },
+              {
+                name: '4. उपमानपूर्वपदः (upamānapūrvapadaḥ) '
+              },
+              {
+                name: '5. उपमानोत्तरपदः (upamānottarapadaḥ) '
+              },
+              {
+                name: '6. सम्भावनापूर्वपदः (sambhāvanāpūrvapadaḥ)'
+              },
+              {
+                name: '7. अवधारणापूर्वपदः (avadhāraṇāpūrvapadaḥ) '
+              }
+            ]
+          },
+          {
+            name: '3. बहुव्रीहिः (bahuvrīhi)',
+            children: [
+              {
+                name: '1. द्विपदः (dvipadaḥ) '
+              },
+              {
+                name: '2. बहुपदः (bahupadaḥ) '
+              },
+              {
+                name: '3. सहपूर्वपदः (sahapūrvapadaḥ) '
+              },
+              {
+                name: '4. संख्योत्तरपदः (saṃkhyottarapadaḥ) '
+              },
+              {
+                name: '5. संख्योभयपदाः (saṃkhyobhayapadāḥ) '
+              },
+              {
+                name: '6. व्यतिहारलक्षणः (vyatihāralakṣaṇaḥ) '
+              },
+              {
+                name: '7. दिगन्तराललक्षणः (digantarālalakṣaṇaḥ) '
+              }
+            ]
+          },
+          {
+            name: '4. द्विगुः (dvigu)',
+            children: [
+              {
+                name: '1. एकवद्भावी द्विगुः (ekavadbhāvī dviguḥ) '
+              },
+              {
+                name: '2. अनेकवद्भावी द्विगुः (anekavadbhāvī dviguḥ) '
+              }
+            ]
+          },
+          {
+            name: '5. द्वन्द्वः (dvandva)',
+            children: [
+              {
+                name: '1. इतरेतरद्वन्द्वः (itaretaradvandvaḥ)'
+              },
+              {
+                name: '2. समाहारद्वन्द्वः (samāhāradvandvaḥ)'
+              }
+            ]
+          },
+          {
+            name: '6. अव्ययीभावः (avyayībhāva)'
+          }
+        ]
+      },
       treeData: [
         {
           name: 'Samāsa',
