@@ -228,6 +228,8 @@ export default {
       this.titles = this.$store.state.srutabodha_titles
     } else if (this.text_title == 'samasashikhamani') {
       this.titles = this.$store.state.samasashikhamani_titles
+    } else if (this.text_title == 'samasachakra') {
+      this.titles = this.$store.state.samasashikhamani_titles
     }
   }
 }

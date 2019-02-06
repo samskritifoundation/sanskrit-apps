@@ -51,15 +51,24 @@
           <h3>Examples:</h3>
           <ul>
             <li
-              v-for="ex in lesson.examples"
-              :key="ex"
+              v-for="(ex,i) in lesson.examples"
+              :key="i"
               v-html="ex.text"/>
           </ul>
         </v-layout>
       </v-flex>
       <div
-        v-if="lesson.treeData"
+        v-if="lesson.d3treeData"
         class="myheader2">
+        <tree
+          :data="d3treeData"
+          :radius="4"
+          type="tree"
+          class="tree"
+          zoomable
+          node-text="name"
+          layout-type="euclidean"
+          @clicked="onClick" />
         <v-treeview
           :items="treeData"
           :open="open"
@@ -91,8 +100,8 @@
           focusable
           inset>
           <v-expansion-panel-content
-            v-for="t in lesson.type"
-            :key="t"
+            v-for="(t,j) in lesson.type"
+            :key="j"
           >
             <div slot="header">{{ t.name }}</div>
             <v-card color="accent lighten-2">
@@ -102,8 +111,8 @@
                   <h3>Examples:</h3>
                   <ul>
                     <li
-                      v-for="example in t.ex"
-                      :key="example"
+                      v-for="(example,k) in t.ex"
+                      :key="k"
                       v-html="example.text"/>
                   </ul>
                 </div>
@@ -139,6 +148,7 @@ export default {
       previous: '/',
       next: '/',
       treeData: '',
+      d3treeData: '',
       currentNode: null
     }
   },
@@ -149,6 +159,7 @@ export default {
       less => String(less.id) === this.id
     )
     this.treeData = this.lesson.treeData
+    this.d3treeData = this.lesson.d3treeData
     // console.log(this.treeData)
   },
   created() {
@@ -177,6 +188,9 @@ export default {
     nexttab() {
       const active = parseInt(this.active)
       this.active = active < this.lesson.types - 1 ? active + 1 : 0
+    },
+    onClick(evt) {
+      window.open(evt.element.data.link)
     }
   }
 }
@@ -198,7 +212,7 @@ export default {
 }
 
 .tree {
-  height: 2200px;
-  width: 100%;
+  height: 350px;
+  width: 80%;
 }
 </style>
