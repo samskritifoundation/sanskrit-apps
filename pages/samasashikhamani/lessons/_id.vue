@@ -29,7 +29,7 @@
           v-show="lesson.definition_sans"
           xs6>
           <div
-            class="devanagari px-1"
+            class="font-weight-bold px-1"
             v-html="lesson.definition_sans"/>
         </v-flex>
         <v-flex
@@ -42,13 +42,13 @@
       </v-layout>
       <v-flex xs12>
         <v-layout
-          class="myheader3 devanagari px-1"
+          class="font-weight-bold px-1"
           v-html="lesson.common"/>
       </v-flex>
       <v-flex
         v-if="lesson.examples"
         xs12>
-        <v-layout class="myheader3 devanagari px-1" >
+        <v-layout class="font-weight-bold px-1" >
           <h3>Examples:</h3>
           <ul>
             <li

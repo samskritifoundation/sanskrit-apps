@@ -2,34 +2,34 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import { interopDefault } from './utils'
 
-const _1768a4c4 = () => interopDefault(import('..\\pages\\chandraloka\\index.vue' /* webpackChunkName: "pages_chandraloka_index" */))
-const _2b2be2c4 = () => interopDefault(import('..\\pages\\kriyanighantu\\index.vue' /* webpackChunkName: "pages_kriyanighantu_index" */))
-const _0724db24 = () => interopDefault(import('..\\pages\\samasachakra\\index.vue' /* webpackChunkName: "pages_samasachakra_index" */))
-const _38d32ccd = () => interopDefault(import('..\\pages\\samasashikhamani\\index.vue' /* webpackChunkName: "pages_samasashikhamani_index" */))
-const _0f740d8f = () => interopDefault(import('..\\pages\\srutabodha\\index.vue' /* webpackChunkName: "pages_srutabodha_index" */))
-const _1a0a364f = () => interopDefault(import('..\\pages\\vrittaratnakara\\index.vue' /* webpackChunkName: "pages_vrittaratnakara_index" */))
-const _41767abb = () => interopDefault(import('..\\pages\\chandraloka\\exercises\\index.vue' /* webpackChunkName: "pages_chandraloka_exercises_index" */))
-const _10328dca = () => interopDefault(import('..\\pages\\chandraloka\\lessons\\index.vue' /* webpackChunkName: "pages_chandraloka_lessons_index" */))
-const _025473eb = () => interopDefault(import('..\\pages\\samasachakra\\exercises\\index.vue' /* webpackChunkName: "pages_samasachakra_exercises_index" */))
-const _69513e4b = () => interopDefault(import('..\\pages\\samasachakra\\lessons\\index.vue' /* webpackChunkName: "pages_samasachakra_lessons_index" */))
-const _3d36f82c = () => interopDefault(import('..\\pages\\samasashikhamani\\exercises\\index.vue' /* webpackChunkName: "pages_samasashikhamani_exercises_index" */))
-const _23d9decc = () => interopDefault(import('..\\pages\\samasashikhamani\\lessons\\index.vue' /* webpackChunkName: "pages_samasashikhamani_lessons_index" */))
-const _47e96a2a = () => interopDefault(import('..\\pages\\srutabodha\\exercises\\index.vue' /* webpackChunkName: "pages_srutabodha_exercises_index" */))
-const _23dcb84a = () => interopDefault(import('..\\pages\\srutabodha\\lessons\\index.vue' /* webpackChunkName: "pages_srutabodha_lessons_index" */))
-const _6aa6496a = () => interopDefault(import('..\\pages\\vrittaratnakara\\exercises\\index.vue' /* webpackChunkName: "pages_vrittaratnakara_exercises_index" */))
-const _52c8678a = () => interopDefault(import('..\\pages\\vrittaratnakara\\lessons\\index.vue' /* webpackChunkName: "pages_vrittaratnakara_lessons_index" */))
-const _8d255dca = () => interopDefault(import('..\\pages\\vrittaratnakara\\math.vue' /* webpackChunkName: "pages_vrittaratnakara_math" */))
-const _076c203a = () => interopDefault(import('..\\pages\\chandraloka\\exercises\\_id.vue' /* webpackChunkName: "pages_chandraloka_exercises__id" */))
-const _0c764643 = () => interopDefault(import('..\\pages\\chandraloka\\lessons\\_id.vue' /* webpackChunkName: "pages_chandraloka_lessons__id" */))
-const _6db47513 = () => interopDefault(import('..\\pages\\samasachakra\\exercises\\_id.vue' /* webpackChunkName: "pages_samasachakra_exercises__id" */))
-const _7fbf511a = () => interopDefault(import('..\\pages\\samasachakra\\lessons\\_id.vue' /* webpackChunkName: "pages_samasachakra_lessons__id" */))
-const _283d1594 = () => interopDefault(import('..\\pages\\samasashikhamani\\exercises\\_id.vue' /* webpackChunkName: "pages_samasashikhamani_exercises__id" */))
-const _8cadb798 = () => interopDefault(import('..\\pages\\samasashikhamani\\lessons\\_id.vue' /* webpackChunkName: "pages_samasashikhamani_lessons__id" */))
-const _283fef12 = () => interopDefault(import('..\\pages\\srutabodha\\exercises\\_id.vue' /* webpackChunkName: "pages_srutabodha_exercises__id" */))
-const _221f759c = () => interopDefault(import('..\\pages\\srutabodha\\lessons\\_id.vue' /* webpackChunkName: "pages_srutabodha_lessons__id" */))
-const _572b9e52 = () => interopDefault(import('..\\pages\\vrittaratnakara\\exercises\\_id.vue' /* webpackChunkName: "pages_vrittaratnakara_exercises__id" */))
-const _077ec472 = () => interopDefault(import('..\\pages\\vrittaratnakara\\lessons\\_id.vue' /* webpackChunkName: "pages_vrittaratnakara_lessons__id" */))
-const _8323dbc8 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
+const _1c92f992 = () => interopDefault(import('..\\pages\\chandraloka\\index.vue' /* webpackChunkName: "pages_chandraloka_index" */))
+const _5ed001b8 = () => interopDefault(import('..\\pages\\kriyanighantu\\index.vue' /* webpackChunkName: "pages_kriyanighantu_index" */))
+const _45e0760c = () => interopDefault(import('..\\pages\\samasachakra\\index.vue' /* webpackChunkName: "pages_samasachakra_index" */))
+const _7e7d8d4e = () => interopDefault(import('..\\pages\\samasashikhamani\\index.vue' /* webpackChunkName: "pages_samasashikhamani_index" */))
+const _73d9731b = () => interopDefault(import('..\\pages\\srutabodha\\index.vue' /* webpackChunkName: "pages_srutabodha_index" */))
+const _15bb2f7a = () => interopDefault(import('..\\pages\\vrittaratnakara\\index.vue' /* webpackChunkName: "pages_vrittaratnakara_index" */))
+const _5793ee47 = () => interopDefault(import('..\\pages\\chandraloka\\exercises\\index.vue' /* webpackChunkName: "pages_chandraloka_exercises_index" */))
+const _ecb8c0b2 = () => interopDefault(import('..\\pages\\chandraloka\\lessons\\index.vue' /* webpackChunkName: "pages_chandraloka_lessons_index" */))
+const _a0351c42 = () => interopDefault(import('..\\pages\\samasachakra\\exercises\\index.vue' /* webpackChunkName: "pages_samasachakra_exercises_index" */))
+const _0f31293f = () => interopDefault(import('..\\pages\\samasachakra\\lessons\\index.vue' /* webpackChunkName: "pages_samasachakra_lessons_index" */))
+const _c52047c0 = () => interopDefault(import('..\\pages\\samasashikhamani\\exercises\\index.vue' /* webpackChunkName: "pages_samasashikhamani_exercises_index" */))
+const _9db9a080 = () => interopDefault(import('..\\pages\\samasashikhamani\\lessons\\index.vue' /* webpackChunkName: "pages_samasashikhamani_lessons_index" */))
+const _246d55c4 = () => interopDefault(import('..\\pages\\srutabodha\\exercises\\index.vue' /* webpackChunkName: "pages_srutabodha_exercises_index" */))
+const _72e2d03e = () => interopDefault(import('..\\pages\\srutabodha\\lessons\\index.vue' /* webpackChunkName: "pages_srutabodha_lessons_index" */))
+const _f2f1d214 = () => interopDefault(import('..\\pages\\vrittaratnakara\\exercises\\index.vue' /* webpackChunkName: "pages_vrittaratnakara_exercises_index" */))
+const _57572816 = () => interopDefault(import('..\\pages\\vrittaratnakara\\lessons\\index.vue' /* webpackChunkName: "pages_vrittaratnakara_lessons_index" */))
+const _0b65deb2 = () => interopDefault(import('..\\pages\\vrittaratnakara\\math.vue' /* webpackChunkName: "pages_vrittaratnakara_math" */))
+const _e3f25322 = () => interopDefault(import('..\\pages\\chandraloka\\exercises\\_id.vue' /* webpackChunkName: "pages_chandraloka_exercises__id" */))
+const _51135fcf = () => interopDefault(import('..\\pages\\chandraloka\\lessons\\_id.vue' /* webpackChunkName: "pages_chandraloka_lessons__id" */))
+const _13946007 = () => interopDefault(import('..\\pages\\samasachakra\\exercises\\_id.vue' /* webpackChunkName: "pages_samasachakra_exercises__id" */))
+const _0f266f67 = () => interopDefault(import('..\\pages\\samasachakra\\lessons\\_id.vue' /* webpackChunkName: "pages_samasachakra_lessons__id" */))
+const _94f332f0 = () => interopDefault(import('..\\pages\\samasashikhamani\\exercises\\_id.vue' /* webpackChunkName: "pages_samasashikhamani_exercises__id" */))
+const _673a2228 = () => interopDefault(import('..\\pages\\samasashikhamani\\lessons\\_id.vue' /* webpackChunkName: "pages_samasashikhamani_lessons__id" */))
+const _77460706 = () => interopDefault(import('..\\pages\\srutabodha\\exercises\\_id.vue' /* webpackChunkName: "pages_srutabodha_exercises__id" */))
+const _64c3ca26 = () => interopDefault(import('..\\pages\\srutabodha\\lessons\\_id.vue' /* webpackChunkName: "pages_srutabodha_lessons__id" */))
+const _5bba5ede = () => interopDefault(import('..\\pages\\vrittaratnakara\\exercises\\_id.vue' /* webpackChunkName: "pages_vrittaratnakara_exercises__id" */))
+const _1d9c37fe = () => interopDefault(import('..\\pages\\vrittaratnakara\\lessons\\_id.vue' /* webpackChunkName: "pages_vrittaratnakara_lessons__id" */))
+const _37f669a8 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
 
 Vue.use(Router)
 
@@ -90,115 +90,115 @@ export function createRouter() {
 
     routes: [{
       path: "/chandraloka",
-      component: _1768a4c4,
+      component: _1c92f992,
       name: "chandraloka"
     }, {
       path: "/kriyanighantu",
-      component: _2b2be2c4,
+      component: _5ed001b8,
       name: "kriyanighantu"
     }, {
       path: "/samasachakra",
-      component: _0724db24,
+      component: _45e0760c,
       name: "samasachakra"
     }, {
       path: "/samasashikhamani",
-      component: _38d32ccd,
+      component: _7e7d8d4e,
       name: "samasashikhamani"
     }, {
       path: "/srutabodha",
-      component: _0f740d8f,
+      component: _73d9731b,
       name: "srutabodha"
     }, {
       path: "/vrittaratnakara",
-      component: _1a0a364f,
+      component: _15bb2f7a,
       name: "vrittaratnakara"
     }, {
       path: "/chandraloka/exercises",
-      component: _41767abb,
+      component: _5793ee47,
       name: "chandraloka-exercises"
     }, {
       path: "/chandraloka/lessons",
-      component: _10328dca,
+      component: _ecb8c0b2,
       name: "chandraloka-lessons"
     }, {
       path: "/samasachakra/exercises",
-      component: _025473eb,
+      component: _a0351c42,
       name: "samasachakra-exercises"
     }, {
       path: "/samasachakra/lessons",
-      component: _69513e4b,
+      component: _0f31293f,
       name: "samasachakra-lessons"
     }, {
       path: "/samasashikhamani/exercises",
-      component: _3d36f82c,
+      component: _c52047c0,
       name: "samasashikhamani-exercises"
     }, {
       path: "/samasashikhamani/lessons",
-      component: _23d9decc,
+      component: _9db9a080,
       name: "samasashikhamani-lessons"
     }, {
       path: "/srutabodha/exercises",
-      component: _47e96a2a,
+      component: _246d55c4,
       name: "srutabodha-exercises"
     }, {
       path: "/srutabodha/lessons",
-      component: _23dcb84a,
+      component: _72e2d03e,
       name: "srutabodha-lessons"
     }, {
       path: "/vrittaratnakara/exercises",
-      component: _6aa6496a,
+      component: _f2f1d214,
       name: "vrittaratnakara-exercises"
     }, {
       path: "/vrittaratnakara/lessons",
-      component: _52c8678a,
+      component: _57572816,
       name: "vrittaratnakara-lessons"
     }, {
       path: "/vrittaratnakara/math",
-      component: _8d255dca,
+      component: _0b65deb2,
       name: "vrittaratnakara-math"
     }, {
       path: "/chandraloka/exercises/:id",
-      component: _076c203a,
+      component: _e3f25322,
       name: "chandraloka-exercises-id"
     }, {
       path: "/chandraloka/lessons/:id",
-      component: _0c764643,
+      component: _51135fcf,
       name: "chandraloka-lessons-id"
     }, {
       path: "/samasachakra/exercises/:id",
-      component: _6db47513,
+      component: _13946007,
       name: "samasachakra-exercises-id"
     }, {
       path: "/samasachakra/lessons/:id",
-      component: _7fbf511a,
+      component: _0f266f67,
       name: "samasachakra-lessons-id"
     }, {
       path: "/samasashikhamani/exercises/:id",
-      component: _283d1594,
+      component: _94f332f0,
       name: "samasashikhamani-exercises-id"
     }, {
       path: "/samasashikhamani/lessons/:id",
-      component: _8cadb798,
+      component: _673a2228,
       name: "samasashikhamani-lessons-id"
     }, {
       path: "/srutabodha/exercises/:id",
-      component: _283fef12,
+      component: _77460706,
       name: "srutabodha-exercises-id"
     }, {
       path: "/srutabodha/lessons/:id",
-      component: _221f759c,
+      component: _64c3ca26,
       name: "srutabodha-lessons-id"
     }, {
       path: "/vrittaratnakara/exercises/:id",
-      component: _572b9e52,
+      component: _5bba5ede,
       name: "vrittaratnakara-exercises-id"
     }, {
       path: "/vrittaratnakara/lessons/:id",
-      component: _077ec472,
+      component: _1d9c37fe,
       name: "vrittaratnakara-lessons-id"
     }, {
       path: "/",
-      component: _8323dbc8,
+      component: _37f669a8,
       name: "index"
     }],
 

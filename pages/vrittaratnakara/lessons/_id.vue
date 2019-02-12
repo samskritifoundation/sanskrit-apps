@@ -25,7 +25,7 @@
         class="myheader3">
         <v-flex xs6>
           <div
-            class="devanagari px-1"
+            class="font-weight-bold px-1"
             v-html="lesson.definition_sans"/>
         </v-flex>
         <v-flex xs6>
@@ -36,7 +36,7 @@
       </v-layout>
       <v-layout
         xs12
-        class="myheader3 devanagari px-1"
+        class="font-weight-bold px-1"
         v-html="lesson.common"/>
 
       <div v-if="lesson.treeData">

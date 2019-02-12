@@ -13223,17 +13223,17 @@ export const state = () => ({
       to: '/samasashikhamani/lessons/1'
     },
     {
-      title: 'Classification of Samāsa - 1',
+      title: 'Prayer',
       sl_num: '2',
       to: '/samasashikhamani/lessons/2'
     },
     {
-      title: 'Classification of Samāsa - 2',
+      title: 'Classification of Samāsa',
       sl_num: '3',
       to: '/samasashikhamani/lessons/3'
     },
     {
-      title: 'Classification of Samāsa - 3',
+      title: 'Subcategories of types',
       sl_num: '4',
       to: '/samasashikhamani/lessons/4'
     },
