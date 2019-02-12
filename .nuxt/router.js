@@ -3,10 +3,16 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 
 const _1c92f992 = () => interopDefault(import('..\\pages\\chandraloka\\index.vue' /* webpackChunkName: "pages_chandraloka_index" */))
+const _5853a681 = () => interopDefault(import('..\\pages\\dvirupa\\index.vue' /* webpackChunkName: "pages_dvirupa_index" */))
 const _5ed001b8 = () => interopDefault(import('..\\pages\\kriyanighantu\\index.vue' /* webpackChunkName: "pages_kriyanighantu_index" */))
+const _0ac7528d = () => interopDefault(import('..\\pages\\linganushasana\\index.vue' /* webpackChunkName: "pages_linganushasana_index" */))
+const _25353cdb = () => interopDefault(import('..\\pages\\ramayanasangraha\\index.vue' /* webpackChunkName: "pages_ramayanasangraha_index" */))
 const _45e0760c = () => interopDefault(import('..\\pages\\samasachakra\\index.vue' /* webpackChunkName: "pages_samasachakra_index" */))
 const _7e7d8d4e = () => interopDefault(import('..\\pages\\samasashikhamani\\index.vue' /* webpackChunkName: "pages_samasashikhamani_index" */))
+const _9d8acb94 = () => interopDefault(import('..\\pages\\sankshepa\\index.vue' /* webpackChunkName: "pages_sankshepa_index" */))
+const _7d4562e4 = () => interopDefault(import('..\\pages\\sastrapramana\\index.vue' /* webpackChunkName: "pages_sastrapramana_index" */))
 const _73d9731b = () => interopDefault(import('..\\pages\\srutabodha\\index.vue' /* webpackChunkName: "pages_srutabodha_index" */))
+const _45ebe0d2 = () => interopDefault(import('..\\pages\\upayukta\\index.vue' /* webpackChunkName: "pages_upayukta_index" */))
 const _15bb2f7a = () => interopDefault(import('..\\pages\\vrittaratnakara\\index.vue' /* webpackChunkName: "pages_vrittaratnakara_index" */))
 const _5793ee47 = () => interopDefault(import('..\\pages\\chandraloka\\exercises\\index.vue' /* webpackChunkName: "pages_chandraloka_exercises_index" */))
 const _ecb8c0b2 = () => interopDefault(import('..\\pages\\chandraloka\\lessons\\index.vue' /* webpackChunkName: "pages_chandraloka_lessons_index" */))
@@ -93,9 +99,21 @@ export function createRouter() {
       component: _1c92f992,
       name: "chandraloka"
     }, {
+      path: "/dvirupa",
+      component: _5853a681,
+      name: "dvirupa"
+    }, {
       path: "/kriyanighantu",
       component: _5ed001b8,
       name: "kriyanighantu"
+    }, {
+      path: "/linganushasana",
+      component: _0ac7528d,
+      name: "linganushasana"
+    }, {
+      path: "/ramayanasangraha",
+      component: _25353cdb,
+      name: "ramayanasangraha"
     }, {
       path: "/samasachakra",
       component: _45e0760c,
@@ -105,9 +123,21 @@ export function createRouter() {
       component: _7e7d8d4e,
       name: "samasashikhamani"
     }, {
+      path: "/sankshepa",
+      component: _9d8acb94,
+      name: "sankshepa"
+    }, {
+      path: "/sastrapramana",
+      component: _7d4562e4,
+      name: "sastrapramana"
+    }, {
       path: "/srutabodha",
       component: _73d9731b,
       name: "srutabodha"
+    }, {
+      path: "/upayukta",
+      component: _45ebe0d2,
+      name: "upayukta"
     }, {
       path: "/vrittaratnakara",
       component: _15bb2f7a,

@@ -19,7 +19,7 @@
         <v-flex xs4>
           <a
             v-ripple
-            href="#" >
+            href="/upayukta" >
             <img
               class="image-btn"
               src="~assets/img/upayukta.png" >
@@ -28,7 +28,7 @@
         <v-flex xs4>
           <a
             v-ripple
-            href="#" >
+            href="/dvirupa" >
             <img
               v-ripple
               class="image-btn"
@@ -97,7 +97,7 @@
         <v-flex xs4>
           <a
             v-ripple
-            href="/sanksheparamayana" >
+            href="/sankshepa" >
             <img
               v-ripple
               class="image-btn"
