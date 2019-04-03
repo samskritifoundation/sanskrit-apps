@@ -13277,6 +13277,24 @@ export const state = () => ({
       sl_num: '12',
       to: '/samasashikhamani/lessons/11'
     }
+  ],
+  upayukta_lessons: [
+    {
+      id: 1,
+      title_sans: 'Lesson 1',
+      title_eng: 'lesson 1',
+      sloka:
+        'सदृशंत्रिषुलिंगेषु सर्वासु च विभक्तिषु ।<br>वचनेषु च सर्वेषुयन्नव्येतितदव्ययम् ॥',
+      eng: ''
+    },
+    {
+      id: 2,
+      title_sans: 'Lesson 2',
+      title_eng: 'Lesson 2',
+      sloka:
+        'यल्लिंगं यद्वचनं याच विभक्तिर्विशेष्यस्य । <br>तल्लिंगं तद्वचनं साच विभक्तिर्विशेषणस्यापि ॥',
+      eng: ''
+    }
   ]
 })
 

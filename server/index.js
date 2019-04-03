@@ -19,8 +19,7 @@ const db_url = 'mongodb://samskriti:srvvp2017@ds149754.mlab.com:49754/sanskrit'
 mongoose.connect(db_url)
 mongoose.connection.on('error', () => {
   console.log(
-    '%s MongoDB connection error. Please make sure MongoDB is running.',
-    chalk.red('✗')
+    '%s MongoDB connection error. Please make sure MongoDB is running.'
   )
   process.exit()
 })

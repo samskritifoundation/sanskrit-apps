@@ -12,10 +12,10 @@
         class = "pa-2 text-xs-center"
         color="light-green darken-3"
         dark>
-        <h1>-शिक्षकः - परस्परव्यवहारपूर्वकशिक्षणम्</h1>
+        <h1>उपयुक्तांश सङ्ग्रहः - परस्परव्यवहारपूर्वकशिक्षणम्</h1>
         <h1>Interactive tutorial for Upayuktasloka</h1>
         <v-card-text>
-          <h3>Interactive self learning software for learning Sanskrit prosody, various types of meters used in poetry.</h3>
+          <h3>Interactive self learning software for learning elementary Sanskrit grammar.</h3>
         </v-card-text>
         <v-card-actions>
           <v-dialog
