@@ -13315,32 +13315,32 @@ export const state = () => ({
       to: '/upayukta/lessons/7'
     },
     {
-      title: 'Nature of Visheshana and Visheshya',
+      title: 'Tenses',
       sl_num: '8',
       to: '/upayukta/lessons/8'
     },
     {
-      title: 'Tenses',
+      title: 'Roots',
       sl_num: '9',
       to: '/upayukta/lessons/9'
     },
     {
-      title: 'Roots',
+      title: 'Prayogas',
       sl_num: '10',
       to: '/upayukta/lessons/10'
     },
     {
-      title: 'Prayogas',
+      title: 'Akarmaka roots',
       sl_num: '11',
       to: '/upayukta/lessons/11'
     },
     {
-      title: 'Akarmaka roots',
+      title: 'Verbs with two meanings',
       sl_num: '12',
       to: '/upayukta/lessons/12'
     },
     {
-      title: 'Verbs with two meanings',
+      title: 'Prayer',
       sl_num: '13',
       to: '/upayukta/lessons/13'
     },
