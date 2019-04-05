@@ -17,13 +17,13 @@
       color="accent lighten-4"
       class="mt-0 pt-0 bordered">
       <v-card-title primary-title>
-        <h3 class="myheader">{{ lesson.id }}. <span
+        <h3 class="display-1">{{ lesson.id }}. <span
           v-if="lesson.title_sans" >{{ lesson.title_sans }} <br></span>{{ lesson.title_eng }}</h3>
       </v-card-title>
 
       <v-layout
         row
-        class="myheader3">
+        class="headline">
         <v-flex
           v-show="lesson.sloka"
           xs6>
@@ -37,6 +37,27 @@
           <div
             class="font-weight-bold px-1"
             v-html="lesson.eng"/>
+        </v-flex>
+      </v-layout>
+
+      <v-layout
+        v-for="(sloka,j) in lesson.slokas"
+        :key="j"
+        row
+        class="headline">
+        <v-flex
+          v-show="sloka.sloka"
+          xs6>
+          <div
+            class="devanagari px-1"
+            v-html="sloka.sloka"/>
+        </v-flex>
+        <v-flex
+          v-show="sloka.eng"
+          xs6>
+          <div
+            class="font-weight-bold px-1"
+            v-html="sloka.eng"/>
         </v-flex>
       </v-layout>
     </v-card>
@@ -105,7 +126,7 @@ export default {
 }
 
 .neg_margin {
-  margin-top: -10%;
+  margin-top: -10px;
 }
 
 .tree {
