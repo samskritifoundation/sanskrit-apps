@@ -13278,10 +13278,82 @@ export const state = () => ({
       to: '/samasashikhamani/lessons/11'
     }
   ],
+  upayukta_titles: [
+    {
+      title: 'Avyaya',
+      sl_num: '1',
+      to: '/upayukta/lessons/1'
+    },
+    {
+      title: 'Nature of Visheshana and Visheshya',
+      sl_num: '2',
+      to: '/upayukta/lessons/2'
+    },
+    {
+      title: 'Nature of Anvaya',
+      sl_num: '3',
+      to: '/upayukta/lessons/3'
+    },
+    {
+      title: 'Classification of Slokas',
+      sl_num: '4',
+      to: '/upayukta/lessons/4'
+    },
+    {
+      title: 'Usage of words like This, That, etc',
+      sl_num: '5',
+      to: '/upayukta/lessons/5'
+    },
+    {
+      title: 'Nature of Sentence',
+      sl_num: '6',
+      to: '/upayukta/lessons/6'
+    },
+    {
+      title: 'Upasargas',
+      sl_num: '7',
+      to: '/upayukta/lessons/7'
+    },
+    {
+      title: 'Nature of Visheshana and Visheshya',
+      sl_num: '8',
+      to: '/upayukta/lessons/8'
+    },
+    {
+      title: 'Tenses',
+      sl_num: '9',
+      to: '/upayukta/lessons/9'
+    },
+    {
+      title: 'Roots',
+      sl_num: '10',
+      to: '/upayukta/lessons/10'
+    },
+    {
+      title: 'Prayogas',
+      sl_num: '11',
+      to: '/upayukta/lessons/11'
+    },
+    {
+      title: 'Akarmaka roots',
+      sl_num: '12',
+      to: '/upayukta/lessons/12'
+    },
+    {
+      title: 'Verbs with two meanings',
+      sl_num: '13',
+      to: '/upayukta/lessons/13'
+    },
+    {
+      title: 'The Six Karakas',
+      sl_num: '14',
+      to: '/upayukta/lessons/14'
+    }
+  ],
   upayukta_lessons: [
     {
       id: 1,
-      title_sans: 'aव्ययम्',
+      title_sans: 'अव्ययम्',
       title_eng: 'Meaning of Avyaya',
       sloka:
         'सदृशंत्रिषुलिंगेषु सर्वासु च विभक्तिषु ।<br>वचनेषु च सर्वेषुयन्नव्येतितदव्ययम् ॥',

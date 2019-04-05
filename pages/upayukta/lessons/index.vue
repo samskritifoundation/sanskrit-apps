@@ -11,7 +11,7 @@
         large 
         color="secondary" 
         class="text-capitalize font-weight-bold" 
-        round> Start with introduction </v-btn>
+        round> Start with Lesson 1 </v-btn>
     </v-card>
   </v-container>
 </template>
