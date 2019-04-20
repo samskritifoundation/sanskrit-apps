@@ -13623,13 +13623,2965 @@ export const state = () => ({
             'एतेषांक्रिययायोगे संज्ञाकर्त्रादिकाभवेत् । <br>विवक्षातः कारकाणीभवेयुःक्वचिदन्यधा ॥'
         }
       ]
+    }
+  ],
+  linga_lessons: [
+    {
+      id: 1,
+      title_sans: '',
+      title_eng: 'Mangala Sloka',
+      sloka:
+        'येनाक्षरसमाम्नायमधिगम्यमहेश्वरात् ।<br>कृत्स्नं व्याकरणं प्रोक्तं तस्मैपाणिनये नमः ॥',
+      eng: ''
+    },
+    {
+      id: 2,
+      title_sans: 'अथ लिंगानुशासनम् ॥ ',
+      title_eng: 'Fixation of Genders of words in Sanskrit. ',
+      sloka: 'लिंगं॥ <br> अयमधिकारो वेदितव्य आशास्त्र परिसमाप्तेः',
+      eng:
+        'The first rule is Lingam. <br> The subject is about Gender and therefore this rule has to be understood as the governing rule throughout this shastra.'
+    },
+    {
+      id: 3,
+      title_sans: '॥स्त्री॥ इदमधिकृतं वेदितव्यं ।। ',
+      title_eng: 'First chapter on feminine gender',
+      sloka: 'यत्र स्त्रीलिंगादन्यलिंगं शिष्यते तत्रसूत्रपवलिंगं वक्ष्यते । ',
+      eng:
+        'when a word has to be understood in some other gender other than the feminine, then sutra is specifically stated '
+    },
+    {
+      id: 4,
+      title_sans: 'ऋकारांताः',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka:
+            'ऋकारांतामातृदुहितृन्वनृयातृननंदरः ॥ ऋकारांतामात्रदयः पंचैवशब्दाः स्त्रीलिंगाभवंति ।',
+          eng:
+            'In sanskrit, there are only 5 words that end in Ru that are in feminine gender - matr, duhitr, suhitru, yatru and nalandru ',
+          examples: [
+            'इयं माता मातॄः पश्य ।',
+            'इयंदुहिता । ',
+            'स्वहा याता ननांदा । मात्रादिग्रहणंकिम् ।'
+          ]
+        },
+        {
+          eng:
+            'Counter egs are stated - words ending in Ru that are in other genders.',
+          examples: ['पिता। भ्राता । पितॄन् भ्रातॄनित्यत्र माभूत् ।']
+        },
+        {
+          sloka:
+            'मात्रादिनियमात्तिसृचतस्रोरव्याप्तिरितिचेत् स्त्रियामेव त्रिचतुरोस्तदा देशविधानान्नदोषः ॥ ',
+          eng:
+            'If anyone objects - it is said that only 5 words are in feminine gender - but trisru and chatusru - are also feminine - they when used in femnine gender are feminine - not a problem'
+        }
+      ]
+    },
+    {
+      id: 5,
+      title_sans: 'अन्यू प्रत्ययांतो धातुः ॥ ',
+      title_eng: 'Words with suffixes ani or u',
+      slokas: [
+        {
+          sloka: 'अनि प्रत्ययांत ऊप्रत्ययांतश्चधातुः स्त्रीलिंगोभवती ॥ ',
+          eng:
+            'Words with suffixes ani or u- if they have been enjoined after verb roots they are feminine gender',
+          examples: [
+            'इयंनरणिः ।अ अवनिः । अर्तनिः । अर्वणिः । ग्रहणिः । चर्षणिः । वर्मणिः । क्षेपणिरिति ।',
+            'ऊ प्रत्ययांताः । इयं चमूः । जर्जूः । सर्जूः । वधूः । जंबूः । कंदूः । अला बूरित्यादि ।',
+            'प्रत्ययांत ग्रहणंकिम् । खलपूः । गरपूरित्यत्रमाभूत् । धातुग्रहणमुत्तरार्धं ॥'
+          ]
+        },
+        {
+          eng: 'Exceptions',
+          examples: [
+            'अशनिभरण्यरणयः पुंसिच ॥ अशव्यादयस्त्रौअस्त्रियां पुंसि च भवंति । अयमशनिरयं भरणिरय मरणिः । अन्यंतत्वात् स्त्रीलिंगे प्राप्ते पुंसि चेत्युभयलिंगार्थो यमारंभः ॥'
+          ]
+        }
+      ]
+    },
+    {
+      id: 6,
+      title_sans: 'मिन्यंतः ॥',
+      title_eng: 'words with suffixes mi and ni',
+      slokas: [
+        {
+          sloka: 'मि प्रत्ययांतोनिप्रत्ययांतश्च धातुस्त्रीलिंगो भवति ।',
+          eng: 'words with suffixes mi and ni are feminine',
+          examples: [
+            'इय भूमिः । नेमिः । शेनिः । द्रोणिः । श्लानिः । हानिः । तूर्णिः । एपिमादयः ।'
+          ]
+        },
+        {
+          sloka:
+            'प्रत्ययांतावितिकिम् । क्रिमिणामुनिवा जानकी जानिनेत्यत्र च माभूत् ।',
+          eng:
+            'Words with suffix mi or ni need not be feminine when they are not after verb roots.'
+        },
+        {
+          sloka:
+            'वह्निवृष्ण्यग्नयुः पुंसि ॥ वह्न्या दयश्शब्दाः पुंसिभवंति ॥ श्रोणियोन्यूर्मयः पुंसिच ॥',
+          eng:
+            'Exceptions - vahni, agni, etc - words with ni suffix but are masculine'
+        },
+        {
+          sloka:
+            'वह्निवृष्ण्यग्नयुः पुंसि ॥ वह्न्या दयश्शब्दाः पुंसिभवंति ॥ श्रोणियोन्यूर्मयः पुंसिच ॥ मिन्यंतत्वात् स्त्रीलिंगे प्राप्ते पुंसि चेत्युभयलिंगार्थोयमारंभः ॥',
+          eng:
+            'Some words even though they fall in previous category they are used in masculine and feminine genders.'
+        }
+      ]
+    },
+    {
+      id: 7,
+      title_sans: 'क्तिन्नंतः ॥',
+      title_eng: 'suffix tin ',
+      slokas: [
+        {
+          sloka: 'क्तिन्प्रत्ययांतोधातु स्स्त्रीलिंगोभवति ।',
+          eng: 'Words with suffix tin are feminine.',
+          examples: [
+            'कृतिः सृष्टिः भूतिः कीर्तिरित्यादि । क्तिन्नंत इतिकिम् । वसतिर्नामजनपद इत्यत्र माभूत् ॥'
+          ]
+        }
+      ]
+    },
+    {
+      id: 8,
+      title_sans: 'ई कारांतश्च ॥ ',
+      title_eng: 'Suffix EE',
+      sloka: 'कारान्तश्च स्त्रीलिंगोभवति ॥',
+      eng: 'Words that end in EE are feminine',
+      examples: ['तंत्रीः । लक्ष्मीः ॥']
+    },
+    {
+      id: 9,
+      title_sans: 'ज्यंतश्च ॥',
+      title_eng: '',
+      sloka: 'ङी प्रत्ययांतः स्त्रीलिंगस्स्यात् । ',
+      eng: 'Words that end in suffix, nish, nin, nig - ni are feminine',
+      examples: ['देवी । कुरुचरी। गौरी। शार्ङ्गरव्री इत्यादि ॥']
+    },
+    {
+      id: 10,
+      title_sans: 'ऊ ङाबंतश्च ॥ ',
+      title_eng: 'Suffix u',
+      sloka: 'ऊ ङ्प्रत्ययांतमाबलतं च प्रातिपदिकं स्त्रीलिंगंभवति । ',
+      eng: 'Words that end in u, their feminine form U is the suffix',
+      examples: ['वामोरूः । पंगूः ।']
+    },
+    {
+      id: 11,
+      title_sans: ' ',
+      title_eng: ' ',
+      sloka: 'अप्प्रत्ययांतश्वविद्यादीक्षाश्रद्धेत्यादिः ॥',
+      eng: 'Words ending in ap suffix have A for their feminine form',
+      examples: [' ']
+    },
+    {
+      id: 12,
+      title_sans: 'य्वंतमेकाक्षरम् ॥ ',
+      title_eng: '',
+      sloka: 'ईकारांतमूकारांतं च प्रातिपदिकमेकाक्षरं स्त्रीलिंगभवति ।',
+      eng:
+        'if a word has a single vowel and if it is ending in I or U , then that word is feminine ',
+      examples: [
+        'श्रिः॥ ह्रीः भ्रूः । एकाक्षरमितिकिम् । पृधुश्रीः बलभूः पुरुष इत्यत्रमाभूत् ॥'
+      ]
+    },
+    {
+      id: 13,
+      title_sans: 'विंशत्यादिरानवतेः ।।',
+      title_eng: ' ',
+      sloka: 'विंशत्यादयश्शब्दाः स्त्रीलिंगाभवंति अनवतेः नवतिमभिव्याव्य । ',
+      eng: 'Numbers starting from twenty upto 90 are feminine ',
+      examples: [
+        'विंशतिः । त्रिंशत्। चत्वारिंशत्। पंचाशत् । षष्टिः । सप्ततिः । अशीतिः । नवतिः ॥ '
+      ]
+    },
+    {
+      id: 14,
+      title_sans: 'दुंदुभिरक्षेषु  ',
+      title_eng: ' ',
+      sloka:
+        'अक्षेष्वभिधीयमानेषु दुंदुभिस्त्रीलिंगोभवति इयंदुंदुभिः ।<br> दुंदुभिर्नामवाद्य विशेष aसुरविशेषश्च । तेनदुंदुभिना ॥ ',
+      eng:
+        'When aksha means playing dice. In that context when dundubi is used it is feminine.<br> when it means musical instrument or asura (a particular demon) it is masculine .',
+      examples: [' ']
     },
     {
       id: 15,
+      title_sans: 'नाभिरक्षत्रिये ।।  ',
+      title_eng: ' ',
+      sloka:
+        'नाभिशब्दः स्त्रीलिंगोभवत्यक्षत्रिये विषये । इयंनाभिः । <br>अक्षत्रिय इतिकिम् । नाभिर्नामराजो तत्रमाभूत् ',
+      eng:
+        'naabhi - naval - is strilinga. <br>When nabhi means King then it is masculine.',
+      examples: [' ']
+    },
+    {
+      id: 16,
+      title_sans: 'उभावन्यत्र पुंसि ॥ ',
+      title_eng: ' ',
+      sloka:
+        'दुंदुभिनाभिशब्दौ अन्यत्र पुंसिभवतः । दुंदुभिर्नामवाद्यviशेषोऽसुरविशेषश्च । नाभिमक्षत्रियः ।  ',
+      eng: 'in other cases both dundubhi and nabhi are masculine. ',
+      examples: [' ']
+    },
+    {
+      id: 17,
+      title_sans: 'प्रतिषिद्धयोः पुन्नपुंसकयोस्संदेहे पुल्लिंगार्धोयमारम्भः ॥ ',
+      title_eng:
+        'when there is doubt whether the word is feminine or masculine, both masculine and neuter gender are avoided. but In some cases the word can be used in masculine gender. Such cases are discussed.  ',
+      sloka: ' ',
+      eng: ' ',
+      examples: [' ']
+    },
+    {
+      id: 18,
+      title_sans: 'तलंतः ॥  ',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: 'तल्प्रत्ययांत स्त्रीलिंगोभवति ।  ',
+          eng: 'words ending in suffix tal is feminine ',
+          examples: [' ']
+        },
+        {
+          sloka:
+            'प्रत्यतांतविशेषण निर्देशाद्भावकर्म समूहस्वार्थवाचिनां ग्रहणं ।',
+          eng:
+            'suffix tal has 4 meanings - bhava, karma, samuha, svartha. - all are feminine. ',
+          examples: [
+            'भाववाचिनस्तावत् । पुरुषस्यभावः पुरुषता ब्राह्मणता शुक्लता । ',
+            'कर्मवादिनोपि ब्राह्मणस्येदं कर्म ब्राह्मणता ।',
+            'समूहवाचिनोपि ग्रामाणांसमूहो ग्रामता बंधुता । ',
+            'स्वार्थवाचिनोपि देव एवदेवता॥ '
+          ]
+        }
+      ]
+    },
+    {
+      id: 19,
       title_sans: ' ',
       title_eng: ' ',
-      sloka: '',
-      eng: ''
+      slokas: [
+        {
+          sloka:
+            'भूमिविद्युत्सरिल्लता वनिताभिधानानि ॥ भूम्यादिवाचकानि स्त्रीलिंगानिभवंति।',
+          eng:
+            'Words which mean earth, lightning, river, creeper and women are all feminine. ',
+          examples: [
+            'भूर्वसुधा।',
+            'विद्युत्सौदामनी ।',
+            'तटीद् शतह्रदा ।',
+            'सरित् निम्नगा । समुद्रगा । नदी ।',
+            'लतावल्ली। व्रततिः ।',
+            'वनिता योषित्प्रमदा वामलोचना सीमंतिनीत्यादि ।'
+          ]
+        },
+        {
+          sloka:
+            'यादोनपुम्सकं यादश्शब्दस्य सरिद्वाचकत्वेपि नपुंसकता । यादः यादसी यादांसि ॥',
+          eng: 'Yadas means river. Even though it is river it is neuter.'
+        }
+      ]
+    },
+    {
+      id: 20,
+      title_sans: ' ',
+      title_eng: ' ',
+      sloka:
+        'भास्सुक्स्रग्दिगुष्णिगुपानहः ॥ भासादयश्शब्दाः स्त्रीलिंगाभवंति ।  ',
+      eng:
+        'these words are used only in feminine gender भासौ । स्रुक् । स्रक् । दिक् । उष्णिक् उपानत् । ',
+      examples: ['इयंभाः  ']
+    },
+    {
+      id: 21,
+      title_sans: 'स्थूणोर्णे नपुंसके च । ',
+      title_eng: ' ',
+      sloka: 'स्थूणोर्णि स्त्रियां नपुंसके च भवतः ।',
+      eng: 'Sthoona and uurna are used in feminine and neuter gender.',
+      examples: ['इयंस्थूणा । इदंस्थूणम् । ऊर्णा। ऊर्णं ।']
+    },
+    {
+      id: 22,
+      title_sans: ' ',
+      title_eng: ' ',
+      sloka:
+        'गृहशाभ्यांक्लिबे ।। गृहशाशपूर्वकेस्थूणोर्णे यथासंख्यं नपुंसके भवतः । ',
+      eng:
+        'When these two words (sthoona and oorna) are in compound words they are not used in feminine. They are neuter.',
+      examples: ['गृहस्थूणं ।', 'शशोर्णं । ']
+    },
+    {
+      id: 23,
+      title_sans: 'क्लीबनियमार्थोयमारम्भः ',
+      title_eng: 'compound words usage ',
+      sloka:
+        'प्रावृड्विप्रुड्रुट्त्रुड्विट्त्विषः । प्रावृडादयश्शब्दाः स्त्रीलिंगाभवंति । ',
+      eng:
+        'These words are used in feminine gender -  प्रावृट् । विप्रुट् । रुट् त्रुट् । विट् । त्विट् ॥ ',
+      examples: [' ']
+    },
+    {
+      id: 24,
+      title_sans: ' ',
+      title_eng: ' ',
+      sloka:
+        'दर्विविदिवेदिखनिशान्यश्रिवेशिकृष्योषधिकट्यंगुळयः । एतेस्त्रियांस्युः । ',
+      eng:
+        'These words are used in feminine gender - इयंदर्विः । विदिः । वेदिः । खनिः । शानिः ।अश्रिः । वेशिः । कृषिः । ओषधिः । कटिः । अंगुळिः ॥ ',
+      examples: [' ']
+    },
+    {
+      id: 25,
+      title_sans: ' ',
+      title_eng: ' ',
+      sloka:
+        'तिथिनाडिरुचिवीदिना ळिधूळिकिकिकॆळिद्भविनीविरात्रयः ॥ एते शब्दा स्त्रीलिंगाभवंति । ',
+      eng:
+        'These words are used in feminine gender - इयंतिथिः । नाडिः। रुचिः । वीचिः । नाळीः । धूळिः । किकिः । केळिः । छविः । नीविः । रात्रिः ॥ *But in amarakosha tithi is accepted as both masculine and feminine.',
+      examples: [' ']
+    },
+    {
+      id: 26,
+      title_sans: ' ',
+      title_eng: ' ',
+      sloka:
+        'शष्कुलिराजिकुटिर्तिभ्रकुटित्रुटिवलिपङ्क्तयः ॥ शष्कुल्यादयश्शब्दास्त्रीलिंगाभवंति । ',
+      eng:
+        'These words are feminine -  इयंशष्कुलिः । राजिः । कुटिः । शिनिः । वर्तिः । भ्रुकुटिः । त्रुटिः । वलिः । पङ्क्तिः ॥ ',
+      examples: [' ']
+    },
+    {
+      id: 27,
+      title_sans: ' ',
+      title_eng: ' ',
+      sloka:
+        'प्रतिपदापद्विपत्संवद्भरत्संpaत्परिषद्दृषमषस्संवित्क्षुन्मृत्समिधः । प्रतिपदादयश्शब्दास्त्रीलिंगाभवंति ।',
+      eng:
+        'these are feminine  - इयंप्रतिपत् । आपत् । विपत् । संपत् । शरत् । संसत् । परिषत् । दृषत् । उषाः प्रातरधिष्ठात्री देवता ॥ नंवित् । क्षुत् । मृत् । समित् ॥',
+      examples: [' ']
+    },
+    {
+      id: 28,
+      title_sans: ' ',
+      title_eng: ' ',
+      sloka: 'आशीर्धूः पूर्गीर्ध्वारः॥ आशीरादयश्शब्दास्त्रीलिंगाभवंति ॥ ',
+      eng: 'These are feminine इयमाशीः । धूः । पूः । गीः । द्वाः ॥ ',
+      examples: [' ']
+    },
+    {
+      id: 29,
+      title_sans: ' ',
+      title_eng: ' ',
+      sloka:
+        'अप्सुमनस्समासिकतावर्षाणां बहुत्वं च ॥ अबादयश्शब्दाः स्त्रीलिंगाभवंति  एषांबहुवचनत्वंच । ',
+      eng:
+        'These words are feminine and should always be used in plural not singular. ',
+      examples: ['इमा आपः ।', 'इमास्सुमनसः । समाः । सिकताः । वर्षाः ॥ ']
+    },
+    {
+      id: 30,
+      title_sans: ' ',
+      title_eng: ' ',
+      sloka:
+        'सृक्त्वग्ज्योग्वाग्यवागूनौस्पिजः ॥ नृगादयश्शब्दाः स्त्रीलिंगाभवंति ॥',
+      eng:
+        'These words are feminine  - इयंसृक् । त्वक् । ज्योक् । वाक् । यवागूः । नौः । स्फिक् ॥ ',
+      examples: [' ']
+    },
+    {
+      id: 31,
+      title_sans: ' ',
+      title_eng: ' ',
+      sloka: 'त्रुजनीमासंबध्याः ॥ त्रुट्यादयशब्दाः स्त्रीलिंगाभवंति ',
+      eng: 'These words are feminine  - इयंत्रुटिः । सीमा । संबध्या ',
+      examples: [' ']
+    },
+    {
+      id: 32,
+      title_sans: ' ',
+      title_eng: ' ',
+      sloka: 'चुल्लिवेणीखार्यश्च- चुल्ल्यादयश्शब्दाः स्त्रिलिंगाभवंति ॥ ',
+      eng: 'These words are feminine  - इयंचुल्लिः । वेणी । खारी ॥ ',
+      examples: [' ']
+    },
+    {
+      id: 33,
+      title_sans: ' ',
+      title_eng: ' ',
+      sloka: 'ताराधाराज्योत्स्नादयः ॥ तारादयश्शब्दाः स्त्रिलिंगाभवंति ॥ ',
+      eng:
+        'These words are feminine  - इयंतारा । थारा। ज्योत्स्ना । तमिस्रा । इत्यादि ॥',
+      examples: [' ']
+    },
+    {
+      id: 34,
+      title_sans: ' ',
+      title_eng: ' ',
+      sloka:
+        'शलाकास्त्रियांनित्यं ॥ शलाकाशब्दस्त्रीलिंगोभवति ॥ <br>नित्यग्रहणमितरेषां क्वचिद्व्यभिचारार्थं ॥  ',
+      eng:
+        'shalaka is always feminine इयंशलाका । <br> Nitya is used to indicate shalaka is strictly feminine without any exceptions. ',
+      examples: [' ']
+    },
+    {
+      id: 35,
+      title_sans: 'पुमान्॥ पुमानित्यधिकारोवेदितव्यः ॥ ',
+      title_eng: 'Rules for masculine gender',
+      sloka: 'घञबंतः॥ <br> घञ् प्रत्यतांतोऽप्प्रत्ययांश्च पुल्लिंगोभवति ॥',
+      eng: 'Words with - घञ् and अब् - two suffixes are masculine ',
+      examples: [
+        'घञ् - पाकः । त्यागः । रागः । प्रकार इत्यादि । ',
+        'अप्प्रत्ययांतः ।। करः । गरः । शरः । भरः । ग्र इत्यादि ॥'
+      ]
+    },
+    {
+      id: 36,
+      title_sans: 'घाजंतश्च॥ ',
+      title_eng: 'words with suffix घाञ् and अज् ',
+      slokas: [
+        {
+          sloka: 'घाजंतश्चधातुः पुल्लिंगो भवति ॥ ',
+          eng: 'words with suffix घाञ् and अज् are masculine. ',
+          examples: [
+            'घाञ् - विस्तरः प्रस्तरः । आकरः । गोचरः । प्रत्ययः ।',
+            'अज् - विषयः क्षय इत्यादि ॥'
+          ]
+        },
+        {
+          sloka:
+            'भयलिंगभगपदानिनपुंसके ॥ भयादयश्शब्दानपुंसकानिभवंति ॥ भयं । लिंगं । भगं । पदं ।',
+          eng:
+            'Exceptions - even though these have a pratyaya suffix they are neuter gender '
+        }
+      ]
+    },
+    {
+      id: 37,
+      title_sans: 'नङंतः ॥ ',
+      title_eng: 'words with nan suffix  ',
+      slokas: [
+        {
+          sloka: 'नङ्प्रत्ययांतोधातुः पुल्लिंगोभवति ॥  ',
+          eng: 'The words with this suffix is only in masculine gender.  ',
+          examples: ['यज्ञः । यत्नः विश्नः । प्रश्नः ॥  ']
+        },
+        {
+          sloka:
+            'याज्ञास्त्रीयां ॥ नङ्प्रत्ययांतोपि याज्ञाशब्दस्त्रीलिंगोभवति ॥ याज्ञा॥ '
+        }
+      ]
+    },
+    {
+      id: 38,
+      title_sans: 'इषुबाहूस्त्रियांच ॥ ',
+      title_eng: ' ',
+      sloka:
+        'इषुबाहुशब्दौस्त्रियपुंसिच इयमिषुरयमिषुः । इयंबाहा । अयंबाहुः । इषोश्शराभिधानत्वात्बाहोर्भुजाभिधानत्वात् ॥ ',
+      eng:
+        'Even though ishu means arrow and bahu means arm, they are used in both feminine and masculine. ',
+      examples: [' ']
+    },
+    {
+      id: 39,
+      title_sans: 'क्यंतोघुः ॥ ',
+      title_eng: 'suffix ki  ',
+      slokas: [
+        {
+          sloka: 'किप्रत्ययांतो गुःपुल्लिंगोभवति । ',
+          eng:
+            'ghu means - 2 dhatus - da and dha. They are always masculine. <br> kyanta means kim pratyaya. The suffix should only be after da or dha verb root then this rule applies.',
+          examples: [
+            'आधिः, संधिः । विधिः । निधिः । उपधिः । परिधिरित्यादि  ',
+            'दानं । घुग्रहणकिं । जज्ञिःजीजं ॥'
+          ]
+        },
+        {
+          sloka:
+            'इषुधिस्त्रियांच ॥ इषुधिशब्द स्त्रियांपुंसिच भवति ॥ इयमिषुधिरयमिषुधि । क्यंतत्वात्पुल्लिंगे प्राप्ते उभयलिंगार्धो यमारंभः । ',
+          eng: 'For other roots it can be in other genders '
+        }
+      ]
+    },
+    {
+      id: 40,
+      title_sans: ' ',
+      title_eng: ' ',
+      sloka:
+        'देवासुरात्म स्वर्गगिरिसमुद्रनख केशदंत स्तनभुजकंठ खड्गशरपंकाभिधानानि ॥ देवादीनामभिधानानि पुल्लिंगानिभवंति ॥',
+      eng:
+        'words  which refer to - god, demon, soul, heaven, hill, ocean, nail, hair, tooth, breast, arm, neck, sword, arrow and swamp (muddy water) ',
+      examples: [
+        'अजरः । अमरः । अनिमिष इत्यादि ।',
+        'असुराः । दानवाः । दैत्या इत्यादि ॥',
+        'आत्माजीवः ॥ तदभिधानानि । आत्मा । जीवः । क्षेत्रज्ञ इत्यादि । ',
+        'स्वर्गः । नाकः ।',
+        'गिरिः । पर्वतः । भूभृत् ',
+        'समुद्रः । मकरालयः । ',
+        'नखः । कररुहः । ',
+        'केशः । शिरोरुहः । ',
+        'दंतः । दशनः । रदः । द्विजः । ',
+        'स्तनः । पयोधरः । कुचः । ',
+        'भुजः । दोः । ',
+        'कंठः । गळः । ',
+        'खड्गः । तरवारिः । असिः । ',
+        'शरः । मार्गणः । पत्री । ',
+        'पंकः । जंबालः । कर्दम इत्यादि ॥ '
+      ]
+    },
+    {
+      id: 41,
+      title_sans: 'त्रिविष्टपत्रिभुवने नपुंसके ॥  ',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: 'एतेनपुंसकलिंगेस्तः  ',
+          eng:
+            'The words trivishtapa and tribhuvana are used in neuter gender  ',
+          examples: ['अदस्त्रिविष्टपं ॥ अदस्त्रीभुवनं ।']
+        },
+        {
+          sloka: 'स्वर्गाभिधानत्वात्पुल्लिंगे प्राप्तेमपुंसकार्थोयमारंभः ॥',
+          eng:
+            'In earlier rule it was stated that the words which mean heaven are used in masuline gender. But here trivishtapa, even though it means heaven, it is used in neuter gender. '
+        }
+      ]
+    },
+    {
+      id: 42,
+      title_sans: 'द्यौस्त्रियां ॥ ',
+      title_eng: ' ',
+      sloka:
+        'द्योदिवोस्तंत्रेणोपादानं । <br>द्योदिव् शब्दा स्त्रीलिंगौभवतः ॥  ',
+      eng:
+        'even though words dhyu and div, dhyou are words for heaven, they are feminine. <br>tantra - by pronouncing one word two words are meant. It is called tantra.  ',
+      examples: ['इयंद्यौः ॥ ']
+    },
+    {
+      id: 43,
+      title_sans: 'बाणकांडौनपुंसकेच ॥ ',
+      title_eng: ' ',
+      sloka: ' एतौनपुंसके पुंसिच भवतः ॥ ',
+      eng:
+        'Bana means arrow and kanda means tree. Still they are neuter and masculine ',
+      examples: ['बाणोयं बाणमिदं ॥ कांडोयं कांडमिदं । शराभिधानत्वात् ॥  ']
+    },
+    {
+      id: 44,
+      title_sans: 'नांतः ॥ ',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: ' नकारांतशब्दः पुल्लिंगोभवति ॥  ',
+          eng: 'words ending with na kara are masculine. ',
+          examples: ['राजा। तक्षा। यज्वा। अर्वा। अध्वेत्यादि । ']
+        },
+        {
+          sloka: 'ननुचर्मवर्मादीनांनपुंसकानां पुल्लिंगप्राप्तिरितिचेन्न ॥',
+          eng:
+            'The words charma varma, etc that end in na are neuter but acc to this rule they become masculine.'
+        },
+        {
+          sloka: 'मन् द्व्यच्कोकर्तरीति नपुम्सकलिंग प्रकरणवचनाददोषः ॥',
+          eng:
+            'later in the neuter chapter where the governing rules are stated. Words that end in man suffix and have two vowels are neuter. '
+        }
+      ]
+    },
+    {
+      id: 45,
+      title_sans: 'क्रतुपुरुषकपोलगुल्भमेघाभिधानानि ॥ ',
+      title_eng: ' ',
+      sloka:
+        'क्रत्वादीनामभिधानानि पुल्लिंगानिभवंति <br> अभ्रं नपुंसकं ॥ इदमभ्रं । मेघाभिधानत्वात् ॥',
+      eng:
+        'words that mean - sacrifice, man, cheek, ankle, cloud - masculine. <br>even though abhra means cloud it is neuter ',
+      examples: [
+        'क्रतुरध्वरः । ',
+        'पुरुषः । नरः । मनुष्यः । ',
+        'कपालः । गंडः ।',
+        'गुल्भः । प्रपदः । ',
+        'वेघः पयोधरः । नीरदः। अब्धः ॥'
+      ]
+    },
+    {
+      id: 46,
+      title_sans: 'उकारांतः ॥ ',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: 'उकारांतश्शब्दः पुल्लिंगोभवति ॥ ',
+          eng: 'words ending with ukara are masculine always. ',
+          examples: ['जनुः ॥ विदुः । इक्षुः । वायुः । प्रभुः ॥  ']
+        },
+        {
+          sloka:
+            'धेनुरज्जु कुहुः नरयुःतनुकरेणु प्रियंगवस्त्रियां ॥ धेन्वादयः स्त्रीलिंगाभवंति ॥ इयंधेनुः । रज्जुः ।कुहुः । नरयुः तनुःकरेणुः । प्रियंगुः ॥ एषामुकारांतत्वात् ।',
+          eng: 'Even though these words are ukaranta they are feminine.'
+        },
+        {
+          sloka: 'समासेरज्जुः पुंसिच ॥ समासेरज्जुस्त्रियां पुंसिच भवति ॥',
+          eng:
+            'rajju was told to be feminine. But it is masculine when it is in samasa (compound) ',
+          examples: ['कर्कबकरज्ज्वा । कर्कटकरज्जुनेति ॥ ']
+        },
+        {
+          sloka:
+            'श्मश्रुजानुवसुस्वाद्वश्रुजतुत्रपुतालूनिनपुम्सके ॥ श्मश्वादयश्शब्दाः  नपुंसकलिंगाभवंति । ',
+          eng:
+            'these words are neuter even though they are u-kara.  इदं श्मश्रु । जानु । वसु । स्वादु । अश्रु । जतु । त्रपु। तालु । उकारांतत्वात् ॥'
+        }
+      ]
+    },
+    {
+      id: 47,
+      title_sans: 'वसुचार्थवाची ॥ ',
+      title_eng: ' ',
+      sloka:
+        'अर्थवासीवसुशब्दोनपुंसकलिंगोभवंति ॥ इदं वसु । अर्थवाचीतिकिं । वसुर्नामकश्चित् ॥ ',
+      eng: 'when vasu means a devata it is masculine.  ',
+      examples: [' ']
+    },
+    {
+      id: 48,
+      title_sans: 'मद्गुमधुशीधुसानु कमंडलूनिनपुंसके च ॥ ',
+      title_eng: ' ',
+      sloka:
+        'मड्ग्वादयःशब्दाः पुंसिनपुंसके च । इमं मद्गुः इदं मद्गु । मधुः । मधु । शीधुश्शिधु । सानुस्सानु । कमंडलुः कमंडलु। उकारांतत्वात् ॥ ',
+      eng: 'These words can be neuter and masculine. ',
+      examples: [' ']
+    },
+    {
+      id: 49,
+      title_sans: 'रुत्वंतः ।।  ',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: 'रुवर्णांतस्तुवर्णांतश्चशब्दः पुल्लिंगोभवति । ',
+          eng: 'words ending with rukara and tukara are masculine. ',
+          examples: ['कारुः । मेरुः । जंतुः ॥ हेतुः ॥ ']
+        },
+        {
+          sloka:
+            'दारुकशेरुजतुवस्तुमस्तूनिनपुंसके ॥ दार्वादयश्शब्दानपुंसकलिंगाभवंति ॥ इदंदारु । शेरु । जतु । वस्तु । मस्तु । रुत्वंतत्वात् ॥',
+          eng: 'these rukara are neuter'
+        },
+        {
+          sloka: 'सक्तुर्नपुंसके व ॥ सक्तुःसक्तु ॥ त्वंतत्वात् ॥',
+          eng: 'these tukara are neuter as well as masculine'
+        }
+      ]
+    },
+    {
+      id: 50,
+      title_sans: 'प्राग्रश्मेरकारांतः ॥ ',
+      title_eng: ' ',
+      sloka:
+        'रश्मिदिवसाभिधानानीतिवक्ष्यते प्रागेतस्मात्सूत्रादकारांत इत्यिधिक्रियते ॥ ',
+      eng: ' ',
+      examples: [' ']
+    },
+    {
+      id: 51,
+      title_sans: 'कोपधः ॥ ',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: 'कोपधोकारांतः पुल्लिंगोभवति ॥ ',
+          eng:
+            'the word that ends in ‘ka’ are masculine स्तबकः कल्कः ॥ वराटकः ॥ उल्क इत्यादि । अकारांत इतिकिं ॥ बालिका ॥ याचिका ॥  ',
+          examples: [' ']
+        },
+        {
+          sloka:
+            'चुबुकशालूकप्रातिपदिकांशुकोल्मुकानिनपुंसके ॥ चुबुकादयश्शब्दा नपुंसकलिंगाभवंति ॥ ',
+          eng:
+            'these are neuter even though they end in ka - चुबुकं । शालूकं । प्रातिपदिकं । अंशुकं । उल्मुकं । कोपधत्वात् ।'
+        },
+        {
+          sloka:
+            'कंटकानीकसरकमोदकचषकमस्तकपुस्तकतटाकनिष्कवष्कमुष्क-शुल्क- वर्चस्क-पिनाक-भंडकपिंडक-कटकदंडक-पिटक-तालकफलकपुलाकानिनपुंसके च । कंटकादयश्शब्दाः पुंसिनपुंसके च भवंति ॥ अयं कंटकः इदं कंटकमित्यादि ॥',
+          eng:
+            'These ka-ending words are acceptable both in masculine and neuter'
+        }
+      ]
+    },
+    {
+      id: 52,
+      title_sans: 'टोपधः ॥ ',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: ' टोपधोऽकारांतश्शब्दः पुल्लिंगोभवति ॥ घटः ।पटः । इत्यादि ॥  ',
+          eng: '‘ta’ ending words are masculine ',
+          examples: [' ']
+        },
+        {
+          sloka:
+            'किरीटमकुटललाटपटविटशृंगाटक राटलोष्टानिनपुम्सके ॥ किरीटादयश्शब्दानपुंसके भवंति ॥ इदं किरीटमित्यादि ॥ ',
+          eng: 'these are neuter '
+        },
+        {
+          sloka:
+            'कुटकूटकवटकवाटक पाटकर्पटपटनिकटकीटकरोट कर्कट शकटानिनपुम्सकेच ॥ कुटादयश्शब्दाः पुंसिनपुंसके च भवंति ॥ कुटः । कुटं । कूटः ॥ कूटमित्यादि ॥',
+          eng: 'these are neuter as well as masculine'
+        }
+      ]
+    },
+    {
+      id: 53,
+      title_sans: 'णोपधः ॥ ',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: 'णोपधोऽकारांतश्शब्दःपुल्लिंगोभवति ॥ ',
+          eng: ' words that end in ‘Na’ are masculine . ',
+          examples: ['गुणः ॥ गणः । पणः । पाषाणः ॥ ']
+        },
+        {
+          sloka:
+            'ऋणलवणपर्णतोरणोष्णानिनपुंसके  - ऋणादयश्शब्दाः नपुंसकलिंगाभवंति ॥',
+          eng: 'Exception 1: These words are neuter even though they end in Na',
+          examples: ['ऋणं ॥ लवणमित्यादि ॥']
+        },
+        {
+          sloka:
+            'काषार्णवर्णसुवर्णव्रणचरणवृषणविषाण चूर्णतृणानिनपुंसके च ॥ काषार्णादयश्शब्दाः पुम्सिनपुंसके भवंति ॥ ',
+          eng: 'Exception 2: These words are used as neuter and masculine.'
+        }
+      ]
+    },
+    {
+      id: 54,
+      title_sans: '',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: 'धोथोकारांतश्शब्दःपुल्लिंगोभवंति ॥ ',
+          eng: 'words ending with dha and tha are masculine ',
+          examples: ['रथः॥ ']
+        },
+        {
+          sloka: 'पृष्ठरिग्र्धोक्थानिनपुंसके ॥',
+          eng: 'Exception 1: These words are neuter'
+        },
+        {
+          sloka: 'काष्ठादिगर्था स्त्रीलिंगोभवति॥',
+          eng: 'Exception 2: काष्ठा when means direction is feminine',
+          examples: [' इमाःकाष्ठाः ॥']
+        },
+        {
+          sloka:
+            'तीर्थधानिनपुंसके च ॥ तीर्थादयश्शब्दाःपुंनपुंसकाभवंति ॥ इदंतीर्धमयंतीर्ध इत्यादि ।। थोपथत्वात् ॥',
+          eng: 'Exception 3: These words are neuter and masculine.'
+        }
+      ]
+    },
+    {
+      id: 55,
+      title_sans: 'नोपधः ॥',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: 'नोपधोऽकारांतश्शब्दः पुल्लिंगोभवति ॥ ',
+          eng: 'words ending in na are masculine ',
+          examples: ['इनः घेनश्शकुनः ॥ ']
+        },
+        {
+          sloka:
+            'जघनाजि नतुहिनकाननवनवृजिनविपिनवेतन वसनशासनसोपानमिथुनश्मशान रत्नचिह्नानिनपुंसके ॥ जघनादयश्शब्दानपुंसकलिंगाभवंति ॥',
+          eng: 'Exception 1: These words are neuter',
+          examples: ['इदंजघनमित्यादि ॥ नोपधत्वात् ॥']
+        },
+        {
+          sloka:
+            'मानयानाभिधाननलिनपुलिनोद्यानशयनासनस्थान चंदनालाननंमान भवनव्यननसंभावन वितानविमानानि नपुंसके च ॥',
+          eng: 'Exception 2: These words are neuter and masculine',
+          examples: [
+            'मानादयश्शब्दाः पुंसिनपुंसके च भवंति ॥ अयं मानः इदं मानमित्यादि ॥'
+          ]
+        }
+      ]
+    },
+    {
+      id: 56,
+      title_sans: '',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: 'पोपधोऽकारांतश्शब्दः पुल्लिंगोभवति ॥',
+          eng: 'words ending in pa are masculine. ',
+          examples: ['यूपः दीवस्सर्प इत्यादि ॥  ']
+        },
+        {
+          sloka:
+            'पापरूपोडुपतल्पशिल्पपुष्पशष्पसमीपांतरीपाणिनपुंसके । पापदीनिनपुंसकलिंगानिभवंति',
+          eng: 'Exception 1: These words are neuter.',
+          examples: ['इदं पापमित्यादि ॥']
+        },
+        {
+          sloka:
+            'शूर्पकुतुपकुणपद्वीपविटपानिनपुंसके च ॥ शूर्पादयःपुंसिनपुंसके च भवंति ॥ ',
+          eng: 'Exception 2: These words are neuter and masculine ',
+          examples: ['अयं शूर्पः इदं शूर्पमित्यादि ॥']
+        }
+      ]
+    },
+    {
+      id: 57,
+      title_sans: 'भोपधः ॥',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: 'भोपधो अकारांतः पुल्लिंगोभवति ॥',
+          eng: 'Words ending with bha ',
+          examples: [' स्तंभःकुम्भः इत्यादि ॥ ']
+        },
+        {
+          sloka: 'तलभं नपुंस ',
+          eng: 'तलभं is neuter',
+          examples: ['इदं तलभं ॥']
+        },
+        {
+          sloka: 'जृम्भं नपुंसके च ॥',
+          eng: 'जृम्भं is neuter and masculine.',
+          examples: [' अयंजृम्भः ॥ इदं जृम्भमित्यादि ॥']
+        }
+      ]
+    },
+    {
+      id: 58,
+      title_sans: 'मोपधः ॥ ',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: 'मोपधोकातः पुंसिभवति ॥',
+          eng: 'words ending in ma are masculine',
+          examples: ['सोमः ॥ भीमः ॥ भीष्म इत्यादि ॥ ']
+        },
+        {
+          sloka:
+            'रुक्मसिध्मयुग्मेध्मगुल्माध्यात्मकुंकुमानिनपुंसके ॥ एतानिनपुंसकलिंगानिभवंति ॥',
+          eng: 'Exception 1: These words are neuter',
+          examples: ['इदं रुक्ममित्यादि ॥ मोपथत्वात् ॥ ']
+        },
+        {
+          sloka:
+            'संग्रामदाडिमकुसुमाश्रमक्षेमक्षौमहोमोद्दामानिनपुंसके च ॥ एतानीपुंसिनपुंसके च भवंति ॥ ',
+          eng: 'These words are neuter and masculine',
+          examples: ['अयं संग्रामःइदं संग्राममित्यादि ॥ मोपधत्वात् ॥']
+        }
+      ]
+    },
+    {
+      id: 59,
+      title_sans: 'योपथः ॥',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: 'योपधोकारांतः पुल्लिंगोभवति ।',
+          eng: 'words ending in ya are masculine',
+          examples: ['समयः ।शयः । हयः ॥ ']
+        },
+        {
+          sloka: 'किसलयहृदयेंद्रियांतरीयोत्तरीयाणि नपुंसके ॥ ',
+          eng: 'These words are neuter',
+          examples: ['इदं किसलयं । हृदयमित्यादि ॥ ']
+        },
+        {
+          sloka: 'गोमयकषायवलयान्वयाव्ययानिनपुंसके च ॥ एतानिनपुंसके च भवंति ॥',
+          eng: 'These words are neuter and masculine ',
+          examples: [' अयंगोमयः । इदं गोमयमित्यादि ॥ ']
+        }
+      ]
+    },
+    {
+      id: 60,
+      title_sans: 'रोपधः ॥',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: 'रोप धोकारान्तश्शब्दः पुंसिनभवति ।',
+          eng: 'Words ending in ra are masculine',
+          examples: ['क्षुरः । स्वरः । कुमारः । मम्त्र इत्यादि ॥ ']
+        },
+        {
+          sloka:
+            'वाराग्र स्फारतक्रवप्रक्षिप्र क्षुद्रच्छिद्रसारतीरदूरकृछ्ररंध्राश्रश्वित्रश्वभ्रभीरगभीरतिमिरकूरकेयूर केदारोदरशरीरकंदरमंदार पंजरांबररजThaराजिरवैरचामरदामर पुष्करकुहर गह्वर कुटीर कुळीरचत्वरकाश्मीरनीरशिबिरतंत्र यंत्र क्षत्रक्षेत्रमित्रकळत्र चित्रसूत्र वक्त्रनेत्रगोत्रांगुळित्र-भलत्रास्त्रशास्त्रवस्त्र पत्रपात्र च्छत्राणिनपुंसके । एतानिनपुंसकानिभवंति ॥ ',
+          eng: 'These words are neuter',
+          examples: ['इदंद्वारमित्यादि ॥ ']
+        },
+        {
+          eng: 'when shukra does not mean devata it is neuter',
+          sans: 'शुक्रमदेवतायां ॥ अदेवतावाची शुक्रशब्दो नपुंसकलिंगोभवति ॥',
+          examples: ['इदं शुक्रंरेतः ।']
+        },
+        {
+          eng: 'These words are neuter and masculine',
+          sans:
+            'चक्रवज्रांधकारसारवारपारहारक्षिर तोमरागारशृंगारांगारभृंगार मंदारोशीरतिमिरशिशिराणि नपुंसके च ॥ एतान्युभयलिंगानिभवंति ॥ ',
+          examples: ['अयं चक्रः इदंचक्रमित्यादि ॥ ']
+        }
+      ]
+    },
+    {
+      id: 61,
+      title_sans: 'षोपधः ॥',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: 'षोपर्थोकारांतः पुल्लिंगोभवति ।',
+          eng: 'Words ending in sha are masculine',
+          examples: ['पृषः । वृक्षः । प्लक्षः ॥ ']
+        },
+        {
+          eng: 'These words are neuter',
+          sloka:
+            'शिरीषर्जिषांबर्ष पीयूषपुरीषकिल्बिषकुल्माषाणिनपुंसके ॥ एतानि नपुंस भवंति ॥',
+          examples: ['इदं शिरीषमित्यादि ॥']
+        },
+        {
+          eng: 'These words are neuter and masculine',
+          sloka:
+            'यूषकरीषमिषविषवर्षाणि नपुंसके च ॥ एतानि पुंनपुंसकलिंगानिभवंति ॥ ',
+          examples: ['यूषः ॥ यूषमित्यादि ॥ ']
+        }
+      ]
+    },
+    {
+      id: 62,
+      title_sans: 'सोपधः ॥',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: 'सोपधोकारांतश्शब्दः पुल्लिंगोभवति ॥ ',
+          eng: 'words ending in sa are masculine ',
+          examples: ['वत्सः कुत्सः वायसः महानस इत्यादि  ']
+        },
+        {
+          sloka: 'पनसभिसबुससाहसानि नपुंसके ॥ एतानिनपुंसकानि',
+          eng: 'Exception 1: These words are neuter',
+          examples: ['इदं पनसमित्यादि ॥ ']
+        },
+        {
+          sloka:
+            'चमस-सरस-निर्यासोपवास- कार्पास-वासमास-कास-कं स-मांसानि नपुंसके च ॥ एतान्युभयलिंगानिभवंति ॥ ',
+          eng: 'These words are neuter and masculine.',
+          examples: ['अयंचमसः ॥ इदं च मनमित्यादि ॥']
+        },
+        {
+          sloka: 'कंसंचाप्राणिनि ॥ अप्राणिवाचीकंसशब्दः पुंसिनपुंसके च भवति ॥ ',
+          eng: 'when kamsa means something other than animal',
+          examples: [
+            'अयंकंसः ॥ इदं कंसं ॥ अप्राणिनीतिकिं । कंसोनामकश्चिद्राजा । अकारांत इति निवृत्तं ॥'
+          ]
+        }
+      ]
+    },
+    {
+      id: 63,
+      title_sans: '',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: 'रश्मिदिवसाभिधानानि ॥ एतानिपुल्लिंगानिभवंति ॥ ',
+          eng: 'words that indicate day are masculine ',
+          examples: ['रश्मिः । मयूखः । दिवसः । वासरः । घस्र इत्यादि ॥ ']
+        },
+        {
+          sloka:
+            'धीधितिस्त्रियां । आयंरश्मिवाचित्वेपि स्त्रिलिंगोभवति ॥ इयं धीधितिः ॥',
+          eng:
+            'Exception 1: The word धीधितिः, even though it means day, is feminine.'
+        },
+        {
+          sloka: 'दिनाहनीनपुंसके ॥ इदंदिनं । इदमहः । दिवसवाचित्वात् ।।',
+          eng: 'Exception 2: दिनं and अहः are neuter'
+        }
+      ]
+    },
+    {
+      id: 64,
+      title_sans: '',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: 'मानाभिधानानि ॥ पुल्लिंगानिस्युः ॥ कुडवः प्रस्धः ॥  ',
+          eng: ' ',
+          examples: [' ']
+        },
+        {
+          sloka: 'द्रोणाधकौनपुंसके च ॥ मानवाचनकत्वेप्येतेनपुंसके च भवतः ॥ ',
+          eng: 'Exception 1: These words are neuter',
+          examples: ['अयंद्रोणः ॥ इदंद्रोणमित्यादि ॥']
+        },
+        {
+          sloka: 'खारीमानिकेस्त्रियां ॥ ',
+          eng: 'Exception 2: These words are feminine',
+          examples: ['इयंखारी । मानिका॥ ']
+        }
+      ]
+    },
+    {
+      id: 65,
+      title_sans: '',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka:
+            'दाराक्षतलाजशरबल्बजासूनांबहुत्वं च ॥ एतेपुंसि भवंति बहुत्वे च ',
+          eng: 'These words are masculine and plural always ',
+          examples: [
+            'इमेदाराः । इमे अक्षताः । इमेलाजाः । इमेशराः । इमेबल्बजाः । इमे असवः '
+          ]
+        }
+      ]
+    },
+    {
+      id: 66,
+      title_sans: '',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka:
+            'नाड्यपजनोपपदानिव्रणांगपदानि ॥ यथासंख्यं नाड्यपजनोपपदानि जनपदः । ',
+          eng:
+            'naadi, vrana, anga , pada are masculine when they have another suffix word like apa, jana, etc ',
+          examples: [
+            'व्रणशब्दस्य पाक्षिकक्लीबत्व निवृत्त्यर्धं अंगपदयोर्नित्य नपुंसकयोः पुंस्त्वविधानार्थं चायमारंभः ॥ '
+          ]
+        }
+      ]
+    },
+    {
+      id: 67,
+      title_sans: '',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: 'मरुद्गरुत्तरुदृत्विजः ॥ मरुदादयः पुल्लिंगाभवंति॥ ',
+          eng: 'These words are masculine ',
+          examples: ['अयंमरुदित्यादि ॥ ']
+        }
+      ]
+    },
+    {
+      id: 68,
+      title_sans: '',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka:
+            'ऋषिराशिवतिदृति ग्रण्थि क्रिमिध्व निबलिकालिमौळि रविकपिमुनयः ।।  ',
+          eng: 'These words are masculine  ',
+          examples: ['एतेपुंसिभवंति ॥ अयमृषिरित्यादि ।। ']
+        }
+      ]
+    },
+    {
+      id: 69,
+      title_sans: '',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: ' ध्वजगजमुंजपुंहाः ।। एतेपुंसिभवंति ॥ ',
+          eng: 'These words are masculine ',
+          examples: [' अयंध्वज इत्यादि ॥  ']
+        }
+      ]
+    },
+    {
+      id: 70,
+      title_sans: '',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka:
+            'हस्तकुंतांतव्रातवातदूत धूर्तसूत चूतमुहूर्ताः ॥ एतेपुंसिभवंति ',
+          eng: 'These words are masculine ',
+          examples: ['अयंहस्त इत्यादि ॥  ']
+        }
+      ]
+    },
+    {
+      id: 71,
+      title_sans: '',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka:
+            'षंड मंडकरंडभरंडवरंडगंडतुंडमुंडपाषंड शिखंडाः । एतेपुंसिभवंति ॥ ',
+          eng: 'These are masculine  ',
+          examples: ['अयंषंड इत्यादि ॥  ']
+        }
+      ]
+    },
+    {
+      id: 72,
+      title_sans: '',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: 'वंशांशपुरोडाशाः ॥ एते पुंसिभवंति ॥   ',
+          eng: 'these are masculine  ',
+          examples: ['अयंवंश इत्यादि ॥ ']
+        }
+      ]
+    },
+    {
+      id: 73,
+      title_sans: '',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: ' ह्रदकंदकुंदबुद्बुदशब्दाः ॥ एतेपुल्लिंगाभवंति ॥ ',
+          eng: 'these are masculine ',
+          examples: [' अयं ह्रद इत्यादि ॥  ']
+        }
+      ]
+    },
+    {
+      id: 74,
+      title_sans: '',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka:
+            'अर्घपथिमथ्यृभुक्षि स्तंबनितंबपूगाः ॥ अर्घादयः पुल्लिंगाभवंति ॥ ',
+          eng: 'these are masculine  ',
+          examples: ['अयमर्घ  इत्यादि  ॥   ']
+        }
+      ]
+    },
+    {
+      id: 75,
+      title_sans: '',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka:
+            ' पल्लवपल्वलकफरेफ  कटाहनिर्व्यूहaमरमणितरंग तुरंगगंधस्कंद मृदंगसंगमुद्गपुंखाः ॥ एतेपुल्लिंगाभवंति ॥  ',
+          eng: 'these are masculine ',
+          examples: ['अयं पल्लव इत्यादि ॥ ']
+        }
+      ]
+    },
+    {
+      id: 76,
+      title_sans: '',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: 'सारथ्यतिथिकुक्षिवस्तिपाण्यं जलयः  ॥ एतेपुल्लिंगाभवंति ॥  ',
+          eng: 'these are masculine  ',
+          examples: ['अयं सारथिरित्यादि ।।  ']
+        }
+      ]
+    },
+    {
+      id: 77,
+      title_sans: '',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: ' ',
+          eng: ' ',
+          examples: [' ']
+        }
+      ]
+    },
+    {
+      id: 78,
+      title_sans: '',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: ' ',
+          eng: ' ',
+          examples: [' ']
+        }
+      ]
+    },
+    {
+      id: 79,
+      title_sans: '',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: ' ',
+          eng: ' ',
+          examples: [' ']
+        }
+      ]
+    },
+    {
+      id: 80,
+      title_sans: '',
+      title_eng: ' ',
+      slokas: [
+        {
+          sloka: ' ',
+          eng: ' ',
+          examples: [' ']
+        }
+      ]
+    }
+  ],
+  dvirupa_titles: [
+    {
+      title: 'Prayer',
+      sl_num: '1',
+      to: '/dvirupa/lessons/1'
+    },
+    {
+      title: 'Purport of the work',
+      sl_num: '2',
+      to: '/dvirupa/lessons/2'
+    },
+    {
+      title: 'Subject matter',
+      sl_num: '3',
+      to: '/dvirupa/lessons/3'
+    },
+    {
+      title: 'Dvirupa-paddhati-1',
+      sl_num: '4',
+      to: '/dvirupa/lessons/4'
+    },
+    {
+      title: 'Dvirupa-paddhati-2',
+      sl_num: '5',
+      to: '/dvirupa/lessons/5'
+    },
+    {
+      title: 'Dvirupa-paddhati-3',
+      sl_num: '6',
+      to: '/dvirupa/lessons/6'
+    },
+    {
+      title: 'Dvirupa-paddhati-4',
+      sl_num: '7',
+      to: '/dvirupa/lessons/7'
+    },
+    {
+      title: 'Dvirupa-paddhati-5',
+      sl_num: '8',
+      to: '/dvirupa/lessons/8'
+    },
+    {
+      title: 'Dvirupa-paddhati-6',
+      sl_num: '9',
+      to: '/dvirupa/lessons/9'
+    },
+    {
+      title: 'Dvirupa-paddhati-7',
+      sl_num: '10',
+      to: '/dvirupa/lessons/10'
+    },
+    {
+      title: 'Dvirupa-paddhati-8',
+      sl_num: '11',
+      to: '/dvirupa/lessons/11'
+    },
+    {
+      title: 'Dvirupa-paddhati-9',
+      sl_num: '12',
+      to: '/dvirupa/lessons/12'
+    },
+    {
+      title: 'Dvirupa-paddhati-10',
+      sl_num: '13',
+      to: '/dvirupa/lessons/13'
+    },
+    {
+      title: 'Dvirupa-paddhati-11',
+      sl_num: '14',
+      to: '/dvirupa/lessons/14'
+    },
+    {
+      title: 'Dvirupa-paddhati-12',
+      sl_num: '15',
+      to: '/dvirupa/lessons/15'
+    },
+    {
+      title: 'Dvirupa-paddhati-13',
+      sl_num: '16',
+      to: '/dvirupa/lessons/16'
+    },
+    {
+      title: 'Dvirupa-paddhati-14',
+      sl_num: '17',
+      to: '/dvirupa/lessons/17'
+    },
+    {
+      title: 'Dvirupa-paddhati-15',
+      sl_num: '18',
+      to: '/dvirupa/lessons/18'
+    },
+    {
+      title: 'Dvirupa-paddhati-16',
+      sl_num: '19',
+      to: '/dvirupa/lessons/19'
+    },
+    {
+      title: 'Dvirupa-paddhati-17',
+      sl_num: '20',
+      to: '/dvirupa/lessons/20'
+    },
+    {
+      title: 'Dvirupa-paddhati-18',
+      sl_num: '21',
+      to: '/dvirupa/lessons/21'
+    },
+    {
+      title: 'Dvirupa-paddhati-19',
+      sl_num: '22',
+      to: '/dvirupa/lessons/22'
+    },
+    {
+      title: 'Dvirupa-paddhati-20',
+      sl_num: '23',
+      to: '/dvirupa/lessons/23'
+    },
+    {
+      title: 'Dvirupa-paddhati-21',
+      sl_num: '24',
+      to: '/dvirupa/lessons/24'
+    },
+    {
+      title: 'Dvirupa-paddhati-22',
+      sl_num: '25',
+      to: '/dvirupa/lessons/25'
+    },
+    {
+      title: 'Dvirupa-paddhati-23',
+      sl_num: '26',
+      to: '/dvirupa/lessons/26'
+    },
+    {
+      title: 'Dvirupa-paddhati-24',
+      sl_num: '27',
+      to: '/dvirupa/lessons/27'
+    },
+    {
+      title: 'Dvirupa-paddhati-25',
+      sl_num: '28',
+      to: '/dvirupa/lessons/28'
+    },
+    {
+      title: 'Dvirupa-paddhati-26',
+      sl_num: '29',
+      to: '/dvirupa/lessons/29'
+    },
+    {
+      title: 'Dvirupa-paddhati-27',
+      sl_num: '30',
+      to: '/dvirupa/lessons/30'
+    },
+    {
+      title: 'Dvirupa-paddhati-28',
+      sl_num: '31',
+      to: '/dvirupa/lessons/31'
+    },
+    {
+      title: 'Dvirupa-paddhati-29',
+      sl_num: '32',
+      to: '/dvirupa/lessons/32'
+    },
+    {
+      title: 'Dvirupa-paddhati-30',
+      sl_num: '33',
+      to: '/dvirupa/lessons/33'
+    },
+    {
+      title: 'Dvirupa-paddhati-31',
+      sl_num: '34',
+      to: '/dvirupa/lessons/34'
+    },
+    {
+      title: 'Dvirupa-paddhati-32',
+      sl_num: '35',
+      to: '/dvirupa/lessons/35'
+    },
+    {
+      title: 'Dvirupa-paddhati-33',
+      sl_num: '36',
+      to: '/dvirupa/lessons/36'
+    },
+    {
+      title: 'Dvirupa-paddhati-34',
+      sl_num: '37',
+      to: '/dvirupa/lessons/37'
+    },
+    {
+      title: 'Dvirupa-paddhati-35',
+      sl_num: '38',
+      to: '/dvirupa/lessons/38'
+    },
+    {
+      title: 'Dvirupa-paddhati-36',
+      sl_num: '39',
+      to: '/dvirupa/lessons/39'
+    },
+    {
+      title: 'Trirupa-paddhati-1',
+      sl_num: '40',
+      to: '/dvirupa/lessons/40'
+    },
+    {
+      title: 'Trirupa-paddhati-2',
+      sl_num: '41',
+      to: '/dvirupa/lessons/41'
+    },
+    {
+      title: 'Trirupa-paddhati-3',
+      sl_num: '42',
+      to: '/dvirupa/lessons/42'
+    },
+    {
+      title: 'Trirupa-paddhati-4',
+      sl_num: '43',
+      to: '/dvirupa/lessons/43'
+    },
+    {
+      title: 'Trirupa-paddhati-5',
+      sl_num: '44',
+      to: '/dvirupa/lessons/44'
+    },
+    {
+      title: 'Trirupa-paddhati-6',
+      sl_num: '45',
+      to: '/dvirupa/lessons/45'
+    },
+    {
+      title: 'Trirupa-paddhati-7',
+      sl_num: '46',
+      to: '/dvirupa/lessons/46'
+    },
+    {
+      title: 'Trirupa-paddhati-8',
+      sl_num: '47',
+      to: '/dvirupa/lessons/47'
+    },
+    {
+      title: 'Chaturupa-paddhati - 1',
+      sl_num: '48',
+      to: '/dvirupa/lessons/48'
+    },
+    {
+      title: 'Chaturupa-paddhati - 2',
+      sl_num: '49',
+      to: '/dvirupa/lessons/49'
+    },
+    {
+      title: 'Chaturupa-paddhati - 3',
+      sl_num: '50',
+      to: '/dvirupa/lessons/50'
+    },
+    {
+      title: 'Chaturupa-paddhati - 4',
+      sl_num: '51',
+      to: '/dvirupa/lessons/51'
+    },
+    {
+      title: 'Chaturupa-paddhati - 5',
+      sl_num: '52',
+      to: '/dvirupa/lessons/52'
+    },
+    {
+      title: 'Pancharupa-paddhati',
+      sl_num: '53',
+      to: '/dvirupa/lessons/53'
+    },
+    {
+      title: 'Conclusion',
+      sl_num: '54',
+      to: '/dvirupa/lessons/54'
+    }
+  ],
+  dvirupa_lessons: [
+    {
+      title_eng: 'Prayer',
+      id: '1',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'तुषाराद्रिप्रतीकाशं तुलसीदामभूषणम् ।<br> तुरंगममुखं वंदे तुंगसारस्वतप्रदम् ॥',
+          eng: ''
+        },
+        {
+          sloka:
+            'उमारमणसुत्रामविरिंच्यादिसुरांचितम् ।<br> समस्तविघ्नहंतारमर्वाननमहं भजे ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Purport of the work',
+      id: '2',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'प्रबोधमाधातुमशाब्दिकानां कृपामवाप्तुं च सतां कवीनम् ।<br> द्विरूपकोशो रचितो विचार्य बहुप्रबंधस्थितशब्दभेदान् ॥',
+          eng: ''
+        },
+        {
+          sloka:
+            'कृपामुपेत्यापि सतां कवीनां कृतो मया रूपमवाप्य शब्दभेदप्रकाशोऽखिलवाङ्मयार्थः'
+        }
+      ]
+    },
+    {
+      title_eng: 'Subject matter',
+      id: '3',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'ज्ञात्वा च पूर्वप्रचुरान्प्रयोगान् प्रामाणिकोदाहरणानि मत्वा ।<br> रूपादिभेदेष्वपि लक्षणेषु विचक्षणो निश्चिनुयात्सुशब्दान् ॥',
+          eng: ''
+        },
+        {
+          sloka:
+            'द्विलिंगताच्प्रत्ययहल्कृतां भिदां सपंचकद्वित्रिचतुःप्रकारात् ।<br> भूमैकवाचित्वमपीह वाचां श्रीहर्षसूरिर्वितनोति कोशे ॥'
+        },
+        {
+          sloka:
+            'क्वचिन्मात्राकृतो भेदः क्वचिद्वर्णकृतोऽत्र च ।<br> (क्वचिदर्थांतरोल्लेखात्) क्वचिद्विभक्तिभेदैश्च शब्दानां रूढितः क्वचित् ॥'
+        },
+        {
+          sloka:
+            'एतत्कोशपदान्येव पौर्यापर्यविपर्ययात् ।<br> न्यस्तानि शीघ्रबोधार्थमकारादिक्रमादिह ॥  '
+        },
+        {
+          sloka:
+            'नानादेशसमानीतपुस्तकालोकनादपि ।<br> संदेहस्यानपगमाद्यथामातृकमंकितम् ॥'
+        },
+        {
+          sloka:
+            'न तत्र मम दोषोऽस्ति तदन्विष्याखिलं पुनः ।<br> दोषज्ञैः परिहर्तव्यो दोष इत्यर्थते मुहुः ॥'
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 1',
+      id: '4',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'भवेदंधुस्तथांऽऽधुश्च स्यादहिस्त्वहिकोऽपि च ।<br> भवेदंधं कबधंचाप्यहो आहो प्रकीर्तितः ॥',
+          eng: ''
+        },
+        {
+          sloka:
+            'अरे चारेऽस्रमास्रं च सात्यश्चांतोऽश्रु चास्रुवत् ।<br> अर्द्रमार्द्रं चाभ्रमाभ्रमम्लश्चाम्लः प्रकीर्तितः ॥'
+        },
+        {
+          sloka:
+            'अट्टश्चाट्टालकश्च स्यादळिराळिश्च कथ्यते ।<br> अपूपश्चैव पूपश्च स्यादप्पतिरपांपतिः ॥'
+        },
+        {
+          sloka:
+            'विद्यादगारमागारमपगामापगामपि ।<br> अरातिमारातिमथो अगस्त्योऽगस्तिरेव च ॥'
+        },
+        {
+          sloka:
+            'भवेदमर्ष आमर्षोऽप्यळीकमळिकं तथा ।<br> अन्वयश्चान्ववायस्स्यादक्षतिश्चाक्षतं तथा ॥'
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 2',
+      id: '5',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'अध्युष्टं चाप्यध्युषितमभ्यूषोऽभ्युष एव च ।<br> अप्सरा अप्यप्सरस अगुरुश्चागरुस्तथा ॥',
+          eng: ''
+        },
+        {
+          sloka:
+            'अवाची स्यादपाची चाप्यररं चाररी तथा ।<br> अवंतिश्चाप्यवंती स्यादर्गळा चार्गळं तथा ॥'
+        },
+        {
+          sloka:
+            ' भवेदश्रीलमश्लीलमंचलं चांचलं समे ।<br> शुष्केऽप्यकालमाकालमंतिकश्चांतिकापि च ॥'
+        },
+        {
+          sloka:
+            'स्यादन्वितं तथान्वीतममिषं चामिषं तथा ।<br> अवनी चावनिः प्रोक्ताऽजगरोऽजगलो भवेत् ॥'
+        },
+        {
+          sloka:
+            'अवमानोऽपमानस्स्यादघमर्षोऽघमर्षणम् ।<br> अहंकारश्च हंकारोऽप्यवहेळाऽवहेळना ॥'
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 3',
+      id: '6',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'भवेदक्षोहिणी चम्वामक्षौहिण्यपि गीयते ।<br> अकूपारश्च कूपारोऽटरुषश्चाटरूषवत् ॥',
+          eng: ''
+        },
+        {
+          sloka:
+            'अहंवीरश्च हंवीरोऽ प्यवश्यायस्त्ववश्ययः ।<br> अनड्वाही चानडुही चापतीर्थं पतीर्थवत् ॥'
+        },
+        {
+          sloka:
+            ' अपोगंडस्तु पोगंडोऽप्यपिधानं पिधानकं ।<br> अवतारश्चावतरोऽवहितं वहितं तथा ॥'
+        },
+        {
+          sloka:
+            'अंतरिक्षं चांतरीक्षमार्यश्चार्यः प्रकीर्तितः ।<br> आटिरातिर्भवेच्चाहितुंडिकोऽप्यहितुंडिकः ॥'
+        },
+        {
+          sloka:
+            'आशीराश्याजिराजी स्यादाळिश्चाळी च कथ्यते ।<br> आश्रिरश्रिर्निगदिता स्यादायुस्त्वायुषा सह ॥'
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 4',
+      id: '7',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'आपश्चैवापसा तुल्याः स्यादाहतमनाहतं ।<br> आतिथ्यं चातिथेयं च स्यादावासस्त्ववासवत् ॥',
+          eng: ''
+        },
+        {
+          sloka:
+            'आवालमालवालं च स्यादालस्योऽलसोऽपि च ।<br>आलापस्स्यादालपनमाप्लावश्चाऽप्लवस्तथा ॥'
+        },
+        {
+          sloka:
+            'आमिक्षा स्यादमिक्षा चास्थान्यास्थानमित्यपि ।<br> आश्रयाशोऽप्याशयासो भवेदान्वीषकी तथा ॥'
+        },
+        {
+          sloka:
+            'आन्वीक्षकी समौ चारग्वधारागवधौ स्मृतौ ।<br> स्यातामाकारणाऽकारा विषृमीष्टमपि स्मृतम् ॥'
+        },
+        {
+          sloka:
+            'इंदिरा स्यात्तथेंदीरापींगुदी चेंगुदोऽपि च ।<br> इषिका स्यादिषीका च स्यादीपेशा तथैव च ॥ '
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 5',
+      id: '8',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'ईश्वरी चेश्वरा च स्यात्दुतमूतमपि स्मृतम् ।<br> उक्दमुक्द्यमपि प्रोक्तमुषाप्यूषा निगद्यते ॥',
+          eng: ''
+        },
+        {
+          sloka:
+            ' उल्मूकमुल्मुकं प्राहुरुषणं तूषणं तथा ।<br> उषरं स्यादूषरं च स्यादुदारोऽनुदारवत् ॥'
+        },
+        {
+          sloka:
+            ' उत्तमोऽनुत्तमश्च स्यादुदग्रश्चानुदग्रवत् ।<br> भवेदुत्थानमुत्तानमुर्वशी चोर्वशी तथा ॥'
+        },
+        {
+          sloka:
+            'भवेदुल्लोच ऊल्लोच उन्नायश्चोन्नयस्तथा ।<br> उशीरोऽप्युशिरश्च स्यादुच्छ्रायोऽप्युच्छ्रयस्तथा ॥'
+        },
+        {
+          sloka:
+            ' उंदुरुश्चाप्युदीरुस्स्यादुदूखलमुलूखल्म् ॥<br> ऊर्मिश्चोर्मी तथोरुस्स्यादूरू ऋश्यश्च ऋष्यवत् ॥'
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 6',
+      id: '9',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'ऋषिश्चापि ऋषी च स्यादृभूक ऋभुकस्तथा ।<br> ऋश्यप्रोक्ता ऋष्यप्रोक्ताप्ये  धमाहुस्तदैधसा ॥',
+          eng: ''
+        },
+        {
+          sloka:
+            'ऐलबिलश्चैडबिड औशीरं चौशिरं तथा ॥<br> कंगुः कंगूश्च कथिता कोषः कोशः कषा कशा ॥'
+        },
+        {
+          sloka:
+            'क्रिमिः कृमिस्तथा कर्षः करिषस्स्यात्कुथः कुथा ।<br> भवेत्कक्ष्या च कक्षा च क्रोडा क्रोडं प्रकीर्तितम् ॥'
+        },
+        {
+          sloka:
+            'केळी केळिरपि प्रोक्ता काषं काशं प्रचक्षते ।<br> भवेत्कुणिश्च कूणिश्च कारूः कारुरपि स्मृतः ॥'
+        },
+        {
+          sloka:
+            'भवेदमर्ष आमर्षोऽप्यळीकमळिकं तथा ।<br> अन्वयश्चान्ववायस्स्यादक्षतिश्चाक्षतं तथा ॥'
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 7',
+      id: '10',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'कहळी काहळी च स्यात्कुमुदं कुमुदोऽपि च ।<br> कवाटं च कपाटं च कुर्दनं खुर्दनं समंम् ॥',
+          eng: ''
+        },
+        {
+          sloka:
+            'कलशः कलसश्चैव कृशरः कृसरोऽपि च ।<br> कर्मीणोऽपि च कर्मीरः कुबरः कूबरोऽपि च ॥'
+        },
+        {
+          sloka:
+            'कुद्दालश्च कुदालश्च करिण्यां कारिणीति च ।<br> कुशलं कुसलं चापि कोसलोत्तरकोसला ॥'
+        },
+        {
+          sloka:
+            ' कपोणिः कपणिश्चापि किलिंजश्च किलिंजकः ।<br> ककुदं ककुदप्याहुः कटकं कटकस्तथा ॥'
+        },
+        {
+          sloka:
+            '  कमलं कमलो वापि कर्षकः कृषकोऽपि च ।<br> कंदळं कंदळी च स्यात्कदळी कदळस्तथा ॥'
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 8',
+      id: '11',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'कंखणश्चापि कंखोणःकोंकाणश्चापि कोंकणः ।<br> किमीरोऽपि किम्मीरस्स्यात्काकणी काकणिस्तथा ॥',
+          eng: ''
+        },
+        {
+          sloka:
+            'कंधरा कंधरश्च स्यात्करंभश्च करंभया ।<br> कुर्कुरः कुक्कुरोऽपि स्यात्कुसुमं सुममित्यपि ॥'
+        },
+        {
+          sloka:
+            'कर्बुरश्चापि कर्बूरः करकः करकापि च ।<br> कराटश्च कराटिश्च किलिनी किलिणी तथा ॥'
+        },
+        {
+          sloka:
+            'कमनः कामनश्चापि केसरो नागकेसरः ।<br> करेटुः कर्करेटुश्च कोरकं कोरकोऽपि च ॥'
+        },
+        {
+          sloka:
+            ' कल्माषश्चापि कल्मासः किरीटं च किरीडवत् ।<br> किसरः केसरश्च स्यात्करटश्च कटस्तथा ॥'
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 9',
+      id: '12',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'कृपटं च कृपीटं च करभोऽपि करंभकः ।<br> कंदरः कंदरा च स्यात्कैकेयी केकयीति च ॥',
+          eng: ''
+        },
+        {
+          sloka:
+            'करवालः करपालः किकिदीविः किकीदिविः ।<br> कौलटेयः कौलटेरः कृष्णशारो भवेत्तथा ॥'
+        },
+        {
+          sloka:
+            ' कृष्णसारः कराटीनकलाटीनौ समौ स्मृतौ ।<br> कालनेमिः कालनेमा भवेत्कौमुदकी तथा ॥'
+        },
+        {
+          sloka:
+            ' कौमोदकी कान्यजुब्जं कन्याकुब्जमपि स्मृतं ॥<br> खड्गं खड्गः खनी च स्यात्खनिः खेदश्च खेदनम् ॥'
+        },
+        {
+          sloka:
+            'खरा स्यात्खलिका चापि खुरकः क्षुरकस्तथा ।<br> खलिनं च खलीनं च क्षुरप्रस्स्यात्क्षुरप्रकः ॥'
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 10',
+      id: '13',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'खंडपर्शुः खंडपरशुः  गुप्तं गोपायितं तथा ।<br> गूढं गूढो गुरुर्गुर्वी गृध्नुर्गर्धन इत्यपि ॥',
+          eng: ''
+        },
+        {
+          sloka:
+            'गर्तो गर्ता गिरा गीश्च गृहाश्च गृहमुच्यते ।<br> गवी गौश्च ग्रसो ग्रासो गोदा गोदावरी तथा ॥'
+        },
+        {
+          sloka:
+            ' गंधो गंधा ग्रहो ग्राहः गुंभो गुंभनमुच्यते ।<br> गंधर्वोऽपि च गांधर्वो गांडीवं गांडिवं तथा ॥'
+        },
+        {
+          sloka:
+            ' गुग्गुलुर्गुग्गुलोऽपि स्याद्गंभीरं च गभीरवत् ।<br> गारुडो गरुडश्च स्याद्ग्रथितं ग्रंधितं समे ॥'
+        },
+        {
+          sloka:
+            'ग्रथनं ग्रंथनं चापि भवेद्गोनासगोनसौ ।<br> गरळं गरमप्याहुर्गणना गणनं तथा ॥'
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 11',
+      id: '14',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'गिरीशो गिरिशश्च स्यार्द्गिरितं गिळितं समे ।<br> गोधिका चापि गुधिका गीर्वाणो गीर्वणोऽपि च ॥'
+        },
+        {
+          sloka:
+            'गंधवाहो गंधवहो गंडभेरुंडवत्स्मृतः ।<br> भेरुंडश्चाथ- घटवद्घटी चापि प्रकीर्तिता॥'
+        },
+        {
+          sloka:
+            'घ्राणं घ्रातमपि प्रोक्तं घटी च घटिका स्मृता ।<br> घनो घनाघनश्चापि चंचुश्चुंचूः प्रकीर्तिता ॥'
+        },
+        {
+          sloka:
+            'चोरश्चौरश्चटुश्चाटुश्चोळश्चौळश्चमुश्चमूः ।<br> चेटिश्चेटी चरश्चारः चव्यं च चविकेत्यपि ॥'
+        },
+        {
+          sloka:
+            'चितिश्चापि चिता चेष्टा चेष्टश्चूडा च चूडवत् ।<br> चंडालोऽपि च चांडालश्चमसश्चामस्तथा ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 12',
+      id: '15',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'चरित्रं चरितं चापि चुलुकं चूलुकं तथा ।<br> चिंतनी चिंतनं चापि चमुरुश्च चमूरुवत् ॥५६॥'
+        },
+        {
+          sloka:
+            'चेकुरः चिकुरश्चापि चपलं चापलं तथा ।<br> चटूकं चटुकं प्रोक्तं चंचलं चलमित्यपि ॥'
+        },
+        {
+          sloka:
+            'चिपुटश्चिपुटिश्च स्याच्चातुर्यं चातुरीति च ।<br> चक्रांगी चापि वक्रांगी चतुरश्चातुरस्तथा ॥'
+        },
+        {
+          sloka:
+            'चरणं चरणश्च स्याच्चिरत्नं च चिरंतनम् ।<br> चणसूत्रं भवेदेवं शणसूत्रमपि स्मृतम् ॥'
+        },
+        {
+          sloka:
+            'छदश्च च्छदनं छन्नं छादितं स्याज्जरा जराः ।<br> ज्यैष्ठो ज्येष्ठो जपो जापो जोषा योषा जडं जलम् ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 13',
+      id: '16',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'ज्योत्स्नी ज्योत्स्ना तथा प्रोक्ता जाया यायापि कीर्तितां ।<br> जिह्वा जिंहापि कथिता जृंभा जृंभणमित्यपि ॥'
+        },
+        {
+          sloka:
+            'जतुका स्याज्जतूकापि ज्योतिषं ज्यौतिषं तथा ।<br> जठरो जटरश्च स्याज्जटायुश्च जटायुषा ॥'
+        },
+        {
+          sloka:
+            'जामातापि च यामाता जटीलो जटिलोऽपि च ।<br> जांबवान् जंबवोऽपि स्याज्जंबूको जंबुकोऽपि च ॥'
+        },
+        {
+          sloka:
+            'जीवनं जीवना चापि जरायुस्स्याज्जरायुषा।<br> जयनं च जयश्चापि झर्झरो जर्जरस्तथा ॥ '
+        },
+        {
+          sloka:
+            'जतुकं च जतु प्रोक्तं जवनं च जवस्तथा ॥<br> झल्लरी झल्लरिश्चापि  डंभो दंभो डुली ढुली ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 14',
+      id: '17',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'डिंडीरो डिंडिरोऽपि स्याड्ढक्की ढक्का च कथ्यते <br>तलस्तालस्तृषा तृष्णा तालस्ताडस्तनुस्तनूः ॥'
+        },
+        {
+          sloka:
+            'तोकं तोकस्त्वचा त्वक्च तंद्री तंद्रा तुषस्तुसः ।<br> तप्तं च तपितं त्रातं त्राणं चापि तटी तटम् ॥'
+        },
+        {
+          sloka:
+            'तिष्यस्त्रिष्यस्त्विषा त्विट्च तारा तारमपि स्मृतम् ।<br> तपश्च तपसा प्रोक्ता तमश्च तमसा तथा ॥'
+        },
+        {
+          sloka:
+            'तुंगं तु तुगमप्याहुस्तेमस्स्तेमस्तटित्तडित् ।<br> तपिंछमपि तापिंछं तरुणी तलुनीति च ॥'
+        },
+        {
+          sloka:
+            'त्रापुषं त्रापुषश्च स्यात्त्रिणता तृणतापि च ।<br> तारकं तारका चापि त्र्यंबकश्च त्रियंबकः ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 15',
+      id: '18',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'तमिस्रं च तमिस्रा स्यात्तिमिरं तमिरं तथा ।<br> तपनस्तापनोऽपि स्यात्तामसी तामसं तथा ॥'
+        },
+        {
+          sloka:
+            'तिमितं स्तिमितं चापि तिलिप्सस्स्यात्तिलित्सवत् ।<br> तरणिस्तरणी चापि तुवरस्तूवरोऽपि च ॥'
+        },
+        {
+          sloka:
+            'तनूरुहं तनुरुहं तामलिप्ता भवेत्तथा ।<br> दामलिप्ता तैलपेजस्तिलपिंजोऽपि च स्मृतः ॥'
+        },
+        {
+          sloka:
+            'दोर्दोषा द्यौर्दिवं प्रोक्तं द्वार्द्वारमपि कथ्यते ।<br> दृग्दृशा च तथा दूती दूतिर्दासश्च दाशवत् ॥'
+        },
+        {
+          sloka:
+            'दान्तं च दमितं चापि दिष्टिर्दृष्टिरपि स्मृता।<br> भवेद्दवश्च दावश्च दोला डोला च कथ्यते ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 16',
+      id: '19',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'स्याद्दारा चापि दाराश्च दूत्यं दौत्यमपि स्मृतम् ।<br> द्रोणी दोणी च दासेरदासेयौ कथितौ समौ ॥'
+        },
+        {
+          sloka:
+            'दंपती जंपती चापि दूषणा दूषणं तथा ।<br> द्युसदस्स्युर्दिविषदो द्रुहीणो द्रुहिणस्तथा ॥'
+        },
+        {
+          sloka:
+            'दाडिमी दाडिमश्चापि दारिद्रश्च दरिद्रवत् ॥<br> धूंक्षो ध्वांक्षो धुतं धौतं धनी धनिक एव च ॥'
+        },
+        {
+          sloka:
+            'धूम्रश्च धूमलश्चापि धृष्टो धृष्णुरपि स्मृतः ।<br> भवेद्धम्मिल्लधम्मेल्लौ धवित्रं स्याद्धवित्रकंम् ॥'
+        },
+        {
+          sloka:
+            'धूपायितं धूपितं च- नगश्च नगसा समः।<br> नाभी नाभिर्निशा निट्च नृत्तं नृत्यं च कथ्यते ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 17',
+      id: '20',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'नयश्च नयनं चापि नतं चानतमित्यपि ।<br> ननंदा च ननांदा च निमेषो निमिषोऽपि च ॥'
+        },
+        {
+          sloka:
+            'नीलंगुरपि नीलांगुर्नारको नरकस्तथा ।<br> निशीतं निशितं चापि नटनं नाटनं तथा ॥'
+        },
+        {
+          sloka:
+            'निलयश्चालयश्चापि निकृत्तिर्निकृति स्तथा ।<br> नारंगमपि नार्यंगं नगरी नगरं तथा ॥'
+        },
+        {
+          sloka:
+            'निचकी नैचकी च स्यान्निगदश्च निगादवत् ।<br> निरृतिर्नैरृतश्चापि निक्वाणो निक्वणस्तथा ॥'
+        },
+        {
+          sloka:
+            'नेदिष्ठोऽपि च नेदीयान्निनदश्च निनादवत् ।<br> भवेन्नियंता यंता च निहाका निहकापि च ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 18',
+      id: '21',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'नैवेद्यं च निवेद्यं च निकुंजः कुंज एव च ।<br> नडमीनो नलमीनो नारायणनरायणौ ॥'
+        },
+        {
+          sloka:
+            'नीराजनं तथा नीराजना च परिकीर्तिता ॥<br> प्राग्र्यः प्राग्रसरश्चापि पंगुः पंगूश्च कथ्यते ॥'
+        },
+        {
+          sloka:
+            'पृश्निश्च पृश्निपर्णी च प्रावृट् प्रावृषया सह ।<br> पर्शुश्च पर्शुका चापि प्लिहा प्लीहा गदेऽपि च ॥'
+        },
+        {
+          sloka:
+            'पुष्यः पौषस्तथा पूर्णं पूरितं च प्रकीर्तितम् ।<br> पिष्टं च पिषितं प्रुष्टं प्लुष्टं चापि पविर्भविः ॥'
+        },
+        {
+          sloka:
+            'प्रायश्च प्रायसा तुल्यः पर्घस्स्यात्परिघस्तथा ।<br> पुरश्च पुरतः प्रोक्तं पथः पंथाश्च कथ्यते ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 19',
+      id: '22',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'भवेत्पांसुश्च पांशुश्च प्राणाः प्राणोऽपि च स्मृतः ।<br> प्रत्नं प्रतनमप्याहुः प्रज्ञः प्राज्ञश्च गद्यते ॥'
+        },
+        {
+          sloka:
+            'प्रघाणः प्रघणश्चापि पतंगः पतगस्तथा।<br> प्राचीनं प्राचीरमपि पालाशश्च पलाशवत् ॥'
+        },
+        {
+          sloka:
+            'प्रियालस्स्यात्पियालश्च परेतः प्रेत उच्यते ।<br> पत्रंगमपि पत्रांगं परशस्स्पर्श एव च ॥'
+        },
+        {
+          sloka:
+            'पूरुषः पुरुषश्चापि परशूः परशुस्तथा ।<br> प्रततिर्व्रततिश्चापि प्रादेशोऽपि प्रदेशवत् ।<br>   पिटकः पेटकश्चापि पललं पलमित्यपि ॥'
+        },
+        {
+          sloka:
+            'पृथुलं पृथु चापि स्यात्प्रग्राहः प्रग्रहोऽपि च ।<br> स्यात्पलांडुः पलंडुश्च प्रचेताश्च प्रचेतसः ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 20',
+      id: '23',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'पल्यंकिका च पल्यंकः प्रक्वाणः प्रक्वणोऽपि च ।<br> प्रियाळूस्स्यात्प्रियाळुश्च पाटली पाटला तथा ॥'
+        },
+        {
+          sloka:
+            'पुळिंदस्स्यात्पुलिंदोऽपि पृषतः पृषदित्यपि ।<br> प्रत्यूषः प्रत्युषश्चापि परिखा परिघा समे ॥'
+        },
+        {
+          sloka:
+            'पालना पालनं चापि पांसुला पांशुला तथा ।<br> भवेत्पतत्रं पत्रं च पांडित्यं पांडिती तथा ॥'
+        },
+        {
+          sloka:
+            'स्यात्पल्लवः पल्लविकः पुलकश्च पुलो भवेत् ।<br> पोतवाहः पोतवहः पुनर्वसु पुनर्वसुः ॥'
+        },
+        {
+          sloka:
+            'पारंगतं पारगतं पतद्ग्राहः पतद्ग्रहः ।<br> पराक्रमो विक्रमश्च प्रतीचीनं प्रतिंचनम् ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 21',
+      id: '24',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'पारावतःपारवतः प्रतिश्रायः प्रतिश्रयः ।<br> प्रतिकारः प्रतीकारः पृषदश्वो भवेदपि ॥'
+        },
+        {
+          sloka:
+            'पृषदश्यः पुष्पवंतौ पुष्पवद्भ्यां समौ स्मृतौ ।<br> परीसृता परिसृता भवेत्पाटच्चरस्तथा ।<br>  पाटचारः परीरंभः परिरंभो निगद्यते ॥'
+        },
+        {
+          sloka:
+            'भवेत्प्रोष्ठपदा भाद्रपदा परिमळस्तथा ।<br> परीमळः परिवृतः परीवृत इतीरितः ॥'
+        },
+        {
+          sloka:
+            'परिहासः परीहासः पारिप्लवपरिप्लवौ ।<br> प्रतिहारः प्रतीहारो भवेत्पारंपरी तथा ॥'
+        },
+        {
+          sloka:
+            'पारंपर्यमपि प्रोकं  फलं च फलितं मतम् ।<br>फेला फेलिरपि प्रोक्ता फुल्लस्संफुल्ल इत्यपि ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 22',
+      id: '25',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'भवेत्फालं च भालं च फलितं फालितं तथा ।<br> फेरवश्चापि फेरुश्च फल्गुनः फाल्गुनोऽपि च ॥'
+        },
+        {
+          sloka:
+            'बुसोऽपि स्याद्बुषश्चापि बाहुर्बाहा बुको बकः ।<br> बुद्धं बुधितमप्याहुर्ब्रसी चापि ब्रषी तथा ॥'
+        },
+        {
+          sloka:
+            'भवेद्ब्राह्मी ब्राह्मणी च बाणी बाणो बको वकः ।<br> बोधी बोधिद्रुमश्चापि बर्ही बर्हिण उच्यते ॥'
+        },
+        {
+          sloka:
+            'र्बर्हश्च बर्हिश्शुष्मा च बिसं विसमितीरितम् ।<br> ब्राह्मीको ब्राह्मिकश्चापि बंधूरं बंधुरं समम् ॥'
+        },
+        {
+          sloka:
+            'बिंबोष्ठं चापि बिंबौष्ठं बंधूकं बंधुकं तथा ।<br> बिब्बोकं चापि बेब्बोकं बहुलं बहु चेत्यपि ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 23',
+      id: '26',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'बलाका च वलाका च बिडौजाश्च बिडौजसः ।<br> बलारिश्च वलारिश्च, बिडालश्च बिडारवत् ॥'
+        },
+        {
+          sloka:
+            'बांधवं बंधुमप्याहुः बलाहकवलाहकौ ।<br> बीजापूरो बीजपूरो भिन्नं भेदितमित्यपि ॥'
+        },
+        {
+          sloka:
+            'भूष्णुर्भविष्णुर्भूमिश्च भूमी च स्याद्भुजा भुजः ।<br> भीरुर्भीरूर्भरो भारः भा भार्भूषा च भूषणा ॥'
+        },
+        {
+          sloka:
+            'भृतिर्भृत्या भगो भागो भाषा भाषणमित्यपि ।<br> भाद्रभाद्रपदौ तुल्यौ भ्राणो भ्रूणः प्रकीर्तितः ॥'
+        },
+        {
+          sloka:
+            'भगिनी भागिनी चापि भरता भारती तथा ।<br> भैषज्यं भेषजं चापि भूधरश्च धरोऽपि च ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 24',
+      id: '27',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'भृंगारुश्चापि भृंगारो भर्त्सनं भर्त्सना तथा ।<br> भांडीरश्चापि भंडीरो भवेद्भृंगरजस्तथा ॥'
+        },
+        {
+          sloka:
+            'भृंगराजोऽपि कथितो मेधिर्मेथी महिर्मही ।<br> महश्च महसा प्रोक्तो मृष्टं म्लिष्टमपि स्मृतम् ॥'
+        },
+        {
+          sloka:
+            'मणिर्मणी भवेन्माहो महश्च स्यान्मघो मखः ।<br> मुस्ता च मुस्तकं चापि मस्तो मस्तक उच्यते ॥'
+        },
+        {
+          sloka:
+            'मुनिश्च स्यान्मुनी चापि मृदुर्मृद्वी तथैव च ।<br> मसूरो मसुरश्च स्यान्मूसलं मुसलं तथा ॥'
+        },
+        {
+          sloka:
+            'मद्गलो मुद्गलोऽपि स्यान्मद्गरो मुद्गरस्तथा ।<br> महिला च महेला च मंदिरं मंदिरापि च ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 25',
+      id: '28',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'स्यान्मार्गितं च मृगितं मार्जनं च मृजा तथा ।<br> मृदुलं मृदु च प्रोक्तं मंजुलं मंजु चेत्यपि ॥'
+        },
+        {
+          sloka:
+            'मंगल्यमपि मांगल्यं मतल्लिश्च मतल्लिका ।<br> मकुरो मुकुरश्चापि मांसलो मंसलोऽपि च ॥'
+        },
+        {
+          sloka:
+            'मिहीका मिहिका च स्यान्मिहिरो महिरस्तथा ।<br> मंडूकश्चापि मांडूको मकुळो मुकुळस्तथा ॥'
+        },
+        {
+          sloka:
+            'मथुरा मधुरा चापि मंथरो मंदरस्तथा ।<br> मर्दळो मद्दलश्चैव मध्यमं मध्यमित्यपि ॥'
+        },
+        {
+          sloka:
+            'मृणाळं च मृणाळी च मंधनं मथनं समम् ।<br>मंजरिर्मंजरी च स्यान्मघवा मघवांस्तथा ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 26',
+      id: '29',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'मार्जालश्चापि मार्जारो मुषितं मुष्टमित्यपि ।<br> मंटपो मंडपश्चापि मासारश्च मसारवत् ॥'
+        },
+        {
+          sloka:
+            'मादनश्चापि मदनो मुकुंदः कुंद एव च ॥<br> मलकश्चाप्य मलको मृद्वीका मृद्विकापि च ॥'
+        },
+        {
+          sloka:
+            'मार्गशीर्षो मार्गशिरो भवेन्मातृष्वसा तथा ।<br> मातुस्स्वसा मत्तकाशी मत्तकाशिन्यपि स्मृता ॥'
+        },
+        {
+          sloka:
+            'विद्यान्मृगशिरं चापि तथा मृगशिरोऽपि चा<br> मणीचकं मणिचकं द्वयं कुसुमवाचकम् ॥'
+        },
+        {
+          sloka:
+            'मदावनं मदवनं प्रपूर्वं परिकीर्तितं ॥<br> भवेद्युष्टं च युषितं योत्रं योक्त्रमपीरितं ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 27',
+      id: '30',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            ' यमश्च यमळश्चापि यमो यामः प्रकीर्तितः ।<br> युक्तं युतमपि प्रोक्तं यौवनं यौवतं तथा ॥'
+        },
+        {
+          sloka:
+            'युवती युवतिश्चापि युतकं यौतकं तथा ।<br> योषितापि भवेद्योषिद्योजनं योजना तथा ॥'
+        },
+        {
+          sloka:
+            'यजनं याजनं विद्याद्यमुना जमुना तथा ।<br> यातीफलं जातिफलं यातुधानस्तथा स्मृतः ॥'
+        },
+        {
+          sloka:
+            'जातुधानः स्तथा रात्री रात्रिश्चापि निगद्यते ।<br> रोदश्च रोदनं चापि भवेद्रागोऽनुरागवत् ॥'
+        },
+        {
+          sloka:
+            'भवेद्राजा च राट् चापि राजी राजिश्च कथ्यते ।<br> रेखा लेखा भवेद्रीढा लीढा रुट् च तथा रुषा ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 28',
+      id: '31',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'रिक्थमृक्थमपि प्राहुर्भवेतां रोमलोमनी ॥<br> रुग्रुजे लोष्टलोष्टू च रदश्च रदनो मतः ॥'
+        },
+        {
+          sloka:
+            'रुचक रुचकश्चापि रजसापि रजस्समः ।<br> रजनी रजनिश्चापि रजतं रजितं तथा ॥'
+        },
+        {
+          sloka:
+            'रोदस्यौ रोदसी चापि रोहितो लोहितस्तथा ।<br> रसना रशना चापि रचना रचनं तथा ॥'
+        },
+        {
+          sloka:
+            'रिंगणंरंखणं चापि रोहिणी कटुरोहिणी ।<br> रेखिणी लेखिनी चापि रुषणं रूषणं समम् ॥'
+        },
+        {
+          sloka:
+            'रोषिका रोशिका रात्रिंचरो रात्रिचरः स्मृतः ॥<br> लज्जा लज्या तथा लक्ष्मीर्लक्ष्मीलक्ष्यं च लक्षवत् ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 29',
+      id: '32',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'लक्षं संख्यार्थकं लक्षा लेख्या लेख्यमपि स्मृतं ॥<br> लाजो लाजाश्च कथिताः लोप्त्रं लोत्रं च गीयते ॥'
+        },
+        {
+          sloka:
+            'लक्षणो लक्ष्मणश्चापि लकुचो लिकुचस्तथा ।<br> ललामं च ललाम स्याल्लालना लालनं तथा ॥'
+        },
+        {
+          sloka:
+            'लोहिनीका लोहितिका लांगलीषा तथैव च ।<br> लांगलेशा च गदिता  व्याडो व्याळः प्रकीर्तितः ॥'
+        },
+        {
+          sloka:
+            'वल्ली वल्लिर्वणिर्वाणी व्रीडा व्रीडमपि स्मृतम् ।<br> वहो वाहो वपिर्वापी वर्मी वर्मिक ईरितः ॥'
+        },
+        {
+          sloka:
+            'वारो वालस्तथा वेशो वेषो वासा च वासकम् ।<br> भवेद्वृष्टिस्तथा विष्टिः वेत्रो वेत्रमपि स्मृतं ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 30',
+      id: '33',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'वीर्यं वीरायितं चापि विश्वा विष्वाऽपि च स्मृता ।<br> वेश्या वेष्या च गदिता वंगा वंगः प्रकीर्तितः ॥'
+        },
+        {
+          sloka:
+            'वज्रो वज्रमपि प्रोक्तं वीथी वीथिश्च वीती वीतिश्च कथ्यते ॥<br> वार्वारि चापि गदितं वारो वासर इत्यपि ॥'
+        },
+        {
+          sloka:
+            'व्रतती व्रततिश्चापि विटंकश्च विडंगवत् ।<br> वैदेहिश्चापि वैदेही विपाशा च विपाट् तथा ॥'
+        },
+        {
+          sloka:
+            'वाचालश्चापि वाचाटः वियामो वियमोऽपि च ।<br> विश्वसृड्विश्वसृक्च स्याद्वलभी वलभिस्तथा ॥'
+        },
+        {
+          sloka:
+            'विफलश्चाफलश्चापि वस्नसाऽवस्नसा तथा ।<br> वास्तुकं चापि वास्तूकं वदान्योऽपि वदन्यवत् ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 31',
+      id: '34',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'वालुका वालिका चापि बडिशो बलिशोऽपि च ।<br> वर्षाश्चापि भवेद्वर्षा विषुवं विषुवत्तथा ॥'
+        },
+        {
+          sloka:
+            'विश्रामो विश्रमश्चापि वातूलो वातुलस्तथा ।<br> विकलो विक्लबश्चापि विवश्यो विवशोऽपि च ॥'
+        },
+        {
+          sloka:
+            'विवधो वीवधश्चापि विशाणं तु विषाणवत् ।<br> वासुरा वासुरीति स्याद्वातको वातकीति च ॥'
+        },
+        {
+          sloka:
+            'वारळा वरळा च स्याद्वरणो वरुणो मतः ।<br> वाल्मीकिश्चापि वाल्मीको वलटा वरटा तथा ॥'
+        },
+        {
+          sloka:
+            'वल्मिकं चापि वल्मीकं व्यायामो व्याम उच्यते ।<br> विहारश्चापि वीहारो वहारश्चावहारवत् ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 32',
+      id: '35',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'विद्धकर्णी विद्दपर्णी वावदूको वदस्तथा ॥<br> विहायसो विहायश्च वामदेवोऽपि वामवत् ॥'
+        },
+        {
+          sloka:
+            'वेणीखरा भवेद्वेणीगरा वानीपकस्तथा ।<br> वनीपको वासुदेवो वासुश्चाथ विदारणं ॥'
+        },
+        {
+          sloka:
+            'दारणं चापि कथितं शापश्शपनमुच्यते ।<br> शंढष्षंडश्च गदितः शावस्सावोऽपि कीर्तितः ॥'
+        },
+        {
+          sloka:
+            'भवेच्छांतं च शमितं श्रमश्श्रामोऽपि कीर्तितः ।<br> शुष्कं च शुषितं चापि श्रांतिं श्रांतं प्रचक्षते ॥'
+        },
+        {
+          sloka:
+            'शिखा च शिखरं शाटी शाटश्शंभूश्च शंभुवत् ।<br> शंपा संपा शितं शातं शल्कश्च शकलस्तथा ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 33',
+      id: '36',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'शेलुश्शेलूर्भवेच्छोणा शोणी शूंडं च शुंडवत् ।<br> शंबं सांबं शारसारौ भवेच्छोषश्च शोषणम् ॥'
+        },
+        {
+          sloka:
+            'शमी शमीरश्शंबूकश्शंबुकश्शरदा शरत् ।<br> शौंडीर्यमपि शौंडीरं श्यामाकश्श्यामकोऽपि च ॥'
+        },
+        {
+          sloka:
+            'श्यामालश्श्यामलोऽपि स्या च्छवशुरस्स्वसुरस्तथा ।<br> शरारुश्चापि शारारुश्शबलं सबलं तथा ॥'
+        },
+        {
+          sloka:
+            'शंबरं संबरं चापि शष्कुलिश्शष्कुलोऽपि च ।<br> शतद्रुश्च शितद्रुश्च शाद्वलश्शाड्वलोऽपि च ॥'
+        },
+        {
+          sloka:
+            'शालूरश्चापि सालूरः शकुनिश्शकुनस्तथा ।<br> शंभळी शंफळी चैव शाल्मली शाल्मलिर्भवेत् ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 34',
+      id: '37',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'श्रवणं श्रावणं प्रोक्तं शबरश्शाबरस्तथा ॥<br> ष्ठेवनं ष्ठीवनं तुल्यं  स्फटा चापि स्पटस्तथा ॥'
+        },
+        {
+          sloka:
+            'सूचिस्सूची स्रवस्स्रावः स्वनस्स्वानस्स्रुतिस्सृतिः ।<br> सायं सायस्तथा सर्वश्शर्वस्सूनं प्रसूनवत् ॥'
+        },
+        {
+          sloka:
+            'स्यालश्श्यालश्च कथितस्सूरश्शूरस्सखिस्सखा ।<br> सूरस्सूरी सालशालौ सर्पस्सार्पस्सहास्सहः ॥'
+        },
+        {
+          sloka:
+            'संध्या संधिस्सुखं सौख्यं स्पर्शः स्परिश इत्यपि ।<br> सुरा सुरी स्याच्च समस्समानस्स्तवनं स्तवः ॥'
+        },
+        {
+          sloka:
+            'सिंहाणं चापि सिंघाणं सिंधूरं सिंधुरं मतम् ।<br> सोदर्यस्सोदरश्च स्यात्सौहार्दं सौहृदं स्मृतम् ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 35',
+      id: '38',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'समाख्या च समज्ञा च संकरस्सांकरस्तथा ।<br> संयामस्संयमश्चापि संहितं सहितं समे ॥'
+        },
+        {
+          sloka:
+            'सृणीका सृणिका चापि स्फटिकं स्फाटिकं तथा ।<br> सुत्रामापि च सूत्रामा सूकरश्शूकरोऽपि च ॥'
+        },
+        {
+          sloka:
+            'सृगालश्च शृगालश्च सांकर्यं संकरोऽपि च ।<br> सततं संततं चैव सेवनं सीवनं स्मृतम् ॥'
+        },
+        {
+          sloka:
+            'स्तंबघ्नस्तु स्तंबघनस्सवनं सावनं तथा ।<br> स्वयंभूश्च स्वयंभुश्च साहस्रं च सहस्रवत् ॥'
+        },
+        {
+          sloka:
+            'सीमंतमपि सीमन्तः साहित्यं साहिती तथा ।<br> सुमनास्स्यात्सुमनसः समीकं समिकं तथा ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Dvirupa-paddhati - 36',
+      id: '39',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'सर्षपस्स्यात्सरिषपस्सुधर्मा च सुधर्मणा ॥<br> सत्राचरस्सहचरः सुवासिन्यां स्ववासिनी ॥'
+        },
+        {
+          sloka:
+            'सुरापाणं सुरापानमथ सालावृकस्तथा ।<br> भवेच्छालावृकस्सांपरायस्स्यात्संपरायवत् ॥'
+        },
+        {
+          sloka:
+            'सुनासीरश्शुनासीरः स्यात्संवलनमित्यपि ।<br> तथा संवरणं प्रोक्तम्  हलं चापि हलस्तथा ॥'
+        },
+        {
+          sloka:
+            'हहा हाहा हुहूर्हूहूर्हर्षा हरिष इत्यपि ।<br> हृष्टं च हृषितं चापि हेषा ह्रेषा हनुर्हनूः ॥'
+        },
+        {
+          sloka:
+            'हनूमान् हनुमांश्चापि हयनं हायनं मतम् ।<br> हिंडिरोऽपि च हिंडीरः हविषा हविरुच्यते ॥'
+        },
+        {
+          sloka:
+            'हारीतो हरितोऽपि स्यात् हिंगुलुश्चापि हिंगुलम् ।<br> हज्जलो हिज्जलोऽपि स्याद्ध्रीबेरं हरिबेरवत् ॥'
+        },
+        {
+          sloka:
+            'हलीषा च हलेशा च हंजीका हंजिकापि च ।<br> हरितश्च हरिच्चापि ह्रदिनी ह्रादिनीति च ॥'
+        },
+        {
+          sloka:
+            'भवेत् क्ष्वेळस्तथा क्ष्वेडः क्षमः क्षामः प्रकीर्तितः ।<br> स्यात्क्षुत्क्षुतमपि प्रोक्तं क्षिरिका क्षीरिकापि च ॥<br> इति द्विरूपपद्धतिः॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Trirupa-paddhati - 1',
+      id: '40',
+      title_sans: '॥अथ त्रिरूपपद्धतिः ॥',
+      slokas: [
+        {
+          sloka:
+            'अंकणं चांगणं च स्यादंगणा चापि कीर्तिता ।<br> अरतिश्चापि निरतिर्विरतिश्च समं त्रयम् ॥'
+        },
+        {
+          sloka:
+            'अवतंसो वतंसस्स्यादुत्तंसः परिकीर्तितः ।<br>अलकं चालकः केशे स्त्र्यलका श्रीदपत्तनम् ॥'
+        },
+        {
+          sloka:
+            'अध्वनीनोऽप्यध्वगश्चाप्यध्वन्यश्च प्रकीर्तितः ॥<br> भवेदाषाढ आशाढोऽप्यषाढक इति त्रयं ॥'
+        },
+        {
+          sloka:
+            'आंबोळिका स्यादंदोळोंऽदोळिका च निगद्यते ॥<br> उररीकृतमित्येतदूरीकृतमुरीकृतम् ॥ '
+        },
+        {
+          sloka:
+            'उदं स्यादुदकं  चापि दकं च परिकीरितम् । भवेदेडुकमेडूकमैडुकं न्यस्तकीकसम् ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Trirupa-paddhati - 2',
+      id: '41',
+      title_sans: '॥ त्रिरूपपद्धतिः ॥',
+      slokas: [
+        {
+          sloka:
+            'कटीरश्च कटी चापि कटिश्चापि निगद्यते ॥<br> कबरः कबरिश्चापि कबरी चापि कथ्यते ॥'
+        },
+        {
+          sloka:
+            'कर्पटश्च पटश्चापि पटी चापि प्रकीर्तिता ।<br> काडंबश्च कडंबश्च कलंबश्च प्रकीर्तितः ॥'
+        },
+        {
+          sloka:
+            'कुटीरश्च कुटी चापि कुटिश्चापि निगद्यते ।<br> केशपक्षः केशपाशः केशहस्तोऽपि च स्मृतः ॥'
+        },
+        {
+          sloka:
+            'कंचुळीकः कंचुळिकः कंचुलूकः प्रकीर्तितः ।<br> करजश्च करंजश्च करंजक इति स्मृतः ॥'
+        },
+        {
+          sloka:
+            'कविलं कपिलं चापि कापिलं च समं स्मृतम् ।<br> कुपरः कूपरश्चैव कूर्परश्चापि कीर्तितः ॥'
+        }
+      ]
+    },
+    {
+      title_eng: 'Trirupa-paddhati - 3',
+      id: '42',
+      title_sans: '॥ त्रिरूपपद्धतिः ॥',
+      slokas: [
+        {
+          sloka:
+            'खुरळी स्यात्खुरळिका खुरळश्च प्रकथ्यते ॥<br> गौधारश्चापि गौधेरो गौधेय इति कथ्यते ॥'
+        },
+        {
+          sloka:
+            'गीर्पतिर्गीष्पतिश्च स्याद्गीःपतिः परिकीर्तितः ॥<br> चंद्रिका चंदिमा चापि चांद्री च परिकीर्तिता ॥'
+        },
+        {
+          sloka:
+            'चिलिचीमश्चिलीचीम स्तथा चिलिचिमोऽपि च ॥<br> जानुदघ्नं जानुमात्रं जानुद्वयसमित्यपि ॥'
+        },
+        {
+          sloka:
+            'तूणस्तूणी च तूणीर स्त्रयी च त्रितयं त्रयम् ।<br> तुरगोऽपि तुरंगश्च तुरंगम इतीरितः ॥'
+        },
+        {
+          sloka:
+            'तादृशश्चापि तादृक्च तादृक्षश्चाप्युदाहृतः ॥<br> त्रिफला तृफला चापि त्रिफलं चापि कीर्तितम् ॥'
+        }
+      ]
+    },
+    {
+      title_eng: 'Trirupa-paddhati - 4',
+      id: '43',
+      title_sans: '॥ त्रिरूपपद्धतिः ॥',
+      slokas: [
+        {
+          sloka:
+            'द्वयी द्वयं च द्वितयं दिशा दिद्गिश इत्यपि ।<br> देवकी दैवकी चापि द्वैकी च परिकीर्तिता ॥'
+        },
+        {
+          sloka:
+            'दुरितं च दुरीतं च दुरीतश्च निगद्यते ।<br> समा दुत्तूरधुत्तूरधूत्तूराः कितवे स्मृताः ॥'
+        },
+        {
+          sloka:
+            'धारुणिर्धारुणी चापि धरणी च प्रकीर्तिता ।<br> नवं नव्यं नवीनं च नसा नासा च नासिका ॥'
+        },
+        {
+          sloka:
+            'निडालं च निटालं च निटिलं च प्रचक्षते ॥<br> निपातश्चापि पातश्च निपतः परिकीर्तितः ॥'
+        },
+        {
+          sloka:
+            'नारिकेळो नाळिकेरो नाडिकेरश्च कथ्यते।<br> पूः पुरी च पुरं चापि पांडुः पांडुरपांडरौ ॥'
+        }
+      ]
+    },
+    {
+      title_eng: 'Trirupa-paddhati - 5',
+      id: '44',
+      title_sans: '॥ त्रिरूपपद्धतिः ॥',
+      slokas: [
+        {
+          sloka:
+            'पर्षच्च परिषच्चापि परीषच्चापि गद्यते ॥<br> पृथिविः पृथिवी च स्यात् पृथ्वी च परिकीर्तिता ॥'
+        },
+        {
+          sloka:
+            'पादुका पादुकं पादूरिति संज्ञात्रयं स्मृतं ।<br> पारदा पारदं चापि पारतं च प्रकथ्यते ॥'
+        },
+        {
+          sloka:
+            'प्लवगश्च प्लवंगश्च प्लवंगम इति स्मृतः ।<br> पल्यायणं पल्ययणं पल्याणं च निगद्यते ॥'
+        },
+        {
+          sloka:
+            'परिवेषः परीवेषः परिवेशः प्रकीर्तितः ।<br> पुरोगमः पुरोगामी पुरोग इति कथ्यते ॥'
+        },
+        {
+          sloka:
+            'पराभवः परिभव परीभावश्च कथ्यते ॥ भ्रमश्चापि भ्रमिश्चापि भ्रमीति परिकीर्तिता ॥'
+        }
+      ]
+    },
+    {
+      title_eng: 'Trirupa-paddhati - 6',
+      id: '45',
+      title_sans: '॥ त्रिरूपपद्धतिः ॥',
+      slokas: [
+        {
+          sloka:
+            'भीरुको भीलुको भीरुः भिदिरं भिदुरं भिदुः ।<br> भ्रकुंसश्च भ्रुकुंसश्च भ्रूकुंसश्चेति कथ्यते ॥'
+        },
+        {
+          sloka:
+            'भुजगश्च भुजंगश्च भुजंगम इति स्मृतः ।<br> भामिनी भामिनिश्चापि भामा च परिकीर्तिता ॥'
+        },
+        {
+          sloka:
+            'मंथो मंथाश्च मंथानः मुन्मुदाप्रमुदस्समाः ।<br> मार्तांडश्च मृतांडश्च मार्तंडश्च प्रकीर्तितः ॥'
+        },
+        {
+          sloka:
+            'मधूळिका मधूळिश्च मधु चेति प्रकीर्तितम् ॥<br> रती रतं च सुरतं रथिको रथिरो रथी ॥'
+        },
+        {
+          sloka:
+            'राक्षा लाक्षा च रक्षा च रभटी चार्भटी भटी <br>लपश्च लापनं चापि लापनश्च निगद्यते ॥'
+        }
+      ]
+    },
+    {
+      title_eng: 'Trirupa-paddhati - 7',
+      id: '46',
+      title_sans: '॥ त्रिरूपपद्धतिः ॥',
+      slokas: [
+        {
+          sloka:
+            'वाग्वाचा च वचश्च स्याद्वृत्तिर्वार्तं च वृत्तवत् ।<br> भवेद्विघ्नं च विघ्नश्च विघ्ना परिनिगद्यते ॥'
+        },
+        {
+          sloka:
+            'भवेद्वृद्धिश्च वृद्धी च वार्धी चेति निगद्यते ।<br> वलग्नं चावलग्नं च लग्नं च परिकीर्तितम् ॥'
+        },
+        {
+          sloka:
+            'विरिंचिश्च विरिंचश्च विरिंचन इति स्मृतः ।<br> विहगश्च विहंगश्च विहंगम इतीरितः ॥'
+        },
+        {
+          sloka:
+            'वळक्षश्च वळाक्षश्च वलक्षश्च प्रकीर्तितः ।<br> वृषभश्च वृषश्चापि ऋषभश्च प्रकीर्तितः ॥'
+        },
+        {
+          sloka:
+            'वाणिज्यं च वणिज्यं च वणिज्या चापि कीर्तिता । शुंडश्शुंडा च शुंडारश्शरदश्शारदश्शरत् ॥'
+        }
+      ]
+    },
+    {
+      title_eng: 'Trirupa-paddhati - 8',
+      id: '47',
+      title_sans: '॥ त्रिरूपपद्धतिः ॥',
+      slokas: [
+        {
+          sloka:
+            ' शर्करा स्याच्छर्करिलश्शार्करः परिकीर्तितः ।<br> शकुला शकुलश्चापि शकुली च प्रकीर्तितः ॥'
+        },
+        {
+          sloka:
+            'शुभदंती शुभदती सुदती च प्रकीर्तिता ।<br> शूरकल्पश्शूरदेश्य श्शूरदेशीय इत्यपि ॥'
+        },
+        {
+          sloka:
+            'सदृक्सदृक्षस्सदृशस्सुषीरं सुषिरं सुषिः ॥<br> स्वप्नश्च स्वपनं च स्यात्स्वापश्चापि प्रकीर्तितः ॥'
+        },
+        {
+          sloka:
+            'सलीलं सलिलं चापि सरिरं चापि कथ्यते ।<br> सिंधुकस्सिंधुवारश्च सिंधुवारक इत्यपि ॥'
+        },
+        {
+          sloka:
+            'स्फोरणं स्फोरणा स्फोरः संधासंधानसंधयः ॥<br> भवेद्धर्म्यश्च हर्म्यं च  हर्मोऽपि च तथा  स्मृतः ॥<br> इति च त्रिरूपपद्धतिः ॥'
+        }
+      ]
+    },
+    {
+      title_eng: 'Chaturupa-paddhati - 1',
+      id: '48',
+      title_sans: '॥ अथ चतूरूपपद्धतिः ॥',
+      slokas: [
+        {
+          sloka:
+            'अग्रमग्र्यं तथाग्रीयमग्रियं च प्रचक्षते ।<br> अंकूरमंकुरं च स्यादंकुरोंऽकूर इत्यपि ॥'
+        },
+        {
+          sloka:
+            'अनूक्षणं नूक्षणं चाप्यनुक्षणमवक्षणम् ।<br> अच्छभल्लश्च भल्लश्च भल्लूकश्चापि भल्लुकः ॥'
+        },
+        {
+          sloka:
+            'अवग्राहोऽवग्रहश्च वग्राहोऽवग्रहोऽपि च ।<br>कंतुकं कंदुकं चैव गंदुकं गेंदुकं तथा ॥'
+        },
+        {
+          sloka:
+            'कौतुकं कुतुकं च स्यात्कौतूहलकुतूहले <br> गुच्छो गुंभो गुळुच्छश्च गुळश्च परिकीर्तितः ॥'
+        },
+        {
+          sloka:
+            'गोशीर्षं गोशिरश्चैव गावं गोशीर्षिकापि च ॥<br> चंद्रमांश्चंदिरश्चंद्रमसश्चंद्रश्च कीर्तितः ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: 'Chaturupa-paddhati - 2',
+      id: '49',
+      title_sans: '॥ चतूरूपपद्धतिः ॥',
+      slokas: [
+        {
+          sloka:
+            'चंद्रभागा चांद्रभागा चांद्रभागी च सम्मता ।<br> चांद्रभागी च सैवोक्ता भवेदेवं चतुर्विधम् ॥'
+        },
+        {
+          sloka:
+            'चिवरं चीवरं चीरी चवरः परिकथ्यते ॥<br> जनिश्च जन्मजनुषी जननं चेति कथ्यते ॥'
+        },
+        {
+          sloka:
+            'जंभजंभिरजंभीरजंफलाः कथितास्समाः ।<br> जलुका च जलूका च जलौकाश्च जलौकसः ॥'
+        },
+        {
+          sloka:
+            'जागरो जागरा जागर्या जागरणमित्यपि ॥<br> जंघारिका जंघरिका जंघा जंघिक इत्यपि ॥'
+        },
+        {
+          sloka:
+            'जीवनीया तथा जीवा जीवंती जीवनीत्यपि ।<br> झारी झरी झरश्चापि झरिश्च परिकीर्तितः ॥'
+        }
+      ]
+    },
+    {
+      title_eng: 'Chaturupa-paddhati - 3',
+      id: '50',
+      title_sans: '॥ चतूरूपपद्धतिः ॥',
+      slokas: [
+        {
+          sloka:
+            'तमश्च तमसं चापि तामसं च तमिस्समाः । <br> तटाकस्तटकश्च स्यात्तडागस्तडगोऽपि च ॥'
+        },
+        {
+          sloka:
+            'तुंदी च तुंदिलश्चापि तुंदिरस्तुंदिभस्समाः ॥<br> द्रेक्कं द्रेक्काणदृक्काणौ भवेयुस्ते दृकाणवत् ॥'
+        },
+        {
+          sloka:
+            'दूषीकायां दूषिका च दूषी दूषश्च कथ्यते ।<br> द्रामिडो द्रमिडश्चापि द्रविडो द्राविडस्तथा ॥'
+        },
+        {
+          sloka:
+            'धनुर्धनुश्च धनुषो धनूश्चापि प्रकीर्तितः ।<br> नाळा नाळी च नाडी च नाळं च परिकीर्तितम् ॥'
+        },
+        {
+          sloka:
+            'निचोळश्चापि निचुळश्चोळश्चोळी च कीर्तिता ।<br> नखरश्च नखश्च स्यान्नखरं च नखं तथा ॥'
+        }
+      ]
+    },
+    {
+      title_eng: 'Chaturupa-paddhati - 4',
+      id: '51',
+      title_sans: '॥ चतूरूपपद्धतिः ॥',
+      slokas: [
+        {
+          sloka:
+            'निष्कूहो निष्कुहश्चापि निष्कूटो निष्कुटोऽपि च ।<br> नळिनी नळिनं चापि नळिका च नळं तथा ॥'
+        },
+        {
+          sloka:
+            'पनितं पणितं च स्यात्पनायितपणायिते ।<br> बाह्लीको बाह्लिकश्च स्याद्बाह्लीकमपि बाह्लिकं ॥'
+        },
+        {
+          sloka:
+            'भावुकं भवुकं चापि भविकं भव्यमित्यपि ।<br> भ्रूकुटिर्भुकुटिश्चापि भ्रुकुटी भ्रकुटिस्तथा ॥'
+        },
+        {
+          sloka:
+            'मरुतश्च मरुच्चापि मरुत्वान्मारुतस्तथा ॥<br> मकुटं मकुटी च स्यान्मुकुटी मुकुटस्तथा ॥'
+        },
+        {
+          sloka:
+            'मसूरा मसुरा चापि मसूरी मसुरीति च ।<br> युगळी युगळं युग्मं युगं च परिकीर्तितम् ॥'
+        }
+      ]
+    },
+    {
+      title_eng: 'Chaturupa-paddhati - 5',
+      id: '52',
+      title_sans: '॥ चतूरूपपद्धतिः ॥',
+      slokas: [
+        {
+          sloka:
+            ' रोहिणी लोहिनी च स्याद्रोहिता लोहितापि च ।<br> विसृतं विस्तृतं चापि विततं ततमित्यपि ॥ '
+        },
+        {
+          sloka:
+            'विडूरजं च वैडूर्यं  वैदूर्यं च विदूरजम् ।<br> वाराणसी वारणसी वारणासी वराणसी ॥'
+        },
+        {
+          sloka:
+            'शललं शलली चैव शलं शैलं च लोमनि ।<br> शय्या च शयनीयं च शयनं च शयिस्तथा ॥'
+        },
+        {
+          sloka:
+            'सरयूश्शरयूश्चापि सरयुश्शरयुस्तथा ।<br> हालाहलं हालहलं हलिहालं हलाहलम् ॥<br> इति चतूरूपपद्धतिः ॥'
+        }
+      ]
+    },
+    {
+      title_eng: 'Pancharupa-paddhati',
+      id: '53',
+      title_sans: '॥ अथ पञ्चरूपपद्धतिः ॥',
+      slokas: [
+        {
+          sloka:
+            'कंडूयनं च कंडूया कंडूः कंडूतिकंडुती ।<br> किसालयं किसलयं किसालं किसलं किसम् ॥'
+        },
+        {
+          sloka:
+            'कुवालयं कुवलयं कुवालं कुवलं कुवंम्। <br> धनिर्धन्याकधान्याके धान्यं धान्येयकं तथा ॥'
+        },
+        {
+          sloka:
+            'पत्रा पत्री पत्रिका च पत्रकं पत्रमुच्यते ।<br> मारुषो मरुषो मर्षो मारुषं मरुषं तथा ॥'
+        },
+        {
+          sloka:
+            'लोलुपो लोलुभो लोलो लंपटो लालसोऽपि च । <br>शेषश्शेषं च शिष्टं च शेशितश्चैव शैषिकः ॥'
+        },
+        {
+          sloka:
+            'शिवालं शैवलं शैवालं च शैवालशैवलौ ।<br> हसश्च हासिका हासो हसनं हास्यमित्यपि ॥<br>इति पंचरूपपद्धतिः ॥'
+        }
+      ]
+    },
+    {
+      title_eng: 'Conclusion',
+      id: '54',
+      title_sans: '',
+      slokas: [
+        {
+          sloka:
+            'इत्थं सत्कविराजराजिमकुटालंकारहीरायितश्रीहीरात्मभवेन नैषधमहाकाव्योज्ज्वलत्कीर्तिना । <br>उद्वृत्तप्रतिवादिमस्तकतटीविन्यस्तवामांघ्रिणा श्रीहर्षेण कृतं चिरं विजयतां श्रीकोशरत्नं महत् ॥<br>॥कोशश्चायं समाप्तः ॥'
+        },
+        {
+          sloka:
+            'श्रीहर्षसूरीरितनैकरूपकोशामरद्रुः कविलालनीयः । <br>जागर्ति यस्यैष मनस्यमुष्य शब्दप्रयोगादिरनर्गळस्स्यात् ॥',
+          eng: ''
+        }
+      ]
     }
   ]
 })

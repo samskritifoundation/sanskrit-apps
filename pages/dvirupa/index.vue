@@ -51,7 +51,7 @@
             color="primary"
             class="font-weight-bold text-capitalize"
             nuxt
-            to="/upayukta/lessons"
+            to="/dvirupa/lessons"
             large>अध्यायाः<br>Learn</v-btn>
           <v-spacer/>
           <v-btn
@@ -59,7 +59,7 @@
             color="primary"
             class="font-weight-bold text-capitalize"
             nuxt
-            to="/upayukta/exercises"
+            to="/dvirupa/exercises"
             large>अभ्यासाः <br> Exercises</v-btn>
         </v-card-actions>
       </v-card>

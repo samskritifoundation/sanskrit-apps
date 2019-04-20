@@ -16,6 +16,8 @@ const _2e70c26e = () => interopDefault(import('..\\pages\\upayukta\\index.vue' /
 const _236b5328 = () => interopDefault(import('..\\pages\\vrittaratnakara\\index.vue' /* webpackChunkName: "pages_vrittaratnakara_index" */))
 const _0f546ffe = () => interopDefault(import('..\\pages\\chandraloka\\exercises\\index.vue' /* webpackChunkName: "pages_chandraloka_exercises_index" */))
 const _cf91b9c4 = () => interopDefault(import('..\\pages\\chandraloka\\lessons\\index.vue' /* webpackChunkName: "pages_chandraloka_lessons_index" */))
+const _5b851b2f = () => interopDefault(import('..\\pages\\dvirupa\\exercises\\index.vue' /* webpackChunkName: "pages_dvirupa_exercises_index" */))
+const _1a4ae68f = () => interopDefault(import('..\\pages\\dvirupa\\lessons\\index.vue' /* webpackChunkName: "pages_dvirupa_lessons_index" */))
 const _1f95b1f0 = () => interopDefault(import('..\\pages\\samasachakra\\exercises\\index.vue' /* webpackChunkName: "pages_samasachakra_exercises_index" */))
 const _59e3d6b0 = () => interopDefault(import('..\\pages\\samasachakra\\lessons\\index.vue' /* webpackChunkName: "pages_samasachakra_lessons_index" */))
 const _171ed4c9 = () => interopDefault(import('..\\pages\\samasashikhamani\\exercises\\index.vue' /* webpackChunkName: "pages_samasashikhamani_exercises_index" */))
@@ -29,6 +31,8 @@ const _20fe180d = () => interopDefault(import('..\\pages\\vrittaratnakara\\lesso
 const _5e6b8d44 = () => interopDefault(import('..\\pages\\vrittaratnakara\\math.vue' /* webpackChunkName: "pages_vrittaratnakara_math" */))
 const _c6cb4c34 = () => interopDefault(import('..\\pages\\chandraloka\\exercises\\_id.vue' /* webpackChunkName: "pages_chandraloka_exercises__id" */))
 const _426155f4 = () => interopDefault(import('..\\pages\\chandraloka\\lessons\\_id.vue' /* webpackChunkName: "pages_chandraloka_lessons__id" */))
+const _1eae1d57 = () => interopDefault(import('..\\pages\\dvirupa\\exercises\\_id.vue' /* webpackChunkName: "pages_dvirupa_exercises__id" */))
+const _792f40b7 = () => interopDefault(import('..\\pages\\dvirupa\\lessons\\_id.vue' /* webpackChunkName: "pages_dvirupa_lessons__id" */))
 const _511d6920 = () => interopDefault(import('..\\pages\\samasachakra\\exercises\\_id.vue' /* webpackChunkName: "pages_samasachakra_exercises__id" */))
 const _38e92110 = () => interopDefault(import('..\\pages\\samasachakra\\lessons\\_id.vue' /* webpackChunkName: "pages_samasachakra_lessons__id" */))
 const _20bd7571 = () => interopDefault(import('..\\pages\\samasashikhamani\\exercises\\_id.vue' /* webpackChunkName: "pages_samasashikhamani_exercises__id" */))
@@ -155,6 +159,14 @@ export function createRouter() {
       component: _cf91b9c4,
       name: "chandraloka-lessons"
     }, {
+      path: "/dvirupa/exercises",
+      component: _5b851b2f,
+      name: "dvirupa-exercises"
+    }, {
+      path: "/dvirupa/lessons",
+      component: _1a4ae68f,
+      name: "dvirupa-lessons"
+    }, {
       path: "/samasachakra/exercises",
       component: _1f95b1f0,
       name: "samasachakra-exercises"
@@ -206,6 +218,14 @@ export function createRouter() {
       path: "/chandraloka/lessons/:id",
       component: _426155f4,
       name: "chandraloka-lessons-id"
+    }, {
+      path: "/dvirupa/exercises/:id",
+      component: _1eae1d57,
+      name: "dvirupa-exercises-id"
+    }, {
+      path: "/dvirupa/lessons/:id",
+      component: _792f40b7,
+      name: "dvirupa-lessons-id"
     }, {
       path: "/samasachakra/exercises/:id",
       component: _511d6920,
