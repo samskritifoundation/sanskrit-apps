@@ -16583,6 +16583,1251 @@ export const state = () => ({
         }
       ]
     }
+  ],
+  linga_titles: [
+    {
+      title: 'Prayer',
+      sl_num: '1',
+      to: '/linga/lessons/1'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '2',
+      to: '/linga/lessons/2'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '3',
+      to: '/linga/lessons/3'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '4',
+      to: '/linga/lessons/4'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '5',
+      to: '/linga/lessons/5'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '6',
+      to: '/linga/lessons/6'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '7',
+      to: '/linga/lessons/7'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '8',
+      to: '/linga/lessons/8'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '9',
+      to: '/linga/lessons/9'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '10',
+      to: '/linga/lessons/10'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '11',
+      to: '/linga/lessons/11'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '12',
+      to: '/linga/lessons/12'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '13',
+      to: '/linga/lessons/13'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '14',
+      to: '/linga/lessons/14'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '15',
+      to: '/linga/lessons/15'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '16',
+      to: '/linga/lessons/16'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '17',
+      to: '/linga/lessons/17'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '18',
+      to: '/linga/lessons/18'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '19',
+      to: '/linga/lessons/19'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '20',
+      to: '/linga/lessons/20'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '21',
+      to: '/linga/lessons/21'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '22',
+      to: '/linga/lessons/22'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '23',
+      to: '/linga/lessons/23'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '24',
+      to: '/linga/lessons/24'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '25',
+      to: '/linga/lessons/25'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '26',
+      to: '/linga/lessons/26'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '27',
+      to: '/linga/lessons/27'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '28',
+      to: '/linga/lessons/28'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '29',
+      to: '/linga/lessons/29'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '30',
+      to: '/linga/lessons/30'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '31',
+      to: '/linga/lessons/31'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '32',
+      to: '/linga/lessons/32'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '33',
+      to: '/linga/lessons/33'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '34',
+      to: '/linga/lessons/34'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '35',
+      to: '/linga/lessons/35'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '36',
+      to: '/linga/lessons/36'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '37',
+      to: '/linga/lessons/37'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '38',
+      to: '/linga/lessons/38'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '39',
+      to: '/linga/lessons/39'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '40',
+      to: '/linga/lessons/40'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '41',
+      to: '/linga/lessons/41'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '42',
+      to: '/linga/lessons/42'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '43',
+      to: '/linga/lessons/43'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '44',
+      to: '/linga/lessons/44'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '45',
+      to: '/linga/lessons/45'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '46',
+      to: '/linga/lessons/46'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '47',
+      to: '/linga/lessons/47'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '48',
+      to: '/linga/lessons/48'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '49',
+      to: '/linga/lessons/49'
+    },
+    {
+      title: 'लिंगं॥ ',
+      sl_num: '50',
+      to: '/linga/lessons/50'
+    }
+  ],
+  linga_lessons: [
+    {
+      title_sans: 'अथ लिंगानुशासनम् ॥ ',
+      title_eng: 'Fixation of Genders of words in Sanskrit',
+      id: '1',
+      slokas: [
+        {
+          sloka: 'येनाक्षरसमाम्नायमधिगम्यमहेश्वरात् ।<br> कृत्स्नं व्याकरणं प्रोक्तं तस्मैपाणिनये नमः ॥',
+          eng: ''
+        },
+        {
+          sloka: 'लिंगं॥ <br> अयमधिकारो वेदितव्य आशास्त्र परिसमाप्तेः',
+          eng: 'The first rule is Lingam <br> The subject is about Gender and therefore this rule has to be understood as the governing rule throughout this shastra.'
+        }
+      ]
+    },
+    {
+      title_sans: '॥स्त्री॥ इदमधिकृतं वेदितव्यं ।। ',
+      title_eng: 'First chapter on feminine gender',
+      id: '2',
+      slokas: [
+        {
+          sloka: 'यत्र स्त्रीलिंगादन्यलिंगं शिष्यते तत्रसूत्रपवलिंगं वक्ष्यते ।',
+          eng: 'When a word has to be understood in some other gender other than the feminine, then sutra is specifically stated'
+        },
+        {
+          sloka: 'ऋकारांतामातृदुहितृन्वनृयातृननंदरः ॥ ऋकारांतामात्रदयः पंचैवशब्दाः स्त्रीलिंगाभवंति ।',
+          eng: 'In sanskrit, there are only 5 words that end in Ru that are in feminine gender - matr, duhitr, suhitru, yatru and nalandru',
+          examples: ['इयं माता मातॄः पश्य ।', 'इयंदुहिता ।', 'स्वहा याता ननांदा ।', 'मात्रादिग्रहणंकिम् ।','Counter egs are stated - words ending in Ru that are in other genders: <br>पिता। भ्राता । पितॄन् भ्रातॄनित्यत्र माभूत् ।']
+        },
+        {
+          sloka: 'मात्रादिनियमात्तिसृचतस्रोरव्याप्तिरितिचेत् स्त्रियामेव त्रिचतुरोस्तदा देशविधानान्नदोषः ॥', 
+          eng: 'Exception: If anyone objects that only 5 words are in feminine gender but trisru and chatusru - are also feminine - they in femnine gender are feminine'
+        }
+      ]
+    },
+    {
+      title_sans: 'अन्यू',
+      title_eng: 'Feminine - 2',
+      id: '3',
+      slokas: [
+        {
+          sloka: 'अन्यू प्रत्ययांतो धातुः ॥ 
+
+          अनि प्रत्ययांत ऊप्रत्ययांतश्चधातुः स्त्रीलिंगोभवती ॥ 
+          Words that end in suffixes ani or u- if they have been enjoined after verb roots they are feminine gender - 
+          
+          egs - sarani , chamuhu, etc 
+          
+          इयंनरणिः ।अ अवनिः । अर्तनिः । अर्वणिः । ग्रहणिः । चर्षणिः । वर्मणिः । क्षेपणिरिति ।
+          ऊ प्रत्ययांताः । इयं चमूः । जर्जूः । सर्जूः । वधूः । जंबूः । कंदूः । अला बूरित्यादि । 
+          
+          प्रत्ययांत ग्रहणंकिम् । खलपूः । गरपूरित्यत्रमाभूत् । धातुग्रहणमुत्तरार्धं ॥ 
+          
+          Exceptions - ashani, bharani, arani, etc - are used both in feminine and masculine gender
+          
+          अशनिभरण्यरणयः पुंसिच ॥ अशव्यादयस्त्रौअस्त्रियां पुंसि च भवंति । अयमशनिरयं भरणिरय मरणिः । अन्यंतत्वात् स्त्रीलिंगे प्राप्ते पुंसि चेत्युभयलिंगार्थो यमारंभः ॥ 
+          '
+        }
+      ]
+    },
+    {
+      title_sans: 'मिन्यंतः ॥',
+      title_eng: 'Feminine - 3',
+      id: '4',
+      slokas: [
+        {
+          sloka: ' मि प्रत्ययांतोनिप्रत्ययांतश्च धातुस्त्रीलिंगो भवति । 
+          words ending with suffixes mi and ni - feminine
+          
+          egs are given 
+          
+          इय भूमिः । नेमिः । शेनिः । द्रोणिः । श्लानिः । हानिः । तूर्णिः । एपिमादयः । 
+          
+          when pratyaya is mi or ni they need not be feminine - they are not after verb roots. egs stated
+          
+          
+          प्रत्ययांतावितिकिम् । क्रिमिणामुनिवा जानकी जानिनेत्यत्र च माभूत् । 
+          
+          excptions - vahni, agni, etc - ni suffix but masculine 
+          
+          वह्निवृष्ण्यग्नयुः पुंसि ॥ वह्न्या दयश्शब्दाः पुंसिभवंति ॥ श्रोणियोन्यूर्मयः पुंसिच ॥ 
+          some words even though they fall in previous category they are used in masculine and feminine genders.
+          मिन्यंतत्वात् स्त्रीलिंगे प्राप्ते पुंसि चेत्युभयलिंगार्थोयमारंभः ॥ 
+          ',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: 'क्तिन्नंतः ॥',
+      title_eng: 'Feminine - 4',
+      id: '5',
+      slokas: [
+        {
+          sloka: 'क्तिन्नंतः ॥ 
+          क्तिन्प्रत्ययांतोधातु स्स्त्रीलिंगोभवति ।
+          7. suffix tin - feminine  - 
+          
+          exs - kirti, etc कृतिः सृष्टिः भूतिः कीर्तिरित्यादि । क्तिन्नंत इतिकिम् । वसतिर्नामजनपद इत्यत्र माभूत् ॥
+          
+          
+        }
+      ]
+    },
+    {
+      title_sans: '',
+      title_eng: '',
+      id: '6',
+      slokas: [
+        {
+          sloka: 'ई कारांतश्च ॥ ई कारान्तश्च स्त्रीलिंगोभवति ॥
+          8. words that end in EE - feminine
+          egs given - laksmi, etc तंत्रीः । लक्ष्मीः ॥
+          ',
+          eng: ''
+        },
+        {
+          sloka: 'ज्यंतश्च ॥ ङी प्रत्ययांतः स्त्रीलिंगस्स्यात् । 9. words that end in suffix, nish, nin, nig - ni - feminine
+          egs stated देवी । कुरुचरी। गौरी। शार्ङ्गरव्री इत्यादि ॥
+          
+          '
+        },
+        {
+          sloka: 'ऊ ङाबंतश्च ॥ ऊ ङ्प्रत्ययांतमाबलतं च प्रातिपदिकं स्त्रीलिंगंभवति । 10. words that end in u, their feminine form U is the suffix - pangu, pangoo वामोरूः । पंगूः ।'
+        },
+        {
+          sloka: 'words ending in ap suffix, for their feminine form A अप्प्रत्ययांतश्वविद्यादीक्षाश्रद्धेत्यादिः ॥
+
+          '
+        },
+        {
+          sloka: 'य्वंतमेकाक्षरम् ॥ ई कारांत मूकारांतं च प्रातिपदिकमेकाक्षरं स्त्रीलिंगभवति ।11. if a word has a single vowel and if it is ending in I or U , then that word is feminine 
+          eg - shrIH, bhUH श्रिः॥ ह्रीः भ्रूः । एकाक्षरमितिकिम् । पृधुश्रीः बलभूः पुरुष इत्यत्रमाभूत् ॥
+          '
+        }
+      ]
+    },
+    {
+      title_sans: '',
+      title_eng: '',
+      id: '7',
+      slokas: [
+        {
+          sloka: 'विंशत्यादिरानवतेः ।। विंशत्यादयश्शब्दाः स्त्रीलिंगाभवंति अनवतेः नवतिमभिव्याव्य । विंशतिः । त्रिंशत्। चत्वारिंशत्। पंचाशत् । षष्टिः । सप्ततिः । अशीतिः । नवतिः ॥12. numbers starting from twenty upto 90 - feminine 
+          vimshatih, trimshat, catvarimshat, etc. 
+          ',
+          eng: ''
+        },
+        {
+          sloka: 'दुंदुभिरक्षेषु । अक्षेष्वभिधीयमानेषु दुंदुभिस्त्रीलिंगोभवति इयंदुंदुभिः । अक्षेष्वितिकिम् । When aksha means playing dice. In that context when dundubi is used it is feminine.
+          दुंदुभिर्नामवाद्य विशेष aसुरविशेषश्च । तेनदुंदुभिना ॥ when it means musical instrument or asura (a particular demon) it is masculine.
+         '
+        },
+        {
+          sloka: 'नाभिरक्षत्रिये ।। 
+          नाभिशब्दः स्त्रीलिंगोभवत्यक्षत्रिये विषये । इयंनाभिः । 
+          naabhi - naval - is strilinga. 
+          अक्षत्रिय इतिकिम् । नाभिर्नामराजो तत्रमाभूत् ॥ When nabhi means King then it is masculine.
+          '
+        },
+        {
+          sloka: 'उभावन्यत्र पुंसि ॥ दुंदुभिनाभिशब्दौ अन्यत्र पुंसिभवतः । दुंदुभिर्नामवाद्यviशेषोऽसुरविशेषश्च । नाभिमक्षत्रियः । in other cases both dundubhi and nabhi are masculine.'
+        }
+      ]
+    },
+    {
+      title_sans: '',
+      title_eng: '',
+      id: '1',
+      slokas: [
+        {
+          sloka: 'प्रतिषिद्धयोः पुन्नपुंसकयोस्संदेहे पुल्लिंगार्धोयमारम्भः ॥ when there is doubt whether the word is feminine or masculine, both masculine and neuter gender are avoided. but In some cases the word can be used in masculine gender. Such cases are discussed. ',
+          eng: ''
+        },
+        {
+          sloka: 'तलंतः ॥ तल्प्रत्ययांत स्त्रीलिंगोभवति । 
+          words ending in suffix tal is feminine.
+          '
+        },
+        {
+          प्रत्यतांतविशेषण निर्देशाद्भावकर्म समूहस्वार्थवाचिनां ग्रहणं । 
+suffix tal has 4 meanings - bhava, karma, samuha, svartha. - all are feminine. Each meaning ex is given -
+a. भाववाचिनस्तावत् । पुरुषस्यभावः पुरुषता ब्राह्मणता शुक्लता । 
+b. कर्मवादिनोपि ब्राह्मणस्येदं कर्म ब्राह्मणता । 
+c. समूहवाचिनोपि ग्रामाणांसमूहो ग्रामता बंधुता । 
+d. स्वार्थवाचिनोपि देव एवदेवता॥ even though the word means masculine, the word is feminine. 
+
+        }
+      ]
+    },
+    {
+      title_sans: '',
+      title_eng: '',
+      id: '',
+      slokas: [
+        {
+          sloka: 'भूमिविद्युत्सरिल्लता वनिताभिधानानि ॥ भूम्यादिवाचकानि स्त्रीलिंगानिभवंति। 
+          Words which mean earth, lightning, river, creeper and women are all feminine.
+          ex - 
+          भूर्वसुधा। 
+          विद्युत्सौदामनी । 
+          taTid शतह्रदा । 
+          सरित् निम्नगा । समुद्रगा । नदी । 
+          लतावल्ली। व्रततिः । 
+          वनिता योषित्प्रमदा वामलोचना सीमंतिनीत्यादि । 
+          
+          Exception - 
+          यादोनपुम्सकं यादश्शब्दस्य सरिद्वाचकत्वेपि नपुंसकता । यादः यादसी यादांसि ॥ 
+          yadas means river. Even though it is river it is neuter. 
+          ',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: '',
+      title_eng: '',
+      id: '',
+      slokas: [
+        {
+          sloka: 'भास्सुक्स्रग्दिगुष्णिगुपानहः ॥ भासादयश्शब्दाः स्त्रीलिंगाभवंति । 
+          these words are used only in feminine gender भासौ । स्रुक् । स्रक् । दिक् । उष्णिक् उपानत् ।
+          ex- इयंभाः ।
+          
+          स्थूणोर्णे नपुंसके च । स्थूणोर्णि स्त्रियां नपुंसके च भवतः । इयंस्थूणा । इदंस्थूणम् । ऊर्णा। ऊर्णं ।
+          Sthoona and uurna are used in feminine and neuter gender.
+          ',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: '',
+      title_eng: '',
+      id: '',
+      slokas: [
+        {
+          sloka: 'गृहशाभ्यांक्लिबे ।। गृहshashaपूर्वकेस्थूणोर्णे यथासंख्यं नपुंसके भवतः । when these two words (sthoona and oorna) are in compound words they are not used in feminine. They are neuter.
+          गृहस्थूणं ।शशोर्णं । 
+         ',
+          eng: ''
+        },
+        {
+          sloka: 'क्लीबनियमार्थोयमारम्भः these compound words usage – प्रावृड्विप्रुड्रुट्त्रुड्विट्त्विषः । प्रावृडादयश्शब्दाः स्त्रीलिंगाभवंति । these words are used in feminine gender -  प्रावृट् । विप्रुट् । रुट् त्रुट् । विट् । त्विट् ॥ '
+        },
+        {
+          sloka: 'दर्विविदिवेदिखनिशान्यश्रिवेशिकृष्योषधिकट्यंगुळयः । एतेस्त्रियांस्युः । these words are used in feminine gender - इयंदर्विः । विदिः । वेदिः । खनिः । शानिः ।अश्रिः । वेशिः । कृषिः । ओषधिः । कटिः । अंगुळिः ॥ '
+        },
+        {
+          sloka: 'तिथिनाडिरुचिवीदिना ळिधूळिकिकिकॆळिद्भविनीविरात्रयः ॥ एते शब्दा स्त्रीलिंगाभवंति । these words are used in feminine gender - इयंतिथिः । नाडिः। रुचिः । वीचिः । नाळीः । धूळिः । किकिः । केळिः । छविः । नीविः । रात्रिः ॥ *but in amarakosha tithi is accepted as both masculine and feminine.'
+        },
+        {
+          sloka: 'शष्कुलिराजिकुटिर्तिभ्रकुटित्रुटिवलिपङ्क्तयः ॥ शष्कुल्यादयश्शब्दास्त्रीलिंगाभवंति । these are feminine -  इयंशष्कुलिः । राजिः । कुटिः । शिनिः । वर्तिः । भ्रुकुटिः । त्रुटिः । वलिः । पङ्क्तिः ॥'
+        }
+      ]
+    },
+    {
+      title_sans: 'अथ लिंगानुशासनम् ॥ ',
+      title_eng: 'Fixation of Genders of words in Sanskrit',
+      id: '1',
+      slokas: [
+        {
+          sloka: 'प्रतिपदापद्विपत्संवद्भरत्संपत्परिषद्दृषमषस्संवित्क्षुन्मृत्समिधः । प्रतिपदादयश्शब्दास्त्रीलिंगाभवंति । these are feminine  - इयंप्रतिपत् । आपत् । विपत् । संपत् । शरत् । संसत् । परिषत् । दृषत् । उषाः प्रातरधिष्ठात्री देवता ॥ नंवित् । क्षुत् । मृत् । समित् ॥',
+          eng: ''
+        },
+        {
+          sloka: 'आशीर्धूः पूर्गीर्ध्वारः॥ आशीरादयश्शब्दास्त्रीलिंगाभवंति ॥ इयमाशीः । धूः । पूः । गीः । द्वाः ॥ these are feminine  '
+        },
+        {
+          sloka: 'These are feminine and should always be used in plural not singular. अप्सुमनस्समासिकतावर्षाणां बहुत्वं च ॥ अबादयश्शब्दाः स्त्रीलिंगाभवंति  एषांबहुवचनत्वंच । 
+          ex - 
+          इमा आपः । इमास्सुमनसः । समाः । सिकताः । वर्षाः ॥ 
+          '
+        },
+        {
+          sloka: 'सृक्त्वग्ज्योग्वाग्यवागूनौस्पिजः ॥ नृगादयश्शब्दाः स्त्रीलिंगाभवंति ॥ these are feminine  - इयंसृक् । त्वक् । ज्योक् । वाक् । यवागूः । नौः । स्फिक् ॥ '
+        },
+        {
+          sloka: 'त्रुजनीमासंबध्याः ॥ त्रुट्यादयशब्दाः स्त्रीलिंगाभवंति these are feminine  - इयंत्रुटिः । सीमा । संबध्या '
+        },
+        {
+          sloka: 'चुल्लिवेणीखार्यश्च- चुल्ल्यादयश्शब्दाः स्त्रिलिंगाभवंति ॥ these are feminine  - इयंचुल्लिः । वेणी । खारी ॥ '
+        }
+      ]
+    },
+    {
+      title_sans: '',
+      title_eng: '',
+      id: '',
+      slokas: [
+        {
+          sloka: 'ताराधाराज्योत्स्नादयः ॥ तारादयश्शब्दाः स्त्रिलिंगाभवंति ॥ these are feminine  - इयंतारा । थारा। ज्योत्स्ना । तमिस्रा । इत्यादि ॥',
+          eng: ''
+        },
+        {
+          sloka: 'शलाकास्त्रियांनित्यं ॥ शलाकाशब्दस्त्रीलिंगोभवति ॥ shalaka is always feminine इयंशलाका । 
+          nitya is used to indicate shalaka is strictly feminine without any exceptions. नित्यग्रहणमितरेषां क्वचिद्व्यभिचारार्थं ॥ 
+          
+इति श्रीपाणिनीय लिंगानुशासनवृतौ स्त्रीलिंगाधिकारः ॥ 
+end of chapter 1 on feminine gender
+
+          '
+        }
+      ]
+    },
+    {
+      title_sans: 'पुमान्॥ पुमानित्यधिकारोवेदितव्यः ॥',
+      title_eng: 'Rules for masculine gender',
+      id: '',
+      slokas: [
+        {
+          sloka: 'यघञबंतः॥ घञ् and अब् - two suffixes ॥
+          घञ् प्रत्यतांतोऽप्प्रत्ययांश्च पुल्लिंगोभवति ॥ 
+          
+          egs - 
+          ghay ppratyaya - पाकः । त्यागः । रागः । प्रकार इत्यादि । 
+          ap pratyaya - अप्प्रत्ययांतः ।। करः । गरः । शरः । भरः । ग्र इत्यादि ॥ 
+          ',
+          eng: ''
+        },
+        {
+          sloka: 'घाजंतश्च॥ घाजंतश्चधातुः पुल्लिंगो भवति ॥ words with suffix घाञ् and अज् 
+
+          gha pratyaya - विस्तरः प्रस्तरः । आकरः । गोचरः । प्रत्ययः ।
+          aj -  विषयः क्षय इत्यादि ॥ 
+          
+          exceptions - even though these have a pratyaya suffix they are neuter gender भयलिंगभगपदानिनपुंसके ॥ भयादयश्शब्दानपुंसकानिभवंति ॥ 
+          भयं । लिंगं । भगं । पदं । 
+          '
+        },
+        {
+          sloka: 'नङंतः ॥ words with nan suffix 
+          नङ्प्रत्ययांतोधातुः पुल्लिंगोभवति ॥ the words with this suffix is only in masculine gender. 
+         egs - यज्ञः । यत्नः विश्नः । प्रश्नः ॥ 
+         exception - याज्ञास्त्रीयां ॥ नङ्प्रत्ययांतोपि याज्ञाशब्दस्त्रीलिंगोभवति ॥ याज्ञा॥ 
+         '
+        }
+      ]
+    },
+    {
+      title_sans: '',
+      title_eng: ',
+      id: '',
+      slokas: [
+        {
+          sloka: 'क्यंतोघुः ॥ suffix ki . ghu means - 2 dhatus - da and dha. किप्रत्ययांतो गुःपुल्लिंगोभवति । they are always masculine.
+          egs - आधिः, संधिः । विधिः । निधिः । उपधिः । परिधिरित्यादि ॥ 
+          
+          क्यंत इतिकिं । kyanta means kim pratyaya. The suffix should only be after da or dha verb root then this rule applies. दानं । घुग्रहणकिं । जज्ञिःजीजं ॥
+          
+          for other roots it can be in other genders इषुधिस्त्रियांच ॥ इषुधिशब्द स्त्रियांपुंसिच भवति ॥ इयमिषुधिरयमिषुधि ।  क्यंतत्वात्पुल्लिंगे प्राप्ते उभयलिंगार्धो यमारंभः । this rule is stated to tell us for words when they are also used in feminine cases.
+          ',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: '',
+      title_eng: '',
+      id: '',
+      slokas: [
+        {
+          sloka: 'for these words the gender is always masculine -  देवासुरात्म स्वर्गगिरिसमुद्रनख केशदंत स्तनभुजकंठ खड्गशरपंकाभिधानानि ॥ words  which refer to - god, demon, soul, heaven, hill, ocean, nail, hair, tooth, breast, arm, neck, sword, arrow and swamp (muddy water)  देवादीनामभिधानानि पुल्लिंगानिभवंति ॥ 
+          egs - अजरः । अमरः । अनिमिष इत्यादि । 
+          असुराः । दानवाः । दैत्या इत्यादि ॥ 
+          आत्माजीवः ॥ तदभिधानानि । आत्मा । जीवः । क्षेत्रज्ञ इत्यादि । 
+          स्वर्गः । नाकः ।
+           गिरिः । पर्वतः । भूभृत् । 
+          समुद्रः । मकरालयः । 
+          नखः । कररुहः । 
+          केशः । शिरोरुहः । 
+          दंतः । दशनः । रदः । द्विजः । 
+          स्तनः । पयोधरः । कुचः । 
+          भुजः । दोः । 
+          कंठः । गळः । 
+          खड्गः । तरवारिः । असिः । 
+          शरः । मार्गणः । पत्री । 
+          पंकः । जंबालः । कर्दम इत्यादि ॥ 
+          ',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: '',
+      title_eng: '',
+      id: '',
+      slokas: [
+        {
+          sloka: 'त्रिविष्टपत्रिभुवने नपुंसके ॥ the words trivishtapa and tribhuvana are used in neuter gender एतेनपुंसकलिंगेस्तः ॥ 
+          egs - अदस्त्रिविष्टपं ॥ अदस्त्रीभुवनं । 
+          necessity of this rule -
+          स्वर्गाभिधानत्वात्पुल्लिंगे प्राप्तेमपुंसकार्थोयमारंभः ॥ In earlier rule it was stated that the words which mean heaven are used in masuline gender. But here trivishtapa, even though it means heaven, it is used in neuter gender. 
+          ',
+          eng: ''
+        },
+        {
+          sloka: 'द्यौस्त्रियां ॥ even though words dhyu and div, dhyou are words for heaven, they are feminine. 
+          द्योदिवोस्तंत्रेणोपादानं । tantra - by pronouncing one word two words are meant. It is called tantra. द्योदिव् शब्दा स्त्रीलिंगौभवतः ॥ 
+          eg - इयंद्यौः ॥
+          '
+        },
+        {
+          sloka: 'इषुबाहूस्त्रियांच ॥ इषुबाहुशब्दौस्त्रियपुंसिच इयमिषुरयमिषुः । इयंबाहा । अयंबाहुः । इषोश्शराभिधानत्वात्बाहोर्भुजाभिधानत्वात् ॥even though ishu means arrow and bahu means arm, they are used in both feminine and masculine. '
+        },
+        {
+          sloka: 'बाणकांडौनपुंसकेच ॥ एतौनपुंसके पुंसिच भवतः ॥ 
+          bana means arrow and kanda means tree. Still they are neuter and masculine
+          eg - बाणोयं बाणमिदं ॥ कांडोयं कांडमिदं । शराभिधानत्वात् ॥ 
+          '
+        },
+        {
+          sloka: 'नांतः ॥ नकारांतशब्दः पुल्लिंगोभवति ॥ 
+          words ending with na kara are masculine.
+          राजा। तक्षा। यज्वा। अर्वा। अध्वेत्यादि । 
+          doubt
+          ननुचर्मवर्मादीनांनपुंसकानां पुल्लिंगप्राप्तिरितिचेन्न ॥ the words charma varma, etc that end in na are neuter but acc to this rule they become masculine.
+          मन् द्व्यच्कोकर्तरीति नपुम्सकलिंग प्रकरणवचनाददोषः ॥ later in the neuter chapter where the governing rules are stated. Words that end in man suffix and have two vowels are neuter. 
+          '
+        }
+      ]
+    },
+    {
+      title_sans: '',
+      title_eng: '',
+      id: '',
+      slokas: [
+        {
+          sloka: 'क्रतुपुरुषकपोलगुल्भमेघाभिधानानि ॥ क्रत्वादीनामभिधानानि पुल्लिंगानिभवंति words that mean - sacrifice, man, cheek, ankle, cloud - masculine. 
+          exs - । क्रतुरध्वरः । 
+          पुरुषः । नरः । मनुष्यः । 
+          कपालः । गंडः ।
+           गुल्भः । प्रपदः । 
+          वेघः पयोधरः । नीरदः। अब्धः ॥ 
+          
+          exception - अभ्रं नपुंसकं ॥ इदमभ्रं । मेघाभिधानत्वात् ॥ even though abhra means cloud it is neuter
+          ',
+          eng: ''
+        },
+        {
+          sloka: 'उकारांतः ॥ उकारांतश्शब्दः पुल्लिंगोभवति ॥ words ending with ukara are masculine always.
+          exs -  जनुः ॥ विदुः । इक्षुः । वायुः । प्रभुः ॥ 
+          
+          '
+        },
+        {
+          sloka: 'धेनुरज्जु कुहुः नरयुःतनुकरेणु प्रियंगवस्त्रियां ॥ 
+
+          धेन्वादयः स्त्रीलिंगाभवंति ॥ इयंधेनुः । रज्जुः ।कुहुः । नरयुः तनुःकरेणुः । प्रियंगुः ॥ एषामुकारांतत्वात् । even though these words are ukaranta they are feminine.
+          
+          समासेरज्जुः पुंसिच ॥ rajju was told to be feminine. But it is masculine when it is in samasa (compound) समासेरज्जुस्त्रियां पुंसिच भवति ॥ 
+          ex - कर्कबकरज्ज्वा । कर्कटकरज्जुनेति ॥ 
+          '
+        },
+        {
+          sloka: 'श्मश्रुजानुवसुस्वाद्वश्रुजतुत्रपुतालूनिनपुम्सके ॥ श्मश्वादयश्शब्दाः  नपुंसकलिंगाभवंति । these words are neuter even though they are u-kara.  इदं श्मश्रु । जानु । वसु । स्वादु । अश्रु । जतु । त्रपु। तालु । उकारांतत्वात् ॥ '
+        },
+        {
+          sloka: 'वसुचार्थवाची ॥
+          when vasu means a devata it is masculine. अर्थवासीवसुशब्दोनपुंसकलिंगोभवंति ॥ इदं वसु । अर्थवाचीतिकिं । वसुर्नामकश्चित् ॥ 
+          '
+        }
+      ]
+    },
+    {
+      title_sans: '',
+      title_eng: '',
+      id: '',
+      slokas: [
+        {
+          sloka: 'मद्गुमधुशीधुसानु कमंडलूनिनपुंसके च ॥ These words can be neuter and masculine.  मड्ग्वादयःशब्दाः पुंसिनपुंसके च । इमं मद्गुः इदं मद्गु । मधुः । मधु । शीधुश्शिधु । सानुस्सानु । कमंडलुः कमंडलु।
+          उकारांतत्वात् ॥ 
+          ',
+          eng: ''
+        },
+        {
+          sloka: 'रुत्वंतः ।। रुवर्णांतस्तुवर्णांतश्चशब्दः पुल्लिंगोभवति । words ending with rukara and tukara are masculine. 
+          exs - कारुः । मेरुः । जंतुः ॥ हेतुः ॥ 
+          
+          exeptions - these rukara are neuter 
+          a. दारुकशेरुजतुवस्तुमस्तूनिनपुंसके ॥ दार्वादयश्शब्दानपुंसकलिंगाभवंति ॥ इदंदारु । शेरु । जतु । वस्तु । मस्तु । रुत्वंतत्वात् ॥
+          b.these tukara are neuter as well as masculine
+           सक्तुर्नपुंसके व ॥ सक्तुःसक्तु ॥ त्वंतत्वात् ॥ 
+          '
+        },
+        {
+          sloka: 'प्राग्रश्मेरकारांतः ॥ रश्मिदिवसाभिधानानीतिवक्ष्यते प्रागेतस्मात्सूत्रादकारांत इत्यिधिक्रियते ॥ '
+        },
+        {
+          sloka: 'कोपधः ॥ कोपधोकारांतः पुल्लिंगोभवति ॥ the word that ends in ‘ka’ are masculine स्तबकः कल्कः ॥ वराटकः ॥ उल्क इत्यादि । अकारांत इतिकिं ॥ बालिका ॥ याचिका ॥ कोपध इतिकिं । 
+
+          पात्रं । वस्त्रं ॥ - not kopadha so not pullinga.
+          
+          exceptions - चुबुकशालूकप्रातिपदिकांशुकोल्मुकानिनपुंसके ॥ चुबुकादयश्शब्दा नपुंसकलिंगाभवंति ॥ these are neuter even though they end in ka - चुबुकं । शालूकं । प्रातिपदिकं । अंशुकं । उल्मुकं । कोपधत्वात् । 
+          '
+        },
+        {
+          sloka: 'These ka-ending words are acceptable both in masculine and neuter कंटकानीकसरकमोदकचषकमस्तकपुस्तकतटाकनिष्कवष्कमुष्क-शुल्क- वर्चस्क-पिनाक-भंडकपिंडक-कटकदंडक-पिटक-तालकफलकपुलाकानिनपुंसके च । कंटकादयश्शब्दाः पुंसिनपुंसके च भवंति ॥ अयं कंटकः इदं कंटकमित्यादि ॥'
+        },
+        {
+          sloka: 'टोपधः ॥ टोपधोऽकारांतश्शब्दः पुल्लिंगोभवति ॥ घटः ।पटः । इत्यादि ॥ ‘ta’ ending words are masculine
+
+          exceptions - these are neuter - किरीटमकुटललाटपटविटशृंगाटक राटलोष्टानिनपुम्सके ॥ किरीटादयश्शब्दानपुंसके भवंति ॥ इदं किरीटमित्यादि ॥ these are neuter as well as masculine - कुटकूटकवटकवाटक पाटकर्पटपटनिकटकीटकरोट कर्कट शकटानिनपुम्सकेच ॥ कुटादयश्शब्दाः पुंसिनपुंसके च भवंति ॥ कुटः । कुटं । कूटः ॥ कूटमित्यादि ॥
+          '
+        }
+      ]
+    },
+    {
+      title_sans: '',
+      title_eng: '',
+      id: '',
+      slokas: [
+        {
+          sloka: 'णोपधः ॥ णोपधोऽकारांतश्शब्दःपुल्लिंगोभवति ॥ words that end in ‘Na’ are masculine .
+          ex- गुणः ॥ गणः । पणः । पाषाणः ॥ 
+          exceptions - neuter - ऋणलवणपर्णतोरणोष्णानिनपुंसके  - ऋणादयश्शब्दाः नपुंसकलिंगाभवंति ॥ ऋणं ॥ लवणमित्यादि ॥ णोत्वात्
+          neuter and masculine - 
+          काषार्णवर्णसुवर्णव्रणचरणवृषणविषाण चूर्णतृणानिनपुंसके च ॥ काषार्णादयश्शब्दाः पुम्सिनपुंसके भवंति ॥ अय कार्षाणः ॥ इदं कार्षाणमित्यादि॥ 
+          ',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: '',
+      title_eng: '',
+      id: '',
+      slokas: [
+        {
+          sloka: 'धोथोकारांतश्शब्दःपुल्लिंगोभवंति ॥ words ending with dha and tha are masculine
+          ex - रथः॥
+          exceptions - 
+          neuter - पृष्ठरिग्र्धोक्थानिनपुंसके ॥ 
+          feminine - काष्ठादिगर्था स्त्रीलिंगोभवति॥ kashta when means direction is feminine इमाःकाष्ठाः ॥ 
+          neuter and masculine - तीर्थधानिनपुंसके च ॥ तीर्थादयश्शब्दाःपुंनपुंसकाभवंति ॥ इदंतीर्धमयंतीर्ध इत्यादि ।। थोपथत्वात् ॥ 
+          ',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: '',
+      title_eng: '',
+      id: '',
+      slokas: [
+        {
+          sloka: 'नोपधः ॥ नोपधोऽकारांतश्शब्दः पुल्लिंगोभवति ॥ words ending in na
+          ex - इनः घेनश्शकुनः ॥
+          exceptions -
+          neuter - जघनाजि नतुहिनकाननवनवृजिनविपिनवेतन वसनशासनसोपानमिthuनश्मशान रत्नचिह्नानिनपुंसके ॥ जघनादयश्शब्दानपुंसकलिंगाभवंति ॥ 
+          ex -इदंजघनमित्यादि ॥ noपधत्वात् ॥ 
+          neuter and masculine - मानयानाभिधाननलिनपुलिनोद्यानशयनासनस्थान चंदनालाननंमान भवनव्यननसंभावन वितानविमानानि नपुंसके च ॥ 
+          ex - मानादयश्शब्दाः पुंसिनपुंसके च भवंति ॥ अयं मानः इदं मानमित्यादि ॥ noपधः । 
+          ',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: '',
+      title_eng: '',
+      id: '',
+      slokas: [
+        {
+          sloka: 'पोपधोऽकारांतश्शब्दः पुल्लिंगोभवति ॥ words ending in pa are masculine.
+          ex - यूपः दीवस्सर्प इत्यादि ॥ 
+          exceptions
+          neuter पापरूपोडुपतल्पशिल्पपुष्पशष्पसमीपांतरीपाणिनपुंसके । पापदीनिनपुंसकलिंगानिभवंति 
+          ex - इदं पापमित्यादि ॥ 
+          neuter and masculine - शूर्पकुतुपकुणpaद्वीपविटपानिनपुंसके च ॥ शूर्पादयःपुंसिनपुंसके च भवंति ॥ 
+          ex - अयं शूर्पः इदं शूर्पमित्यादि ॥ 
+          ',
+          eng: ''
+        },
+        {
+          sloka: 'भोपधः ॥ words ending with bha भोपधो aकारांतः पुल्लिंगोभवति ॥ 
+          ex - स्तंभःकुम्भः इत्यादि ॥
+          exceptions - 
+          neuter -  तलभं नपुंस 
+          ex - इदं तलभं ॥ भोपधत्वात् ॥ 
+          neuter and masculine - जृम्भं नपुंसके च ॥ अयंजृम्भः ॥ इदं जृम्भमित्यादि ॥ 
+          '
+        },
+        {
+          sloka: 'मोपधः ॥ मोपधोकातः पुंसिभवति ॥ words ending in ma
+          ex - सोमः ॥ भीमः ॥ भीष्म इत्यादि ॥ 
+          exceptions - 
+          neuter - रुक्मसिध्मयुग्मेध्मगुल्माध्यात्मकुंकुमानिनपुंसके ॥ एतानिनपुंसकलिंगानिभवंति ॥
+          ex - इदं रुक्ममित्यादि ॥ मोपथत्वात् ॥ 
+          neuter and masculine - संग्रामदाडिमकुसुमाश्रमक्षेमक्षौमहोमोद्दामानिनपुंसके च ॥ एतानीपुंसिनपुंसके च भवंति ॥ 
+          ex - अयं संग्रामःइदं संग्राममित्यादि ॥ मोपधत्वात् ॥ 
+          '
+        }
+      ]
+    },
+    {
+      title_sans: '',
+      title_eng: '',
+      id: '',
+      slokas: [
+        {
+          sloka: 'योपथः ॥ योपधोकारांतः पुल्लिंगोभवति । words ending in ya
+          ex - समयः ।शयः । हयः ॥ 
+          exceptions - 
+          neuter - किसलयहृदयेंद्रियांतरीयोत्तरीयाणि नपुंसके ॥ 
+          एतानिनपुंसकlinगानिभवंति ॥ 
+          ex - इदं किसलयं । हृदयमित्यादि ॥ 
+          neuter and masculine - गोमयकषायवलयान्वयाव्ययानिनपुंसके च ॥ एतानिनपुंसके च भवंति ॥ अयंगोमयः । इदं गोमयमित्यादि ॥ 
+          ',
+          eng: ''
+        },
+        {
+          sloka: 'रोपधः ॥ रोप धोकारान्तश्शब्दः पुंसिनभवति । ra words
+          ex - क्षुरः । स्वरः । कुमारः । मम्त्र इत्यादि ॥ 
+          exceptions -
+          neuter - द्वाराग्र स्फारतक्रवप्रक्षिप्र क्षुद्रच्छिद्रsaaरतीरदूरकृछ्ररंध्राश्रश्वित्रश्वभ्रभीरगभीरतिमिरकूरकेयूर केदारोदरशरीरकंदरमंदार पंजरांबररजThaराजिरवैरचामरदामर पुष्करकुहर गह्वर कुटीर कुळीरचत्वरकाश्मीरनीरशिबिरतंत्र यंत्र क्षत्रक्षेत्रमित्रकळत्र चित्रसूत्र वक्त्रनेत्रगोत्रांगुळित्र-भलत्रास्त्रशास्त्रवस्त्र पत्रपात्र च्छत्राणिनपुंसके । एतानिनपुंसकानिभवंति ॥ 
+          ex - इदंद्वारमित्यादि ॥ 
+          when shukra means devata it is neuter शुक्रमदेवतायां ॥ अदेवतावाची शुक्रशब्दो नपुंसकलिंगोभवति ॥ इदं शुक्रंरेतः । अदेवतायामितिकिं । शुक्रोनामदेवता ॥ 
+          
+          neuter and masculine - चक्रवज्रांधकारसारवारपारहारक्षिर तोमरागारशृंगारांगारभृंगार मंदारोशीरतिमिरशिशिराणि नपुंसके च ॥ एतान्युभयलिंगानिभवंति ॥ 
+          ex - अयं चक्रः इदंचक्रमित्यादि ॥ 
+          '
+        }
+      ]
+    },
+    {
+      title_sans: '',
+      title_eng: '',
+      id: '',
+      slokas: [
+        {
+          sloka: 'षोपधः ॥ षोपर्थोकारांतः पुल्लिंगोभवति । ‘Sha’ ending words 
+          ex - पृषः । वृक्षः । प्लक्षः ॥ 
+          exceptions - 
+          neuter - शिरीषर्जिषांबर्ष पीयूषपुरीषकिल्बिषकुल्माषाणिनपुंसके ॥ एतानि नपुंस
+          भवंति ॥
+          ex -  इदं शिरीषमित्यादि ॥
+          neuter and masculine - यूषकरीषमिषविषवर्षाणि नपुंसके च ॥ एतानि पुंनपुंसकलिंगानिभवंति ॥ 
+          ex - यूषः ॥ यूषमित्यादि ॥ 
+          ',
+          eng: ''
+        },
+        {
+          sloka: 'सोपधः ॥ सोपधोकारांतश्शब्दः पुल्लिंगोभवति ॥ sa ending words
+          ex - वत्सः कुत्सः वायसः महानस इत्यादि ॥ 
+          exceptions - 
+          neuter - पनसभिसबुससाहसानि नपुंसके ॥ एतानिनपुंसकानिsyuH ॥ 
+          ex - इदं पनसमित्यादि ॥ 
+          neuter and masculine - चमस-सरस-निर्यासोपवास- कार्पास-वासमास-कास-कं स-मांसानि नपुंसके च ॥ एतान्युभयलिंगानिभवंति ॥ 
+          ex - अयंचमसः ॥ इदं च मनमित्यादि ॥
+          when kamsa means something other than animal कंसंचाप्राणिनि ॥ अप्राणिवाचीकंसशब्दः पुंसिनपुंसके च भवति ॥ 
+          अयंकंसः ॥ इदं कंसं ॥ अप्राणिनीतिकिं । कंसोनामकश्चिद्राजा । अकारांत इति निवृत्तं ॥ 
+          '
+        }
+      ]
+    },
+    {
+      title_sans: '',
+      title_eng: '',
+      id: '',
+      slokas: [
+        {
+          sloka: 'रश्मिदिवसाभिधानानि ॥ एतानिपुल्लिंगानिभवंति ॥ words that indicate day are masculine - रश्मिः । मयूखः । दिवसः । वासरः । घस्र इत्यादि ॥ 
+
+          exception - 
+          feminine - धीधितिस्त्रियां । आयंरश्मिवाचित्वेपि स्त्रिलिंगोभवति ॥ इयं धीधितिः ॥ 
+          
+          neuter - दिनाहनीनपुंसके ॥ इदंदिनं । इदमहः । दिवसवाचित्वात् ।। 
+          ',
+          eng: ''
+        },
+        {
+          sloka: 'मानाभिधानानि ॥ पुल्लिंगानिस्युः ॥ कुडवः प्रस्धः ॥ 
+          exception - 
+          neuter - द्रोणाधकौनपुंसके च ॥ मानवाचनकत्वेप्येतेनपुंसके च भवतः ॥ अयंद्रोणः ॥ इदंद्रोणमित्यादि ॥ 
+          
+          feminine - खारीमानिकेस्त्रियां ॥ इयंखारी । मानिका॥ 
+          '
+        },
+        {
+          sloka: 'masculine nad plural always - दाराक्षतलाजशरबल्बजासूनांबहुत्वं च ॥ एतेपुंसि भवंति बहुत्वे च इमेदाराः । इमे अक्षताः । इमेलाजाः । इमेशराः । इमेबल्बजाः । इमे असवः –'
+        },
+        {
+          sloka: 'नाड्यपजनोपपदानिव्रणांगपदानि ॥ यथासंख्यं नाड्यपजनोपपदानि जनपदः । 
+          naadi, vrana, anga , pada are masculine when they have another suffix word like apa, jana, etc
+          व्रणशब्दस्य पाक्षिकक्लीबत्व निवृत्त्यर्धं अंगपदयोर्नित्य नपुंसकयोः पुंस्त्वविधानार्थं चायमारं ॥ 
+          '
+        }
+      ]
+    },
+    {
+      title_sans: '',
+      title_eng: '',
+      id: '',
+      slokas: [
+        {
+          sloka: 'these are masculine मरुद्गरुत्तरुदृत्विजः ॥ मरुदादयः पुल्लिंगाभवंति॥
+          अयंमरुदित्यादि ॥ 
+          ',
+          eng: ''
+        },
+        {
+          sloka: 'these are masculine ऋषिराशिवतिदृति ग्रण्थि क्रिमिध्व निबलिकालिमौळि रविकपिमुनयः ।। एतेपुंसिभवंति ॥ अयमृषिरित्यादि ।। '
+        },
+        {
+          sloka: 'these are masculine ध्वजगजमुंजपुंहाः ।। एतेपुंसिभवंति ॥ अयंध्वज इत्यादि ॥ '
+        },
+        {
+          sloka: 'these are masculine हस्तकुंतांतव्रातवातदूत धूर्तसूत चूतमुहूर्ताः ॥ eतेपुंसिभवंति ॥ अयंहस्त इत्यादि ॥ '
+        },
+        {
+          sloka: 'these are masculine षंड मंडकरंडभरंडवरंडगंडतुंडमुंडपाषंड शिखंडाः । एतेपुंसिभवंति ॥ अयंषंड इत्यादि ॥'
+        }
+      ]
+    },
+    {
+      title_sans: '',
+      title_eng: '',
+      id: '',
+      slokas: [
+        {
+          sloka: 'these are masculine वंशांशपुरोडाशाः ॥ एते पुंसिभवंति ॥ अयंवंश इत्यादि ॥ ',
+          eng: ''
+        },
+        {
+          sloka: 'these are masculine ह्रदकंदकुंदबुद्बुदशब्दाः ॥ एतेपुल्लिंगाभवंति ॥ अयं ह्रद इत्यादि ॥ '
+        },
+        {
+          sloka: 'these are masculine अर्घपथिमथ्यृभुक्षि स्तंबनितंबपूगाः ॥ अर्घादयः पुल्लिंगाभवंति ॥ अयमर्घ  इत्यादि  ॥ '
+        },
+        {
+          sloka: 'these are masculine पल्लवपल्वलकफरेफ  कटाहनिर्व्यूहaमरमणितरंग तुरंगगंधस्कंद मृदंगसंगमुद्गपुंखाः ॥ एतेपुल्लिंगाभवंति ॥ अयं पल्लव इत्यादि ॥ '
+        },
+        {
+          sloka: 'these are masculine सारथ्यतिthiकुक्षिवस्तिपाण्यं जलयः  ॥ एतेपुल्लिंगाभवंति ॥ अयं सारथिरित्यादि ।। <br> इति श्रिपाणिनीय लिंगानुशासनवृत्तौ पुल्लिंगाधिकारः end of chapter 2 on masculine gender '
+        }
+      ]
+    },
+    {
+      title_sans: 'अथ लिंगानुशासनम् ॥ ',
+      title_eng: 'Fixation of Genders of words in Sanskrit',
+      id: '1',
+      slokas: [
+        {
+          sloka: 'येनाक्षरसमाम्नायमधिगम्यमहेश्वरात् ।<br> कृत्स्नं व्याकरणं प्रोक्तं तस्मैपाणिनये नमः ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: 'अथ लिंगानुशासनम् ॥ ',
+      title_eng: 'Fixation of Genders of words in Sanskrit',
+      id: '1',
+      slokas: [
+        {
+          sloka: 'येनाक्षरसमाम्नायमधिगम्यमहेश्वरात् ।<br> कृत्स्नं व्याकरणं प्रोक्तं तस्मैपाणिनये नमः ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: 'अथ लिंगानुशासनम् ॥ ',
+      title_eng: 'Fixation of Genders of words in Sanskrit',
+      id: '1',
+      slokas: [
+        {
+          sloka: 'येनाक्षरसमाम्नायमधिगम्यमहेश्वरात् ।<br> कृत्स्नं व्याकरणं प्रोक्तं तस्मैपाणिनये नमः ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: 'अथ लिंगानुशासनम् ॥ ',
+      title_eng: 'Fixation of Genders of words in Sanskrit',
+      id: '1',
+      slokas: [
+        {
+          sloka: 'येनाक्षरसमाम्नायमधिगम्यमहेश्वरात् ।<br> कृत्स्नं व्याकरणं प्रोक्तं तस्मैपाणिनये नमः ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: 'अथ लिंगानुशासनम् ॥ ',
+      title_eng: 'Fixation of Genders of words in Sanskrit',
+      id: '1',
+      slokas: [
+        {
+          sloka: 'येनाक्षरसमाम्नायमधिगम्यमहेश्वरात् ।<br> कृत्स्नं व्याकरणं प्रोक्तं तस्मैपाणिनये नमः ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: 'अथ लिंगानुशासनम् ॥ ',
+      title_eng: 'Fixation of Genders of words in Sanskrit',
+      id: '1',
+      slokas: [
+        {
+          sloka: 'येनाक्षरसमाम्नायमधिगम्यमहेश्वरात् ।<br> कृत्स्नं व्याकरणं प्रोक्तं तस्मैपाणिनये नमः ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: 'अथ लिंगानुशासनम् ॥ ',
+      title_eng: 'Fixation of Genders of words in Sanskrit',
+      id: '1',
+      slokas: [
+        {
+          sloka: 'येनाक्षरसमाम्नायमधिगम्यमहेश्वरात् ।<br> कृत्स्नं व्याकरणं प्रोक्तं तस्मैपाणिनये नमः ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: 'अथ लिंगानुशासनम् ॥ ',
+      title_eng: 'Fixation of Genders of words in Sanskrit',
+      id: '1',
+      slokas: [
+        {
+          sloka: 'येनाक्षरसमाम्नायमधिगम्यमहेश्वरात् ।<br> कृत्स्नं व्याकरणं प्रोक्तं तस्मैपाणिनये नमः ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: 'अथ लिंगानुशासनम् ॥ ',
+      title_eng: 'Fixation of Genders of words in Sanskrit',
+      id: '1',
+      slokas: [
+        {
+          sloka: 'येनाक्षरसमाम्नायमधिगम्यमहेश्वरात् ।<br> कृत्स्नं व्याकरणं प्रोक्तं तस्मैपाणिनये नमः ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: 'अथ लिंगानुशासनम् ॥ ',
+      title_eng: 'Fixation of Genders of words in Sanskrit',
+      id: '1',
+      slokas: [
+        {
+          sloka: 'येनाक्षरसमाम्नायमधिगम्यमहेश्वरात् ।<br> कृत्स्नं व्याकरणं प्रोक्तं तस्मैपाणिनये नमः ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: 'अथ लिंगानुशासनम् ॥ ',
+      title_eng: 'Fixation of Genders of words in Sanskrit',
+      id: '1',
+      slokas: [
+        {
+          sloka: 'येनाक्षरसमाम्नायमधिगम्यमहेश्वरात् ।<br> कृत्स्नं व्याकरणं प्रोक्तं तस्मैपाणिनये नमः ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: 'अथ लिंगानुशासनम् ॥ ',
+      title_eng: 'Fixation of Genders of words in Sanskrit',
+      id: '1',
+      slokas: [
+        {
+          sloka: 'येनाक्षरसमाम्नायमधिगम्यमहेश्वरात् ।<br> कृत्स्नं व्याकरणं प्रोक्तं तस्मैपाणिनये नमः ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: 'अथ लिंगानुशासनम् ॥ ',
+      title_eng: 'Fixation of Genders of words in Sanskrit',
+      id: '1',
+      slokas: [
+        {
+          sloka: 'येनाक्षरसमाम्नायमधिगम्यमहेश्वरात् ।<br> कृत्स्नं व्याकरणं प्रोक्तं तस्मैपाणिनये नमः ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: 'अथ लिंगानुशासनम् ॥ ',
+      title_eng: 'Fixation of Genders of words in Sanskrit',
+      id: '1',
+      slokas: [
+        {
+          sloka: 'येनाक्षरसमाम्नायमधिगम्यमहेश्वरात् ।<br> कृत्स्नं व्याकरणं प्रोक्तं तस्मैपाणिनये नमः ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: 'अथ लिंगानुशासनम् ॥ ',
+      title_eng: 'Fixation of Genders of words in Sanskrit',
+      id: '1',
+      slokas: [
+        {
+          sloka: 'येनाक्षरसमाम्नायमधिगम्यमहेश्वरात् ।<br> कृत्स्नं व्याकरणं प्रोक्तं तस्मैपाणिनये नमः ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: 'अथ लिंगानुशासनम् ॥ ',
+      title_eng: 'Fixation of Genders of words in Sanskrit',
+      id: '1',
+      slokas: [
+        {
+          sloka: 'येनाक्षरसमाम्नायमधिगम्यमहेश्वरात् ।<br> कृत्स्नं व्याकरणं प्रोक्तं तस्मैपाणिनये नमः ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: 'अथ लिंगानुशासनम् ॥ ',
+      title_eng: 'Fixation of Genders of words in Sanskrit',
+      id: '1',
+      slokas: [
+        {
+          sloka: 'येनाक्षरसमाम्नायमधिगम्यमहेश्वरात् ।<br> कृत्स्नं व्याकरणं प्रोक्तं तस्मैपाणिनये नमः ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: 'अथ लिंगानुशासनम् ॥ ',
+      title_eng: 'Fixation of Genders of words in Sanskrit',
+      id: '1',
+      slokas: [
+        {
+          sloka: 'येनाक्षरसमाम्नायमधिगम्यमहेश्वरात् ।<br> कृत्स्नं व्याकरणं प्रोक्तं तस्मैपाणिनये नमः ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: 'अथ लिंगानुशासनम् ॥ ',
+      title_eng: 'Fixation of Genders of words in Sanskrit',
+      id: '1',
+      slokas: [
+        {
+          sloka: 'येनाक्षरसमाम्नायमधिगम्यमहेश्वरात् ।<br> कृत्स्नं व्याकरणं प्रोक्तं तस्मैपाणिनये नमः ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: 'अथ लिंगानुशासनम् ॥ ',
+      title_eng: 'Fixation of Genders of words in Sanskrit',
+      id: '1',
+      slokas: [
+        {
+          sloka: 'येनाक्षरसमाम्नायमधिगम्यमहेश्वरात् ।<br> कृत्स्नं व्याकरणं प्रोक्तं तस्मैपाणिनये नमः ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: 'अथ लिंगानुशासनम् ॥ ',
+      title_eng: 'Fixation of Genders of words in Sanskrit',
+      id: '1',
+      slokas: [
+        {
+          sloka: 'येनाक्षरसमाम्नायमधिगम्यमहेश्वरात् ।<br> कृत्स्नं व्याकरणं प्रोक्तं तस्मैपाणिनये नमः ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: 'अथ लिंगानुशासनम् ॥ ',
+      title_eng: 'Fixation of Genders of words in Sanskrit',
+      id: '1',
+      slokas: [
+        {
+          sloka: 'येनाक्षरसमाम्नायमधिगम्यमहेश्वरात् ।<br> कृत्स्नं व्याकरणं प्रोक्तं तस्मैपाणिनये नमः ॥',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_sans: 'अथ लिंगानुशासनम् ॥ ',
+      title_eng: 'Fixation of Genders of words in Sanskrit',
+      id: '1',
+      slokas: [
+        {
+          sloka: 'येनाक्षरसमाम्नायमधिगम्यमहेश्वरात् ।<br> कृत्स्नं व्याकरणं प्रोक्तं तस्मैपाणिनये नमः ॥',
+          eng: ''
+        }
+      ]
+    }
   ]
 })
 

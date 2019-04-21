@@ -234,6 +234,8 @@ export default {
       this.titles = this.$store.state.upayukta_titles
     } else if (this.text_title == 'dvirupa') {
       this.titles = this.$store.state.dvirupa_titles
+    } else if (this.text_title == 'linga') {
+      this.titles = this.$store.state.linga_titles
     }
   }
 }
