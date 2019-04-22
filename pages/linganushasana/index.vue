@@ -13,9 +13,9 @@
         color="red lighten-2"
         dark>
         <h1>-शिक्षकः - परस्परव्यवहारपूर्वकशिक्षणम्</h1>
-        <h1>Interactive tutorial for Upayuktasloka</h1>
+        <h1>Interactive tutorial for Linganushasanavritti</h1>
         <v-card-text>
-          <h3>Interactive self learning software for learning Sanskrit prosody, various types of meters used in poetry.</h3>
+          <h3>Interactive self learning software for learning about Genders in Sanskrit.</h3>
         </v-card-text>
         <v-card-actions>
           <v-dialog
@@ -27,12 +27,12 @@
               round
               color="primary"
               class="text-capitalize font-weight-bold"
-              large> About <br> Upayuktasloka</v-btn>
+              large> About <br> Linganushasanavritti</v-btn>
             <v-card
               color="info"
               class="papyrus bg1"
               light>
-              <v-card-title><h1>Upayuktasloka</h1></v-card-title>
+              <v-card-title><h1>Linganushasanavritti</h1></v-card-title>
               <v-divider/>
               <v-card-text class="subheading papyrus font-weight-bold">Add text</v-card-text>
               <v-divider/>
@@ -51,7 +51,7 @@
             color="primary"
             class="font-weight-bold text-capitalize"
             nuxt
-            to="/upayukta/lessons"
+            to="/linga/lessons"
             large>अध्यायाः<br>Learn</v-btn>
           <v-spacer/>
           <v-btn
@@ -59,7 +59,7 @@
             color="primary"
             class="font-weight-bold text-capitalize"
             nuxt
-            to="/upayukta/exercises"
+            to="/linga/exercises"
             large>अभ्यासाः <br> Exercises</v-btn>
         </v-card-actions>
       </v-card>
