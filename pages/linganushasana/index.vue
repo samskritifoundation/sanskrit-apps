@@ -13,7 +13,7 @@
         color="red lighten-2"
         dark>
         <h1>-शिक्षकः - परस्परव्यवहारपूर्वकशिक्षणम्</h1>
-        <h1>Interactive tutorial for Linganushasanavritti</h1>
+        <h1>Interactive tutorial for linganushasananushasanavritti</h1>
         <v-card-text>
           <h3>Interactive self learning software for learning about Genders in Sanskrit.</h3>
         </v-card-text>
@@ -27,12 +27,12 @@
               round
               color="primary"
               class="text-capitalize font-weight-bold"
-              large> About <br> Linganushasanavritti</v-btn>
+              large> About <br> linganushasananushasanavritti</v-btn>
             <v-card
               color="info"
               class="papyrus bg1"
               light>
-              <v-card-title><h1>Linganushasanavritti</h1></v-card-title>
+              <v-card-title><h1>linganushasananushasanavritti</h1></v-card-title>
               <v-divider/>
               <v-card-text class="subheading papyrus font-weight-bold">Add text</v-card-text>
               <v-divider/>
@@ -51,7 +51,7 @@
             color="primary"
             class="font-weight-bold text-capitalize"
             nuxt
-            to="/linga/lessons"
+            to="/linganushasana/lessons"
             large>अध्यायाः<br>Learn</v-btn>
           <v-spacer/>
           <v-btn
@@ -59,7 +59,7 @@
             color="primary"
             class="font-weight-bold text-capitalize"
             nuxt
-            to="/linga/exercises"
+            to="/linganushasana/exercises"
             large>अभ्यासाः <br> Exercises</v-btn>
         </v-card-actions>
       </v-card>

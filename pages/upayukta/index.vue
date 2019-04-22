@@ -9,8 +9,7 @@
       sm8
       md8>
       <v-card
-        class = "pa-2 text-xs-center"
-        color="light-green darken-3"
+        class = "pa-2 text-xs-center bg-cl"
         dark>
         <h1>उपयुक्तांश सङ्ग्रहः - परस्परव्यवहारपूर्वकशिक्षणम्</h1>
         <h1>Interactive tutorial for Upayuktasloka</h1>
@@ -80,5 +79,9 @@ export default {
 <style scoped>
 img {
   width: 60%;
+}
+
+.bg-cl {
+  background: url('cl_bg.png') no-repeat center;
 }
 </style>

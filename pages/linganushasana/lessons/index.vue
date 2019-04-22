@@ -4,10 +4,10 @@
       color="accent" 
       class="p-2">
       <v-card-title primary-title>
-        <h3 class="papyrus myheader">Learn Linganushasanavritti</h3>
+        <h3 class="papyrus myheader">Learn linganushasananushasanavritti</h3>
       </v-card-title>
       <v-btn 
-        to="/linga/lessons/1" 
+        to="/linganushasana/lessons/1" 
         large 
         color="secondary" 
         class="text-capitalize font-weight-bold" 

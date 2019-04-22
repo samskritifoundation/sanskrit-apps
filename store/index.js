@@ -13625,7 +13625,7 @@ export const state = () => ({
       ]
     }
   ],
-  linga_lessons: [
+  linganushasana_lessons: [
     {
       id: 1,
       title_sans: '',
@@ -13640,7 +13640,7 @@ export const state = () => ({
       title_eng: 'Fixation of Genders of words in Sanskrit. ',
       sloka: 'लिंगं॥ <br> अयमधिकारो वेदितव्य आशास्त्र परिसमाप्तेः',
       eng:
-        'The first rule is Lingam. <br> The subject is about Gender and therefore this rule has to be understood as the governing rule throughout this shastra.'
+        'The first rule is linganushasanam. <br> The subject is about Gender and therefore this rule has to be understood as the governing rule throughout this shastra.'
     },
     {
       id: 3,
@@ -13818,7 +13818,7 @@ export const state = () => ({
       sloka:
         'नाभिशब्दः स्त्रीलिंगोभवत्यक्षत्रिये विषये । इयंनाभिः । <br>अक्षत्रिय इतिकिम् । नाभिर्नामराजो तत्रमाभूत् ',
       eng:
-        'naabhi - naval - is strilinga. <br>When nabhi means King then it is masculine.',
+        'naabhi - naval - is strilinganushasana. <br>When nabhi means King then it is masculine.',
       examples: [' ']
     },
     {
@@ -16584,259 +16584,259 @@ export const state = () => ({
       ]
     }
   ],
-  linga_titles: [
+  linganushasana_titles: [
     {
       title: 'Prayer',
       sl_num: '1',
-      to: '/linga/lessons/1'
+      to: '/linganushasana/lessons/1'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '2',
-      to: '/linga/lessons/2'
+      to: '/linganushasana/lessons/2'
     },
     {
       title: 'Feminine',
       sl_num: '3',
-      to: '/linga/lessons/3'
+      to: '/linganushasana/lessons/3'
     },
     {
       title: 'Feminine - 2',
       sl_num: '4',
-      to: '/linga/lessons/4'
+      to: '/linganushasana/lessons/4'
     },
     {
       title: 'suffixes ani or u',
       sl_num: '5',
-      to: '/linga/lessons/5'
+      to: '/linganushasana/lessons/5'
     },
     {
       title: 'suffixes mi and ni',
       sl_num: '6',
-      to: '/linga/lessons/6'
+      to: '/linganushasana/lessons/6'
     },
     {
       title: 'suffix tin',
       sl_num: '7',
-      to: '/linga/lessons/7'
+      to: '/linganushasana/lessons/7'
     },
     {
       title: 'Suffix EE',
       sl_num: '8',
-      to: '/linga/lessons/8'
+      to: '/linganushasana/lessons/8'
     },
     {
       title: 'Suffix Ni ',
       sl_num: '9',
-      to: '/linga/lessons/9'
+      to: '/linganushasana/lessons/9'
     },
     {
       title: 'Suffix u',
       sl_num: '10',
-      to: '/linga/lessons/10'
+      to: '/linganushasana/lessons/10'
     },
     {
       title: 'Suffix Ap',
       sl_num: '11',
-      to: '/linga/lessons/11'
+      to: '/linganushasana/lessons/11'
     },
     {
       title: 'suffix I or U',
       sl_num: '12',
-      to: '/linga/lessons/12'
+      to: '/linganushasana/lessons/12'
     },
     {
       title: 'Numbers',
       sl_num: '13',
-      to: '/linga/lessons/13'
+      to: '/linganushasana/lessons/13'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '14',
-      to: '/linga/lessons/14'
+      to: '/linganushasana/lessons/14'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '15',
-      to: '/linga/lessons/15'
+      to: '/linganushasana/lessons/15'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '16',
-      to: '/linga/lessons/16'
+      to: '/linganushasana/lessons/16'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '17',
-      to: '/linga/lessons/17'
+      to: '/linganushasana/lessons/17'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '18',
-      to: '/linga/lessons/18'
+      to: '/linganushasana/lessons/18'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '19',
-      to: '/linga/lessons/19'
+      to: '/linganushasana/lessons/19'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '20',
-      to: '/linga/lessons/20'
+      to: '/linganushasana/lessons/20'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '21',
-      to: '/linga/lessons/21'
+      to: '/linganushasana/lessons/21'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '22',
-      to: '/linga/lessons/22'
+      to: '/linganushasana/lessons/22'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '23',
-      to: '/linga/lessons/23'
+      to: '/linganushasana/lessons/23'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '24',
-      to: '/linga/lessons/24'
+      to: '/linganushasana/lessons/24'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '25',
-      to: '/linga/lessons/25'
+      to: '/linganushasana/lessons/25'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '26',
-      to: '/linga/lessons/26'
+      to: '/linganushasana/lessons/26'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '27',
-      to: '/linga/lessons/27'
+      to: '/linganushasana/lessons/27'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '28',
-      to: '/linga/lessons/28'
+      to: '/linganushasana/lessons/28'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '29',
-      to: '/linga/lessons/29'
+      to: '/linganushasana/lessons/29'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '30',
-      to: '/linga/lessons/30'
+      to: '/linganushasana/lessons/30'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '31',
-      to: '/linga/lessons/31'
+      to: '/linganushasana/lessons/31'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '32',
-      to: '/linga/lessons/32'
+      to: '/linganushasana/lessons/32'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '33',
-      to: '/linga/lessons/33'
+      to: '/linganushasana/lessons/33'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '34',
-      to: '/linga/lessons/34'
+      to: '/linganushasana/lessons/34'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '35',
-      to: '/linga/lessons/35'
+      to: '/linganushasana/lessons/35'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '36',
-      to: '/linga/lessons/36'
+      to: '/linganushasana/lessons/36'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '37',
-      to: '/linga/lessons/37'
+      to: '/linganushasana/lessons/37'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '38',
-      to: '/linga/lessons/38'
+      to: '/linganushasana/lessons/38'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '39',
-      to: '/linga/lessons/39'
+      to: '/linganushasana/lessons/39'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '40',
-      to: '/linga/lessons/40'
+      to: '/linganushasana/lessons/40'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '41',
-      to: '/linga/lessons/41'
+      to: '/linganushasana/lessons/41'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '42',
-      to: '/linga/lessons/42'
+      to: '/linganushasana/lessons/42'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '43',
-      to: '/linga/lessons/43'
+      to: '/linganushasana/lessons/43'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '44',
-      to: '/linga/lessons/44'
+      to: '/linganushasana/lessons/44'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '45',
-      to: '/linga/lessons/45'
+      to: '/linganushasana/lessons/45'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '46',
-      to: '/linga/lessons/46'
+      to: '/linganushasana/lessons/46'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '47',
-      to: '/linga/lessons/47'
+      to: '/linganushasana/lessons/47'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '48',
-      to: '/linga/lessons/48'
+      to: '/linganushasana/lessons/48'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '49',
-      to: '/linga/lessons/49'
+      to: '/linganushasana/lessons/49'
     },
     {
       title: 'लिंगं॥ ',
       sl_num: '50',
-      to: '/linga/lessons/50'
+      to: '/linganushasana/lessons/50'
     }
   ],
-  linga_lessons: [
+  linganushasana_lessons: [
     {
       title_sans: 'अथ लिंगानुशासनम् ॥ ',
       title_eng: 'Fixation of Genders of words in Sanskrit',
@@ -16850,7 +16850,7 @@ export const state = () => ({
         {
           sloka: 'लिंगं॥ <br> अयमधिकारो वेदितव्य आशास्त्र परिसमाप्तेः',
           eng:
-            'The first rule is Lingam <br> The subject is about Gender and therefore this rule has to be understood as the governing rule throughout this shastra.'
+            'The first rule is linganushasanam <br> The subject is about Gender and therefore this rule has to be understood as the governing rule throughout this shastra.'
         }
       ]
     },
@@ -17427,7 +17427,7 @@ export const state = () => ({
           eng: 'the word that ends in ‘ka’ are masculine',
           examples: [
             'स्तबकः कल्कः ॥ वराटकः ॥ उल्क इत्यादि । अकारांत इतिकिं ॥ बालिका ॥ याचिका ॥',
-            'पात्रं । वस्त्रं ॥ - not kopadha so not pullinga.'
+            'पात्रं । वस्त्रं ॥ - not kopadha so not pullinganushasana.'
           ]
         },
         {

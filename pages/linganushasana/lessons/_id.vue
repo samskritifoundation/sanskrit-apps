@@ -84,21 +84,21 @@ export default {
   layout: 'lessons',
   created() {
     // console.log(this.$store.state.lessons.find(lesson => lesson.id === '4.1'))
-    this.index = this.$store.state.linga_lessons.findIndex(
+    this.index = this.$store.state.linganushasana_lessons.findIndex(
       lesson => String(lesson.id) === this.id
     )
-    this.lesson = this.$store.state.linga_lessons[this.index]
-    this.prev_lesson = this.$store.state.linga_lessons[this.index - 1]
-    this.next_lesson = this.$store.state.linga_lessons[this.index + 1]
-    this.length = this.$store.state.linga_lessons.length
+    this.lesson = this.$store.state.linganushasana_lessons[this.index]
+    this.prev_lesson = this.$store.state.linganushasana_lessons[this.index - 1]
+    this.next_lesson = this.$store.state.linganushasana_lessons[this.index + 1]
+    this.length = this.$store.state.linganushasana_lessons.length
     this.previous =
       this.index > 1
-        ? '/linga/lessons/' + this.prev_lesson.id
-        : '/linga/lessons/1'
+        ? '/linganushasana/lessons/' + this.prev_lesson.id
+        : '/linganushasana/lessons/1'
     this.next =
       this.index < this.length - 1
-        ? '/linga/lessons/' + this.next_lesson.id
-        : '/linga/lessons/'
+        ? '/linganushasana/lessons/' + this.next_lesson.id
+        : '/linganushasana/lessons/'
     // console.log(this.index)
     console.log(this.lesson)
     // console.log(this.next_lesson.id)
