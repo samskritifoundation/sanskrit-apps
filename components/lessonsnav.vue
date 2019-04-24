@@ -8,6 +8,15 @@
       class="text-xs-center">
       <v-flex>
         <v-btn
+          :to="home"
+          color="blue"
+          dark
+          round
+          class="ma-4 font-weight-bold text-capitalize"
+        >
+          Home
+        </v-btn>
+        <v-btn
           color="blue"
           dark
           round
@@ -201,6 +210,7 @@ export default {
   },
   data() {
     return {
+      home: '/' + this.text_title,
       searchlist: '',
       drawer: null,
       titles: '',

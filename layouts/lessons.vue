@@ -1,7 +1,10 @@
 <template>
   <v-app class = "bg-image">
     <Header />
-    <navleft :text_title="text_name" />
+    <v-layout column>
+      <Nav />
+      <navleft :text_title="text_name" />
+    </v-layout>
     <nuxt />
   </v-app>
 </template>
@@ -9,11 +12,13 @@
 <script>
 import navleft from '~/components/lessonsnav.vue'
 import Header from '~/components/header.vue'
+import Nav from '~/components/navbar.vue'
 
 export default {
   components: {
     navleft,
-    Header
+    Header,
+    Nav
   },
   computed: {
     text_name() {
