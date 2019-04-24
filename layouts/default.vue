@@ -1,15 +1,18 @@
 <template>
   <v-app class = "bg-image">
     <Header />
+    <Nav />
     <nuxt />
   </v-app>
 </template>
 
 <script>
 import Header from '~/components/header.vue'
+import Nav from '~/components/navbar.vue'
 export default {
   components: {
-    Header
+    Header,
+    Nav
   }
 }
 </script>
