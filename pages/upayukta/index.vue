@@ -9,9 +9,10 @@
       sm8
       md8>
       <v-card
+        color="light-green"
         class = "pa-2 text-xs-center bg-us" >
-        <h1>उपयुक्तांश सङ्ग्रहः - परस्परव्यवहारपूर्वकशिक्षणम्</h1>
-        <h1>Interactive tutorial for Upayuktasloka</h1>
+        <h1>उपयुक्तांश-सङ्ग्रहः - परस्परव्यवहारपूर्वकशिक्षणम्</h1>
+        <h1>Interactive tutorial for Upayuktaṣloka</h1>
         <v-card-text>
           <h3>Interactive self learning software for learning elementary Sanskrit grammar.</h3>
         </v-card-text>
@@ -25,12 +26,12 @@
               round
               color="primary"
               class="text-capitalize font-weight-bold"
-              large> About <br> Upayuktasloka</v-btn>
+              large> Introduction</v-btn>
             <v-card
               color="info"
               class="papyrus bg1"
               light>
-              <v-card-title><h1>Upayuktasloka</h1></v-card-title>
+              <v-card-title><h1>Upayuktaṣloka</h1></v-card-title>
               <v-divider/>
               <v-card-text class="subheading papyrus font-weight-bold">Add text</v-card-text>
               <v-divider/>
