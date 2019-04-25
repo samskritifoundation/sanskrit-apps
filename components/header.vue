@@ -5,13 +5,13 @@
       alt="logo" ></a>-->
     <v-flex>
       <v-layout row>
-        <a href="www.samskrti.org"><img
+        <a href="http://samskrti.org/"><img
           src="~assets/img/sf.png"
           alt="sf logo" ></a>
         <a href="/"><img
           src="~assets/img/saraswati.png"
           alt="logo" ></a>
-        <a href="www.sanskrit.nic.in"><img
+        <a href="http://www.sanskrit.nic.in"><img
           src="~assets/img/rss.png"
           alt="logo" ></a>
       </v-layout>
