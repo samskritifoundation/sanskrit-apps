@@ -13355,24 +13355,31 @@ export const state = () => ({
       id: 1,
       title_sans: 'अव्ययम्',
       title_eng: 'Meaning of Avyaya',
-      sloka:
-        'सदृशंत्रिषुलिंगेषु सर्वासु च विभक्तिषु ।<br>वचनेषु च सर्वेषुयन्नव्येतितदव्ययम् ॥',
-      eng: ''
+      slokas: [
+        {
+          sloka:
+            'सदृशंत्रिषुलिंगेषु सर्वासु च विभक्तिषु ।<br>वचनेषु च सर्वेषुयन्नव्येति तदव्ययम् ॥',
+          eng:
+            'Avyaya is the one which remains constant for all genders (linga), cases (vibhakti) and numbers (vacana).'
+        }
+      ]
     },
     {
       id: 2,
       title_sans: '',
-      title_eng: 'Nature of Visheshana and Visheshya',
+      title_eng: 'Nature of ViśeṢaṆa and ViśeṢya',
       slokas: [
         {
           sloka:
             'यल्लिंगं यद्वचनं याच विभक्तिर्विशेष्यस्य । <br>तल्लिंगं तद्वचनं साच विभक्तिर्विशेषणस्यापि ॥',
-          eng: ''
+          eng:
+            'The gender and the number of the adjective should be the same as that of the noun it qualifies.'
         },
         {
           sloka:
             'लिंग संख्या विभेदेपि विशेषणविशेष्यता । <br>विभक्तिः पुनरेकैव विशेषणविशेषयोः ॥',
-          eng: ''
+          eng:
+            'Even is the gender and number of the adjective and the qualifying noun differs, their cases should remain constant.'
         },
         {
           sloka:
@@ -13385,9 +13392,14 @@ export const state = () => ({
       id: 3,
       title_sans: '',
       title_eng: 'Nature of Anvaya',
-      sloka:
-        'विशेषणं पुरस्कृत्य विशेष्यंतदनंतरम् । <br>कर्तृकर्मक्रियायुक्रमेतदन्वयलक्षणम् ॥',
-      eng: ''
+      slokas: [
+        {
+          sloka:
+            'विशेषणं पुरस्कृत्य विशेष्यंतदनंतरम् । <br>कर्तृकर्मक्रियायुक्तमेतदन्वयलक्षणम् ॥',
+          eng:
+            'The order of words in anvaya is as follows: Adjective followed by the qualifying noun or the subject, the object and the verb at last.'
+        }
+      ]
     },
     {
       id: 4,
@@ -13397,12 +13409,14 @@ export const state = () => ({
         {
           sloka:
             'विशेष्यंतु प्रधानं स्यादप्रधानं विशेषणं । <br>द्वाभ्यां युग्ममितिप्रोक्तं त्रिभिश्श्लोकैर्विशेषकम् ॥',
-          eng: ''
+          eng:
+            'Combination of two ślokas is known as Yugma.<br>Combination of three ślokas is known as ViśeṢaka.<br>'
         },
         {
           sloka:
-            'कालोपकंचतुर्भिस्स्यात्तदूर्ध्वं कुलकंमतं । <br>लळयोर्लडयोस्तद्वज्जदयोर्वबयोस्तधा ॥',
-          eng: ''
+            'कालोपकंचतुर्भिस्स्यात्तदूर्ध्वं कुलकंमतं । <br>लळयोर्लडयोस्तद्वज्जडयोर्वबयोस्तथा ॥',
+          eng:
+            'Combination of four ślokas is known as Kālopaka.<br>Group of more than four ślokas is Kulaka.<br>The pairs of syllables la and La, la and Da, ja and Da, va and ba are treated as equal.'
         },
         {
           sloka:
@@ -13415,17 +13429,26 @@ export const state = () => ({
       id: 5,
       title_sans: '',
       title_eng: 'Usage of words like This, That, etc',
-      sloka:
-        '(इदमः प्रत्यक्षगतः) इदमस्तुसन्निकृष्टं समीपतरवर्तिचैतदोरूपं । <br>अदसस्तु विप्रकृष्टं तदितिपरोक्षैविजानीयात् ॥',
-      eng: ''
+      slokas: [
+        {
+          sloka:
+            '(इदमः प्रत्यक्षगतः) इदमस्तुसन्निकृष्टं समीपतरवर्तिचैतदोरूपं । <br>अदसस्तु विप्रकृष्टं तदितिपरोक्षैविजानीयात् ॥',
+          eng:
+            'The word "idam" is used for close objects while "etad" is used for nearby objects. Thw word "Adas" is used for medium distant object and "tad" is for faraway objects.'
+        }
+      ]
     },
     {
       id: 6,
       title_sans: '',
       title_eng: 'Nature of Sentence',
-      sloka:
-        'ईषदर्थे क्रियायोगेमर्यादाभिविधौचयः । <br>एतमातंजितं विद्याद्वाक्यस्मरणयोरजित् ॥',
-      eng: ''
+      slokas: [
+        {
+          sloka:
+            'ईषदर्थे क्रियायोगेमर्यादाभिविधौचयः । <br>एतमातंजितं विद्याद्वाक्यस्मरणयोरजित् ॥',
+          eng: ''
+        }
+      ]
     },
     {
       id: 7,
@@ -13434,32 +13457,41 @@ export const state = () => ({
       slokas: [
         {
           sloka:
-            'षष्टिवागुरिरल्लॊपमवाप्योरुपसर्गयोः । <br>आ पंचैवहलं तानां यधावाचानिशादिशा ॥ <br> वगाहः । अवगाहः । पिधानं । अपिधानमित्यादि । ',
+            'षष्टिवागुरिरल्लॊपमवाप्योरुपसर्गयोः । <br>आ पंचैवहलंतानां यधावाचानिशादिशा ॥ <br> वगाहः । अवगाहः । पिधानं । अपिधानमित्यादि । ',
           eng: ''
         },
         {
           sloka:
-            'उपसर्गेणधात्यर्थो बलादन्यः प्रतीयते । <br>प्रहाराहारसंहारविहारपरिहारवत् ॥',
-          eng: ''
+            'उपसर्गेणधात्वर्थो बलादन्यः प्रतीयते । <br>प्रहाराहारसंहारविहारपरिहारवत् ॥',
+          eng:
+            'When Upasarga is added to a root the meaning of the word changes. <br>Examples: <br>Prahāra means to strike<br> āhāra means food<br> Samhāra means kill<br> Vihāra means pastime<br> Parihāra means liberation'
         },
         {
           sloka:
-            'धात्वर्धंबाधतेकश्चित्कश्चित्तमनुवर्तते । तमेवविशिनष्ट्यव्य उपसर्गगतिस्त्रिधा ॥',
-          eng: ''
+            'धात्वर्थ​बाधतेकश्चित्कश्चित्तमनुवर्तते । तमेवविशिनष्ट्यव्य उपसर्गगतिस्त्रिधा ॥',
+          eng:
+            'There are three types of Upasargas - one changes the meaning of the verb root, one which follows the same meaning as the root and the other type enhances the meaning.'
         },
         {
           sloka:
-            'कवचंमुंचति । त्यजतीत्यर्धः । <br>आमुंचति। बध्नातीत्यर्थः । <br>एवंतिष्ठति । प्रतिष्ठते इत्यादौधात्वर्ध बाधः ।'
+            'कवचंमुंचति । त्यजतीत्यर्धः । <br>आमुंचति। बध्नातीत्यर्थः । <br>एवंतिष्ठति । प्रतिष्ठते इत्यादौधात्वर्ध बाधः ।',
+          eng:
+            'The word muncati means leave. āmuncati means put on	[dress]. The upasarga "ā" changes the meaning of the verb.'
         },
         {
-          sloka: 'आगच्छतीत्यतः अध्यागच्छति । पर्यागच्छतीत्यादौ नविशेषः ।'
+          sloka: 'आगच्छतीत्यतः अध्यागच्छति । पर्यागच्छतीत्यादौ नविशेषः ।',
+          eng:
+            'āgacchati, adhyāgacchati and paryāgacchati mean the same. The prepositions do not alter the meaning of the verb.'
         },
         {
-          sloka: 'युनक्तित्यतः संयुनक्तीत्यादौ विशेषः इत्यादि क्रमेणोदाहरणं '
+          sloka: 'युनक्तित्यतः संयुनक्तीत्यादौ विशेषः इत्यादि क्रमेणोदाहरणं ',
+          eng: 'Yunakti means attach. Samyunakti means fix on.'
         },
         {
           sloka:
-            'प्र-परा-अप-सं-अनु-अव-निन्-निर्-द्स्-दुर्-वि-आञ्-नि-अधि. अपि-अति-सु-उत्-अभि-प्रति-परि-उप-एतेप्रादयोद्वाविंशतिरुपसर्गाः ॥'
+            'प्र-परा-अप-सं-अनु-अव-निन्-निर्-द्स्-दुर्-वि-आञ्-नि-अधि. अपि-अति-सु-उत्-अभि-प्रति-परि-उप-एतेप्रादयोद्वाविंशतिरुपसर्गाः ॥',
+          eng:
+            'The twenty-two prepositions are as follows: <ol><li>pra- "forth"</li><li>parā- "away"</li><li>apa- "away"</li><li>sam- "with"</li><li>anu- "after"</li><li>ava- "off, down"</li><li>niḥ- "away"</li><li>nir - "away"</li><li>duḥ- "bad, difficult, hard"</li><li>dur - "bad"</li><li>vi- "apart, asunder"</li><li>ā- "near"</li><li>ni- "down"</li><li>adhi- "over"</li><li>api- "proximate"</li><li>ati- "beyond"</li><li>su- "good, excellent"</li><li>ut- "up(wards)"</li><li>abhi- "to, towards"</li><li>prati- "against"</li><li>pari- "round, around"</li><li>upa- "towards, near"</li></ol>'
         }
       ]
     },
@@ -13467,9 +13499,14 @@ export const state = () => ({
       id: 8,
       title_sans: '',
       title_eng: 'Tenses',
-      sloka:
-        'लड्वर्तमानेलेड्वेदे भूतेलुञ्लञ्लिटिस्तधा । <br>विध्याशिष्लोस्तुलिज्लोटौलृञ्लृटौलुड्भविष्यति॥',
-      eng: ''
+      slokas: [
+        {
+          sloka:
+            'लड्वर्तमानेलेड्वेदे भूतेलुञ्लञ्लिटिस्तधा । <br>विध्याशिष्लोस्तुलिज्लोटौलृञ्लृटौलुड्भविष्यति॥',
+          eng:
+            'Ten tenses are as follows:<ol><li> लट  Present tense</li><li> लङ्ग्  Past tense - imperfect</li><li> लुङ्ग् Past tense - aorist</li><li>लिट् Past tense - perfect</li><li> लुट्  Future tense - likely</li><li> लृट्Future tense - certain</li><li> लृङ्ग्  Conditional mood</li><li> विधिलिङ्ग् .  Potential mood</li><li> आशिर्लीङ्ग्   Benedictive mood</li><li> लोट्  Imperative mood</li></ol>'
+        }
+      ]
     },
     {
       id: 9,
@@ -13478,7 +13515,9 @@ export const state = () => ({
       slokas: [
         {
           sloka:
-            'अकर्मकस्सकर्माच द्विकर्मा च द्विकर्तृकः । <br>चतुर्धाधातवस्तेभ्यः प्रायशोलादयोष्टधा ॥'
+            'अकर्मकस्सकर्माच द्विकर्मा च द्विकर्तृकः । <br>चतुर्धाधातवस्तेभ्यः प्रायशोलादयोष्टधा ॥',
+          eng:
+            'Four types of roots are: Akarmaka, Sakarmaka, Dvikarmaka, Dvikartrka.'
         },
         {
           sloka:
@@ -13565,11 +13604,8 @@ export const state = () => ({
         {
           sloka:
             'वृद्धिक्षयभयजीवितमरणं लज्जासत्तास्थितिजागरणं ।<br>शयनक्रीडारुचिदीस्त्यर्धंधातुगणंतमकर्मकमाहुः ॥',
-          eng: ''
-        },
-        {
-          sloka:
-            'वर्धते। क्षीयते। बिभेति । जीविति। म्रियते। लज्जते। अस्ति। तिष्ठति। जागर्ति। शेते। क्रीडति। रोचते। दीप्यते। एवं क्रमेनोदाहरणानि तत्तधर्धकानिबोद्धव्यानि ॥'
+          eng:
+            'The following roots are Akarmaka roots, i.e., the roots which do not require object. <br> वर्धते। क्षीयते। बिभेति । जीविति। म्रियते। लज्जते। अस्ति। तिष्ठति। जागर्ति। शेते। क्रीडति। रोचते। दीप्यते। एवं क्रमेनोदाहरणानि तत्तधर्धकानिबोद्धव्यानि ॥'
         }
       ]
     },
@@ -13580,11 +13616,11 @@ export const state = () => ({
       slokas: [
         {
           sloka:
-            'धातोरर्धांतरेवृत्तेद्धात्वर्थेनोपसंग्रहात् । <br>प्रसिद्धेरविवक्षातःकर्मणोकर्मिकाक्रिया ॥'
+            'धातोरर्थान्ततरेवृत्तेद्धात्वर्थेनोपसंग्रहात् । <br>प्रसिद्धेरविवक्षातःकर्मणोकर्मिकाक्रिया ॥'
         },
         {
           sloka:
-            'वहतिभारं । अर्धांतिरे। नदीवहति। स्यंदत इत्यर्थः। धात्वर्थेनसंग्रहे । नृत्यति। गात्रंविक्षिपति। जीवति। प्राणान् धारयतीत्यादि प्रसिद्धौमेघोनरक्षतीत्यादि कर्मणोऽविवक्षणे । हितान्नयस्संशृणुतेनकिं प्रभुरित्यादि॥'
+            'वहतिभारं । अर्थान्तरे। नदीवहति। स्यंदत इत्यर्थः। धात्वर्थेनसंग्रहे । नृत्यति। गात्रंविक्षिपति। जीवति। प्राणान् धारयतीत्यादि <br> प्रसिद्धौमेघोनरक्षतीत्यादि कर्मणोऽविवक्षणे । हितान्नयस्संशृणुतेनकिं प्रभुरित्यादि॥'
         }
       ]
     },
@@ -13592,9 +13628,13 @@ export const state = () => ({
       id: 13,
       title_sans: '',
       title_eng: '',
-      sloka:
-        'विकिरन् श्रितसर्वस्वंकटाक्षान् कलशोदरात् । <br>दर्व्यादायांबुधेस्तीरेसुरेभ्योदात्सुधांहरिः ॥',
-      eng: ''
+      slokas: [
+        {
+          sloka:
+            'विकिरन् श्रितसर्वस्वंकटाक्षान् कलशोदरात् । <br>दर्व्यादायांबुधेस्तीरेसुरेभ्योदात्सुधांहरिः ॥',
+          eng: ''
+        }
+      ]
     },
     {
       id: 14,
@@ -13604,23 +13644,30 @@ export const state = () => ({
         {
           sloka:
             'कर्ताचकर्मकरणंसंप्रदानंतथैवच । अपादानाधिकरणे इत्याहुः कारकाणिषट् ॥',
-          eng: ''
+          eng:
+            'The six Kārakās are - kartṛ (nominative), karma (accusative), karaṇa (instrumental), sampradāna (dative), apādāna (ablative), adhikaraṇa (locative).'
         },
         {
           sloka:
-            'कर्ता भवति धात्वर्थेस्वातंत्य्रेणविवक्षितः । <br>कर्मस्यात्क्रिययाकर्तुराप्तुमिष्टतमंहियत् ॥'
+            'कर्ता भवति धात्वर्थेस्वातंत्य्रेणविवक्षितः । <br>कर्मस्यात्क्रिययाकर्तुराप्तुमिष्टतमंहियत् ॥',
+          eng:
+            'Kartā (agent): "he/that which is independent in action". This is equivalent to the nominative case.<br>Karman (deed/object): "what the agent seeks most to attain". This is equivalent to the accusative case.'
         },
         {
           sloka:
-            'करणंस्यात्क्रियासिद्धौ प्रकृष्टमुपकारकं । <br>कर्मणायमभिप्रैतिसंप्रदानं न उच्यते ॥'
+            'करणंस्यात्क्रियासिद्धौ प्रकृष्टमुपकारकं । <br>कर्मणायमभिप्रैतिसंप्रदानं स उच्यते ॥',
+          eng:
+            'Karaṇa ("instrument") "that which effects most." This is equivalent to the instrumental case.<br>Sampradāna (bestowal): "he whom one aims at with the object". This is equivalent to the dative case, which signifies a recipient in an act of giving or similar acts.'
         },
         {
           sloka:
-            'अपादानमपायेयद्ध्रुवंतदचलंचलं । <br>क्रियाधारोधिकरणं कर्तृकर्ममुखेनयः ॥'
+            'अपादानमपायेयद्ध्रुवंतदचलंचलं । <br>क्रियाधारोधिकरणं कर्तृकर्ममुखेनयः ॥',
+          eng:
+            'Apādāna (lit. take off): "(that which is) firm when departure (takes place)." This is the equivalent of the ablative case, which signifies a stationary object from which movement proceeds.<br>Adhikaraṇa (location): or "substratum." This is equivalent to the locative case.'
         },
         {
           sloka:
-            'एतेषांक्रिययायोगे संज्ञाकर्त्रादिकाभवेत् । <br>विवक्षातः कारकाणीभवेयुःक्वचिदन्यधा ॥'
+            'एतेषांक्रिययायोगे संज्ञाकर्त्रादिकाभवेत् । <br>विवक्षातः कारकाणि भवेयुः क्वचिदन्यधा ॥'
         }
       ]
     }

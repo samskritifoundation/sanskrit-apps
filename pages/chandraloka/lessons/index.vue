@@ -2,7 +2,7 @@
   <v-container class="mt-0 pt-0">
     <v-card
       color="accent"
-      class="bordered papyrus mt-0 pt-0">
+      class="bordered papyrus mt-0 p-1">
       <v-card-title primary-title>
         <h3 class="papyrus myheader">Learn Candrāloka</h3>
       </v-card-title>

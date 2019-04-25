@@ -18,7 +18,7 @@
     <v-card
       xs12
       color="accent"
-      class="mt-0 pt-0 bordered">
+      class="mt-0 pt-0">
       <v-card-title primary-title>
         <v-layout
           class="text-wrap text-xs-center"
