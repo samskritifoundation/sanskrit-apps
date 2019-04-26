@@ -1,5 +1,7 @@
 <template>
-  <v-container class="mt-0 pt-0">
+  <v-container 
+    xs12
+    class="mt-0 pt-0">
     <v-layout
       row
       class="neg_margin">
@@ -15,49 +17,58 @@
     </v-layout>
     <v-card
       color="accent lighten-4"
-      class="mt-0 pt-0 bordered">
+      class="mt-0 pt-0">
       <v-card-title primary-title>
         <h3 class="display-1">{{ lesson.id }}. <span
           v-if="lesson.title_sans" >{{ lesson.title_sans }} <br></span>{{ lesson.title_eng }}</h3>
       </v-card-title>
 
       <v-layout
-        row
-        class="headline">
+        v-for="(sloka,i) in lesson.slokas"
+        :key="i"
+        row>
         <v-flex
-          v-show="lesson.sloka"
-          xs6>
-          <div
-            class="devanagari px-1"
-            v-html="lesson.sloka"/>
-        </v-flex>
-        <v-flex
-          v-show="lesson.eng"
-          xs6>
-          <div
-            class="font-weight-bold px-1"
-            v-html="lesson.eng"/>
-        </v-flex>
-      </v-layout>
-
-      <v-layout
-        v-for="(sloka,j) in lesson.slokas"
-        :key="j"
-        row
-        class="headline">
-        <v-flex
-          v-show="sloka.sloka"
-          xs6>
-          <div
-            class="devanagari px-1"
-            v-html="sloka.sloka"/>
-        </v-flex>
-        <v-flex
-          v-show="sloka.eng"
-          xs6>
-          <div
-            class="font-weight-bold px-1"
-            v-html="sloka.eng"/>
+          xs12
+          mb-3>
+          <v-expansion-panel
+            popout
+            focusable>
+            <v-expansion-panel-content ripple>
+              <div
+                v-if="sloka"
+                slot="header"
+                class="secondary--text subheading font-weight-bold">Sloka {{ i + 1 }}</div>
+              <v-layout
+                xs12
+                row>
+                <v-flex>
+                  <v-card
+                    color="accent lighten-1"
+                    class="title text-xs-center">
+                    <v-card-text v-html="sloka.sloka" />
+                  </v-card>
+                </v-flex>
+              </v-layout>
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+          <v-expansion-panel
+            popout
+            focusable>
+            <v-expansion-panel-content>
+              <div
+                slot="header"
+                class="secondary--text subheading font-weight-bold">Explanation of Sloka</div>
+              <v-layout
+                xs12
+                row>
+                <v-flex>
+                  <v-card color="accent lighten-1">
+                    <v-card-text v-html="sloka.eng" />
+                  </v-card>
+                </v-flex>
+              </v-layout>
+            </v-expansion-panel-content>
+          </v-expansion-panel>
         </v-flex>
       </v-layout>
     </v-card>
@@ -115,22 +126,7 @@ export default {
 </script>
 
 <style scoped>
-.bordered {
-  border: 10px solid transparent;
-  -webkit-border-image: url('~/assets/img/border.png') 30 round; /* Safari 3.1-5 */
-  -o-border-image: url('~/assets/img/border.png') 30 round; /* Opera 11-12.1 */
-  border-image: url('~/assets/img/border.png') 30 round;
-  border-radius: 15px;
-  margin: 0;
-  padding: 2%;
-}
-
 .neg_margin {
   margin-top: -10px;
-}
-
-.tree {
-  height: 350px;
-  width: 80%;
 }
 </style>
