@@ -17866,6 +17866,130 @@ export const state = () => ({
         }
       ]
     }
+  ],
+  sastrapramana_titles: [],
+  sastrapramana_lessons:[
+    {
+      title_eng: '',
+      id: '1',
+      title_sans: '',
+      slokas: [
+        {
+          sloka: '',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: '',
+      id: '2',
+      title_sans: '',
+      slokas: [
+        {
+          sloka: '',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: '',
+      id: '3',
+      title_sans: '',
+      slokas: [
+        {
+          sloka: '',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: '',
+      id: '4',
+      title_sans: '',
+      slokas: [
+        {
+          sloka: '',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: '',
+      id: '5',
+      title_sans: '',
+      slokas: [
+        {
+          sloka: '',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: '',
+      id: '6',
+      title_sans: '',
+      slokas: [
+        {
+          sloka: '',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: '',
+      id: '7',
+      title_sans: '',
+      slokas: [
+        {
+          sloka: '',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: '',
+      id: '8',
+      title_sans: '',
+      slokas: [
+        {
+          sloka: '',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: '',
+      id: '9',
+      title_sans: '',
+      slokas: [
+        {
+          sloka: '',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: '',
+      id: '10',
+      title_sans: '',
+      slokas: [
+        {
+          sloka: '',
+          eng: ''
+        }
+      ]
+    },
+    {
+      title_eng: '',
+      id: '11',
+      title_sans: '',
+      slokas: [
+        {
+          sloka: '',
+          eng: ''
+        }
+      ]
+    }
   ]
 })
 
