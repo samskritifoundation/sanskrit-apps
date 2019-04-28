@@ -95,21 +95,21 @@ export default {
   layout: 'lessons',
   created() {
     // console.log(this.$store.state.lessons.find(lesson => lesson.id === '4.1'))
-    this.index = this.$store.state.upayukta_lessons.findIndex(
+    this.index = this.$store.state.sastrapramana_lessons.findIndex(
       lesson => String(lesson.id) === this.id
     )
-    this.lesson = this.$store.state.upayukta_lessons[this.index]
-    this.prev_lesson = this.$store.state.upayukta_lessons[this.index - 1]
-    this.next_lesson = this.$store.state.upayukta_lessons[this.index + 1]
-    this.length = this.$store.state.upayukta_lessons.length
+    this.lesson = this.$store.state.sastrapramana_lessons[this.index]
+    this.prev_lesson = this.$store.state.sastrapramana_lessons[this.index - 1]
+    this.next_lesson = this.$store.state.sastrapramana_lessons[this.index + 1]
+    this.length = this.$store.state.sastrapramana_lessons.length
     this.previous =
       this.index > 1
-        ? '/upayukta/lessons/' + this.prev_lesson.id
-        : '/upayukta/lessons/1'
+        ? '/sastrapramana/lessons/' + this.prev_lesson.id
+        : '/sastrapramana/lessons/1'
     this.next =
       this.index < this.length - 1
-        ? '/upayukta/lessons/' + this.next_lesson.id
-        : '/upayukta/lessons/'
+        ? '/sastrapramana/lessons/' + this.next_lesson.id
+        : '/sastrapramana/lessons/'
     // console.log(this.index)
     console.log(this.lesson)
     // console.log(this.next_lesson.id)
