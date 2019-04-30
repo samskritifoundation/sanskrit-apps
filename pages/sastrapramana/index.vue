@@ -12,11 +12,8 @@
         class = "pa-2 text-xs-center"
         color="yellow darken-2"
         dark>
-        <h1>-शिक्षकः - परस्परव्यवहारपूर्वकशिक्षणम्</h1>
-        <h1>Interactive tutorial for Upayuktasloka</h1>
-        <v-card-text>
-          <h3>Interactive self learning software for learning Sanskrit prosody, various types of meters used in poetry.</h3>
-        </v-card-text>
+        <h1>शास्त्रप्रमाणवाक्यानि-शिक्षकः - परस्परव्यवहारपूर्वकशिक्षणम्</h1>
+        <h1>Interactive tutorial for śāstrapramāṆavākyāni</h1>
         <v-card-actions>
           <v-dialog
             v-model="dialog"
@@ -27,12 +24,12 @@
               round
               color="primary"
               class="text-capitalize font-weight-bold"
-              large> About <br> Upayuktasloka</v-btn>
+              large> About <br> śāstrapramāṆavākyāni</v-btn>
             <v-card
               color="info"
               class="papyrus bg1"
               light>
-              <v-card-title><h1>Upayuktasloka</h1></v-card-title>
+              <v-card-title><h1>śāstrapramāṆavākyāni</h1></v-card-title>
               <v-divider/>
               <v-card-text class="subheading papyrus font-weight-bold">Add text</v-card-text>
               <v-divider/>
