@@ -41,6 +41,7 @@
                   @click.native="dialog = false">Close</v-btn>
               </v-card-actions>
             </v-card>
+          
           </v-dialog>
           <v-spacer/>
           <v-btn
@@ -48,7 +49,7 @@
             color="primary"
             class="font-weight-bold text-capitalize"
             nuxt
-            to="/upayukta/lessons"
+            to="/sastrapramana/lessons"
             large>अध्यायाः<br>Learn</v-btn>
           <v-spacer/>
           <v-btn
@@ -56,7 +57,7 @@
             color="primary"
             class="font-weight-bold text-capitalize"
             nuxt
-            to="/upayukta/exercises"
+            to="/sastrapramana/exercises"
             large>अभ्यासाः <br> Exercises</v-btn>
         </v-card-actions>
       </v-card>

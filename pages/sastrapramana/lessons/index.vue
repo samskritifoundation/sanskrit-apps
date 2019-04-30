@@ -7,7 +7,7 @@
         <h3 class="papyrus myheader">Learn Sastrapramanavacana</h3>
       </v-card-title>
       <v-btn 
-        to="/upayukta/lessons/1" 
+        to="/sastrapramana/lessons/1" 
         large 
         color="secondary" 
         class="text-capitalize font-weight-bold" 
