@@ -1,16 +1,11 @@
 <template>
   <v-container class="text-xs-center">
-    <v-container
+    <v-card
+      dark
       align-content-space-around
       class="mt-0 pt-0 text-xs-center">
-      A.      About Sanskrit Language and its specialty
-
-      B.      How Sanskrit language experts have developed tools to easily teach Sanskrit language, grammar and all other related aspects in a concise yet comprehensive manner
-
-      C.      How this is useful in the overall development of the personality of a person
-
-      D.      Components of the package
-    </v-container>
+      To be added
+    </v-card>
 
   </v-container>
 </template>
