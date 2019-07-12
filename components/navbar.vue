@@ -8,7 +8,7 @@
           round
           class="pa-2"
           color="success"  
-          to="#">Home</v-btn>
+          to="/">Home</v-btn>
         <v-spacer/>
         <v-btn 
           round
