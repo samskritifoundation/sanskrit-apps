@@ -11671,27 +11671,27 @@ export const state = () => ({
           children: [
             {
               name: '1. तत्पुरुषः (tatpuruṣaḥ)',
-              link: '/samasachakra/lessons/5'
+              link: '/samasachakra/lessons/2'
             },
             {
               name: '2. कर्मधारयः (karmadhārayaḥ)',
-              link: '/samasachakra/lessons/6'
+              link: '/samasachakra/lessons/3'
             },
             {
               name: '3. बहुव्रीहिः (bahuvrīhi)',
-              link: '/samasachakra/lessons/7'
+              link: '/samasachakra/lessons/4'
             },
             {
               name: '4. द्विगुः (dvigu)',
-              link: '/samasachakra/lessons/8'
+              link: '/samasachakra/lessons/5'
             },
             {
               name: '5. द्वन्द्वः (dvandva)',
-              link: '/samasachakra/lessons/9'
+              link: '/samasachakra/lessons/6'
             },
             {
               name: '6. अव्ययीभावः (avyayībhāva)',
-              link: '/samasachakra/lessons/10'
+              link: '/samasachakra/lessons/7'
             }
           ]
         }
