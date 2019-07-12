@@ -12390,22 +12390,28 @@ export const state = () => ({
         name: 'Samāsa',
         children: [
           {
-            name: '1. तत्पुरुषः (tatpuruṣaḥ)'
+            name: '1. तत्पुरुषः (tatpuruṣaḥ)',
+            link: '/samasashikhamani/lessons/5'
           },
           {
-            name: '2. कर्मधारयः (karmadhārayaḥ)'
+            name: '2. कर्मधारयः (karmadhārayaḥ)',
+            link: '/samasashikhamani/lessons/6'
           },
           {
-            name: '3. बहुव्रीहिः (bahuvrīhi)'
+            name: '3. बहुव्रीहिः (bahuvrīhi)',
+            link: '/samasashikhamani/lessons/7'
           },
           {
-            name: '4. द्विगुः (dvigu)'
+            name: '4. द्विगुः (dvigu)',
+            link: '/samasashikhamani/lessons/8'
           },
           {
-            name: '5. द्वन्द्वः (dvandva)'
+            name: '5. द्वन्द्वः (dvandva)',
+            link: '/samasashikhamani/lessons/9'
           },
           {
-            name: '6. अव्ययीभावः (avyayībhāva)'
+            name: '6. अव्ययीभावः (avyayībhāva)',
+            link: '/samasashikhamani/lessons/10'
           }
         ]
       },

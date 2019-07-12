@@ -68,7 +68,8 @@
           class="tree"
           zoomable
           node-text="name"
-          layout-type="euclidean" />
+          layout-type="euclidean" 
+          @clicked="onClick" />
         <v-treeview
           :items="treeData"
           :open="open"
@@ -191,6 +192,9 @@ export default {
     nexttab() {
       const active = parseInt(this.active)
       this.active = active < this.lesson.types - 1 ? active + 1 : 0
+    },
+    onClick(evt) {
+      window.open(evt.element.data.link)
     }
   }
 }
