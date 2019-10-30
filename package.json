@@ -18,7 +18,7 @@
     "body-parser": "^1.18.3",
     "cross-env": "^5.2.0",
     "express": "^4.16.3",
-    "mongoose": "^5.4.2",
+    "mongoose": "^5.7.5",
     "nuxt": "^2.0.0",
     "vued3tree": "^3.6.4",
     "vuetify": "^1.2.4"
