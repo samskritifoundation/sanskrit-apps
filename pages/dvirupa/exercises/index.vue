@@ -4,15 +4,9 @@
       color="accent lighten-4"
       class="bordered papyrus mt-0 pt-0">
       <v-card-title primary-title>
-        <h3 class="papyrus myheader">Candrāloka Exercises</h3>
+        <h3 class="papyrus myheader">Exercises</h3>
       </v-card-title>
-      <v-btn
-        to="/chandraloka/exercises/1"
-        large
-        color="secondary"
-        class="text-capitalize font-weight-bold"
-        round> Start exercises</v-btn>
-      <v-btn @click="playcorrect">Click me</v-btn>
+      To be added
     </v-card>
   </v-container>
 </template>

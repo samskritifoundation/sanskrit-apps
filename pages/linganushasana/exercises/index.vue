@@ -6,13 +6,7 @@
       <v-card-title primary-title>
         <h3 class="papyrus myheader">Candrāloka Exercises</h3>
       </v-card-title>
-      <v-btn
-        to="/chandraloka/exercises/1"
-        large
-        color="secondary"
-        class="text-capitalize font-weight-bold"
-        round> Start exercises</v-btn>
-      <v-btn @click="playcorrect">Click me</v-btn>
+      T be added
     </v-card>
   </v-container>
 </template>
